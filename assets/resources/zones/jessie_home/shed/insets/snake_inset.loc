@@ -1,0 +1,20 @@
+<location stripcode="0303">
+	<objects>
+		<object name="back">
+			<texture src="/common/half_dark" />
+			<size width="1024" height="768" />
+			<script src="snake_inset/back" />
+		</object>
+		<object name="inset">
+			<position x="314" y="147" z="-10" />
+			<texture src="snake_inset/snake_01" />
+			<script src="snake_inset/inset" />
+		</object>
+		<object name="snake_mask">
+			<position x="411" y="281" z="-15" />
+			<texture src="snake_inset/snake_mask" />
+			<script src="snake_inset/snake_mask" />
+			<alpha value="0" />
+		</object>	
+	</objects>
+</location>

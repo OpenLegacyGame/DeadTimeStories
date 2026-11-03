@@ -1,0 +1,101 @@
+<location>
+	<onEnter script="apothecary_shop/on_enter" />
+	<music>
+		<track src="/music/08_Naughty_Spirits" silence_after="10" />
+		<track src="/music/04_French_Quarter_Jazz_Carnavale" silence_after="15" />
+		<track src="/music/05_French_Quarter_Tragic_Fate" silence_after="15" />
+	</music>
+	<ambient src="/music/ambient/sfx_pharmacy_amb" />
+	<onFirstVisit script="apothecary_shop/starter" />
+	<objects>
+		<object name="background">
+			<texture src="apothecary_shop/background" />
+		</object>
+		
+		<object name="fx_glow">
+			<scene src="/particles_ready/aphoteke/aphoteke_glow.DAE">
+				<particles src="/particles_ready/cellarflys/shed_glow.psysl" />
+			</scene>
+		</object>
+		<object name="fx_flies">
+			<scene src="/particles_ready/aphoteke/aphoteke_flys.DAE">
+				<particles src="/particles_ready/cellarflys/flys.psysl" />
+				<particles src="/particles_ready/cellarflys/flys_shadow.psysl" />
+			</scene>
+		</object>
+		
+		<object name="fx_ghost_man_static">
+			<scene src="/particles_ready/souls/soul_aphotek/soul_man.DAE">
+				<particles src="/particles_ready/souls/soul01_anim.psysl" />
+				<particles src="/particles_ready/souls/soul01_anim1.psysl" />	
+			</scene>
+			<enable value="0" />
+		</object>
+
+		<object name="fx_ghost_man_dynamic">
+			<scene src="/particles_ready/souls/soul_aphotek/soul_man_d.DAE">
+				<particles src="/particles_ready/souls/soul02_anim.psysl" />
+				<particles src="/particles_ready/souls/soul02_anim1.psysl" />
+			</scene>
+			<enable value="0" />
+		</object>
+		
+		<object name="pharmacist">
+			<script src="apothecary_shop/pharmacist" />
+		</object>
+		<object name="to_street_1">
+			<position x="287" y="613" z="-15" />
+			<size width="436" height="82" />
+			<texture src="/common/half_dark" />
+			<script src="apothecary_shop/to_street_1" />
+			<alpha value="0" />
+		</object>
+		<object name="apothecary_shelves">
+			<position x="711" y="143" z="-15" />
+			<size width="233" height="103" />	
+			<texture src="/common/half_dark" />
+			<script src="apothecary_shop/apothecary_shelves/apothecary_shelves" />
+			<alpha value="0" />			
+		</object>
+		<object name="fx_flora_shelves">
+			<position x="711" y="143" z="-20" />
+			<size width="233" height="103" />			
+			<particles presim="2" src="/particles_ready/FrontGate_HOBLocator/FGate_HOBLocator.psysl" />
+		</object>
+		<object name="binoculars">
+			<position x="934" y="504" z="-10" />
+			<texture src="apothecary_shop/binoculars/binoculars" />
+			<script src="apothecary_shop/binoculars/binoculars" />
+		</object>
+		<object name="fx_blink_binoculars">
+			<position x="970" y="530" z="-20" />		
+			<particles src="/particles_ready/Blink/blink.psysl" />
+		</object>
+ 		<object name="magnet">
+			<position x="182" y="371" z="-10" />
+			<texture src="apothecary_shop/magnet/magnet" />
+			<script src="apothecary_shop/magnet/magnet" />
+		</object>
+		<object name="fx_blink_magnet">
+			<position x="230" y="385" z="-20" />		
+			<particles src="/particles_ready/Blink/blink.psysl" />
+		</object>
+ 		<object name="hob_shelves">
+			<position x="203" y="0" z="-15" />
+			<texture src="apothecary_shop/hob_shelves/hob_mask" />
+			<script src="apothecary_shop/hob_shelves/hob_shelves" />
+			<alpha value="0" />
+		</object>
+		<object name="fx_flora_hob_shelves">
+			<position x="320" y="180" z="-20" />
+			<size width="220" height="188" />			
+			<particles presim="2" src="/particles_ready/FrontGate_HOBLocator/FGate_HOBLocator.psysl" />
+		</object>
+		
+		<object name="sfx_chair">
+			<script src="apothecary_shop/sfx/chair" />
+		</object>		
+	</objects>
+	
+	
+</location>

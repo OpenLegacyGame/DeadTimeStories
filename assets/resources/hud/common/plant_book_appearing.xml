@@ -1,0 +1,26 @@
+<objects>
+	<object>
+		<position z="-200" />
+		<scene src="/particles_ready/plant_book/plant_part1.DAE" animation_looped="0" >
+			<particles src="/particles_ready/plant_book/plant_1.psysl" />
+			<particles src="/particles_ready/plant_book/plant_2.psysl" />
+		</scene>
+	</object>
+	<object>
+		<position z="200" />
+		<scene src="/particles_ready/plant_book/plant_part2.DAE" animation_looped="0" >
+			<particles src="/particles_ready/plant_book/plant_3.psysl" />
+			<particles src="/particles_ready/plant_book/plant_4.psysl" />
+		</scene>
+	</object>
+	<object>
+		<position x="830" y="616" z="0" />
+		<texture src="plant_book_appear_1" />
+		<animation src="plant_book_appearing1" />
+	</object>
+	<object>
+		<position x="830" y="616" z="1" />
+		<texture src="plant_book_appear_2" />
+		<animation src="plant_book_appearing2" />
+	</object>
+</objects>

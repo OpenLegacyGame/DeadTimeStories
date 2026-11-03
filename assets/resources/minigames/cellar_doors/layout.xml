@@ -1,0 +1,173 @@
+<objects>
+
+	<object name="back">
+		<position x="0" y="0" z="20" />
+		<texture src="background" />
+	</object>
+	
+	<object name="exit">
+		<position x="0" y="618" z="15" />
+		<texture src="/common/half_dark" />
+		<alpha value="0.0" />
+		<size width="1024" height="150" />
+	</object>
+	
+	<object name="cellar_doors_mask">
+		<position x="100" y="145" z="17.5" />
+		<texture src="/common/half_dark" />
+		<size width="830" height="525" />
+		<alpha value="0.0" />
+	</object>
+		
+	<object name="letters_covered">
+		<position x="15" y="150" z="0" />
+		<texture src="letters_covered" />
+		<interactive value="0" />
+	</object>
+	
+	<object name="syllable_00">
+		<texture src="selection_ly" />
+		<position x="619" y="446" z="0" />
+		<pivot x="28" y="38" />
+		<alpha value="0.0" />
+		<interactive value="0" />
+	</object>
+	<object name="syllable_01">
+		<texture src="selection_tal" />
+		<position x="320" y="440" z="0" />
+		<pivot x="31" y="35" />
+		<alpha value="0.0" />
+		<interactive value="0" />
+	</object>
+	<object name="syllable_02">
+		<texture src="selection_iate" />
+		<position x="660" y="301" z="0" />
+		<pivot x="40" y="33" />
+		<alpha value="0.0" />
+		<interactive value="0" />
+	</object>
+	<object name="syllable_03">
+		<texture src="selection_car" />
+		<position x="501" y="466" z="0" />
+		<pivot x="34" y="22" />
+		<alpha value="0.0" />
+		<interactive value="0" />
+	</object>
+	<object name="syllable_04">
+		<texture src="selection_sal" />
+		<position x="709" y="490" z="0" />
+		<pivot x="41" y="33" />
+		<alpha value="0.0" />
+		<interactive value="0" />
+	</object>
+	<object name="syllable_05">
+		<texture src="selection_va" />
+		<position x="384" y="291" z="0" />
+		<pivot x="25" y="19" />
+		<alpha value="0.0" />
+		<interactive value="0" />
+	</object>
+	<object name="syllable_06">
+		<texture src="selection_tion" />
+		<position x="285" y="336" z="0" />
+		<pivot x="37" y="24" />
+		<alpha value="0.0" />
+		<interactive value="0" />
+	</object>
+	<object name="syllable_07">
+		<texture src="selection_lab" />
+		<position x="461" y="328" z="0" />
+		<pivot x="27" y="26" />
+		<alpha value="0.0" />
+		<interactive value="0" />
+	</object>
+	
+	<object name="syllable_00_hl">
+		<texture src="selection_ly" />
+		<scene src="/particles_ready/door_letters/letter_smoke.DAE">
+			<particles src="/particles_ready/door_letters/smoke_thin.psysl" />
+		</scene>
+		<position x="619" y="446" z="0" />
+		<pivot x="28" y="38" />
+		<interactive value="0" />
+		<alpha value="0.0" recursive="1" />
+	</object>
+	<object name="syllable_01_hl">
+		<texture src="selection_tal" />
+		<scene src="/particles_ready/door_letters/letter_smoke.DAE">
+			<particles src="/particles_ready/door_letters/smoke_thin.psysl" />
+		</scene>
+		<position x="320" y="440" z="0" />
+		<pivot x="31" y="35" />
+		<interactive value="0" />
+		<alpha value="0.0" recursive="1" />
+	</object>
+	<object name="syllable_02_hl">
+		<texture src="selection_iate" />
+		<scene src="/particles_ready/door_letters/letter_smoke.DAE">
+			<particles src="/particles_ready/door_letters/smoke_thin.psysl" />
+		</scene>
+		<position x="660" y="301" z="0" />
+		<pivot x="40" y="33" />
+		<interactive value="0" />
+		<alpha value="0.0" recursive="1" />
+	</object>
+	<object name="syllable_03_hl">
+		<texture src="selection_car" />
+		<scene src="/particles_ready/door_letters/letter_smoke.DAE">
+			<particles src="/particles_ready/door_letters/smoke_thin.psysl" />
+		</scene>
+		<position x="501" y="466" z="0" />
+		<pivot x="34" y="22" />
+		<interactive value="0" />
+		<alpha value="0.0" recursive="1" />
+	</object>
+	<object name="syllable_04_hl">
+		<texture src="selection_sal" />
+		<scene src="/particles_ready/door_letters/letter_smoke.DAE">
+			<particles src="/particles_ready/door_letters/smoke_thin.psysl" />
+		</scene>
+		<position x="709" y="490" z="0" />
+		<pivot x="41" y="33" />
+		<interactive value="0" />
+		<alpha value="0.0" recursive="1" />
+	</object>
+	<object name="syllable_05_hl">
+		<texture src="selection_va" />
+		<scene src="/particles_ready/door_letters/letter_smoke.DAE">
+			<particles src="/particles_ready/door_letters/smoke_thin.psysl" />
+		</scene>
+		<position x="384" y="291" z="0" />
+		<pivot x="25" y="19" />
+		<interactive value="0" />
+		<alpha value="0.0" recursive="1" />
+	</object>
+	<object name="syllable_06_hl">
+		<texture src="selection_tion" />
+		<scene src="/particles_ready/door_letters/letter_smoke.DAE">
+			<particles src="/particles_ready/door_letters/smoke_thin.psysl" />
+		</scene>
+		<position x="285" y="336" z="0" />
+		<pivot x="37" y="24" />
+		<interactive value="0" />
+		<alpha value="0.0" recursive="1" />
+	</object>
+	<object name="syllable_07_hl">
+		<texture src="selection_lab" />
+		<scene src="/particles_ready/door_letters/letter_smoke.DAE">
+			<particles src="/particles_ready/door_letters/smoke_thin.psysl" />
+		</scene>
+		<position x="452" y="327" z="0" />
+		<pivot x="27" y="26" />
+		<interactive value="0" />
+		<alpha value="0.0" recursive="1" />
+	</object>		
+
+	<object name="fx_ash">
+		<scene src="/particles_ready/door_letters/coal_engine.DAE">
+			<particles src="/particles_ready/door_letters/coals.psysl" />
+		</scene>
+		<visible value="0" />
+	</object>
+
+</objects>

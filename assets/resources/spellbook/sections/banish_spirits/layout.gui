@@ -1,0 +1,34 @@
+<gui>
+	<label>
+		<position x="60" y="50" />
+		<align hor="left" vert="top" />
+		<text font="/fonts/ravenwood_20" color="FF840000">%驱逐幽灵护身符%</text>
+		
+		<label>
+			<position y="30" />
+			<size width="230" />
+			<align hor="left" vert="top" />
+			<text font="/fonts/hint" color="FF210e2d">%驱逐幽灵混合剂是一种有着辛辣气味的, 彩色的涡旋液体. 幽灵非常厌恶这种气味, 他们只要闻到一点就会立刻逃跑. 混合后的原料, 需要存放在一个小玻璃瓶里. 必须系上一条红绳才能完成这个法术. 佩带护身符可以受到保护, 或是赶走对面的幽灵.%</text>
+		</label>
+	</label>
+
+	<image id="enabled">
+		<file src="sb_banish_spirit_amulet" />
+		
+		<label>
+			<position x="420" y="58" />
+			<text font="/fonts/acoustic_bass" color="FF6f0070">%容器%</text>
+		</label>
+		<label>
+			<position x="420" y="130" />
+			<text font="/fonts/acoustic_bass" color="FF6f0070">%原料%</text>
+		</label>
+		<label>
+			<position x="420" y="370" />
+			<text font="/fonts/acoustic_bass" color="FF6f0070">%附件%</text>
+		</label>
+	</image>
+	<image id="disabled">
+		<file src="sb_banish_spirit_amulet_hidden" />
+	</image>
+</gui>

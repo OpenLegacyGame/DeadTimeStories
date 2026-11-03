@@ -1,0 +1,18 @@
+<spellbook>
+	<background src="spell_book" />
+	<position x="0" y="0" />
+	<pageOffset relativeX="182" relativeY="105" />
+	<checkMark src="checker" relativeX="-30" relativeY="-20" />
+	<instructions>
+		<instruction name="voodoo" />
+		<instruction name="mixtures" />
+	</instructions>
+	<spells>
+		<spell name="banish_spirits" />
+		<spell name="graveyard_grease" />
+		<spell name="spirit_revealing_mixture" />
+		<spell name="aconite_antidote" />
+		<spell name="voodoo_doll" />
+		<spell name="curse_of_fire" invisible="1" />
+	</spells>
+</spellbook>

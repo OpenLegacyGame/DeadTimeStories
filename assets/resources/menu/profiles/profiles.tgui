@@ -1,0 +1,68 @@
+<templates>
+
+	<button_back>
+		<view>
+			<normal src="mask" />
+		</view>
+		<mask src="mask" width="250" height="30" />
+		<size width="150" height="30" />
+	</button_back>
+	
+	<button_label>
+		<position x="0" y="20" />
+		<size width="150" />
+		<align hor="center" vert="top" />
+
+		<text font="/fonts/tooltip" color="FFFFFF00" ></text>
+	</button_label>
+
+	<item_back>
+		<view>
+			<normal src="mask" />
+		</view>
+		<mask src="mask" width="190" height="40" />
+		<size width="190" height="40" />
+	</item_back>
+
+	<item_back_selector>
+			<position x="-50" y="10" />
+			<file src="selector" />
+	</item_back_selector>
+	
+	<item_delete>
+		<position x="-67" y="-2" />
+		<view>
+			<normal src="bt_del_E" />
+			<hover src="bt_del_O" />
+			<clicked src="bt_del_T" />
+			<disabled src="bt_del_D" />
+		</view>
+		<mask src="mask" width="60" height="60" />
+	</item_delete>
+	
+	<item_ok>
+		<position x="195" y="6" />
+		<view>
+			<normal src="bt_ok_E" />
+			<hover src="bt_ok_O" />
+			<clicked src="bt_ok_T" />
+			<disabled src="bt_ok_D" />
+		</view>
+		<mask src="mask" width="60" height="60" />
+	</item_ok>
+	
+	<item_label>
+		<position x="-5" y="30" z="-10" />
+		<size width="200" />
+		<align hor="center" vert="top" />
+
+		<text font="/fonts/timesi_big" color="FF000000" ></text>
+	</item_label>
+	
+	<empty_label>
+		<position x="-5" y="30" z="-10" />
+		<size width="200" />
+		<align hor="center" vert="top" />
+		<text font="/fonts/timesi_big" color="FF606060" >%- 空 -%</text>
+	</empty_label>
+</templates>

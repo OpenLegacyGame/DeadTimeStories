@@ -1,0 +1,201 @@
+<objects>
+
+	<object name="back">
+		<position x="0" y="0" z="5" />
+		<texture src="background" />
+	</object>
+	
+	<object name="exit">
+		<position x="0" y="618" z="5" />
+		<texture src="/common/half_dark" />
+		<alpha value="0.0" />
+		<size width="1024" height="150" />
+	</object>
+	
+	<object name="dove">
+		<texture src="/common/transparent" />
+		<interactive value="0" />
+		<visible value="0" />
+	</object>
+	
+	<object name="bird_feeder">
+		<position x="500" y="60" z="5" />
+		<size width="170" height="150" />
+		<alpha value="0.0" />
+		<texture src="/common/half_dark" />
+	</object>
+	<object name="seeds">
+		<position x="572" y="88" z="0" />
+		<texture src="seed" />
+		<visible value="0" />
+		<interactive value="0" />
+	</object>
+	
+	<object name="roll_01">
+		<position x="368" y="249" z="1" />
+		<texture src="rolls/mask_begin_end" />
+		<alpha value="0.0" />
+	</object>
+	<object name="roll_02">
+		<position x="441" y="315" z="1" />
+		<texture src="rolls/mask_middle" />
+		<alpha value="0.0" />
+	</object>
+	<object name="roll_03">
+		<position x="572" y="421" z="1" />
+		<texture src="rolls/mask_middle" />
+		<alpha value="0.0" />
+	</object>
+	<object name="roll_04">
+		<position x="507" y="475" z="1" />
+		<texture src="rolls/mask_middle" />
+		<alpha value="0.0" />
+	</object>
+	<object name="roll_05">
+		<position x="440" y="421" z="1" />
+		<texture src="rolls/mask_middle" />
+		<alpha value="0.0" />
+	</object>
+	<object name="roll_06">
+		<position x="572" y="318" z="1" />
+		<texture src="rolls/mask_middle" />
+		<alpha value="0.0" />
+	</object>
+	<object name="roll_07">
+		<position x="613" y="249" z="1" />
+		<texture src="rolls/mask_begin_end" />
+		<alpha value="0.0" />
+	</object>
+	
+	<object name="door_open_01">
+		<position x="446" y="198" z="2" />
+		<texture src="doors_open/open_door_1" />
+	</object>
+	<object name="door_open_02">
+		<position x="589" y="332" z="2" />
+		<texture src="doors_open/open_door_2" />
+	</object>
+	<object name="door_open_03">
+		<position x="556" y="458" z="2" />
+		<texture src="doors_open/open_door_3" />
+	</object>
+	<object name="door_open_04">
+		<position x="454" y="501" z="2" />
+		<texture src="doors_open/open_door_4" />
+	</object>
+	<object name="door_open_05">
+		<position x="347" y="460" z="2" />
+		<texture src="doors_open/open_door_5" />
+	</object>
+	<object name="door_open_06">
+		<position x="323" y="335" z="2" />
+		<texture src="doors_open/open_door_6" />
+	</object>
+
+	<object name="door_closed_01">
+		<position x="446" y="198" z="2" />
+		<texture src="doors_closed/door_1" />
+		<alpha value="0.0" />
+	</object>
+	<object name="door_closed_02">
+		<position x="589" y="332" z="2" />
+		<texture src="doors_closed/door_2" />
+		<alpha value="0.0" />
+	</object>
+	<object name="door_closed_03">
+		<position x="556" y="458" z="2" />
+		<texture src="doors_closed/door_3" />
+		<alpha value="0.0" />
+	</object>
+	<object name="door_closed_04">
+		<position x="454" y="501" z="2" />
+		<texture src="doors_closed/door_4" />
+		<alpha value="0.0" />
+	</object>
+	<object name="door_closed_05">
+		<position x="347" y="460" z="2" />
+		<texture src="doors_closed/door_5" />
+		<alpha value="0.0" />
+	</object>
+	<object name="door_closed_06">
+		<position x="323" y="335" z="2" />
+		<texture src="doors_closed/door_6" />
+		<alpha value="0.0" />
+	</object>
+	
+	<object name="lock_pipe_01">
+		<position x="487" y="321" z="-1" />
+		<texture src="lock_pipes/up_level_1" />
+	</object>
+	<object name="lock_pipe_02">
+		<position x="558" y="354" z="-1" />
+		<texture src="lock_pipes/up_level_2" />
+	</object>
+	<object name="lock_pipe_03">
+		<position x="523" y="425" z="-1" />
+		<texture src="lock_pipes/up_level_3" />
+	</object>
+	<object name="lock_pipe_04">
+		<position x="498" y="407" z="-1" />
+		<texture src="lock_pipes/up_level_4" />
+	</object>
+	<object name="lock_pipe_05">
+		<position x="466" y="426" z="-1" />
+		<texture src="lock_pipes/up_level_5" />
+	</object>
+	<object name="lock_pipe_06">
+		<position x="449" y="354" z="-1" />
+		<texture src="lock_pipes/up_level_6" />
+	</object>
+	
+	<object name="rope_knot_01">
+		<position x="409" y="279" z="0" />
+		<pivot x="16" y="16" />
+		<texture src="rope_knot" />
+		<visible value="0" />
+		<interactive value="0" />
+	</object>
+	<object name="rope_knot_02">
+		<position x="455" y="329" z="0" />
+		<pivot x="16" y="16" />
+		<texture src="rope_knot" />
+		<visible value="0" />
+		<interactive value="0" />
+	</object>
+	<object name="rope_knot_03">
+		<position x="586" y="435" z="0" />
+		<pivot x="16" y="16" />
+		<texture src="rope_knot" />
+		<visible value="0" />
+		<interactive value="0" />
+	</object>
+	<object name="rope_knot_04">
+		<position x="521" y="489" z="0" />
+		<pivot x="16" y="16" />
+		<texture src="rope_knot" />
+		<visible value="0" />
+		<interactive value="0" />
+	</object>
+	<object name="rope_knot_05">
+		<position x="454" y="435" z="0" />
+		<pivot x="16" y="16" />
+		<texture src="rope_knot" />
+		<visible value="0" />
+		<interactive value="0" />
+	</object>
+	<object name="rope_knot_06">
+		<position x="586" y="332" z="0" />
+		<pivot x="16" y="16" />
+		<texture src="rope_knot" />
+		<visible value="0" />
+		<interactive value="0" />
+	</object>
+	<object name="rope_knot_07">
+		<position x="640" y="279" z="0" />
+		<pivot x="16" y="16" />
+		<texture src="rope_knot" />
+		<visible value="0" />
+		<interactive value="0" />
+	</object>
+	
+</objects>

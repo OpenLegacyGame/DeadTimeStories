@@ -1,0 +1,93 @@
+<scene>
+	<object>
+		<texture src="back_main_menu" />
+	</object>
+	<object>
+		<particles src="/particles_ready/main_menu/clouds.psysl" />
+	</object>
+	<object>
+		<texture src="second_main_menu" />
+	</object>
+	<object>
+		<particles presim="16" src="/particles_ready/main_menu/smartfog_1.psysl" />
+		<particles presim="16" src="/particles_ready/main_menu/smartfog_2.psysl" />
+		<particles presim="3" src="/particles_ready/main_menu/stars.psysl" />
+		<particles presim="3" src="/particles_ready/main_menu/clouds1.psysl" />
+		<particles presim="3" src="/particles_ready/bats/bats_drk.psysl" />
+		<particles presim="3" src="/particles_ready/bats/bats2_drk.psysl" />
+		<particles presim="3" src="/particles_ready/bats/bats3_drk.psysl" />
+		<particles presim="3" src="/particles_ready/bats/bats4_drk.psysl" />
+	</object>
+	<object>
+		<position x="173" y="298" />
+		<animation src="man/man" />
+	</object>
+	
+	<object>
+		<texture src="moon/moon" />
+		<position x="475" y="288" z="-2" />
+	</object>
+	<object>
+		<position x="475" y="288" z="-2" />
+		<animation src="moon/moon_smile" />
+	</object>
+	
+	<object>
+		<particles presim="16" src="/particles_ready/main_menu/smartfog_3.psysl" />
+		<particles presim="16" src="/particles_ready/main_menu/smartfog_4.psysl" />
+	</object>
+	<object>
+		<texture src="first_main_menu" />
+	</object>
+	<object>
+		<scene src="/particles_ready/main_menu/flora1.DAE">
+			<particles src="/particles_ready/main_menu/flora1.psysl" />
+		</scene>
+	</object>
+	
+	<object name="profiles_hover">
+		<enable value="0" />
+		<position z="-100" />
+		<scene src="/particles_ready/main_menu/bt_profile.DAE" looped="1" />
+	</object>
+	<object name="profiles">
+		<texture src="bt_profiles_BACK" />
+		<position x="722" y="459" z="-100" />
+	</object>
+	<object name="credits_hover">
+		<enable value="0" />
+		<position z="-100" />
+		<scene src="/particles_ready/main_menu/bt_credits.DAE" looped="1" />
+	</object>
+	<object name="credits">
+		<texture src="bt_credits_BACK" />
+		<position x="734" y="574" z="-100" />
+	</object>
+	<object name="exit_hover">
+		<enable value="0" />
+		<position z="-100" />
+		<scene src="/particles_ready/main_menu/bt_exit.DAE" looped="1" />
+	</object>
+	<object name="exit">
+		<texture src="bt_exit_BACK" />
+		<position x="735" y="625" z="-100" />
+	</object>
+	<object name="options_hover">
+		<enable value="0" />
+		<position z="-100" />
+		<scene src="/particles_ready/main_menu/bt_options.DAE" looped="1" />
+	</object>
+	<object name="options">
+		<texture src="bt_options_BACK" />
+		<position x="730" y="520" z="-100" />
+	</object>
+	<object name="start_hover">
+		<enable value="0" />
+		<position z="-100" />
+		<scene src="/particles_ready/main_menu/bt_play.DAE" looped="1" />
+	</object>
+	<object name="start">
+		<texture src="bt_start-continue_BACK" />
+		<position x="714" y="378" z="-100" />
+	</object>
+</scene>

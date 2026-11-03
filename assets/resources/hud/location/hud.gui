@@ -1,0 +1,9 @@
+<gui>
+	<include src="/hud/common/hud_left.gui" />
+	<include src="/hud/common/hud_inventory_graves.gui" />
+	<include src="/hud/common/hud_right.gui" />
+	<include src="/hud/common/hud_inventory_objects.gui" />
+	<include src="/hud/common/hud_inset.gui" />
+	<include src="/hud/common/hud_select_hint.gui" />
+	<include src="/hud/common/hud_skip_puzzle.gui" />
+</gui>

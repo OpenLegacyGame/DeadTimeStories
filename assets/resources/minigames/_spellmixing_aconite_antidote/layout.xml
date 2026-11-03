@@ -1,0 +1,192 @@
+<objects>
+
+	<object name="back">
+		<position x="0" y="0" z="50" />
+		<texture src="/minigames/_common_spellmixing/background" />
+	</object>
+
+	<object name="exit">
+		<texture src="/common/half_dark" />
+		<position x="0" y="618" z="0" />
+		<size width="430" height="150" />
+		<alpha value="0.0" />
+	</object>
+	<object name="exit">
+		<texture src="/common/half_dark" />
+		<position x="430" y="688" z="0" />
+		<size width="85" height="80" />
+		<alpha value="0.0" />
+	</object>	
+	<object name="exit">
+		<texture src="/common/half_dark" />
+		<position x="515" y="723" z="0" />
+		<size width="310" height="45" />
+		<alpha value="0.0" />
+	</object>
+	<object name="exit">
+		<texture src="/common/half_dark" />
+		<position x="825" y="688" z="0" />
+		<size width="85" height="80" />
+		<alpha value="0.0" />
+	</object>
+	<object name="exit">
+		<texture src="/common/half_dark" />
+		<position x="910" y="618" z="0" />
+		<size width="114" height="150" />
+		<alpha value="0.0" />
+	</object>
+	
+	<object name="reset_fx">
+		<texture src="/common/black" />
+		<alpha value="0.0" />
+		<position x="0" y="0" z="-100" />
+		<size width="1024" height="768" />
+		<visible value="0" />
+	</object>
+
+	<object name="loa">
+		<position x="314" y="153" z="45" />
+		<texture src="pentagram_active_04" />
+		<particles src="/particles_ready/spell_table/penth_idle.psysl" />
+		<interactive value="0" />
+	</object>
+	<object name="loa_black">
+		<position x="314" y="153" z="45" />
+		<texture src="pentagram_deactive_04" />
+		<particles src="/particles_ready/spell_table/penth_burns.psysl" />
+		<visible value="0" />
+		<interactive value="0" />
+	</object>
+	<object name="loa_mask">
+		<position x="407" y="329" z="45" />
+		<texture src="/minigames/_common_spellmixing/pentagram_mask" />
+		<alpha value="0.0" />
+	</object>	
+	
+	<object name="slot_central">
+		<position x="557" y="424" z="3.3" />
+		<texture src="slot_central_04" />
+		<alpha value="0.0" />
+	</object>
+
+	<object name="slot_1">
+		<position x="402" y="499" z="3.1" />
+		<texture src="slot_1_04" />
+		<alpha value="0.0" />
+	</object>
+	<object name="slot_2">
+		<position x="503" y="319" z="3.4" />
+		<texture src="slot_2_04" />
+		<alpha value="0.0" />
+	</object>
+	<object name="slot_3">
+		<position x="747" y="388" z="3.5" />
+		<texture src="slot_3_04" />
+		<alpha value="0.0" />
+	</object>
+	<object name="slot_4">
+		<position x="668" y="590" z="3.6" />
+		<texture src="slot_4_04" />
+		<alpha value="0.0" />
+	</object>
+	
+	<object name="yellow_monkshood">
+		<texture src="yellow_monkshood" />
+		<visible value="0" />
+	</object>
+	<object name="aspirin_powder">
+		<texture src="aspirin_powder" />
+		<visible value="0" />
+	</object>
+	<object name="baking_soda">
+		<texture src="baking_soda" />
+		<visible value="0" />
+	</object>
+	<object name="aconite">
+		<texture src="aconite" />
+		<visible value="0" />
+	</object>
+	
+	<object name="empty_packet">
+		<texture src="empty_packet" />
+		<position x="571" y="381" z="3.29" />
+		<visible value="0" />
+	</object>
+	<object name="full_packet">
+		<texture src="aconite_antidote" />
+		<position x="571" y="381" z="3.29" />
+		<visible value="0" />
+	</object>
+
+	<object name="mortar">
+		<texture src="/minigames/_common_spellmixing/plate" />
+		<position x="8" y="208" z="4.4" />
+	</object>
+	
+	<object name="mortar_with_ingredients">
+		<texture src="/minigames/_common_spellmixing/plate_active_01" />
+		<particles src="/particles_ready/spell_table/spell_veil_a.psysl" />
+		<position x="8" y="208" z="4.3" />
+		<visible value="0" />
+	</object>
+	
+	<object name="mortar_full">
+		<texture src="/minigames/_common_spellmixing/plate_active_02" />
+		<particles src="/particles_ready/spell_table/spell_veil_b1.psysl" />
+		<particles src="/particles_ready/spell_table/spell_veil_b2.psysl" />
+		<position x="8" y="208" z="4.2" />
+		<visible value="0" />
+	</object>
+	<object name="mortar_mixture_ready">
+		<texture src="/minigames/_common_spellmixing/plate_active_03" />
+		<position x="8" y="208" z="4.1" />
+		<particles src="/particles_ready/spell_table/c1.psysl" />
+		<particles src="/particles_ready/spell_table/c2.psysl" />
+		<visible value="0" />
+	</object>
+
+	<object name="pestle">
+		<texture src="/minigames/_common_spellmixing/mixing_bone" />
+		<position x="181" y="492" z="1" />
+	</object>
+	<object name="pestle_mixing">
+		<texture src="/minigames/_common_spellmixing/bone" />
+		<particles src="/particles_ready/spell_table/mixing_process.psysl" />
+		<position x="0" y="0" z="4.05" />
+		<visible value="0" />
+	</object>
+	
+	<object name="arrows_back">
+		<texture src="/minigames/_common_spellmixing/back_mix_tip" />
+		<material src="/materials/quad_tex_add" />
+		<position x="96" y="144" z="4.1" />
+		<visible value="0" />
+	</object>
+	<object name="arrows_back_fx">
+		<scene src="/particles_ready/spell_table/fly_force.DAE" particles="/particles_ready/spell_table/stroke_force.psysl" />
+		<enable value="0" />
+	</object>
+	
+	<object name="arrow_right">
+		<texture src="/minigames/_common_spellmixing/arrow_cv" />
+		<position x="164" y="166" z="4.05" />
+		<enable value="0" />
+	</object>
+	<object name="arrow_left">
+		<texture src="/minigames/_common_spellmixing/arrow_ccv" />
+		<position x="164" y="166" z="4.05" />
+		<enable value="0" />
+	</object>
+	
+	<object name="riddle">
+		<texture src="paper_04" />
+		<position x="531" y="0" z="7" />
+	</object>
+	
+	<object name="fx_put_into_mortar">
+		<position x="100" y="380" />
+		<enable value="0" />
+		<particles src="/particles_ready/spell_table/put_into_mortar.psysl" />
+	</object>
+	
+</objects>

@@ -1,0 +1,52 @@
+<material>
+	<constant type="texanimfactor">
+		<texanimfactor channel="0" />
+	</constant>
+	<!-- [samplers] -->
+	<samplers>
+		<!-- [sampler channel="uint" -->
+		<sampler channel="0">
+			<!-- [blend [color="{replace|modulate|add|subtract|interpolate}"] [alpha="-//-//-"] -->
+			<combine color="replace" alpha="replace" />
+			<!-- [args [arg0="{texture[n]|constant|color|previous}"] [arg1="-//-//-"] [arg2="-//-//-"]] -->
+			<args>
+				<color arg0="texture" arg1="previous" />
+				<alpha arg0="texture" arg1="previous" />
+			</args>
+			
+			<!-- [texture id="string"] -->
+			<texture id="textureDiffuse">
+				<!-- [address u="{wrap|clamp}" v="{wrap|clamp}] -->
+				<address u="wrap" v="wrap" />
+				<!-- [filter min="{linear|point}" max="{linear|point} mip="{linear|point|none} -->
+				<filter min="linear" max="linear" mip="none" />
+			</texture>
+		</sampler>	
+		<!-- [sampler channel="uint" -->
+		<sampler channel="1">
+			<texcoordindex channel="0" />
+			<!-- [blend color="{replace|modulate|add|subtract|interpolate}" alpha="-//-//-" -->
+			<combine color="interpolate" alpha="interpolate" />
+			<!-- [args [arg0="{texture[n]|constant|color|previous}"] [arg1="-//-//-"] [arg2="-//-//-"]] -->
+			<args>
+				<color arg0="texture" arg1="previous" arg2="constant" />
+				<alpha arg0="texture" arg1="previous" arg2="constant" />
+			</args>
+			<!-- [texture id="string"] -->
+			<texture id="textureDiffuse">
+				<!-- [address u="{wrap|clamp}" v="{wrap|clamp}] -->
+				<address u="wrap" v="wrap" />
+				<!-- [filter min="{linear|point}" max="{linear|point} mip="{linear|point|none} -->
+				<filter min="linear" max="linear" mip="none" />
+				<!-- [framebias bias="int" ] -->
+				<framebias bias="1" />
+			</texture>
+		</sampler>	
+		
+	</samplers>
+	
+	<!-- [alphablend {enabled="0" | enabled="1" srcfactor="{srcalpha|invsrcalpha|one|srccolor|destcolor|zero}" destfactor="{srcalpha|invsrcalpha|one}"}] -->
+	<alphablend enabled="1" srcfactor="srcalpha" destfactor="invsrcalpha" />
+	<ztest enabled="0" />
+	<zwrite enabled="0" />
+</material>

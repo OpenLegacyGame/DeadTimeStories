@@ -1,0 +1,87 @@
+<spellmixing>
+	<onFinish script="_on_finish" />
+	
+	<spell_items>
+		<ingredient inventory="yellow_monkshood" in_loa="yellow_monkshood" loa_pivot_x="132" loa_pivot_y="56" />
+		<ingredient inventory="aspirin" in_loa="aspirin_powder" loa_pivot_x="41" loa_pivot_y="168" />
+		<ingredient inventory="baking_soda" in_loa="baking_soda" loa_pivot_x="91" loa_pivot_y="101" />
+		<ingredient inventory="aconite" in_loa="aconite" loa_pivot_x="121" loa_pivot_y="63"
+			add_script="_on_add_aconite"
+			cursor_object_after_loa="aconite_pile"
+		/>
+		<bottle inventory="empty_packet" in_loa="empty_packet" />
+	</spell_items>
+	
+	<scene_objects>
+		<loa_ingredient_slot name="slot_1" />
+		<loa_ingredient_slot name="slot_2" />
+		<loa_ingredient_slot name="slot_3" />
+		<loa_ingredient_slot name="slot_4" />
+		<loa_bottle_slot name="slot_central" />
+		<loa_shining name="loa" />
+		<loa_black name="loa_black" />
+		<loa_mask name="loa_mask" />
+		<mortar name="mortar" />
+		<mortar_full name="mortar_full" />
+		<mortar_with_ingredients name="mortar_with_ingredients" />
+		<mortar_mixture_ready name="mortar_mixture_ready" />
+		<pestle_outside_mortar name="pestle" />
+		<pestle_in_mortar name="pestle_mixing" />
+		<full_bottle name="full_packet" />
+		<riddle name="riddle" />
+		<hint_back name="arrows_back" />
+		<hint_back_fx name="arrows_back_fx" />
+		<hint_cw name="arrow_right" />
+		<hint_ccw name="arrow_left" />
+		<hint_text_cw name="arrow_right_text" />
+		<hint_text_ccw name="arrow_left_text" />
+		<fx_put_into_mortar name="fx_put_into_mortar" />
+	</scene_objects>
+	
+	<need_reset wrong_ingredient_order="0" wrong_mixing="0" />
+	<reset_round_actions> 
+		<!-- 
+			Format is similar to that of cutscenes, only with extra <reset_round> action
+			and <end_reset/> instead of <end/>.
+		-->
+		<anim object="reset_fx" src="/common/show">
+			<anim object="reset_fx" src="/minigames/_common_spellmixing/reset_fx_1">
+				<reset_round>
+					<anim object="reset_fx" src="/minigames/_common_spellmixing/reset_fx_2">
+						<anim object="reset_fx" src="/common/hide">
+							<end_reset/>
+						</anim>
+					</anim>
+				</reset_round>
+			</anim>
+		</anim>
+	</reset_round_actions>
+	
+	<rounds>
+		<round>
+			<ingredients>
+				<aspirin/>
+				<baking_soda/>
+				<yellow_monkshood/>
+				<aconite/>
+			</ingredients>
+			<gestures>
+				<ccw/>
+				<ccw/>
+				<cw/>
+				<cw/>
+			</gestures>
+		</round>
+	</rounds>
+
+	<mixing>
+		<pestle_start_pos x="150" y="194" />
+		<mortar left="48" top="152" right="253" bottom="237" />
+		<hint_text_cw_offset x="14" y="-2" />
+		<hint_text_ccw_offset x="14" y="-2" />
+		<hint_text font="/fonts/hint_big" color="EE352F27" />
+		<min_time_before_first_failure ms="2500" />
+		<min_failure_time_after_direction_switch ms="1000" />
+	</mixing>
+	
+</spellmixing>

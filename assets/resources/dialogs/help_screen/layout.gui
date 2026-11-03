@@ -1,0 +1,65 @@
+<gui>
+	<image>
+		<file src="/common/half_dark" />
+		<size width="1024" height="768" />
+	</image>
+
+	<image>
+		<position x="0" y="0" />
+		<file src="back_help_screen" />
+	</image>
+
+	<label>
+		<position x="135" y="120" />
+		<text font="/fonts/ravenwood_32" color="0xFF000000">%探索幽灵的世界%</text>
+	</label>
+	
+	<label>
+		<position x="555" y="120" />
+		<text font="/fonts/ravenwood_32" color="0xFF000000">%如果你迷失了该怎么办?%</text>
+	</label>
+	
+	<label>
+		<position x="240" y="180" />
+		<text font="/fonts/hint_big" color="0xFF494431">%你的光标将会帮助你发\n现解开杰西故事的线索.\n当光标变成这样时,点击\n鼠标可以让你更近距离\n的观察场景.%</text>
+	</label>
+	
+	<label>
+		<position x="33" y="324" />
+		<align hor="right" />
+		<size width="365" />
+		<text font="/fonts/hint_big" color="0xFF494431">%当鼠标变成这样时,点击\n可以让你与场景互动.%</text>
+	</label>
+	
+	<label>
+		<position x="170" y="445" />
+		<text font="/fonts/hint_big" color="0xFF494431">%当光标变成这样时,点击\n可以从这个方向带你到\n一个全新的场景.%</text>
+	</label>
+	
+	<label>
+		<position x="565" y="180" />
+		<text font="/fonts/hint_big" color="0xFF494431">%提示药水可以在任何场\n景提供帮助.一旦药水瓶\n装满,无论在游戏的任何\n地点,点击它都可以得到\n提示.%</text>
+	</label>
+	
+	<label>
+		<position x="690" y="324" />
+		<text font="/fonts/hint_big" color="0xFF494431">%在寻找隐藏物品的场景, \n将会显示一个你清单上的物品.%</text>
+	</label>
+	
+	<label>
+		<position x="563" y="435" />
+		<text font="/fonts/hint_big" color="0xFF494431">%在谜题和冒险场景, \n你可以选择你想要的帮助.%</text>
+	</label>
+	
+	<button id="anywhere">
+		<mask src="/common/half_dark" width="1024" height="768" />
+	</button>
+
+	<button id="button_ok" shortcuts="enter;esc">
+		<view>
+			<normal src="../talking_face/bt_close_E" />
+			<hover src="../talking_face/bt_close_O" />
+		</view>
+		<position x="500" y="560" />
+	</button>
+</gui>

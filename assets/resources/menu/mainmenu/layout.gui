@@ -1,0 +1,66 @@
+<gui>
+	<label id="current_profile">
+		<position x="165" y="680" />
+		<size width="160" height="20" />
+		<align hor="center" vert="top" />
+		<text font="/fonts/ravenwood_26" color="FFffd860" >玩家姓名</text>
+	</label>
+	<button id="continue">
+		<view>
+			<normal src="bt_continue_E" />
+			<hover src="bt_continue_O" />
+			<clicked src="bt_continue_T" />
+		</view>
+		<mask src="bt_start-continue_back" />
+		<position x="714" y="378" />
+	</button>
+	<button id="start">
+		<view>
+			<normal src="bt_start_E" />
+			<hover src="bt_start_O" />
+			<clicked src="bt_start_T" />
+		</view>
+		<mask src="bt_start-continue_back" />
+		<position x="714" y="378" />
+	</button>
+	<button id="options">
+		<view>
+			<normal src="bt_options_E" />
+			<hover src="bt_options_O" />
+			<clicked src="bt_options_T" />
+		</view>
+		<mask src="bt_options_back" />
+		<position x="730" y="520" />
+	</button>
+	<button id="profiles">
+		<view>
+			<normal src="bt_profiles_E" />
+			<hover src="bt_profiles_O" />
+			<clicked src="bt_profiles_T" />
+		</view>
+		<mask src="bt_profiles_back" />
+		<position x="722" y="459" />
+	</button>
+	<button id="exit">
+		<view>
+			<normal src="bt_exit_E" />
+			<hover src="bt_exit_O" />
+			<clicked src="bt_exit_T" />
+		</view>
+		<mask src="bt_exit_back" />
+		<position x="735" y="625" />
+	</button>
+	<button id="credits">
+		<view>
+			<normal src="bt_credits_E" />
+			<hover src="bt_credits_O" />
+			<clicked src="bt_credits_T" />
+		</view>
+		<mask src="bt_credits_back" />
+		<position x="734" y="574" />
+	</button>
+	<image>
+		<file src="flora_right" />
+		<position x="763" y="483" />
+	</image>
+</gui>

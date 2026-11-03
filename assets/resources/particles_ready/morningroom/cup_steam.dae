@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="utf-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1">
+  <asset>
+    <contributor>
+      <author>s.andreev</author>
+      <authoring_tool>3dsMax 9 - Feeling ColladaMax v3.05B.</authoring_tool>
+      <comments>ColladaMax Export Options: ExportNormals=1;ExportEPolyAsTriangles=1;ExportXRefs=1;ExportSelected=1;ExportTangents=0;ExportAnimations=1;SampleAnim=1;ExportAnimClip=1;BakeMatrices=0;ExportRelativePaths=1;AnimStart=0;AnimEnd=10;</comments>
+      <source_data>file:///D:/W_WORK/DeadTime/ColladaExport/MAterials.max</source_data>
+    </contributor>
+    <created>2010-03-27T11:21:25Z</created>
+    <modified>2010-03-27T11:21:26Z</modified>
+    <unit meter="0.0254" name="inch"/>
+    <up_axis>Z_UP</up_axis>
+  </asset>
+  <library_animations>
+    <animation id="steam-node-ry">
+      <source id="steam-node-ry_steam-node_RotY.ANGLE-input">
+        <float_array id="steam-node-ry_steam-node_RotY.ANGLE-input-array" count="301">0 0.033333 0.066666 0.1 0.133333 0.166667 0.2 0.233333 0.266667 0.3 0.333333 0.366667 0.4 0.433333 0.466667 0.5 0.533333 0.566667 0.6 0.633333 0.666667 0.7 0.733333 0.766667 0.8 0.833333 0.866667 0.9 0.933333 0.966667 1 1.03333 1.06667 1.1 1.13333 1.16667 1.2 1.23333 1.26667 1.3 1.33333 1.36667 1.4 1.43333 1.46667 1.5 1.53333 1.56667 1.6 1.63333 1.66667 1.7 1.73333 1.76667 1.8 1.83333 1.86667 1.9 1.93333 1.96667 2 2.03333 2.06667 2.1 2.13333 2.16667 2.2 2.23333 2.26667 2.3 2.33333 2.36667 2.4 2.43333 2.46667 2.5 2.53333 2.56667 2.6 2.63333 2.66667 2.7 2.73333 2.76667 2.8 2.83333 2.86667 2.9 2.93333 2.96667 3 3.03333 3.06667 3.1 3.13333 3.16667 3.2 3.23333 3.26667 3.3 3.33333 3.36667 3.4 3.43333 3.46667 3.5 3.53333 3.56667 3.6 3.63333 3.66667 3.7 3.73333 3.76667 3.8 3.83333 3.86667 3.9 3.93333 3.96667 4 4.03333 4.06667 4.1 4.13333 4.16667 4.2 4.23333 4.26667 4.3 4.33333 4.36667 4.4 4.43333 4.46667 4.5 4.53333 4.56667 4.6 4.63333 4.66667 4.7 4.73333 4.76667 4.8 4.83333 4.86667 4.9 4.93333 4.96667 5 5.03333 5.06667 5.1 5.13333 5.16667 5.2 5.23333 5.26667 5.3 5.33333 5.36667 5.4 5.43333 5.46667 5.5 5.53333 5.56667 5.6 5.63333 5.66667 5.7 5.73333 5.76667 5.8 5.83333 5.86667 5.9 5.93333 5.96667 6 6.03333 6.06667 6.1 6.13333 6.16667 6.2 6.23333 6.26667 6.3 6.33333 6.36667 6.4 6.43333 6.46667 6.5 6.53333 6.56667 6.6 6.63333 6.66667 6.7 6.73333 6.76667 6.8 6.83333 6.86667 6.9 6.93333 6.96667 7 7.03333 7.06667 7.1 7.13333 7.16667 7.2 7.23333 7.26667 7.3 7.33333 7.36667 7.4 7.43333 7.46667 7.5 7.53333 7.56667 7.6 7.63333 7.66667 7.7 7.73333 7.76667 7.8 7.83333 7.86667 7.9 7.93333 7.96667 8 8.03333 8.06667 8.1 8.13333 8.16667 8.2 8.23333 8.26667 8.3 8.33333 8.36667 8.4 8.43333 8.46667 8.5 8.53333 8.56667 8.6 8.63333 8.66667 8.7 8.73333 8.76667 8.8 8.83333 8.86667 8.9 8.93333 8.96667 9 9.03333 9.06667 9.1 9.13333 9.16667 9.2 9.23333 9.26667 9.3 9.33333 9.36667 9.4 9.43333 9.46667 9.5 9.53333 9.56667 9.6 9.63333 9.66667 9.7 9.73333 9.76667 9.8 9.83333 9.86667 9.9 9.93333 9.96667 10</float_array>
+        <technique_common>
+          <accessor source="#steam-node-ry_steam-node_RotY.ANGLE-input-array" count="301" stride="1">
+            <param name="TIME" type="float"/>
+          </accessor>
+        </technique_common>
+        <technique profile="MAYA">
+          <pre_infinity>CONSTANT</pre_infinity>
+          <post_infinity>CONSTANT</post_infinity>
+        </technique>
+      </source>
+      <source id="steam-node-ry_steam-node_RotY.ANGLE-output">
+        <float_array id="steam-node-ry_steam-node_RotY.ANGLE-output-array" count="301">-47.4097 -46.2131 -45.0164 -43.8197 -42.6231 -41.4264 -40.2297 -39.0331 -37.8364 -36.6397 -35.4431 -34.2464 -33.0498 -31.8531 -30.6564 -29.4597 -28.2631 -27.0664 -25.8697 -24.6731 -23.4764 -22.2797 -21.0831 -19.8864 -18.6898 -17.4931 -16.2964 -15.0998 -13.9031 -12.7064 -11.5098 -10.3131 -9.11642 -7.91975 -6.72309 -5.52642 -4.32975 -3.13309 -1.93642 -0.739753 0.456917 1.65358 2.85025 4.04691 5.24358 6.44025 7.63691 8.83358 10.0302 11.2269 12.4236 13.6202 14.8169 16.0136 17.2102 18.4069 19.6036 20.8002 21.9969 23.1936 24.3902 25.5869 26.7836 27.9802 29.1769 30.3736 31.5702 32.7669 33.9636 35.1602 36.3569 37.5536 38.7502 39.9469 41.1436 42.3402 43.5369 44.7336 45.9302 47.1269 48.3236 49.5202 50.7169 51.9136 53.1102 54.3069 55.5036 56.7002 57.8969 59.0936 60.2902 61.4869 62.6836 63.8802 65.0769 66.2736 67.4702 68.6669 69.8636 71.0602 72.2569 73.4536 74.6502 75.8469 77.0436 78.2402 79.4369 80.6336 81.8302 83.0269 84.2236 85.4202 86.6169 87.8136 89.0102 90.2069 91.4036 92.6002 93.7969 94.9936 96.1902 97.3869 98.5836 99.7802 100.977 102.174 103.37 104.567 105.764 106.96 108.157 109.354 110.55 111.747 112.944 114.14 115.337 116.534 117.73 118.927 120.124 121.32 122.517 123.714 124.91 126.107 127.304 128.5 129.697 130.894 132.09 133.287 134.484 135.68 136.877 138.074 139.27 140.467 141.664 142.86 144.057 145.254 146.45 147.647 148.844 150.04 151.237 152.434 153.63 154.827 156.024 157.22 158.417 159.614 160.81 162.007 163.204 164.4 165.597 166.794 167.99 169.187 170.384 171.58 172.777 173.974 175.17 176.367 177.564 178.76 179.957 181.154 182.35 183.547 184.744 185.94 187.137 188.334 189.53 190.727 191.924 193.12 194.317 195.514 196.71 197.907 199.104 200.3 201.497 202.694 203.89 205.087 206.284 207.48 208.677 209.874 211.07 212.267 213.464 214.66 215.857 217.054 218.25 219.447 220.644 221.84 223.037 224.234 225.43 226.627 227.824 229.02 230.217 231.414 232.61 233.807 235.004 236.2 237.397 238.594 239.79 240.987 242.184 243.38 244.577 245.774 246.97 248.167 249.364 250.56 251.757 252.954 254.15 255.347 256.544 257.74 258.937 260.134 261.33 262.527 263.724 264.92 266.117 267.314 268.51 269.707 270.904 272.1 273.297 274.494 275.69 276.887 278.084 279.28 280.477 281.674 282.87 284.067 285.264 286.46 287.657 288.854 290.05 291.247 292.444 293.64 294.837 296.034 297.23 298.427 299.624 300.82 302.017 303.214 304.41 305.607 306.804 308 309.197 310.394 311.59</float_array>
+        <technique_common>
+          <accessor source="#steam-node-ry_steam-node_RotY.ANGLE-output-array" count="301" stride="1">
+            <param name="ANGLE" type="float"/>
+          </accessor>
+        </technique_common>
+      </source>
+      <source id="steam-node-ry_steam-node_RotY.ANGLE-interpolations">
+        <Name_array id="steam-node-ry_steam-node_RotY.ANGLE-interpolations-array" count="301">LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR</Name_array>
+        <technique_common>
+          <accessor source="#steam-node-ry_steam-node_RotY.ANGLE-interpolations-array" count="301" stride="1">
+            <param name="INTERPOLATION" type="Name"/>
+          </accessor>
+        </technique_common>
+      </source>
+      <sampler id="steam-node-ry_steam-node_RotY.ANGLE-sampler">
+        <input semantic="INPUT" source="#steam-node-ry_steam-node_RotY.ANGLE-input"/>
+        <input semantic="OUTPUT" source="#steam-node-ry_steam-node_RotY.ANGLE-output"/>
+        <input semantic="INTERPOLATION" source="#steam-node-ry_steam-node_RotY.ANGLE-interpolations"/>
+      </sampler>
+      <channel source="#steam-node-ry_steam-node_RotY.ANGLE-sampler" target="steam-node/RotY.ANGLE"/>
+    </animation>
+  </library_animations>
+  <library_animation_clips>
+    <animation_clip id="AnimationClip" start="0" end="10">
+      <instance_animation url="#steam-node-ry"/>
+    </animation_clip>
+  </library_animation_clips>
+  <library_lights>
+    <light id="ambient-environment-light" name="Ambient">
+      <technique_common>
+        <ambient>
+          <color>0.4 0.4 0.4</color>
+        </ambient>
+      </technique_common>
+      <extra>
+        <technique profile="FCOLLADA">
+          <intensity>1</intensity>
+        </technique>
+      </extra>
+    </light>
+  </library_lights>
+  <library_images>
+    <image id="steam.png" name="steam_png">
+      <init_from>../steam/steam.png</init_from>
+    </image>
+  </library_images>
+  <library_materials>
+    <material id="PureAlpha" name="PureAlpha">
+      <instance_effect url="#PureAlpha-fx">
+        <setparam ref="textureDiffuse">
+          <surface type="2D">
+            <init_from>steam.png</init_from>
+            <format>A8R8G8B8</format>
+          </surface>
+        </setparam>
+      </instance_effect>
+    </material>
+  </library_materials>
+  <library_effects>
+    <effect id="PureAlpha-fx" name="PureAlpha">
+      <profile_COMMON>
+        <technique sid="common">
+          <blinn>
+            <ambient>
+              <color>0.588 0.588 0.588 1</color>
+            </ambient>
+            <diffuse>
+              <color>0.588 0.588 0.588 1</color>
+            </diffuse>
+            <specular>
+              <color>0.9 0.9 0.9 1</color>
+            </specular>
+            <shininess>
+              <float>0.415939</float>
+            </shininess>
+            <reflective>
+              <color>0 0 0 1</color>
+            </reflective>
+            <reflectivity>
+              <float>1</float>
+            </reflectivity>
+            <transparent opaque="A_ONE">
+              <color>1 1 1 1</color>
+            </transparent>
+            <transparency>
+              <float>1</float>
+            </transparency>
+          </blinn>
+          <extra>
+            <technique profile="FCOLLADA">
+              <spec_level>
+                <float>0</float>
+              </spec_level>
+              <emission_level>
+                <float>0</float>
+              </emission_level>
+            </technique>
+          </extra>
+        </technique>
+      </profile_COMMON>
+      <extra>
+        <technique profile="MAX3D">
+          <faceted>0</faceted>
+          <double_sided>0</double_sided>
+          <wireframe>0</wireframe>
+          <face_map>0</face_map>
+        </technique>
+        <technique profile="NV_import">
+          <import profile="d3dfx" url="..%5C..%5Cmaterials%5Cpure_texture_a.fx"/>
+        </technique>
+      </extra>
+    </effect>
+  </library_effects>
+  <library_geometries>
+    <geometry id="steam-mesh" name="steam">
+      <mesh>
+        <source id="steam-mesh-positions">
+          <float_array id="steam-mesh-positions-array" count="180">1.67727 -1.78804 -0.161538 3.24207 -3.66226 -0.659897 4.53656 -5.80102 -1.28278 5.39357 -8.1416 -1.96257 5.64226 -10.3863 -2.57136 5.25671 -11.9711 -2.97005 4.5252 -13.0202 -3.23991 3.35658 -14.8585 -3.26669 1.5315 -17.8028 -2.70528 -0.721838 -21.4759 -1.52057 -3.14569 -25.5295 0.117355 -5.50247 -29.7634 1.97936 -7.5331 -34.0558 3.87909 -8.97443 -38.2646 5.6125 -9.54791 -42.1331 6.93373 -9.12236 -45.1071 7.61245 -8.11201 -47.2349 7.84031 -6.70592 -49.302 7.84413 -4.93562 -51.5304 7.65958 -2.93537 -53.9064 7.32355 -0.883019 -56.4558 6.88464 1.03953 -59.2727 6.36581 2.65714 -62.5427 5.72878 3.80965 -66.3797 4.93031 4.35621 -70.5582 4.06508 4.31558 -74.7109 3.31816 3.9482 -78.6302 2.98184 3.31391 -82.1648 3.23925 2.45935 -84.9795 4.07687 1.47077 -86.7703 5.23853 1.69859 -1.68319 -0.272988 3.30031 -3.35262 -0.870768 4.75362 -4.90233 -1.69448 6.01635 -6.46748 -2.50057 7.04997 -8.41813 -3.1058 7.67108 -11.3909 -3.33809 7.38202 -15.3337 -2.80502 6.07875 -18.9909 -1.32324 4.11099 -22.0363 0.747862 1.7065 -24.7595 3.04707 -0.922376 -27.4176 5.40476 -3.5431 -30.12 7.71039 -5.94467 -32.8973 9.8106 -7.9201 -35.8006 11.5698 -9.27786 -38.9956 12.894 -9.82392 -42.9589 13.7561 -9.39845 -47.6185 14.0344 -8.21171 -52.1784 13.6546 -6.63147 -56.4066 12.7331 -4.92279 -60.3064 11.3853 -3.30713 -63.8418 9.7149 -2.00188 -66.9083 7.85114 -1.22003 -69.3109 5.98348 -0.931789 -70.945 4.28192 -0.86895 -72.0642 2.75403 -0.911713 -73.0647 1.31598 -1.18195 -74.183 -0.223314 -1.60097 -75.5993 -1.94576 -2.07682 -77.6777 -3.73663 -2.55722 -80.751 -5.23854</float_array>
+          <technique_common>
+            <accessor source="#steam-mesh-positions-array" count="60" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="steam-mesh-normals">
+          <float_array id="steam-mesh-normals-array" count="180">0.699414 0.434535 0.56745 0.706433 0.443036 0.551971 0.706738 0.305346 0.63819 0.665923 0.313599 0.676906 0.736185 0.132754 0.663632 0.654964 0.147647 0.741096 0.739681 -0.045784 0.671399 0.577325 0.006896 0.816485 0.673302 -0.266323 0.689736 0.390279 -0.077602 0.91742 0.266931 -0.307181 0.913448 0.09763 -0.012073 0.995149 -0.026101 0.009531 0.999614 -0.062735 0.246909 0.967006 -0.129651 0.241789 0.961628 -0.106794 0.476522 0.872652 -0.220061 0.434693 0.873279 -0.2094 0.632766 0.745492 -0.362813 0.572342 0.735385 -0.370991 0.723152 0.582594 -0.538014 0.635203 0.554129 -0.547157 0.740114 0.390961 -0.708952 0.606684 0.359612 -0.701325 0.684282 0.199752 -0.84787 0.493257 0.194455 -0.82009 0.570733 0.04143 -0.947274 0.306748 0.092615 -0.908751 0.412588 -0.062788 -0.996855 0.037354 0.069884 -0.971151 0.21091 -0.11128 -0.965419 -0.258674 0.032457 -0.988344 -0.020415 -0.150864 -0.892468 -0.431569 -0.131335 -0.943731 -0.2011 -0.262546 -0.807097 -0.478096 -0.346436 -0.867811 -0.258542 -0.424335 -0.720491 -0.436847 -0.53857 -0.795508 -0.211358 -0.567885 -0.641673 -0.342523 -0.686246 -0.736142 -0.102738 -0.668984 -0.569607 -0.218934 -0.792222 -0.685385 0.043692 -0.726869 -0.496618 -0.079472 -0.864323 -0.628677 0.225796 -0.744165 -0.401781 0.067922 -0.913213 -0.508354 0.44512 -0.737187 -0.235039 0.203323 -0.950482 -0.219487 0.64238 -0.734285 0.043518 0.262688 -0.963899 0.206229 0.685899 -0.697863 0.32244 0.160814 -0.93283 0.575539 0.551486 -0.603836 0.451007 -0.042731 -0.891497 0.777145 0.348145 -0.524253 0.448954 -0.278859 -0.848928 0.868276 0.181117 -0.461837 0.354885 -0.535302 -0.766491 0.913984 0.053676 -0.402184 0.494446 -0.505238 -0.707289 0.937521 0.023108 -0.347161</float_array>
+          <technique_common>
+            <accessor source="#steam-mesh-normals-array" count="60" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="steam-mesh-map-channel1">
+          <float_array id="steam-mesh-map-channel1-array" count="180">0.016493 0.017451 0 0.983506 0.017451 0 0.983506 0.050501 0 0.016493 0.050501 0 0.016493 0.975891 0 0.983506 0.975891 0 0.983506 0.083551 0 0.016493 0.083551 0 0.016493 0.942842 0 0.983506 0.942842 0 0.983506 0.116601 0 0.016493 0.116601 0 0.016493 0.909792 0 0.983506 0.909792 0 0.983506 0.14965 0 0.016493 0.14965 0 0.016493 0.876741 0 0.983506 0.876741 0 0.983506 0.1827 0 0.016493 0.1827 0 0.016493 0.843693 0 0.983506 0.843693 0 0.983506 0.21575 0 0.016493 0.21575 0 0.016493 0.810642 0 0.983506 0.810642 0 0.983506 0.248799 0 0.016493 0.248799 0 0.016493 0.777592 0 0.983506 0.777592 0 0.983506 0.281849 0 0.016493 0.281849 0 0.016493 0.744545 0 0.983506 0.744545 0 0.983506 0.314898 0 0.016493 0.314898 0 0.016493 0.711493 0 0.983506 0.711493 0 0.983506 0.347948 0 0.016493 0.347948 0 0.016493 0.678446 0 0.983506 0.678446 0 0.983506 0.380998 0 0.016493 0.380998 0 0.016493 0.645395 0 0.983506 0.645395 0 0.983506 0.414047 0 0.016493 0.414047 0 0.016493 0.612347 0 0.983506 0.612347 0 0.983506 0.447097 0 0.016493 0.447097 0 0.016493 0.579295 0 0.983506 0.579295 0 0.983506 0.480147 0 0.016493 0.480147 0 0.016493 0.546247 0 0.983506 0.546247 0 0.983506 0.513196 0 0.016493 0.513196 0</float_array>
+          <technique_common>
+            <accessor source="#steam-mesh-map-channel1-array" count="60" stride="3">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+              <param name="P" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="steam-mesh-map-channel2">
+          <float_array id="steam-mesh-map-channel2-array" count="180">0.016493 0.017451 0 0.983506 0.017451 0 0.983506 0.050501 0 0.016493 0.050501 0 0.016493 0.975891 0 0.983506 0.975891 0 0.983506 0.083551 0 0.016493 0.083551 0 0.016493 0.942842 0 0.983506 0.942842 0 0.983506 0.116601 0 0.016493 0.116601 0 0.016493 0.909792 0 0.983506 0.909792 0 0.983506 0.14965 0 0.016493 0.14965 0 0.016493 0.876741 0 0.983506 0.876741 0 0.983506 0.1827 0 0.016493 0.1827 0 0.016493 0.843693 0 0.983506 0.843693 0 0.983506 0.21575 0 0.016493 0.21575 0 0.016493 0.810642 0 0.983506 0.810642 0 0.983506 0.248799 0 0.016493 0.248799 0 0.016493 0.777592 0 0.983506 0.777592 0 0.983506 0.281849 0 0.016493 0.281849 0 0.016493 0.744545 0 0.983506 0.744545 0 0.983506 0.314898 0 0.016493 0.314898 0 0.016493 0.711493 0 0.983506 0.711493 0 0.983506 0.347948 0 0.016493 0.347948 0 0.016493 0.678446 0 0.983506 0.678446 0 0.983506 0.380998 0 0.016493 0.380998 0 0.016493 0.645395 0 0.983506 0.645395 0 0.983506 0.414047 0 0.016493 0.414047 0 0.016493 0.612347 0 0.983506 0.612347 0 0.983506 0.447097 0 0.016493 0.447097 0 0.016493 0.579295 0 0.983506 0.579295 0 0.983506 0.480147 0 0.016493 0.480147 0 0.016493 0.546247 0 0.983506 0.546247 0 0.983506 0.513196 0 0.016493 0.513196 0</float_array>
+          <technique_common>
+            <accessor source="#steam-mesh-map-channel2-array" count="60" stride="3">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+              <param name="P" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="steam-mesh-vertices">
+          <input semantic="POSITION" source="#steam-mesh-positions"/>
+        </vertices>
+        <triangles material="PureAlpha" count="58">
+          <input semantic="VERTEX" source="#steam-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#steam-mesh-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#steam-mesh-map-channel1" offset="2" set="1"/>
+          <input semantic="TEXCOORD" source="#steam-mesh-map-channel2" offset="3" set="2"/>
+          <p>30 0 0 0 0 1 1 1 1 2 2 2 1 2 2 2 31 3 3 3 30 0 0 0 31 3 3 3 1 2 2 2 2 4 6 6 2 4 6 6 32 5 7 7 31 3 3 3 32 5 7 7 2 4 6 6 3 6 10 10 3 6 10 10 33 7 11 11 32 5 7 7 33 7 11 11 3 6 10 10 4 8 14 14 4 8 14 14 34 9 15 15 33 7 11 11 34 9 15 15 4 8 14 14 5 10 18 18 5 10 18 18 35 11 19 19 34 9 15 15 35 11 19 19 5 10 18 18 6 12 22 22 6 12 22 22 36 13 23 23 35 11 19 19 36 13 23 23 6 12 22 22 7 14 26 26 7 14 26 26 37 15 27 27 36 13 23 23 37 15 27 27 7 14 26 26 8 16 30 30 8 16 30 30 38 17 31 31 37 15 27 27 38 17 31 31 8 16 30 30 9 18 34 34 9 18 34 34 39 19 35 35 38 17 31 31 39 19 35 35 9 18 34 34 10 20 38 38 10 20 38 38 40 21 39 39 39 19 35 35 40 21 39 39 10 20 38 38 11 22 42 42 11 22 42 42 41 23 43 43 40 21 39 39 41 23 43 43 11 22 42 42 12 24 46 46 12 24 46 46 42 25 47 47 41 23 43 43 42 25 47 47 12 24 46 46 13 26 50 50 13 26 50 50 43 27 51 51 42 25 47 47 43 27 51 51 13 26 50 50 14 28 54 54 14 28 54 54 44 29 55 55 43 27 51 51 44 29 55 55 14 28 54 54 15 30 58 58 15 30 58 58 45 31 59 59 44 29 55 55 45 31 59 59 15 30 58 58 16 32 57 57 16 32 57 57 46 33 56 56 45 31 59 59 46 33 56 56 16 32 57 57 17 34 53 53 17 34 53 53 47 35 52 52 46 33 56 56 47 35 52 52 17 34 53 53 18 36 49 49 18 36 49 49 48 37 48 48 47 35 52 52 48 37 48 48 18 36 49 49 19 38 45 45 19 38 45 45 49 39 44 44 48 37 48 48 49 39 44 44 19 38 45 45 20 40 41 41 20 40 41 41 50 41 40 40 49 39 44 44 50 41 40 40 20 40 41 41 21 42 37 37 21 42 37 37 51 43 36 36 50 41 40 40 51 43 36 36 21 42 37 37 22 44 33 33 22 44 33 33 52 45 32 32 51 43 36 36 52 45 32 32 22 44 33 33 23 46 29 29 23 46 29 29 53 47 28 28 52 45 32 32 53 47 28 28 23 46 29 29 24 48 25 25 24 48 25 25 54 49 24 24 53 47 28 28 54 49 24 24 24 48 25 25 25 50 21 21 25 50 21 21 55 51 20 20 54 49 24 24 55 51 20 20 25 50 21 21 26 52 17 17 26 52 17 17 56 53 16 16 55 51 20 20 56 53 16 16 26 52 17 17 27 54 13 13 27 54 13 13 57 55 12 12 56 53 16 16 57 55 12 12 27 54 13 13 28 56 9 9 28 56 9 9 58 57 8 8 57 55 12 12 58 57 8 8 28 56 9 9 29 58 5 5 29 58 5 5 59 59 4 4 58 57 8 8</p>
+        </triangles>
+      </mesh>
+    </geometry>
+  </library_geometries>
+  <library_visual_scenes>
+    <visual_scene id="MAterials.max" name="MAterials_max">
+      <node id="group2-node" name="group2" type="NODE">
+        <translate>0 0 0</translate>
+        <rotate>-1 0 0 -90</rotate>
+        <node id="steam-node" name="steam" type="NODE">
+          <translate>40.3515 530.335 0</translate>
+          <rotate sid="RotZ">0 0 1 0</rotate>
+          <rotate sid="RotY">0 1 0 -47.4097</rotate>
+          <rotate sid="RotX">1 0 0 0</rotate>
+          <instance_geometry url="#steam-mesh">
+            <bind_material>
+              <technique_common>
+                <instance_material symbol="PureAlpha" target="#PureAlpha"/>
+              </technique_common>
+            </bind_material>
+          </instance_geometry>
+        </node>
+        <extra>
+          <technique profile="MAX3D">
+            <helper>
+              <bounding_min>-0.5 -0.5 -0.5</bounding_min>
+              <bounding_max>0.5 0.5 0.5</bounding_max>
+            </helper>
+          </technique>
+        </extra>
+      </node>
+      <node id="VisualSceneNode" type="NODE">
+        <instance_light url="#ambient-environment-light"/>
+      </node>
+      <extra>
+        <technique profile="FCOLLADA">
+          <start_time>0</start_time>
+          <end_time>10</end_time>
+        </technique>
+      </extra>
+      <extra>
+        <technique profile="MAX3D">
+          <frame_rate>30</frame_rate>
+        </technique>
+      </extra>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_visual_scene url="#MAterials.max"/>
+  </scene>
+</COLLADA>

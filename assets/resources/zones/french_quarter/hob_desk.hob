@@ -1,0 +1,264 @@
+<hob>
+	<groups>
+<!-- inventory -->	
+		<group0 environment="0">
+			<object name="%碘%">
+				<position x="887" y="114" z="0" />
+				<texture src="HOB_desk/iodine" />
+			</object>
+			<object name="%两粒纽扣%">
+				<position x="176" y="589" z="0" />
+				<texture src="HOB_desk/two_buttons" />
+			</object>
+		</group0>
+<!-- complex items absent -->	
+<!-- dif_0 -->	
+		<group1>
+			<object name="%油灯%">
+				<position x="472" y="-22" z="0" />
+				<texture src="HOB_desk/oil_lamp" />
+			</object>
+			<object name="%剪子%">
+				<position x="663" y="311" z="0" />
+				<texture src="HOB_desk/scissors" />
+			</object>
+			<object name="%镜子%">
+				<position x="577" y="343" z="0" />
+				<texture src="HOB_desk/mirror" />
+			</object>		
+			<object name="%羽毛%">
+				<position x="679" y="384" z="-5" />
+				<texture src="HOB_desk/feathers" />
+			</object>		
+			<object name="%向日葵%">
+				<position x="42" y="532" z="0" />
+				<texture src="HOB_desk/sunflower" />
+			</object>		
+			<object name="%线轴%">
+				<position x="558" y="528" z="0" />
+				<texture src="HOB_desk/spool" />
+			</object>		
+			<object name="%猫%">
+				<position x="113" y="243" z="-5" />
+				<texture src="HOB_desk/cat" />
+			</object>		
+			<object name="%眼镜%">
+				<position x="547" y="491" z="-5" />
+				<texture src="HOB_desk/spectacles" />
+			</object>		
+<!-- 			<object name="%钱包%">
+				<position x="252" y="422" z="0" />
+				<texture src="HOB_desk/purse" />
+			</object> -->			
+			<object name="%钟表%">
+				<position x="293" y="67" z="0" />
+				<texture src="HOB_desk/clock" />
+			</object>		
+			<object name="%铃铛%">
+				<position x="496" y="328" z="0" />
+				<texture src="HOB_desk/bell" />
+			</object>		
+			<object name="%盐%">
+				<position x="769" y="302" z="0" />
+				<texture src="HOB_desk/salt" />
+			</object>		
+		</group1>
+<!-- dif_1 -->		
+		<group2>
+			<object name="%胸针%">
+				<position x="480" y="229" z="0" />
+				<texture src="HOB_desk/brooch" />
+			</object>
+			<object name="%扫帚%">
+				<position x="631" y="2" z="0" />
+				<texture src="HOB_desk/broom" />
+			</object>
+			<object name="%烛台%">
+				<position x="5" y="423" z="0" />
+				<texture src="HOB_desk/candlestick" />
+			</object>
+			<object name="%手杖%">
+				<position x="636" y="504" z="0" />
+				<texture src="HOB_desk/cane" />
+			</object>
+			<object name="%梳子%">
+				<position x="9" y="248" z="0" />
+				<texture src="HOB_desk/comb" />
+			</object>
+			<object name="%眼球%">
+				<position x="297" y="188" z="0" />
+				<texture src="HOB_desk/eyeball" />
+			</object>
+			<object name="%扇子%">
+				<position x="601" y="10" z="0" />
+				<texture src="HOB_desk/fan" />
+			</object>
+			<object name="%琴弓%">
+				<position x="245" y="15" z="0" />
+				<texture src="HOB_desk/fiddlestick" />
+			</object>
+			<object name="%笛子%">
+				<position x="925" y="442" z="0" />
+				<texture src="HOB_desk/flute" />
+			</object>
+			<object name="%帽子%">
+				<position x="51" y="389" z="-5" />
+				<texture src="HOB_desk/hat" />
+			</object>
+			<object name="%墨水瓶%">
+				<position x="34" y="220" z="0" />
+				<texture src="HOB_desk/ink_pot" />
+			</object>
+			<object name="%颌骨%">
+				<position x="834" y="513" z="0" />
+				<texture src="HOB_desk/jaw" />
+			</object>
+			<object name="%小丑%">
+				<position x="92" y="228" z="0" />
+				<texture src="HOB_desk/joker" />
+			</object>
+			<object name="%笔记本%">
+				<position x="640" y="165" z="0" />
+				<texture src="HOB_desk/notebook" />
+			</object>	
+			<object name="%挂锁%">
+				<position x="929" y="261" z="0" />
+				<texture src="HOB_desk/padlock" />
+			</object>
+			<object name="%铅笔%">
+				<position x="535" y="120" z="0" />
+				<texture src="HOB_desk/pencil" />
+			</object>
+			<object name="%插针包%">
+				<position x="124" y="555" z="0" />
+				<texture src="HOB_desk/pincushion" />
+			</object>
+			<object name="%啮齿动物%">
+				<position x="133" y="151" z="0" />
+				<texture src="HOB_desk/rodent" />
+			</object>
+			<object name="%勺子%">
+				<position x="167" y="539" z="0" />
+				<texture src="HOB_desk/scoop" />
+			</object>
+			<object name="%螺丝刀%">
+				<position x="401" y="478" z="0" />
+				<texture src="HOB_desk/screwdriver" />
+			</object>
+			<object name="%船%">
+				<position x="912" y="372" z="0" />
+				<texture src="HOB_desk/ship" />
+			</object>
+			<object name="%蜘蛛%">
+				<position x="304" y="289" z="0" />
+				<texture src="HOB_desk/spider" />
+			</object>
+			<object name="%印章%">
+				<position x="337" y="359" z="0" />
+				<texture src="HOB_desk/stamp" />
+			</object>
+			<object name="%桌布%">
+				<position x="74" y="-15" z="0" />
+				<texture src="HOB_desk/table_cloth" />
+			</object>
+			<object name="%顶针%">
+				<position x="151" y="88" z="-5" />
+				<texture src="HOB_desk/thimble" />
+			</object>
+			<object name="%尖牙%">
+				<position x="17" y="-53" z="0" />
+				<texture src="HOB_desk/tusk" />
+			</object>
+			<object name="%打字机按键%">
+				<position x="373" y="476" z="0" />
+				<texture src="HOB_desk/typewriter_key" />
+			</object>
+			<object name="%独角兽%">
+				<position x="220" y="256" z="0" />
+				<texture src="HOB_desk/unicorn" />
+			</object>
+			<object name="%罐子%">
+				<position x="840" y="317" z="0" />
+				<texture src="HOB_desk/vessel" />
+			</object>
+			<object name="%鹰%">
+				<position x="473" y="541" z="0" />
+				<texture src="HOB_desk/wooden_eagle" />
+			</object>
+		</group2>
+<!-- dif_2 -->		
+		<group3>
+			<object name="%苍蝇%">
+				<position x="824" y="178" z="0" />
+				<texture src="HOB_desk/fly" />
+			</object>		
+			<object name="%鹿角%">
+				<position x="856" y="3" z="0" />
+				<texture src="HOB_desk/horn" />
+			</object>		
+			<object name="%牙%">
+				<position x="745" y="298" z="0" />
+				<texture src="HOB_desk/tooth" />
+			</object>	
+			<object name="%蛾子%">
+				<position x="757" y="502" z="0" />
+				<texture src="HOB_desk/moth" />
+			</object>		
+		</group3>		
+<!-- dif_4 -->		
+		<group4>
+			<object name="%勾子%">
+				<position x="259" y="512" z="0" />
+				<texture src="HOB_desk/hook" />
+			</object>
+		</group4>
+	</groups>
+	
+	<rounds>
+		<round0
+			congratulations="%非常好!\n\n你找到了碘.\n也许以后会有用.%"
+			congratulations_image="/inventory/iodine"		
+			script_complete="HOB_desk/complete_round0"
+		>
+			<slot00 group="group0" object="%碘%" />
+			<slot01 group="group1" />
+			<slot02 group="group1" />
+			<slot03 group="group2" />
+			<slot04 group="group2" />
+			<slot05 group="group3" />
+			<slot06 group="group2" />
+			<slot07 group="group2" />
+			<slot08 group="group1" />
+			<slot09 group="group1" />
+			<slot10 group="group2" />
+			<slot11 group="group2" />
+		</round0>
+		<round1
+			congratulations="%非常好!\n\n你找到了两粒纽扣.\n也许以后会有用.%"
+			congratulations_image="/inventory/two_buttons"
+			script_complete="HOB_desk/complete_round1"
+		>
+			<slot00 group="group0" object="%两粒纽扣%" />
+			<slot01 group="group2" />
+			<slot02 group="group1" />
+			<slot03 group="group2" />
+			<slot04 group="group3" />
+			<slot05 group="group2" />
+			<slot06 group="group3" />
+			<slot07 group="group2" />
+			<slot08 group="group1" />
+			<slot09 group="group4" />
+			<slot10 group="group2" />
+			<slot11 group="group3" />
+		</round1>
+	</rounds>
+	
+	<environment>
+		<object>
+			<position x="0" y="0" z="10" />
+			<texture src="HOB_desk/background" />
+			<size width="1024" height="768" />
+		</object>
+	</environment>
+	
+</hob>

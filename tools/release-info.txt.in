@@ -1,0 +1,11 @@
+Deadtime Stories - independent runtime rewrite
+Version @PROJECT_VERSION@ (development build)
+
+Start deadtime.exe directly. Game data is in data/ beside the executable.
+Profiles, progress and settings use the system user-data directory and are
+preserved by the uninstaller. F11 switches fullscreen/windowed mode.
+
+Original game content and Chinese translation retain their respective rights.
+Original game content belongs to its respective rights holders.
+See licenses/ for third-party runtime-library notices.
+This development package has not completed original-game visual acceptance.

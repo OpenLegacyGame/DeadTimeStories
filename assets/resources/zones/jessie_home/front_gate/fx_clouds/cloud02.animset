@@ -1,0 +1,13 @@
+<animation_set looped="1">
+	<animation type="keys" applier="position" priority="1" weight="1.0" start="0.0" looped="0">
+		<keys type="vector3">
+			<cyclic value="0" />
+			<vector3>
+				<key relative_time="0.0">512 0 0</key>
+				<key relative_time="40.0">1024 0 0</key>
+				<key relative_time="0.0">-256 0 0</key>
+				<key relative_time="40.0">512 0 0</key>
+			</vector3>
+		</keys>
+	</animation>
+</animation_set>                       

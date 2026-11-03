@@ -1,0 +1,17 @@
+<gui>
+	<group template="/hud/common/templates.tgui#inventory_group">
+		<image id="inventory_open_zone">
+			<file src="/common/transparent" />
+			<position y="63" />
+			<size width="608" height="40" />
+		</image>
+	</group>
+	<group id="inventory_graves" template="/hud/common/templates.tgui#inventory_group" visible="0" >
+		<image id="back_graves">
+			<file src="back_graves" />
+		</image>
+		<image id="web_graves">
+			<file src="web_graves" />
+		</image>
+	</group>
+</gui>

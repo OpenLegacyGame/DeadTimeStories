@@ -1,0 +1,11 @@
+<templates>
+	<left_group>
+		<position x="0" y="619" />
+	</left_group>
+	<inventory_group>
+		<position x="247" y="665" />
+	</inventory_group>
+	<right_group>
+        <position x="818" y="621" />
+	</right_group>
+</templates>

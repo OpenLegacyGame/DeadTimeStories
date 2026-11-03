@@ -1,0 +1,37 @@
+<gui>
+
+	<group id="skip_puzzle" visible="1">
+		<image>
+			<file src="skip_puzzle/back" />
+			<position x="67" y="0" />
+		</image>
+		<image id="skip_puzzle_progress">
+			<file src="skip_puzzle/light" />
+			<position x="125" y="7" />
+			<size width="780" height="4" />
+		</image>
+		<image id="skip_puzzle_progress_position">
+			<file src="skip_puzzle/blink" />
+			<position x="120" y="0" />
+			<size width="30" height="25" />
+		</image>
+		<button id="button_skip_puzzle_disabled">
+			<mask src="skip_puzzle/skip_E" />
+			<position x="418" y="0" />
+		</button>
+		<button id="button_skip_puzzle" enabled="0">
+			<view>
+				<normal src="skip_puzzle/skip_E" />
+				<hover src="skip_puzzle/skip_O" />
+				<clicked src="skip_puzzle/skip_T" />
+				<disabled src="skip_puzzle/skip_D" />
+			</view>
+			<position x="418" y="0" />
+			<label>
+				<position x="50" y="21" />
+				<text font="/fonts/hint_big" color="FF000000">%跳过谜题%</text>
+			</label>
+		</button>
+	</group>
+	
+</gui>

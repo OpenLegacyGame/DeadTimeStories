@@ -1,0 +1,21 @@
+<location>
+	<ambient src="/sound/sfx/sfx_wood_growling" />
+	<objects>
+		<object name="back">
+			<texture src="/common/half_dark" />
+			<size width="1024" height="768" />
+			<script src="scary_tree_inset/back" />
+		</object>
+		<object name="inset">
+			<position x="304" y="127" z="-10" />
+			<texture src="scary_tree_inset/tree" />
+			<script src="scary_tree_inset/inset" />
+		</object>
+		<object name="tree_mask">
+			<position x="435" y="209" z="-20" />
+			<texture src="scary_tree_inset/tree_mask" />
+			<script src="scary_tree_inset/tree_mask" />
+			<alpha value="0" />
+		</object>
+	</objects>
+</location>

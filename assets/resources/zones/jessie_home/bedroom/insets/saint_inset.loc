@@ -1,0 +1,51 @@
+<location stripcode="1102">
+	<objects>
+		<object name="back">
+			<texture src="/common/half_dark" />
+			<size width="1024" height="768" />
+			<script src="saint/back" />
+		</object>
+		<object name="inset">
+			<position x="293" y="53" z="-10" />
+			<texture src="saint/saint" />
+			<script src="saint/inset" />
+		</object>
+		<object name="fx_tears">
+			<visible value="0" />
+			<position z="-30" />
+			<particles src="/particles_ready/tears/tears1.psysl" />
+			<particles src="/particles_ready/tears/tears2.psysl" />
+		</object>
+		<object name="saint_mask">
+			<position x="426" y="208" z="-19" />
+			<texture src="saint/saint_mask" />
+			<script src="saint/saint_mask" />
+			<alpha value="0" />
+		</object>
+		<object name="pump">
+			<position x="519" y="355" z="-20" />
+			<texture src="saint/pump/perfume_pump" />
+			<script src="saint/pump/pump" />
+		</object>
+		<object name="vial">
+			<position x="463" y="249" z="-20" />
+			<texture src="saint/vial/empty_vial" />
+			<script src="saint/vial/vial" />
+		</object>
+		<object name="fx_vial_changing1">
+			<position x="463" y="310" z="-21" />
+			<particles src="\particles_ready\snake_appear\snake_appear.psysl" />
+			<script src="/zones/_common/fx_changing" />
+		</object>
+		<object name="fx_vial_changing2">
+			<position x="463" y="310" z="-21" />
+			<particles src="\particles_ready\snake_appear\snake_appear.psysl" />
+			<script src="/zones/_common/fx_changing" />
+		</object>
+		<object name="fx_vial_changing3">
+			<position x="463" y="310" z="-21" />
+			<particles src="\particles_ready\snake_appear\snake_appear.psysl" />
+			<script src="/zones/_common/fx_changing" />
+		</object>
+	</objects>
+</location>

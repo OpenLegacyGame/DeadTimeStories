@@ -1,0 +1,34 @@
+<gui>
+	<label>
+		<position x="60" y="50" />
+		<align hor="left" vert="top" />
+		<text font="/fonts/ravenwood_20" color="FF840000">%幽灵显形剂%</text>
+		
+		<label>
+			<position y="30" />
+			<size width="230" />
+			<align hor="left" vert="top" />
+			<text font="/fonts/hint" color="FF210e2d">%这种泥土和彩虹的混合物, 可以迫使隐形的幽灵显形. 当你确定这里有幽灵而他们不愿被发 现的时候, 这是非常有用的. 在你怀疑有幽灵存在的空气中使用沾 上显形剂的画笔. 一直 '画' 直到幽灵完全显形.%</text>
+		</label>
+	</label>
+
+	<image id="enabled">
+		<file src="sb_spirit_revealing_mixture" />
+		
+		<label>
+			<position x="420" y="58" />
+			<text font="/fonts/acoustic_bass" color="FF6f0070">%容器%</text>
+		</label>
+		<label>
+			<position x="420" y="130" />
+			<text font="/fonts/acoustic_bass" color="FF6f0070">%原料%</text>
+		</label>		
+		<label>
+			<position x="420" y="322" />
+			<text font="/fonts/acoustic_bass" color="FF6f0070">%附件%</text>
+		</label>		
+	</image>	
+	<image id="disabled">
+		<file src="sb_spirit_revealing_mixture_hidden" />
+	</image>
+</gui>

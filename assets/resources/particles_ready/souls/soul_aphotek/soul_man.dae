@@ -1,0 +1,333 @@
+<?xml version="1.0" encoding="utf-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1">
+  <asset>
+    <contributor>
+      <author>s.andreev</author>
+      <authoring_tool>3dsMax 9 - Feeling ColladaMax v3.05B.</authoring_tool>
+      <comments>ColladaMax Export Options: ExportNormals=1;ExportEPolyAsTriangles=1;ExportXRefs=1;ExportSelected=1;ExportTangents=0;ExportAnimations=1;SampleAnim=1;ExportAnimClip=1;BakeMatrices=0;ExportRelativePaths=1;AnimStart=0;AnimEnd=2;</comments>
+      <source_data>file:///D:/W_WORK/DeadTime/ColladaExport/MAterials.max</source_data>
+    </contributor>
+    <created>2010-04-06T14:47:06Z</created>
+    <modified>2010-04-06T14:47:10Z</modified>
+    <unit meter="0.0254" name="inch"/>
+    <up_axis>Z_UP</up_axis>
+  </asset>
+  <library_animations>
+    <animation id="ghost_plane-node-translation">
+      <source id="ghost_plane-node-translation_ghost_plane-node_translation-input">
+        <float_array id="ghost_plane-node-translation_ghost_plane-node_translation-input-array" count="61">0 0.033333 0.066666 0.1 0.133333 0.166667 0.2 0.233333 0.266667 0.3 0.333333 0.366667 0.4 0.433333 0.466667 0.5 0.533333 0.566667 0.6 0.633333 0.666667 0.7 0.733333 0.766667 0.8 0.833333 0.866667 0.9 0.933333 0.966667 1 1.03333 1.06667 1.1 1.13333 1.16667 1.2 1.23333 1.26667 1.3 1.33333 1.36667 1.4 1.43333 1.46667 1.5 1.53333 1.56667 1.6 1.63333 1.66667 1.7 1.73333 1.76667 1.8 1.83333 1.86667 1.9 1.93333 1.96667 2</float_array>
+        <technique_common>
+          <accessor source="#ghost_plane-node-translation_ghost_plane-node_translation-input-array" count="61" stride="1">
+            <param name="TIME" type="float"/>
+          </accessor>
+        </technique_common>
+        <technique profile="MAYA">
+          <pre_infinity>CONSTANT</pre_infinity>
+          <post_infinity>CONSTANT</post_infinity>
+        </technique>
+      </source>
+      <source id="ghost_plane-node-translation_ghost_plane-node_translation-output">
+        <float_array id="ghost_plane-node-translation_ghost_plane-node_translation-output-array" count="183">-152.183 0.000004 -50.7277 -152.175 0.000004 -50.7417 -152.152 0.000004 -50.7826 -152.116 0.000004 -50.8484 -152.066 0.000004 -50.9371 -152.005 0.000004 -51.047 -151.933 0.000004 -51.1759 -151.852 0.000004 -51.3221 -151.762 0.000004 -51.4836 -151.664 0.000004 -51.6585 -151.56 0.000004 -51.8449 -151.451 0.000004 -52.0408 -151.337 0.000004 -52.2443 -151.22 0.000004 -52.4535 -151.101 0.000004 -52.6665 -150.981 0.000004 -52.8814 -150.861 0.000004 -53.0963 -150.741 0.000004 -53.3092 -150.624 0.000004 -53.5182 -150.511 0.000004 -53.7215 -150.401 0.000004 -53.9171 -150.297 0.000004 -54.1031 -150.199 0.000004 -54.2777 -150.108 0.000004 -54.4388 -150.027 0.000004 -54.5846 -149.954 0.000004 -54.7132 -149.893 0.000004 -54.8228 -149.843 0.000004 -54.9112 -149.806 0.000004 -54.9768 -149.783 0.000004 -55.0176 -149.776 0.000004 -55.0315 -149.783 0.000004 -55.0176 -149.806 0.000004 -54.9768 -149.843 0.000004 -54.9112 -149.893 0.000004 -54.8228 -149.954 0.000004 -54.7132 -150.027 0.000004 -54.5846 -150.108 0.000004 -54.4388 -150.199 0.000004 -54.2777 -150.297 0.000004 -54.1031 -150.401 0.000004 -53.9171 -150.511 0.000004 -53.7215 -150.624 0.000004 -53.5182 -150.741 0.000004 -53.3092 -150.861 0.000004 -53.0963 -150.981 0.000004 -52.8814 -151.101 0.000004 -52.6665 -151.22 0.000004 -52.4535 -151.337 0.000004 -52.2443 -151.451 0.000004 -52.0408 -151.56 0.000004 -51.8449 -151.664 0.000004 -51.6585 -151.762 0.000004 -51.4836 -151.852 0.000004 -51.3221 -151.933 0.000004 -51.1759 -152.005 0.000004 -51.047 -152.066 0.000004 -50.9371 -152.116 0.000004 -50.8484 -152.152 0.000004 -50.7826 -152.175 0.000004 -50.7417 -152.183 0.000004 -50.7277</float_array>
+        <technique_common>
+          <accessor source="#ghost_plane-node-translation_ghost_plane-node_translation-output-array" count="61" stride="3">
+            <param name="X" type="float"/>
+            <param name="Y" type="float"/>
+            <param name="Z" type="float"/>
+          </accessor>
+        </technique_common>
+      </source>
+      <source id="ghost_plane-node-translation_ghost_plane-node_translation-interpolations">
+        <Name_array id="ghost_plane-node-translation_ghost_plane-node_translation-interpolations-array" count="61">LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR</Name_array>
+        <technique_common>
+          <accessor source="#ghost_plane-node-translation_ghost_plane-node_translation-interpolations-array" count="61" stride="1">
+            <param name="INTERPOLATION" type="Name"/>
+          </accessor>
+        </technique_common>
+      </source>
+      <sampler id="ghost_plane-node-translation_ghost_plane-node_translation-sampler">
+        <input semantic="INPUT" source="#ghost_plane-node-translation_ghost_plane-node_translation-input"/>
+        <input semantic="OUTPUT" source="#ghost_plane-node-translation_ghost_plane-node_translation-output"/>
+        <input semantic="INTERPOLATION" source="#ghost_plane-node-translation_ghost_plane-node_translation-interpolations"/>
+      </sampler>
+      <channel source="#ghost_plane-node-translation_ghost_plane-node_translation-sampler" target="ghost_plane-node/translation"/>
+    </animation>
+    <animation id="ghost_plane-node-ry">
+      <source id="ghost_plane-node-ry_ghost_plane-node_RotY.ANGLE-input">
+        <float_array id="ghost_plane-node-ry_ghost_plane-node_RotY.ANGLE-input-array" count="61">0 0.033333 0.066666 0.1 0.133333 0.166667 0.2 0.233333 0.266667 0.3 0.333333 0.366667 0.4 0.433333 0.466667 0.5 0.533333 0.566667 0.6 0.633333 0.666667 0.7 0.733333 0.766667 0.8 0.833333 0.866667 0.9 0.933333 0.966667 1 1.03333 1.06667 1.1 1.13333 1.16667 1.2 1.23333 1.26667 1.3 1.33333 1.36667 1.4 1.43333 1.46667 1.5 1.53333 1.56667 1.6 1.63333 1.66667 1.7 1.73333 1.76667 1.8 1.83333 1.86667 1.9 1.93333 1.96667 2</float_array>
+        <technique_common>
+          <accessor source="#ghost_plane-node-ry_ghost_plane-node_RotY.ANGLE-input-array" count="61" stride="1">
+            <param name="TIME" type="float"/>
+          </accessor>
+        </technique_common>
+        <technique profile="MAYA">
+          <pre_infinity>CONSTANT</pre_infinity>
+          <post_infinity>CONSTANT</post_infinity>
+        </technique>
+      </source>
+      <source id="ghost_plane-node-ry_ghost_plane-node_RotY.ANGLE-output">
+        <float_array id="ghost_plane-node-ry_ghost_plane-node_RotY.ANGLE-output-array" count="61">0 -0.001127 -0.004408 -0.009689 -0.016814 -0.025632 -0.035988 -0.047727 -0.060697 -0.074744 -0.089713 -0.105452 -0.121805 -0.13862 -0.155743 -0.173019 -0.190295 -0.207418 -0.224233 -0.240586 -0.256324 -0.271294 -0.28534 -0.29831 -0.31005 -0.320406 -0.329223 -0.336349 -0.341629 -0.34491 -0.346038 -0.34491 -0.341629 -0.336349 -0.329223 -0.320406 -0.31005 -0.29831 -0.28534 -0.271294 -0.256324 -0.240586 -0.224233 -0.207418 -0.190295 -0.173019 -0.155743 -0.13862 -0.121805 -0.105452 -0.089713 -0.074744 -0.060697 -0.047727 -0.035988 -0.025632 -0.016814 -0.009689 -0.004408 -0.001127 0</float_array>
+        <technique_common>
+          <accessor source="#ghost_plane-node-ry_ghost_plane-node_RotY.ANGLE-output-array" count="61" stride="1">
+            <param name="ANGLE" type="float"/>
+          </accessor>
+        </technique_common>
+      </source>
+      <source id="ghost_plane-node-ry_ghost_plane-node_RotY.ANGLE-interpolations">
+        <Name_array id="ghost_plane-node-ry_ghost_plane-node_RotY.ANGLE-interpolations-array" count="61">LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR</Name_array>
+        <technique_common>
+          <accessor source="#ghost_plane-node-ry_ghost_plane-node_RotY.ANGLE-interpolations-array" count="61" stride="1">
+            <param name="INTERPOLATION" type="Name"/>
+          </accessor>
+        </technique_common>
+      </source>
+      <sampler id="ghost_plane-node-ry_ghost_plane-node_RotY.ANGLE-sampler">
+        <input semantic="INPUT" source="#ghost_plane-node-ry_ghost_plane-node_RotY.ANGLE-input"/>
+        <input semantic="OUTPUT" source="#ghost_plane-node-ry_ghost_plane-node_RotY.ANGLE-output"/>
+        <input semantic="INTERPOLATION" source="#ghost_plane-node-ry_ghost_plane-node_RotY.ANGLE-interpolations"/>
+      </sampler>
+      <channel source="#ghost_plane-node-ry_ghost_plane-node_RotY.ANGLE-sampler" target="ghost_plane-node/RotY.ANGLE"/>
+    </animation>
+  </library_animations>
+  <library_animation_clips>
+    <animation_clip id="AnimationClip" start="0" end="3.33333">
+      <instance_animation url="#ghost_plane-node-translation"/>
+      <instance_animation url="#ghost_plane-node-ry"/>
+    </animation_clip>
+  </library_animation_clips>
+  <library_lights>
+    <light id="ambient-environment-light" name="Ambient">
+      <technique_common>
+        <ambient>
+          <color>0.4 0.4 0.4</color>
+        </ambient>
+      </technique_common>
+      <extra>
+        <technique profile="FCOLLADA">
+          <intensity>1</intensity>
+        </technique>
+      </extra>
+    </light>
+  </library_lights>
+  <library_images>
+    <image id="soul_man_00.png" name="soul_man_00_png">
+      <init_from>./soul_man_00.png</init_from>
+    </image>
+  </library_images>
+  <library_materials>
+    <material id="PureAlpha" name="PureAlpha">
+      <instance_effect url="#PureAlpha-fx">
+        <setparam ref="textureDiffuse">
+          <surface type="2D">
+            <init_from>soul_man_00.png</init_from>
+            <format>A8R8G8B8</format>
+          </surface>
+        </setparam>
+      </instance_effect>
+    </material>
+  </library_materials>
+  <library_effects>
+    <effect id="PureAlpha-fx" name="PureAlpha">
+      <profile_COMMON>
+        <technique sid="common">
+          <blinn>
+            <ambient>
+              <color>0.588 0.588 0.588 1</color>
+            </ambient>
+            <diffuse>
+              <color>0.588 0.588 0.588 1</color>
+            </diffuse>
+            <specular>
+              <color>0.9 0.9 0.9 1</color>
+            </specular>
+            <shininess>
+              <float>0.415939</float>
+            </shininess>
+            <reflective>
+              <color>0 0 0 1</color>
+            </reflective>
+            <reflectivity>
+              <float>1</float>
+            </reflectivity>
+            <transparent opaque="A_ONE">
+              <color>1 1 1 1</color>
+            </transparent>
+            <transparency>
+              <float>1</float>
+            </transparency>
+          </blinn>
+          <extra>
+            <technique profile="FCOLLADA">
+              <spec_level>
+                <float>0</float>
+              </spec_level>
+              <emission_level>
+                <float>0</float>
+              </emission_level>
+            </technique>
+          </extra>
+        </technique>
+      </profile_COMMON>
+      <extra>
+        <technique profile="MAX3D">
+          <faceted>0</faceted>
+          <double_sided>0</double_sided>
+          <wireframe>0</wireframe>
+          <face_map>0</face_map>
+        </technique>
+        <technique profile="NV_import">
+          <import profile="d3dfx" url="..%5C..%5C..%5Cmaterials%5Cpure_texture_a.fx"/>
+        </technique>
+      </extra>
+    </effect>
+  </library_effects>
+  <library_geometries>
+    <geometry id="ghost_plane-mesh" name="ghost_plane">
+      <mesh>
+        <source id="ghost_plane-mesh-positions">
+          <float_array id="ghost_plane-mesh-positions-array" count="12">409.538 206.821 0 410.684 436.917 0 254.757 206.821 0 255.911 436.141 0</float_array>
+          <technique_common>
+            <accessor source="#ghost_plane-mesh-positions-array" count="4" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="ghost_plane-mesh-normals">
+          <float_array id="ghost_plane-mesh-normals-array" count="18">0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1</float_array>
+          <technique_common>
+            <accessor source="#ghost_plane-mesh-normals-array" count="6" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="ghost_plane-mesh-map-channel1">
+          <float_array id="ghost_plane-mesh-map-channel1-array" count="12">1.02495 0.996661 0 1.03271 -0.009916 0 -0.02343 0.996661 0 -0.015614 -0.006523 0</float_array>
+          <technique_common>
+            <accessor source="#ghost_plane-mesh-map-channel1-array" count="4" stride="3">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+              <param name="P" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="ghost_plane-mesh-map-channel2">
+          <float_array id="ghost_plane-mesh-map-channel2-array" count="12">1.02495 0.996661 0 1.03271 -0.009916 0 -0.02343 0.996661 0 -0.015614 -0.006523 0</float_array>
+          <technique_common>
+            <accessor source="#ghost_plane-mesh-map-channel2-array" count="4" stride="3">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+              <param name="P" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="ghost_plane-mesh-vertices">
+          <input semantic="POSITION" source="#ghost_plane-mesh-positions"/>
+        </vertices>
+        <triangles material="PureAlpha" count="2">
+          <input semantic="VERTEX" source="#ghost_plane-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#ghost_plane-mesh-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#ghost_plane-mesh-map-channel1" offset="2" set="1"/>
+          <input semantic="TEXCOORD" source="#ghost_plane-mesh-map-channel2" offset="3" set="2"/>
+          <p>3 0 3 3 1 1 1 1 0 2 0 0 0 3 0 0 2 4 2 2 3 5 3 3</p>
+        </triangles>
+      </mesh>
+    </geometry>
+  </library_geometries>
+  <library_visual_scenes>
+    <visual_scene id="MAterials.max" name="MAterials_max">
+      <node id="ghost_plane-node" name="ghost_plane" type="NODE">
+        <translate sid="translation">-152.183 0.000004 -50.7277</translate>
+        <rotate sid="RotZ">0 0 1 0</rotate>
+        <rotate sid="RotY">0 1 0 0</rotate>
+        <rotate sid="RotX">1 0 0 90</rotate>
+        <instance_geometry url="#ghost_plane-mesh">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="PureAlpha" target="#PureAlpha"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+        <node id="_flames6-node" name="_flames6" type="NODE">
+          <translate>354.055 279.041 0</translate>
+          <scale>12.3157 12.3157 12.3157</scale>
+          <extra>
+            <technique profile="MAX3D">
+              <helper>
+                <bounding_min>-0.5 -0.5 -0.5</bounding_min>
+                <bounding_max>0.5 0.5 0.5</bounding_max>
+              </helper>
+            </technique>
+          </extra>
+        </node>
+        <node id="_flames7-node" name="_flames7" type="NODE">
+          <translate>290.694 298.245 0</translate>
+          <scale>12.3157 12.3157 12.3157</scale>
+          <extra>
+            <technique profile="MAX3D">
+              <helper>
+                <bounding_min>-0.5 -0.5 -0.5</bounding_min>
+                <bounding_max>0.5 0.5 0.5</bounding_max>
+              </helper>
+            </technique>
+          </extra>
+        </node>
+        <node id="_flames9-node" name="_flames9" type="NODE">
+          <translate>278.057 352.794 0</translate>
+          <scale>12.3157 12.3157 12.3157</scale>
+          <extra>
+            <technique profile="MAX3D">
+              <helper>
+                <bounding_min>-0.5 -0.5 -0.5</bounding_min>
+                <bounding_max>0.5 0.5 0.5</bounding_max>
+              </helper>
+            </technique>
+          </extra>
+        </node>
+        <node id="_flames8-node" name="_flames8" type="NODE">
+          <translate>379.376 348.231 0</translate>
+          <scale>12.3157 12.3157 12.3157</scale>
+          <extra>
+            <technique profile="MAX3D">
+              <helper>
+                <bounding_min>-0.5 -0.5 -0.5</bounding_min>
+                <bounding_max>0.5 0.5 0.5</bounding_max>
+              </helper>
+            </technique>
+          </extra>
+        </node>
+        <node id="_flames5-node" name="_flames5" type="NODE">
+          <translate>324.112 235.577 0</translate>
+          <scale>12.3157 12.3157 12.3157</scale>
+          <extra>
+            <technique profile="MAX3D">
+              <helper>
+                <bounding_min>-0.5 -0.5 -0.5</bounding_min>
+                <bounding_max>0.5 0.5 0.5</bounding_max>
+              </helper>
+            </technique>
+          </extra>
+        </node>
+      </node>
+      <node id="VisualSceneNode" type="NODE">
+        <instance_light url="#ambient-environment-light"/>
+      </node>
+      <extra>
+        <technique profile="FCOLLADA">
+          <start_time>0</start_time>
+          <end_time>2</end_time>
+        </technique>
+      </extra>
+      <extra>
+        <technique profile="MAX3D">
+          <frame_rate>30</frame_rate>
+        </technique>
+      </extra>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_visual_scene url="#MAterials.max"/>
+  </scene>
+</COLLADA>

@@ -1,0 +1,13 @@
+<templates>
+	<options>
+		<view>
+			<normal src="/menu/slider_normal" />
+			<hover src="/menu/slider_hover" />
+			<clicked src="/menu/slider_clicked" />
+		</view>
+		<slideline>
+			<start x="5" y="4" />
+			<end x="162" y="4" />
+		</slideline>
+	</options>
+</templates>

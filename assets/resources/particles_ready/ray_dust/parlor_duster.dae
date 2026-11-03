@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="utf-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1">
+  <asset>
+    <contributor>
+      <author>s.andreev</author>
+      <authoring_tool>3dsMax 9 - Feeling ColladaMax v3.05B.</authoring_tool>
+      <comments>ColladaMax Export Options: ExportNormals=1;ExportEPolyAsTriangles=1;ExportXRefs=1;ExportSelected=1;ExportTangents=0;ExportAnimations=0;SampleAnim=1;ExportAnimClip=1;BakeMatrices=0;ExportRelativePaths=1;AnimStart=1;AnimEnd=2;</comments>
+    </contributor>
+    <created>2009-11-27T14:54:46Z</created>
+    <modified>2009-11-27T14:54:47Z</modified>
+    <unit meter="0.0254" name="inch"/>
+    <up_axis>Z_UP</up_axis>
+  </asset>
+  <library_lights>
+    <light id="ambient-environment-light" name="Ambient">
+      <technique_common>
+        <ambient>
+          <color>0.4 0.4 0.4</color>
+        </ambient>
+      </technique_common>
+      <extra>
+        <technique profile="FCOLLADA">
+          <intensity>1</intensity>
+        </technique>
+      </extra>
+    </light>
+  </library_lights>
+  <library_visual_scenes>
+    <visual_scene id="unnamed_scene" name="unnamed_scene">
+      <node id="_parlor_dust-node" name="_parlor_dust" type="NODE">
+        <translate>129.499 -210.081 284.854</translate>
+        <rotate>-1 0 0 -90</rotate>
+        <scale>89.9424 89.9424 89.9424</scale>
+        <extra>
+          <technique profile="MAX3D">
+            <helper>
+              <bounding_min>-0.5 -0.5 -0.5</bounding_min>
+              <bounding_max>0.5 0.5 0.5</bounding_max>
+            </helper>
+          </technique>
+        </extra>
+      </node>
+      <node id="_parlor_dust2-node" name="_parlor_dust2" type="NODE">
+        <translate>234.582 115.308 478.619</translate>
+        <rotate>-1 0 0 -90</rotate>
+        <scale>89.9424 89.9424 89.9424</scale>
+        <extra>
+          <technique profile="MAX3D">
+            <helper>
+              <bounding_min>-0.5 -0.5 -0.5</bounding_min>
+              <bounding_max>0.5 0.5 0.5</bounding_max>
+            </helper>
+          </technique>
+        </extra>
+      </node>
+      <node id="_parlor_dust1-node" name="_parlor_dust1" type="NODE">
+        <translate>175.435 -67.8393 369.557</translate>
+        <rotate>-1 0 0 -90</rotate>
+        <scale>89.9424 89.9424 89.9424</scale>
+        <extra>
+          <technique profile="MAX3D">
+            <helper>
+              <bounding_min>-0.5 -0.5 -0.5</bounding_min>
+              <bounding_max>0.5 0.5 0.5</bounding_max>
+            </helper>
+          </technique>
+        </extra>
+      </node>
+      <node id="_parlor_dust3-node" name="_parlor_dust3" type="NODE">
+        <translate>468.191 189.004 439.726</translate>
+        <rotate>-1 0 0 -90</rotate>
+        <scale>89.9424 89.9424 89.9424</scale>
+        <extra>
+          <technique profile="MAX3D">
+            <helper>
+              <bounding_min>-0.5 -0.5 -0.5</bounding_min>
+              <bounding_max>0.5 0.5 0.5</bounding_max>
+            </helper>
+          </technique>
+        </extra>
+      </node>
+      <node id="_parlor_dust4-node" name="_parlor_dust4" type="NODE">
+        <translate>636.227 106.234 313.595</translate>
+        <rotate>-1 0 0 -90</rotate>
+        <scale>89.9424 89.9424 89.9424</scale>
+        <extra>
+          <technique profile="MAX3D">
+            <helper>
+              <bounding_min>-0.5 -0.5 -0.5</bounding_min>
+              <bounding_max>0.5 0.5 0.5</bounding_max>
+            </helper>
+          </technique>
+        </extra>
+      </node>
+      <node id="_parlor_dust5-node" name="_parlor_dust5" type="NODE">
+        <translate>571.894 -76.4025 256.119</translate>
+        <rotate>-1 0 0 -90</rotate>
+        <scale>89.9424 89.9424 89.9424</scale>
+        <extra>
+          <technique profile="MAX3D">
+            <helper>
+              <bounding_min>-0.5 -0.5 -0.5</bounding_min>
+              <bounding_max>0.5 0.5 0.5</bounding_max>
+            </helper>
+          </technique>
+        </extra>
+      </node>
+      <node id="_parlor_dust6-node" name="_parlor_dust6" type="NODE">
+        <translate>383.65 -229.955 275.887</translate>
+        <rotate>-1 0 0 -90</rotate>
+        <scale>89.9424 89.9424 89.9424</scale>
+        <extra>
+          <technique profile="MAX3D">
+            <helper>
+              <bounding_min>-0.5 -0.5 -0.5</bounding_min>
+              <bounding_max>0.5 0.5 0.5</bounding_max>
+            </helper>
+          </technique>
+        </extra>
+      </node>
+      <node id="_parlor_dust8-node" name="_parlor_dust8" type="NODE">
+        <translate>204.271 21.4492 422.727</translate>
+        <rotate>-1 0 0 -90</rotate>
+        <scale>89.9424 89.9424 89.9424</scale>
+        <extra>
+          <technique profile="MAX3D">
+            <helper>
+              <bounding_min>-0.5 -0.5 -0.5</bounding_min>
+              <bounding_max>0.5 0.5 0.5</bounding_max>
+            </helper>
+          </technique>
+        </extra>
+      </node>
+      <node id="_parlor_dust7-node" name="_parlor_dust7" type="NODE">
+        <translate>156.807 -125.521 335.208</translate>
+        <rotate>-1 0 0 -90</rotate>
+        <scale>89.9424 89.9424 89.9424</scale>
+        <extra>
+          <technique profile="MAX3D">
+            <helper>
+              <bounding_min>-0.5 -0.5 -0.5</bounding_min>
+              <bounding_max>0.5 0.5 0.5</bounding_max>
+            </helper>
+          </technique>
+        </extra>
+      </node>
+      <node id="_parlor_dust9-node" name="_parlor_dust9" type="NODE">
+        <translate>258.153 188.297 522.083</translate>
+        <rotate>-1 0 0 -90</rotate>
+        <scale>89.9424 89.9424 89.9424</scale>
+        <extra>
+          <technique profile="MAX3D">
+            <helper>
+              <bounding_min>-0.5 -0.5 -0.5</bounding_min>
+              <bounding_max>0.5 0.5 0.5</bounding_max>
+            </helper>
+          </technique>
+        </extra>
+      </node>
+      <node id="_parlor_dust10-node" name="_parlor_dust10" type="NODE">
+        <translate>287.176 278.166 575.599</translate>
+        <rotate>-1 0 0 -90</rotate>
+        <scale>89.9424 89.9424 89.9424</scale>
+        <extra>
+          <technique profile="MAX3D">
+            <helper>
+              <bounding_min>-0.5 -0.5 -0.5</bounding_min>
+              <bounding_max>0.5 0.5 0.5</bounding_max>
+            </helper>
+          </technique>
+        </extra>
+      </node>
+      <node id="_parlor_dust11-node" name="_parlor_dust11" type="NODE">
+        <translate>393.001 226.04 496.165</translate>
+        <rotate>-1 0 0 -90</rotate>
+        <scale>89.9424 89.9424 89.9424</scale>
+        <extra>
+          <technique profile="MAX3D">
+            <helper>
+              <bounding_min>-0.5 -0.5 -0.5</bounding_min>
+              <bounding_max>0.5 0.5 0.5</bounding_max>
+            </helper>
+          </technique>
+        </extra>
+      </node>
+      <node id="_parlor_dust13-node" name="_parlor_dust13" type="NODE">
+        <translate>735.716 57.2283 238.916</translate>
+        <rotate>-1 0 0 -90</rotate>
+        <scale>89.9424 89.9424 89.9424</scale>
+        <extra>
+          <technique profile="MAX3D">
+            <helper>
+              <bounding_min>-0.5 -0.5 -0.5</bounding_min>
+              <bounding_max>0.5 0.5 0.5</bounding_max>
+            </helper>
+          </technique>
+        </extra>
+      </node>
+      <node id="_parlor_dust12-node" name="_parlor_dust12" type="NODE">
+        <translate>563.53 142.042 368.162</translate>
+        <rotate>-1 0 0 -90</rotate>
+        <scale>89.9424 89.9424 89.9424</scale>
+        <extra>
+          <technique profile="MAX3D">
+            <helper>
+              <bounding_min>-0.5 -0.5 -0.5</bounding_min>
+              <bounding_max>0.5 0.5 0.5</bounding_max>
+            </helper>
+          </technique>
+        </extra>
+      </node>
+      <node id="_parlor_dust14-node" name="_parlor_dust14" type="NODE">
+        <translate>661.429 -3.36844 246.717</translate>
+        <rotate>-1 0 0 -90</rotate>
+        <scale>89.9424 89.9424 89.9424</scale>
+        <extra>
+          <technique profile="MAX3D">
+            <helper>
+              <bounding_min>-0.5 -0.5 -0.5</bounding_min>
+              <bounding_max>0.5 0.5 0.5</bounding_max>
+            </helper>
+          </technique>
+        </extra>
+      </node>
+      <node id="_parlor_dust15-node" name="_parlor_dust15" type="NODE">
+        <translate>492.686 -141.013 264.437</translate>
+        <rotate>-1 0 0 -90</rotate>
+        <scale>89.9424 89.9424 89.9424</scale>
+        <extra>
+          <technique profile="MAX3D">
+            <helper>
+              <bounding_min>-0.5 -0.5 -0.5</bounding_min>
+              <bounding_max>0.5 0.5 0.5</bounding_max>
+            </helper>
+          </technique>
+        </extra>
+      </node>
+      <node id="VisualSceneNode" type="NODE">
+        <instance_light url="#ambient-environment-light"/>
+      </node>
+      <extra>
+        <technique profile="FCOLLADA">
+          <start_time>1</start_time>
+          <end_time>2</end_time>
+        </technique>
+      </extra>
+      <extra>
+        <technique profile="MAX3D">
+          <frame_rate>30</frame_rate>
+        </technique>
+      </extra>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_visual_scene url="#unnamed_scene"/>
+  </scene>
+</COLLADA>

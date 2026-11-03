@@ -1,0 +1,340 @@
+<hob stripcode="1200">
+	<groups>
+		<group0 environment="0">
+			<object name="%香水瓶%">
+				<position x="804" y="127" z="-5" />
+				<texture src="HOB_bedside_table/perfume_bottle_pump_scenes" />
+			</object>
+			<object name="%丝带%">
+				<position x="896" y="349" z="-5" />
+				<texture src="HOB_bedside_table/string_scenes" />
+			</object>
+		</group0>
+		<group1>
+<!--			<complex name="%图章戒指%">
+				<object>
+					<position x="236" y="497" z="0" />
+					<texture src="HOB_bedside_table/signet_ring_1_scenes" />
+				</object>
+				<object>
+					<position x="353" y="156" z="0" />
+					<texture src="HOB_bedside_table/signet_ring_2_scenes" />
+				</object>
+				<object>
+					<position x="553" y="289" z="0" />
+					<texture src="HOB_bedside_table/signet_ring_3_scenes" />
+				</object>
+			</complex>
+-->
+			<complex name="%胸针%">
+				<object>
+					<position x="464" y="460" z="0" />
+					<texture src="HOB_bedside_table/brooch_1_scenes" />
+				</object>
+				<object>
+					<position x="838" y="322" z="0" />
+					<texture src="HOB_bedside_table/brooch_2_scenes" />
+				</object>
+				<object>
+					<position x="443" y="249" z="0" />
+					<texture src="HOB_bedside_table/brooch_3_scenes" />
+				</object>
+			</complex>
+			<complex name="%耳环%">
+				<object>
+					<position x="563" y="303" z="0" />
+					<texture src="HOB_bedside_table/earring_1_scenes" />
+				</object>
+				<object>
+					<position x="152" y="353" z="0" />
+					<texture src="HOB_bedside_table/earring_2_scenes" />
+				</object>
+				<object>
+					<position x="699" y="71" z="0" />
+					<texture src="HOB_bedside_table/earring_3_scenes" />
+				</object>
+			</complex>
+			<complex name="%士兵%">
+				<object>
+					<position x="616" y="133" z="0" />
+					<texture src="HOB_bedside_table/soldier_1_scenes" />
+				</object>
+				<object>
+					<position x="-25" y="377" z="0" />
+					<texture src="HOB_bedside_table/soldier_2_scenes" />
+				</object>
+				<object>
+					<position x="691" y="408" z="0" />
+					<texture src="HOB_bedside_table/soldier_3_scenes" />
+				</object>
+			</complex>
+<!--			<complex name="%眼睛%">
+				<object>
+					<position x="257" y="373" z="0" />
+					<texture src="HOB_bedside_table/carved_eye_scenes" />
+				</object>
+				<object>
+					<position x="636" y="232" z="0" />
+					<texture src="HOB_bedside_table/eyeball_scenes" />
+				</object>
+				<object>
+					<position x="926" y="154" z="0" />
+					<texture src="HOB_bedside_table/glass_eye_scenes" />
+				</object>
+				<object>
+					<position x="289" y="235" z="0" />
+					<texture src="HOB_bedside_table/drawn_eye_scenes" />
+				</object>
+			</complex>	
+-->			
+		</group1>		
+		<group2>
+			<object name="%药片%">
+				<position x="888" y="289" z="0" />
+				<texture src="HOB_bedside_table/soporific_pills_scenes" />
+			</object>
+			<object name="%鸟笼%">
+				<position x="946" y="171" z="-5" />
+				<texture src="HOB_bedside_table/bird_cage_scenes" />
+			</object>
+			<object name="%绿色颜料%">
+				<position x="392" y="188" z="0" />
+				<texture src="HOB_bedside_table/oil_paint_scenes" />
+			</object>
+			<object name="%熊%">
+				<position x="227" y="472" z="0" />
+				<texture src="HOB_bedside_table/teddy_bear_scenes" />
+			</object>
+			<object name="%别针%">
+				<position x="901" y="69" z="0" />
+				<texture src="HOB_bedside_table/safety_pin_scenes" />
+			</object>	
+			<object name="%粉盒%">
+				<position x="405" y="30" z="0" />
+				<texture src="HOB_bedside_table/powder_box_scenes" />
+			</object>					
+		</group2>
+		<group3>
+			<object name="%钟表%">
+				<position x="369" y="535" z="0" />
+				<texture src="HOB_bedside_table/alarm_clock_scenes" />
+			</object>
+			<object name="%烟灰缸%">
+				<position x="950" y="389" z="0" />
+				<texture src="HOB_bedside_table/ashtray_scenes" />
+			</object>
+			<object name="%蝙蝠%">
+				<position x="853" y="433" z="-1" />
+				<texture src="HOB_bedside_table/bat_scenes" />
+			</object>
+			<object name="%蜜蜂%">
+				<position x="574" y="8" z="0" />
+				<texture src="HOB_bedside_table/bee_scenes" />
+			</object>
+			<object name="%捕梦网%">
+				<position x="947" y="0" z="0" />
+				<texture src="HOB_bedside_table/dreamcatcher_scenes" />
+			</object>
+			<object name="%蛋%">
+				<position x="142" y="511" z="0" />
+				<texture src="HOB_bedside_table/egg_scenes" />
+			</object>
+			<object name="%苍蝇%">
+				<position x="983" y="525" z="0" />
+				<texture src="HOB_bedside_table/fly_scenes" />
+			</object>	
+			<object name="%高脚杯%">
+				<position x="537" y="191" z="0" />
+				<texture src="HOB_bedside_table/goblet_scenes" />
+			</object>	
+			<object name="%假牙%">
+				<position x="869" y="199" z="-5" />
+				<texture src="HOB_bedside_table/human_jaw_scenes" />
+			</object>	
+			<object name="%小丑%">
+				<position x="168" y="324" z="0" />
+				<texture src="HOB_bedside_table/joker_scenes" />
+			</object>		
+			<object name="%节拍器%">
+				<position x="129" y="433" z="-5" />
+				<texture src="HOB_bedside_table/metronome_scenes" />
+			</object>				
+			<object name="%捕鼠器%">
+				<position x="430" y="408" z="0" />
+				<texture src="HOB_bedside_table/mousetrap_scenes" />
+			</object>	
+			<object name="%项链%">
+				<position x="383" y="13" z="0" />
+				<texture src="HOB_bedside_table/necklace_scenes" />
+			</object>	
+			<object name="%铅笔%">
+				<position x="853" y="549" z="0" />
+				<texture src="HOB_bedside_table/pencil_scenes" />
+			</object>			
+			<object name="%羽毛笔%">
+				<position x="757" y="204" z="0" />
+				<texture src="HOB_bedside_table/quill_scenes" />
+			</object>			
+			<object name="%勺子%">
+				<position x="627" y="465" z="0" />
+				<texture src="HOB_bedside_table/scoop_scenes" />
+			</object>				
+			<object name="%剪子%">
+				<position x="456" y="236" z="0" />
+				<texture src="HOB_bedside_table/shears_scenes" />
+			</object>	
+			<object name="%鼻烟盒%">
+				<position x="766" y="115" z="0" />
+				<texture src="HOB_bedside_table/snuff_box_scenes" />
+			</object>	
+			<object name="%温度计%">
+				<position x="54" y="43" z="0" />
+				<texture src="HOB_bedside_table/thermometer_scenes" />
+			</object>	
+			<object name="%线轴%">
+				<position x="244" y="246" z="0" />
+				<texture src="HOB_bedside_table/thread_scenes" />
+			</object>	
+			<object name="%蟾蜍%">
+				<position x="145" y="561" z="0" />
+				<texture src="HOB_bedside_table/toad_scenes" />
+			</object>	
+			<object name="%雨伞%">
+				<position x="3" y="259" z="0" />
+				<texture src="HOB_bedside_table/umbrella_scenes" />
+			</object>	
+			<object name="%怀表%">
+				<position x="284" y="296" z="0" />
+				<texture src="HOB_bedside_table/watch_scenes" />
+			</object>	
+			<object name="%桌布%">
+				<position x="231" y="129" z="0" />
+				<texture src="HOB_bedside_table/table_cloth_scenes" />
+			</object>	
+			<object name="%扫帚%">
+				<position x="647" y="474" z="0" />
+				<texture src="HOB_bedside_table/broom_scenes" />
+			</object>	
+			<object name="%短袜%">
+				<position x="558" y="255" z="0" />
+				<texture src="HOB_bedside_table/sock_scenes" />
+			</object>	
+			<object name="%女帽%">
+				<position x="544" y="373" z="0" />
+				<texture src="HOB_bedside_table/bonnet_scenes" />
+			</object>	
+			<object name="%棕色瓶子%">
+				<position x="499" y="47" z="0" />
+				<texture src="HOB_bedside_table/brown_bottle_scenes" />
+			</object>
+			<object name="%日历%">
+				<position x="97" y="97" z="0" />
+				<texture src="HOB_bedside_table/calendar_scenes" />
+			</object>			
+			<object name="%烛台%">
+				<position x="820" y="15" z="0" />
+				<texture src="HOB_bedside_table/candlestick_scenes" />
+			</object>				
+		</group3>
+<!--dif_2-->
+		<group4>
+			<object name="%谷粒%">
+				<position x="486" y="541" z="0" />
+				<texture src="HOB_bedside_table/corn_flakes_scenes" />
+			</object>		
+			<object name="%烟斗%">
+				<position x="156" y="114" z="0" />
+				<texture src="HOB_bedside_table/smoking_pipe_scenes" />
+			</object>			
+			<object name="%软木塞%">
+				<position x="326" y="405" z="0" />
+				<texture src="HOB_bedside_table/cork_scenes" />
+			</object>		
+			<object name="%香烟%">
+				<position x="668" y="119" z="0" />
+				<texture src="HOB_bedside_table/cigar_scenes" />
+			</object>		
+			<object name="%连指手套%">
+				<position x="-4" y="535" z="0" />
+				<texture src="HOB_bedside_table/mitten_scenes" />
+			</object>	
+			<object name="%捕蝇草%">
+				<position x="717" y="497" z="0" />
+				<texture src="HOB_bedside_table/flytrap_scenes" />
+			</object>	
+			<object name="%骨头%">
+				<position x="239" y="334" z="0" />
+				<texture src="HOB_bedside_table/leg_bone_scenes" />
+			</object>	
+			<object name="%单片眼镜%">
+				<position x="602" y="247" z="0" />
+				<texture src="HOB_bedside_table/monocle_scenes" />
+			</object>	
+			<object name="%头骨%">
+				<position x="359" y="389" z="0" />
+				<texture src="HOB_bedside_table/skull_scenes" />
+			</object>				
+			<object name="%披肩%">
+				<position x="120" y="-74" z="0" />
+				<texture src="HOB_bedside_table/shawl_scenes" />
+			</object>
+			<object name="%蜘蛛%">
+				<position x="88" y="360" z="0" />
+				<texture src="HOB_bedside_table/spider_scenes" />
+			</object>			
+			<object name="%巫毒符号%">
+				<position x="11" y="161" z="0" />
+				<texture src="HOB_bedside_table/voodoo_symbol_scenes" />
+			</object>			
+		</group4>
+	</groups>
+	
+	<rounds>
+		<round0
+			congratulations="%这个香水瓶的气泵也许会有用!%"
+			congratulations_image="/inventory/perfume_pump"
+			script_complete="HOB_bedside_table/complete_round0"
+		>
+			<slot00 group="group0" object="%香水瓶%" />
+			<slot01 group="group1" />
+			<slot02 group="group3" />
+			<slot03 group="group3" />
+			<slot04 group="group3" />
+			<slot05 group="group3" />
+			<slot06 group="group2" />
+			<slot07 group="group3" />
+			<slot08 group="group3" />
+			<slot09 group="group3" />
+			<slot10 group="group3" />
+			<slot11 group="group3" />
+		</round0>
+		<round1
+			congratulations="%非常好!\n\n你找到了一根蓝色的丝带.\n用它制作一个巫毒娃娃.%"
+			congratulations_image="/inventory/string"
+			script_complete="HOB_bedside_table/complete_round1"
+		>
+			<slot00 group="group0" object="%丝带%" />
+			<slot01 group="group1" />
+			<slot02 group="group3" />
+			<slot03 group="group3" />
+			<slot04 group="group3" />
+			<slot05 group="group3" />
+			<slot06 group="group3" />
+			<slot07 group="group2" />
+			<slot08 group="group3" />
+			<slot09 group="group3" />
+			<slot10 group="group3" />
+			<slot11 group="group3" />
+		</round1>
+</rounds>
+	
+	<environment>
+		<object>
+			<position x="0" y="0" z="10" />
+			<texture src="HOB_bedside_table/background" />
+			<size width="1024" height="768" />
+		</object>
+		
+	</environment>
+	
+</hob>

@@ -1,0 +1,6 @@
+<const>
+	<back_margin x="26" top="38" bottom="44" />
+	<text font="/fonts/tooltip" color="FF230323" />
+	<screen width="1024" />
+	<min_arrow_margin x="25" />
+</const>

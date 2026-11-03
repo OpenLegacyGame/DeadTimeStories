@@ -1,0 +1,30 @@
+<gui>
+	<label>
+		<position x="60" y="50" />
+		<align hor="left" vert="top" />
+		<text font="/fonts/ravenwood_20" color="FF840000">%去除坟场油脂剂%</text>
+		
+		<label>
+			<position y="30" />
+			<size width="230" />
+			<align hor="left" vert="top" />
+			<text font="/fonts/hint" color="FF210e2d">%超自然的油污需要用超自然的清洁剂! 这种混合物是一种蓝色的, 有刺鼻醋味的油性液体. 使用这种混合剂可以轻易去除留在金 属上, 木头上或玻璃上的灵魂残留物. 一定要确保使用木碗来装, 因为这种混合剂很容易溶解其它类型 的容器.%</text>
+		</label>
+	</label>
+
+	<image id="enabled">
+		<file src="sb_grease_cleaning_mixture" />
+		
+		<label>
+			<position x="420" y="58" />
+			<text font="/fonts/acoustic_bass" color="FF6f0070">%容器%</text>
+		</label>
+		<label>
+			<position x="420" y="130" />
+			<text font="/fonts/acoustic_bass" color="FF6f0070">%原料%</text>
+		</label>
+	</image>	
+	<image id="disabled">
+		<file src="sb_grease_cleaning_mixture_hidden" />
+	</image>
+</gui>

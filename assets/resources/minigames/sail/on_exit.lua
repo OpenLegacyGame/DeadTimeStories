@@ -1,0 +1,3 @@
+--scriptOnClose =
+--  'gotoState("lalaurie.back_yard.cellar_door", "open")\n'..
+--  'gotoLocation("lalaurie.back_yard")'

@@ -1,0 +1,20 @@
+<zone>
+	<dependencies>
+		<dir src="french_quarter" />
+		<dir src="\minigames\sort_apothecary_items" />
+		<dir src="\minigames\blocked_well" />
+	</dependencies>
+	<locations>
+		<location name="street_1" src="french_quarter/street_1" />
+		<location name="street_2" src="french_quarter/street_2" />
+		<location name="apothecary_shop" src="french_quarter/apothecary_shop" />
+		<location name="morning_room" src="french_quarter/morning_room" />
+		<location name="gas_lamp_inset" src="french_quarter/street_1/insets/gas_lamp_inset" />
+		<location name="newspaper_stand_inset" src="french_quarter/street_1/insets/newspaper_stand_inset" />
+		<location name="street_clock_inset" src="french_quarter/street_1/insets/street_clock_inset" />
+		<location name="diary_inset" src="french_quarter/morning_room/insets/diary_inset" />
+		<location name="bag_inset" src="french_quarter/morning_room/insets/bag_inset" />
+		<location name="bessie_inset" src="french_quarter/street_2/insets/bessie_inset" />
+		<location name="bucket_inset" src="french_quarter/street_2/insets/bucket_inset" />
+	</locations>
+</zone>

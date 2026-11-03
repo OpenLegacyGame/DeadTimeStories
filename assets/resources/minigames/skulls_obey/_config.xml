@@ -1,0 +1,21 @@
+<skulls_obey>
+	<onFinish script="_on_finish" />
+
+	<skulls quantity="6">
+		<skull index="0" angle="0" sound="/sound/sfx/mg/skulls_obey/mg_and" />
+		<skull index="1" angle="-60" sound="/sound/sfx/mg/skulls_obey/mg_oh" />
+		<skull index="2" angle="-120" sound="/sound/sfx/mg/skulls_obey/mg_eye" />
+		<skull index="3" angle="-180" sound="/sound/sfx/mg/skulls_obey/mg_liss" />
+		<skull index="4" angle="-240" sound="/sound/sfx/mg/skulls_obey/mg_bay" />
+		<skull index="5" angle="-300" sound="/sound/sfx/mg/skulls_obey/mg_en" />
+	</skulls>
+	
+	<correct_phrase delay_before_ms="1000" delay_after_start_ms="2500" />
+	
+	<sequence>2,3,5,0,1,4</sequence>
+	
+	<wheel_rotation_speed deg_per_sec="180" />
+	
+	<wheel_open fade_in_time_ms="1000" />
+	
+</skulls_obey>

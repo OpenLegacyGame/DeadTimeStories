@@ -1,0 +1,1 @@
+gotoLocation("jessie_home.front_gate")

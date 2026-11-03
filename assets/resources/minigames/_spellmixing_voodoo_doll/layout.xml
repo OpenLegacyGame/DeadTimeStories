@@ -1,0 +1,199 @@
+<objects>
+	<object name="back">
+		<position x="0" y="0" z="10" />
+		<texture src="/minigames/_common_spellmixing/background" />
+	</object>
+	
+	<object name="exit">
+		<position x="0" y="618" z="5" />
+		<texture src="/common/half_dark" />
+		<alpha value="0.0" />
+		<size width="1024" height="150" />
+	</object>
+	
+	<object name="pentagram">
+		<position x="108" y="296" z="4" />
+		<texture src="pentagram" />
+	</object>
+	
+	<object name="slot_01">
+		<position x="448" y="285" z="3.9" />
+		<texture src="slot_sp5_01" />
+		<alpha value="0.0" />
+	</object>
+	<object name="slot_02">
+		<position x="152" y="301" z="3.8" />
+		<texture src="slot_sp5_02" />
+		<alpha value="0.0" />
+	</object>
+	<object name="slot_03">
+		<position x="674" y="322" z="3.7" />
+		<texture src="slot_sp5_03" />
+		<alpha value="0.0" />
+	</object>
+	<object name="slot_04">
+		<position x="90" y="397" z="3.6" />
+		<texture src="slot_sp5_04" />
+		<alpha value="0.0" />
+	</object>
+	<object name="slot_05">
+		<position x="715" y="415" z="3.5" />
+		<texture src="slot_sp5_05" />
+		<alpha value="0.0" />
+	</object>
+	<object name="slot_06">
+		<position x="121" y="508" z="3.3" />
+		<texture src="slot_sp5_06" />
+		<alpha value="0.0" />
+	</object>
+	<object name="slot_07">
+		<position x="714" y="516" z="3.2" />
+		<texture src="slot_sp5_01" />
+		<alpha value="0.0" />
+	</object>
+	<object name="slot_08">
+		<position x="551" y="583" z="3.1" />
+		<texture src="slot_sp5_01" />
+		<alpha value="0.0" />
+	</object>
+	<object name="slot_09">
+		<position x="284" y="586" z="3.0" />
+		<texture src="slot_sp5_01" />
+		<alpha value="0.0" />
+	</object>
+	
+	<object name="ingredient_01">
+		<texture src="sticks" />
+		<pivot x="81" y="56" />
+		<visible value="0" />
+		<interactive value="0" />
+	</object>
+	<object name="ingredient_02">
+		<texture src="string" />
+		<pivot x="58" y="45" />
+		<visible value="0" />
+		<interactive value="0" />
+	</object>
+	<object name="ingredient_03">
+		<texture src="moss" />
+		<pivot x="75" y="52" />
+		<visible value="0" />
+		<interactive value="0" />
+	</object>
+	<object name="ingredient_04">
+		<texture src="muslin_bandage" />
+		<pivot x="50" y="49" />
+		<visible value="0" />
+		<interactive value="0" />
+	</object>
+	<object name="ingredient_05">
+		<texture src="sewing_kit" />
+		<pivot x="56" y="69" />
+		<visible value="0" />
+		<interactive value="0" />
+	</object>
+	<object name="ingredient_06">
+		<texture src="lipstick" />
+		<pivot x="46" y="47" />
+		<visible value="0" />
+		<interactive value="0" />
+	</object>
+	<object name="ingredient_07">
+		<texture src="glue" />
+		<pivot x="46" y="156" />
+		<visible value="0" />
+		<interactive value="0" />
+	</object>
+	<object name="ingredient_08">
+		<texture src="two_buttons" />
+		<pivot x="36" y="25" />
+		<visible value="0" />
+		<interactive value="0" />
+	</object>
+	<object name="ingredient_09">
+		<texture src="lalauries_hair" />
+		<pivot x="144" y="42" />
+		<visible value="0" />
+		<interactive value="0" />
+	</object>
+	<object name="ingredient_10">
+		<texture src="lalauries_dress_piece" />
+		<pivot x="69" y="45" />
+		<visible value="0" />
+		<interactive value="0" />
+	</object>
+	
+	<object name="slot_central">
+		<position x="284" y="360" z="3.4" />
+		<texture src="slot_sp5_center" />
+		<alpha value="0.0" />
+	</object>
+	
+	<object name="doll_sticks">
+		<position x="287" y="359" z="3.4" />
+		<texture src="doll_states/sticks" />
+		<interactive value="0" />
+		<visible value="0" />
+	</object>
+	<object name="doll_string">
+		<position x="287" y="359" z="3.4" />
+		<texture src="doll_states/string" />
+		<interactive value="0" />
+		<visible value="0" />
+	</object>
+	<object name="doll_moss">
+		<position x="287" y="359" z="3.4" />
+		<texture src="doll_states/moss" />
+		<interactive value="0" />
+		<visible value="0" />
+	</object>
+	<object name="doll_muslin_bandage">
+		<position x="287" y="359" z="3.4" />
+		<texture src="doll_states/muslin_bandage" />
+		<interactive value="0" />
+		<visible value="0" />
+	</object>
+	<object name="doll_sewing_kit">
+		<position x="287" y="359" z="3.4" />
+		<texture src="doll_states/sewing_kit" />
+		<interactive value="0" />
+		<visible value="0" />
+	</object>
+	<object name="doll_glue">
+		<position x="287" y="359" z="3.4" />
+		<texture src="doll_states/glue" />
+		<interactive value="0" />
+		<visible value="0" />
+	</object>
+	<object name="doll_two_buttons">
+		<position x="287" y="359" z="3.4" />
+		<texture src="doll_states/two_buttons" />
+		<interactive value="0" />
+		<visible value="0" />
+	</object>
+	<object name="doll_lipstick">
+		<position x="287" y="359" z="3.4" />
+		<texture src="doll_states/lipstick" />
+		<interactive value="0" />
+		<visible value="0" />
+	</object>
+	<object name="doll_lalauries_hair">
+		<position x="287" y="359" z="3.4" />
+		<texture src="doll_states/lalauries_hair" />
+		<interactive value="0" />
+		<visible value="0" />
+	</object>
+	<object name="doll_lalauries_dress_piece">
+		<position x="287" y="359" z="3.4" />
+		<texture src="doll_states/lalauries_dress_piece" />
+		<interactive value="0" />
+		<visible value="0" />
+	</object>
+	
+	<object name="riddle">
+		<position x="531" y="0" z="5" />
+		<texture src="paper_05" />
+		<visible value="0" />
+	</object>
+
+</objects>

@@ -1,0 +1,142 @@
+<location>
+	<ambient src="/music/ambient/sfx_crickets" />
+	<onEnter script="mangrove_circle/on_enter" />
+	<objects>
+		<object name="background">
+			<texture src="mangrove_circle/background" />
+		</object>
+		<object name="mango_trigger">
+			<script src="mangrove_circle/mango_trigger" />		
+		</object>
+		
+		<object name="fx_candles">
+			<position z="-30" />
+			<scene src="/particles_ready/mangrove/candles.DAE">
+				<particles src="/particles_ready/candle/candle.psysl" />
+				<particles src="/particles_ready/candle/candle_glow.psysl" />
+			</scene>
+		</object>
+		
+		<object name="fx_candles_r">
+			<position z="-30" />
+			<visible value="0" />
+			<scene src="/particles_ready/mangrove/candles_r.DAE">
+				<particles src="/particles_ready/candle/candle.psysl" />
+				<particles src="/particles_ready/candle/candle_glow.psysl" />
+			</scene>
+		</object>
+		
+		<object name="fx_river">
+			<scene src="/particles_ready/mangrove/water.DAE">
+				<particles src="/particles_ready/river/river_shine.psysl" />
+			</scene>
+		</object>
+		
+		<object name="fx_rays">
+			<scene src="/particles_ready/mangrove/rays.DAE">
+				<particles src="/particles_ready/mangrove/ray_dust.psysl" />
+			</scene>
+		</object>
+		
+		<object name="to_swamp_island">
+			<position x="0" y="403" z="-40" />
+			<texture src="mangrove_circle/to_swamp_island" />
+			<script src="mangrove_circle/to_swamp_island" />
+			<alpha value="0" />
+		</object>
+		<object name="boat_mask">
+			<position x="97" y="430" z="-15" />
+			<texture src="mangrove_circle/boat_placeholder/boat_mask" />
+			<script src="mangrove_circle/boat_placeholder/boat_mask" />
+			<alpha value="0" />
+		</object>		
+		<object name="boat_placeholder">
+			<position x="0" y="119" z="-10" />
+			<texture src="mangrove_circle/boat_placeholder/boat_placeholder" />
+			<script src="mangrove_circle/boat_placeholder/boat_placeholder" />
+		</object>
+		<object name="boat_ready_mask">
+			<position x="531" y="394" z="-20" />
+			<texture src="mangrove_circle/boat_ready/boat_ready_mask" />
+			<script src="mangrove_circle/boat_ready/boat_ready_mask" />
+			<alpha value="0" />
+		</object>
+		<object name="boat_ready">
+			<position x="444" y="312" z="-10" />
+			<texture src="mangrove_circle/boat_ready/boat_ready" />
+			<script src="mangrove_circle/boat_ready/boat_ready" />
+		</object>
+		<object name="basket">
+			<position x="93" y="307" z="-20" />
+			<texture src="mangrove_circle/basket/hob_mask" />
+			<script src="mangrove_circle/basket/basket" />
+			<alpha value="0" />
+		</object>
+		<object name="fx_flora_basket">
+			<position x="93" y="367" z="-20" />			
+			<particles presim="2" src="/particles_ready/FrontGate_HOBLocator/FGate_HOBLocator.psysl" />
+		</object>
+		<object name="sign">
+			<position x="667" y="305" z="-10" />
+			<texture src="mangrove_circle/sign/sign" />
+			<script src="mangrove_circle/sign/sign" />
+			<alpha value="0" />
+		</object>
+		<object name="fx_blink_sign">
+			<position x="677" y="315" z="-20" />		
+			<particles src="/particles_ready/Blink/blink.psysl" />
+		</object>
+		<object name="anole_mask">
+			<position x="425" y="344" z="-15" />
+			<texture src="mangrove_circle/anole/anole_mask" />
+			<script src="mangrove_circle/anole/anole_mask" />
+			<alpha value="0" />
+		</object>
+		<object name="anole">
+			<position x="425" y="344" z="-10" />
+			<texture src="mangrove_circle/anole/anole" />
+			<script src="mangrove_circle/anole/anole" />
+		</object>
+		<object name="fx_blink_anole">
+			<position x="435" y="355" z="-20" />		
+			<particles src="/particles_ready/Blink/blink.psysl" />
+		</object>
+		<object name="mango">
+			<position x="789" y="502" z="-30" />
+			<texture src="mangrove_circle/mango/mango" />
+			<script src="mangrove_circle/mango/mango" />
+		</object>
+		<object name="fx_blink_mango">
+			<position x="800" y="365" z="-35" />		
+			<particles src="/particles_ready/Blink/blink.psysl" />
+		</object>
+		<object name="orchid">
+			<position x="910" y="385" z="-10" />
+			<texture src="mangrove_circle/orchid/orchid" />
+			<script src="mangrove_circle/orchid/orchid" />
+		</object>
+		<object name="fx_blink_orchid">
+			<position x="920" y="400" z="-20" />		
+			<particles src="/particles_ready/Blink/blink.psysl" />
+		</object>
+		<object name="picture">
+			<position x="318" y="184" z="-15" />
+			<texture src="mangrove_circle/picture/picture" />
+			<script src="mangrove_circle/picture/picture" />
+		</object>
+		<object name="fx_blink_picture">
+			<position x="330" y="198" z="-20" />		
+			<particles src="/particles_ready/Blink/blink.psysl" />
+		</object>		
+		
+		<object name="sound_frogs">
+			<script src="mangrove_circle/sfx/frogs" />
+		</object>
+		<object name="sound_water_moving">
+			<script src="mangrove_circle/sfx/water_moving" />
+		</object>
+		<object name="sound_water_splash">
+			<script src="mangrove_circle/sfx/water_splash" />
+		</object>
+	</objects>
+</location>

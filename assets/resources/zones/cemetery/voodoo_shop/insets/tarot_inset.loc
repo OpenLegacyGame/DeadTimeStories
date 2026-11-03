@@ -1,0 +1,24 @@
+<location stripcode="0302">
+	<objects>
+		<object name="back">
+			<texture src="/common/half_dark" />
+			<size width="1024" height="768" />
+			<script src="tarot_inset/back" />
+		</object>
+		<object name="inset">
+			<position x="304" y="127" z="-10" />
+			<texture src="tarot_inset/inset" />
+			<script src="tarot_inset/inset" />
+		</object>
+		<object name="damballah">
+			<position x="516" y="358" z="-15" />
+			<texture src="tarot_inset/damballah_card/damballah" />
+			<script src="tarot_inset/damballah_card/damballah" />
+		</object>
+		<object name="chalk">
+			<position x="471" y="430" z="-20" />
+			<texture src="tarot_inset/chalk/chalk" />
+			<script src="tarot_inset/chalk/chalk" />
+		</object>
+	</objects>
+</location>

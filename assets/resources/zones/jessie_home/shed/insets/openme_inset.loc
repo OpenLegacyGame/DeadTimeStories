@@ -1,0 +1,28 @@
+<location stripcode="0304">
+	<objects>
+		<object name="back">
+			<position z="100" />
+			<texture src="/common/half_dark" />
+			<size width="1024" height="768" />
+			<script src="spice_box_inset/back" />
+		</object>
+		<object name="inset">
+			<position x="222" y="114" z="99" />
+			<texture src="openme_inset/drawer_closed" />
+			<script src="openme_inset/inset" />
+		</object>
+		<object name="drawer_mask">
+			<position x="315" y="194" z="-15" />
+			<texture src="openme_inset/drawer_mask" />
+			<script src="openme_inset/drawer_mask" />
+			<alpha value="0" />
+		</object>		
+		<object name="fx_smoke">
+			<scene src="/particles_ready/smoke/smoke_points.DAE" particles="/particles_ready/smoke/drawer_smoke.psysl" />
+		</object>
+		<object name="fx_blink_drawer">
+			<position x="535" y="350" z="-20" />
+			<particles src="/particles_ready/Blink/blink.psysl" />
+		</object>
+	</objects>
+</location>

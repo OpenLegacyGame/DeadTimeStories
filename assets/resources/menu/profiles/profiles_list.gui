@@ -1,0 +1,164 @@
+<gui>
+	<include src="../common_back.gui" />
+	
+	<image>
+		<file src="/common/half_dark" />
+		<size width="1024" height="768" />
+	</image>
+	<image>
+		<file src="/menu/options/back_options" />
+		<position x="205" y="151" />
+	</image>
+	<image>
+		<file src="back_overlay" />
+		<position x="310" y="239" />
+	</image>
+	<image>
+		<file src="profile_overlay" />
+		<position x="272" y="363" />
+	</image>
+	<image>
+		<file src="doll_overlay" />
+		<position x="625" y="393" />
+	</image>
+	
+	<button id="create">
+		<position x="593" y="304" />
+		<view>
+			<normal src="bt_create_E" />
+			<hover src="bt_create_O" />
+			<clicked src="bt_create_T" />
+			<disabled src="bt_create_D" />
+		</view>
+	</button>
+	
+	<group>
+		<position x="356" y="237" />
+		
+		<button id="item_back0" template="profiles.tgui#item_back">
+			<image id="item_selector0" transparent="1" template="profiles.tgui#item_back_selector" />
+			<button id="item_del0" template="profiles.tgui#item_delete" />
+			<button id="item_ok0" template="profiles.tgui#item_ok" />		
+			<label id="item_label0" template="profiles.tgui#item_label" />
+			
+			<influence>
+				<hover>
+					<onEnter><item_label0 text_color="FF760081" /></onEnter>
+					<onLeave><item_label0 text_color="FF000000" /></onLeave>
+				</hover>
+			</influence>
+		</button>
+		
+		<label id="empty_label0" template="profiles.tgui#empty_label" />
+	</group>
+	
+	<group>
+		<position x="356" y="285" />
+		
+		<button id="item_back1" template="profiles.tgui#item_back">
+			<image id="item_selector1" transparent="1" template="profiles.tgui#item_back_selector" />
+			<button id="item_del1" template="profiles.tgui#item_delete" />
+			<button id="item_ok1" template="profiles.tgui#item_ok" />
+			<label id="item_label1" template="profiles.tgui#item_label" />
+			
+			<influence>
+				<hover>
+					<onEnter><item_label1 text_color="FF760081" /></onEnter>
+					<onLeave><item_label1 text_color="FF000000" /></onLeave>
+				</hover>
+			</influence>
+		</button>
+		
+		<label id="empty_label1" template="profiles.tgui#empty_label" />
+	</group>
+	
+	<group>
+		<position x="356" y="333" />
+	
+		<button id="item_back2" template="profiles.tgui#item_back">
+			<image id="item_selector2" transparent="1" template="profiles.tgui#item_back_selector" />
+			<button id="item_del2" template="profiles.tgui#item_delete" />
+			<button id="item_ok2" template="profiles.tgui#item_ok" />
+			<label id="item_label2" template="profiles.tgui#item_label" />
+
+			<influence>
+				<hover>
+					<onEnter><item_label2 text_color="FF760081" /></onEnter>
+					<onLeave><item_label2 text_color="FF000000" /></onLeave>
+				</hover>
+			</influence>
+		</button>
+		
+		<label id="empty_label2" template="profiles.tgui#empty_label" />
+	</group>
+	
+	<group>
+		<position x="356" y="381" />
+		
+		<button id="item_back3" template="profiles.tgui#item_back">
+			<image id="item_selector3" transparent="1" template="profiles.tgui#item_back_selector" />
+			<button id="item_del3" template="profiles.tgui#item_delete" />
+			<button id="item_ok3" template="profiles.tgui#item_ok" />
+			<label id="item_label3" template="profiles.tgui#item_label" />
+			
+			<influence>
+				<hover>
+					<onEnter><item_label3 text_color="FF760081" /></onEnter>
+					<onLeave><item_label3 text_color="FF000000" /></onLeave>
+				</hover>
+			</influence>
+		</button>
+		
+		<label id="empty_label3" template="profiles.tgui#empty_label" />
+	</group>
+	
+	<group>
+		<position x="356" y="429" />
+	
+		<button id="item_back4" template="profiles.tgui#item_back">
+			<image id="item_selector4" transparent="1" template="profiles.tgui#item_back_selector" />
+			<button id="item_del4" template="profiles.tgui#item_delete" />
+			<button id="item_ok4" template="profiles.tgui#item_ok" />
+			<label id="item_label4" template="profiles.tgui#item_label" />
+			<influence>
+				<hover>
+					<onEnter><item_label4 text_color="FF760081" /></onEnter>
+					<onLeave><item_label4 text_color="FF000000" /></onLeave>
+				</hover>
+			</influence>
+		</button>
+		
+		<label id="empty_label4" template="profiles.tgui#empty_label" />
+	</group>
+	
+	
+	<button id="exit" template="/menu/button.tgui#menu" shortcuts="enter">
+		<position x="358" y="508" />
+		<label template="/menu/label.tgui#menu_button">
+			<text>%确认%</text>
+		</label>
+	</button>
+	
+	<image>
+		<position x="504" y="156" />
+		<file src="/menu/options/overlay_options" />
+	</image>
+	
+	<label>
+		<position x="610" y="207" />
+		<size width="170" height="70" />
+		<align ver="center" hor="center" />
+		<text font="/fonts/ravenwood_26" color="FFe9d49a" >%存档%</text>
+	</label>
+	
+	<button id="navigate_up" shortcuts="up">
+		<size width="0" height="0" />
+	</button>
+	<button id="navigate_down" shortcuts="down">
+		<size width="0" height="0" />
+	</button>
+	<button id="delete_shortcut" shortcuts="del">
+		<size width="0" height="0" />
+	</button>
+
+</gui>

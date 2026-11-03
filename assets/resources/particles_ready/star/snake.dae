@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1">
+  <asset>
+    <contributor>
+      <author>s.andreev</author>
+      <authoring_tool>3dsMax 9 - Feeling ColladaMax v3.05B.</authoring_tool>
+      <comments>ColladaMax Export Options: ExportNormals=1;ExportEPolyAsTriangles=1;ExportXRefs=1;ExportSelected=1;ExportTangents=0;ExportAnimations=1;SampleAnim=1;ExportAnimClip=1;BakeMatrices=0;ExportRelativePaths=1;AnimStart=0;AnimEnd=2.66667;</comments>
+    </contributor>
+    <created>2010-02-22T14:53:50Z</created>
+    <modified>2010-02-22T14:53:53Z</modified>
+    <unit meter="0.0254" name="inch"/>
+    <up_axis>Z_UP</up_axis>
+  </asset>
+  <library_animations>
+    <animation id="_pondspecblood1-node-translation">
+      <source id="_pondspecblood1-node-translation__pondspecblood1-node_translation-input">
+        <float_array id="_pondspecblood1-node-translation__pondspecblood1-node_translation-input-array" count="81">0 0.033333 0.066666 0.1 0.133333 0.166667 0.2 0.233333 0.266667 0.3 0.333333 0.366667 0.4 0.433333 0.466667 0.5 0.533333 0.566667 0.6 0.633333 0.666667 0.7 0.733333 0.766667 0.8 0.833333 0.866667 0.9 0.933333 0.966667 1 1.03333 1.06667 1.1 1.13333 1.16667 1.2 1.23333 1.26667 1.3 1.33333 1.36667 1.4 1.43333 1.46667 1.5 1.53333 1.56667 1.6 1.63333 1.66667 1.7 1.73333 1.76667 1.8 1.83333 1.86667 1.9 1.93333 1.96667 2 2.03333 2.06667 2.1 2.13333 2.16667 2.2 2.23333 2.26667 2.3 2.33333 2.36667 2.4 2.43333 2.46667 2.5 2.53333 2.56667 2.6 2.63333 2.66667</float_array>
+        <technique_common>
+          <accessor source="#_pondspecblood1-node-translation__pondspecblood1-node_translation-input-array" count="81" stride="1">
+            <param name="TIME" type="float"/>
+          </accessor>
+        </technique_common>
+        <technique profile="MAYA">
+          <pre_infinity>CONSTANT</pre_infinity>
+          <post_infinity>CYCLE</post_infinity>
+        </technique>
+      </source>
+      <source id="_pondspecblood1-node-translation__pondspecblood1-node_translation-output">
+        <float_array id="_pondspecblood1-node-translation__pondspecblood1-node_translation-output-array" count="243">638.44 0 284.348 645.839 0 290.79 645.668 0 301.644 644.077 0 312.419 642.539 0 323.202 641.781 0 334.064 642.253 0 344.941 643.794 0 355.721 646.138 0 366.357 649.002 0 376.866 652.084 0 387.314 655 0 397.808 657.155 0 408.48 657.407 0 419.341 653.867 0 429.543 646.151 0 437.118 636.501 0 442.137 626.307 0 445.972 615.945 0 449.328 605.555 0 452.601 595.24 0 456.102 585.141 0 460.177 575.452 0 465.145 566.249 0 470.967 557.511 0 477.468 549.112 0 484.404 540.805 0 491.449 532.227 0 498.16 522.959 0 503.863 512.773 0 507.653 501.976 0 508.861 491.165 0 507.66 480.662 0 504.799 470.556 0 500.75 460.943 0 495.638 452.044 0 489.371 444.457 0 481.591 439.639 0 471.891 438.483 0 461.105 439.927 0 450.32 442.484 0 439.733 445.107 0 429.162 446.987 0 418.437 447.386 0 407.564 445.718 0 396.82 441.846 0 386.658 436.439 0 377.208 430.388 0 368.151 424.213 0 359.177 418.291 0 350.036 413.01 0 340.513 408.857 0 330.452 406.31 0 319.873 405.397 0 309.028 406.075 0 298.165 408.404 0 287.537 412.655 0 277.531 419.487 0 269.123 429.101 0 264.18 439.884 0 262.899 450.738 0 263.726 461.514 0 265.319 472.332 0 266.558 483.152 0 265.762 492.232 0 260.092 497.695 0 250.69 503.689 0 241.631 512.456 0 235.312 522.999 0 232.765 533.876 0 232.876 544.638 0 234.531 555.233 0 237.052 565.682 0 240.128 575.996 0 243.628 586.179 0 247.495 596.216 0 251.715 606.093 0 256.314 615.747 0 261.361 625.047 0 267.028 633.572 0 273.784 637.493 0 283.233</float_array>
+        <technique_common>
+          <accessor source="#_pondspecblood1-node-translation__pondspecblood1-node_translation-output-array" count="81" stride="3">
+            <param name="X" type="float"/>
+            <param name="Y" type="float"/>
+            <param name="Z" type="float"/>
+          </accessor>
+        </technique_common>
+      </source>
+      <source id="_pondspecblood1-node-translation__pondspecblood1-node_translation-interpolations">
+        <Name_array id="_pondspecblood1-node-translation__pondspecblood1-node_translation-interpolations-array" count="81">LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR</Name_array>
+        <technique_common>
+          <accessor source="#_pondspecblood1-node-translation__pondspecblood1-node_translation-interpolations-array" count="81" stride="1">
+            <param name="INTERPOLATION" type="Name"/>
+          </accessor>
+        </technique_common>
+      </source>
+      <sampler id="_pondspecblood1-node-translation__pondspecblood1-node_translation-sampler">
+        <input semantic="INPUT" source="#_pondspecblood1-node-translation__pondspecblood1-node_translation-input"/>
+        <input semantic="OUTPUT" source="#_pondspecblood1-node-translation__pondspecblood1-node_translation-output"/>
+        <input semantic="INTERPOLATION" source="#_pondspecblood1-node-translation__pondspecblood1-node_translation-interpolations"/>
+      </sampler>
+      <channel source="#_pondspecblood1-node-translation__pondspecblood1-node_translation-sampler" target="_pondspecblood1-node/translation"/>
+    </animation>
+    <animation id="_pondspecblood6-node-translation">
+      <source id="_pondspecblood6-node-translation__pondspecblood6-node_translation-input">
+        <float_array id="_pondspecblood6-node-translation__pondspecblood6-node_translation-input-array" count="81">0 0.033333 0.066666 0.1 0.133333 0.166667 0.2 0.233333 0.266667 0.3 0.333333 0.366667 0.4 0.433333 0.466667 0.5 0.533333 0.566667 0.6 0.633333 0.666667 0.7 0.733333 0.766667 0.8 0.833333 0.866667 0.9 0.933333 0.966667 1 1.03333 1.06667 1.1 1.13333 1.16667 1.2 1.23333 1.26667 1.3 1.33333 1.36667 1.4 1.43333 1.46667 1.5 1.53333 1.56667 1.6 1.63333 1.66667 1.7 1.73333 1.76667 1.8 1.83333 1.86667 1.9 1.93333 1.96667 2 2.03333 2.06667 2.1 2.13333 2.16667 2.2 2.23333 2.26667 2.3 2.33333 2.36667 2.4 2.43333 2.46667 2.5 2.53333 2.56667 2.6 2.63333 2.66667</float_array>
+        <technique_common>
+          <accessor source="#_pondspecblood6-node-translation__pondspecblood6-node_translation-input-array" count="81" stride="1">
+            <param name="TIME" type="float"/>
+          </accessor>
+        </technique_common>
+        <technique profile="MAYA">
+          <pre_infinity>CONSTANT</pre_infinity>
+          <post_infinity>CONSTANT</post_infinity>
+        </technique>
+      </source>
+      <source id="_pondspecblood6-node-translation__pondspecblood6-node_translation-output">
+        <float_array id="_pondspecblood6-node-translation__pondspecblood6-node_translation-output-array" count="243">422.659 0 468.489 413.955 0 463.965 411.573 0 453.374 410.589 0 442.527 409.553 0 431.684 407.739 0 420.948 404.727 0 410.485 400.698 0 400.369 395.922 0 390.58 390.671 0 381.038 385.222 0 371.605 379.924 0 362.089 375.323 0 352.221 372.528 0 341.723 373.574 0 330.976 379.296 0 321.801 387.499 0 314.656 396.507 0 308.535 405.792 0 302.839 415.123 0 297.219 424.327 0 291.394 433.187 0 285.062 441.44 0 277.958 449.018 0 270.139 455.985 0 261.767 462.521 0 253.053 468.942 0 244.255 475.705 0 235.718 483.375 0 227.998 492.386 0 221.923 502.598 0 218.214 513.388 0 216.843 524.269 0 217.157 535.044 0 218.721 545.588 0 221.434 555.71 0 225.436 564.911 0 231.217 571.872 0 239.515 575.529 0 249.727 576.657 0 260.55 576.656 0 271.442 576.589 0 282.333 577.279 0 293.199 579.445 0 303.862 583.589 0 313.915 589.738 0 322.883 597.213 0 330.799 605.22 0 338.183 613.33 0 345.456 621.232 0 352.952 628.602 0 360.969 635 0 369.773 639.96 0 379.459 643.394 0 389.786 645.285 0 400.504 645.516 0 411.382 643.733 0 422.107 639.067 0 431.883 630.882 0 438.945 620.701 0 442.723 609.957 0 444.466 599.108 0 445.449 588.301 0 446.784 577.97 0 450.097 570.475 0 457.742 567.373 0 468.163 563.673 0 478.376 556.634 0 486.577 546.984 0 491.528 536.385 0 493.974 525.535 0 494.892 514.645 0 494.928 503.765 0 494.391 492.917 0 493.411 482.112 0 492.043 471.365 0 490.298 460.684 0 488.146 450.115 0 485.506 439.745 0 482.182 429.871 0 477.615 423.841 0 469.351</float_array>
+        <technique_common>
+          <accessor source="#_pondspecblood6-node-translation__pondspecblood6-node_translation-output-array" count="81" stride="3">
+            <param name="X" type="float"/>
+            <param name="Y" type="float"/>
+            <param name="Z" type="float"/>
+          </accessor>
+        </technique_common>
+      </source>
+      <source id="_pondspecblood6-node-translation__pondspecblood6-node_translation-interpolations">
+        <Name_array id="_pondspecblood6-node-translation__pondspecblood6-node_translation-interpolations-array" count="81">LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR</Name_array>
+        <technique_common>
+          <accessor source="#_pondspecblood6-node-translation__pondspecblood6-node_translation-interpolations-array" count="81" stride="1">
+            <param name="INTERPOLATION" type="Name"/>
+          </accessor>
+        </technique_common>
+      </source>
+      <sampler id="_pondspecblood6-node-translation__pondspecblood6-node_translation-sampler">
+        <input semantic="INPUT" source="#_pondspecblood6-node-translation__pondspecblood6-node_translation-input"/>
+        <input semantic="OUTPUT" source="#_pondspecblood6-node-translation__pondspecblood6-node_translation-output"/>
+        <input semantic="INTERPOLATION" source="#_pondspecblood6-node-translation__pondspecblood6-node_translation-interpolations"/>
+      </sampler>
+      <channel source="#_pondspecblood6-node-translation__pondspecblood6-node_translation-sampler" target="_pondspecblood6-node/translation"/>
+    </animation>
+  </library_animations>
+  <library_animation_clips>
+    <animation_clip id="AnimationClip" start="0" end="3.33333">
+      <instance_animation url="#_pondspecblood1-node-translation"/>
+      <instance_animation url="#_pondspecblood6-node-translation"/>
+    </animation_clip>
+  </library_animation_clips>
+  <library_lights>
+    <light id="ambient-environment-light" name="Ambient">
+      <technique_common>
+        <ambient>
+          <color>0.4 0.4 0.4</color>
+        </ambient>
+      </technique_common>
+      <extra>
+        <technique profile="FCOLLADA">
+          <intensity>1</intensity>
+        </technique>
+      </extra>
+    </light>
+  </library_lights>
+  <library_visual_scenes>
+    <visual_scene id="unnamed_scene" name="unnamed_scene">
+      <node id="_pondspecblood1-node" name="_pondspecblood1" type="NODE">
+        <translate sid="translation">638.44 0 284.348</translate>
+        <rotate sid="RotZ">0 0 1 0</rotate>
+        <rotate sid="RotY">0 1 0 0</rotate>
+        <rotate sid="RotX">1 0 0 90</rotate>
+        <scale>1 1 1</scale>
+        <extra>
+          <technique profile="MAX3D">
+            <helper>
+              <bounding_min>-0.5 -0.5 -0.5</bounding_min>
+              <bounding_max>0.5 0.5 0.5</bounding_max>
+            </helper>
+          </technique>
+        </extra>
+      </node>
+      <node id="_pondspecblood6-node" name="_pondspecblood6" type="NODE">
+        <translate sid="translation">422.659 0 468.489</translate>
+        <rotate sid="RotZ">0 0 1 0</rotate>
+        <rotate sid="RotY">0 1 0 0</rotate>
+        <rotate sid="RotX">1 0 0 90</rotate>
+        <scale>1 1 1</scale>
+        <extra>
+          <technique profile="MAX3D">
+            <helper>
+              <bounding_min>-0.5 -0.5 -0.5</bounding_min>
+              <bounding_max>0.5 0.5 0.5</bounding_max>
+            </helper>
+          </technique>
+        </extra>
+      </node>
+      <node id="VisualSceneNode" type="NODE">
+        <instance_light url="#ambient-environment-light"/>
+      </node>
+      <extra>
+        <technique profile="FCOLLADA">
+          <start_time>0</start_time>
+          <end_time>2.66667</end_time>
+        </technique>
+      </extra>
+      <extra>
+        <technique profile="MAX3D">
+          <frame_rate>30</frame_rate>
+        </technique>
+      </extra>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_visual_scene url="#unnamed_scene"/>
+  </scene>
+</COLLADA>

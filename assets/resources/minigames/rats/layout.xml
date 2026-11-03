@@ -1,0 +1,237 @@
+<objects>
+
+	<object name="back">
+		<position x="0" y="0" z="20" />
+		<texture src="background" />
+	</object>
+	
+	<object name="seeds">
+		<position x="285" y="430" z="-1" />
+		<texture src="seeds" />
+	</object>
+	
+	<object name="exit">
+		<position x="0" y="618" z="15" />
+		<texture src="/common/half_dark" />
+		<alpha value="0.0" />
+		<size width="1024" height="150" />
+	</object>
+	
+	<object name="mirror_00_00" >
+		<position x="312" y="525" z="-10" />
+		<texture src="mirrors/00_00" />
+		<visible value="0" />
+	</object>
+	<object name="mirror_00_01" >
+		<position x="315" y="515" />
+		<texture src="mirrors/00_01" />
+		<visible value="0" />
+	</object>
+	<object name="mirror_00_02" >
+		<position x="315" y="515" />
+		<texture src="mirrors/00_02" />
+		<visible value="0" />
+	</object>
+	
+	<object name="mirror_01_00" >
+		<position x="730" y="391" />
+		<texture src="mirrors/01_00" />
+		<visible value="0" />
+	</object>
+	<object name="mirror_01_01" >
+		<position x="736" y="390" />
+		<texture src="mirrors/01_01" />
+		<visible value="0" />
+	</object>
+	<object name="mirror_01_02" >
+		<position x="731" y="390" />
+		<texture src="mirrors/01_02" />
+		<visible value="0" />
+	</object>
+	
+	<object name="mirror_02_00" >
+		<position x="514" y="592" z="-10" />
+		<texture src="mirrors/02_00" />
+		<visible value="0" />
+	</object>
+	<object name="mirror_02_01" >
+		<position x="511" y="593" z="-10" />
+		<texture src="mirrors/02_01" />
+		<visible value="0" />
+	</object>
+	<object name="mirror_02_02" >
+		<position x="499" y="592" z="-10" />
+		<texture src="mirrors/02_02" />
+		<visible value="0" />
+	</object>
+	
+	<object name="rat_00">
+		<position x="290" y="433" z="-2" />
+		<texture src="rats/00" />
+		<visible value="0" />
+	</object>
+	<object name="rat_01">
+		<position x="705" y="505" z="-2" />
+		<texture src="rats/01" />
+		<visible value="0" />
+	</object>
+	<object name="rat_02">
+		<position x="634" y="401" z="-2" />
+		<texture src="rats/02" />
+		<visible value="0" />
+	</object>
+	
+	<object name="beam_00">
+		<pivot y="25" />
+		<position x="820" y="280" />
+		<rotationZ degrees="151" />
+		<size width="540" height="50" />
+		<texture src="beams/beam" />
+		<material src="/materials/quad_tex_add" />
+		<visible value="0" />
+		<interactive value="0" />
+	</object>
+	<object name="beam_01">
+		<pivot y="25" />
+		<position x="350" y="550" />
+		<rotationZ degrees="-70" />
+		<size width="500" height="50" />
+		<texture src="beams/beam" />
+		<material src="/materials/quad_tex_add" />
+		<visible value="0" />
+		<interactive value="0" />
+	</object>
+	<object name="beam_02">
+		<pivot y="25" />
+		<position x="350" y="550" />
+		<rotationZ degrees="20" />
+		<size width="200" height="50" />
+		<texture src="beams/beam" />
+		<material src="/materials/quad_tex_add" />
+		<visible value="0" />
+		<interactive value="0" />
+	</object>
+	<object name="beam_03">
+		<pivot y="25" />
+		<position x="350" y="550" />
+		<rotationZ degrees="-18" />
+		<size width="420" height="50" />
+		<texture src="beams/beam" />
+		<material src="/materials/quad_tex_add" />
+		<visible value="0" />
+		<interactive value="0" />
+	</object>
+	<object name="beam_04">
+		<pivot y="25" />
+		<position x="550" y="620" />
+		<rotationZ degrees="-90" />
+		<size width="420" height="50" />
+		<texture src="beams/beam" />
+		<material src="/materials/quad_tex_add" />
+		<visible value="0" />
+		<interactive value="0" />
+	</object>
+	<object name="beam_05">
+		<pivot y="25" />
+		<position x="550" y="620" />
+		<rotationZ degrees="-46" />
+		<size width="300" height="50" />
+		<texture src="beams/beam" />
+		<material src="/materials/quad_tex_add" />
+		<visible value="0" />
+		<interactive value="0" />
+	</object>
+	<object name="beam_06">
+		<pivot y="25" />
+		<position x="550" y="610" />
+		<rotationZ degrees="-61" />
+		<size width="250" height="50" />
+		<texture src="beams/beam" />
+		<material src="/materials/quad_tex_add" />
+		<visible value="0" />
+		<interactive value="0" />
+	</object>
+	<object name="beam_07">
+	</object>
+	<object name="beam_08">
+		<pivot y="25" />
+		<position x="750" y="420" />
+		<rotationZ degrees="-170" />
+		<size width="400" height="50" />
+		<texture src="beams/beam" />
+		<material src="/materials/quad_tex_add" />
+		<visible value="0" />
+		<interactive value="0" />
+	</object>
+	<object name="beam_09">
+		<pivot y="25" />
+		<position x="750" y="420" />
+		<rotationZ degrees="-105" />
+		<size width="300" height="50" />
+		<texture src="beams/beam" />
+		<material src="/materials/quad_tex_add" />
+		<visible value="0" />
+		<interactive value="0" />
+	</object>
+	<object name="beam_10">
+		<pivot y="25" />
+		<position x="740" y="420" />
+		<rotationZ degrees="-90" />
+		<size width="330" height="50" />
+		<texture src="beams/beam" />
+		<material src="/materials/quad_tex_add" />
+		<visible value="0" />
+		<interactive value="0" />
+	</object>
+	<object name="beam_11">
+		<pivot y="25" />
+		<position x="750" y="420" />
+		<rotationZ degrees="-160" />
+		<size width="450" height="50" />
+		<texture src="beams/beam" />
+		<material src="/materials/quad_tex_add" />
+		<visible value="0" />
+		<interactive value="0" />
+	</object>
+	<object name="beam_12">
+		<pivot y="25" />
+		<position x="750" y="420" />
+		<rotationZ degrees="135" />
+		<size width="300" height="50" />
+		<texture src="beams/beam" />
+		<material src="/materials/quad_tex_add" />
+		<visible value="0" />
+		<interactive value="0" />
+	</object>
+	<object name="beam_13">
+		<pivot y="25" />
+		<position x="560" y="630" />
+		<rotationZ degrees="-145" />
+		<size width="350" height="50" />
+		<texture src="beams/beam" />
+		<material src="/materials/quad_tex_add" />
+		<visible value="0" />
+		<interactive value="0" />
+	</object>
+	<object name="beam_14">
+		<pivot y="25" />
+		<position x="550" y="620" />
+		<rotationZ degrees="-30" />
+		<size width="250" height="50" />
+		<texture src="beams/beam" />
+		<material src="/materials/quad_tex_add" />
+		<visible value="0" />
+		<interactive value="0" />
+	</object>
+	<object name="beam_15">
+		<pivot y="25" />
+		<position x="550" y="630" />
+		<rotationZ degrees="-100" />
+		<size width="350" height="50" />
+		<texture src="beams/beam" />
+		<material src="/materials/quad_tex_add" />
+		<visible value="0" />
+		<interactive value="0" />
+	</object>
+	
+</objects>

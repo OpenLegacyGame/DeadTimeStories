@@ -1,0 +1,6 @@
+<replacements>
+	<replace src="{wait}" dest="5" />
+	<replace src="{fadein}" dest="3" />
+	<replace src="{smile_before}" dest="0.5" />
+	<replace src="{blink}" dest="0.25" />
+</replacements>

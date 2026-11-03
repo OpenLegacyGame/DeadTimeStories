@@ -1,0 +1,30 @@
+<gui>
+	<label>
+		<position x="60" y="50" />
+		<align hor="left" vert="top" />
+		<text font="/fonts/ravenwood_20" color="FF840000">%乌头解毒剂%</text>
+		
+		<label>
+			<position y="30" />
+			<size width="230" />
+			<align hor="left" vert="top" />
+			<text font="/fonts/hint" color="FF210e2d">%这是唯一可以解除乌头引起的肠胃痉挛 综合症的药剂. 绿色外壳的晶体粉末, 有点像彩色的盐. 溶在水或非酒精饮料中, 然后喝下去.%</text>
+		</label>
+	</label>
+
+	<image id="enabled">
+		<file src="sb_antidot" />
+		
+		<label>
+			<position x="420" y="58" />
+			<text font="/fonts/acoustic_bass" color="FF6f0070">%容器%</text>
+		</label>
+		<label>
+			<position x="420" y="130" />
+			<text font="/fonts/acoustic_bass" color="FF6f0070">%原料%</text>
+		</label>
+	</image>
+	<image id="disabled">
+		<file src="sb_antidot_hidden" />
+	</image>	
+</gui>

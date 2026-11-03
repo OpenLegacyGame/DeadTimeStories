@@ -1,0 +1,360 @@
+<location stripcode="0100">
+	<onFirstVisit script="front_gate/starter" />
+	<onEnter script="front_gate/on_enter" />
+	<music>
+		<track src="/music/02_Jessie_Theme" silence_after="5" />
+		<track src="/music/03_Spirit_World" silence_after="5" />
+		<track src="/music/07_Cajun_Swamp_Mystery" silence_after="5" />
+	</music>
+	<ambient src="/music/ambient/sfx_crickets" />
+	<objects>
+		<object name="beta_trigger">
+			<script src="front_gate/beta_trigger" />
+		</object>
+		<object name="zone_trigger">
+			<script src="front_gate/zone_trigger" />
+		</object>
+		<object name="back">
+			<texture src="front_gate/back" />
+		</object>
+		<object name="fx_ghosts">
+			<position z="-1" />
+			<particles src="/particles_ready/frontgate_ghosts/ghosts1.psysl" />
+		</object>
+		<object name="front">
+			<position z="-5" />
+			<texture src="front_gate/front" />
+			<interactive value="0" />
+		</object>
+		<object name="fx_shadow">
+			<position z="-6" />
+			<particles src="/particles_ready/front_gate_shadow/shadow.psysl" />
+		</object>
+		<object name="windows_layer">
+			<position x="596" y="217" z="-7" />
+			<texture src="front_gate/windows" />
+		</object>
+		<object name="miazma">
+			<position x="380" y="360" z="-15" />
+			<texture src="front_gate/miazma/miazma" />
+			<!-- <particles src="/particles_ready/front_gate_miasma/miasma.psysl" /> -->
+			<material src="/materials/quad_interp" />
+			<script src="front_gate/miazma/miazma" />
+			<sound src="/sound/sfx/sfx_miasma" type="env" />
+		</object>
+		<object name="rock">
+			<position x="176" y="446" z="-10" />
+			<texture src="front_gate/rock/stone_closed" />
+			<script src="front_gate/rock/rock" />
+		</object>
+		<object name="fx_blink_rock">
+			<position x="256" y="476" z="-20" />		
+			<particles src="/particles_ready/Blink/blink.psysl" />
+		</object>
+		<object name="apple">
+			<position x="679" y="304" z="-10" />
+			<texture src="front_gate/apple/apple" />
+			<script src="front_gate/apple/apple" />
+		</object>
+		<object name="fx_blink_apple">
+			<position x="689" y="314" z="-20" />		
+			<particles src="/particles_ready/Blink/blink.psysl" />
+		</object>
+		<object name="lemon">
+			<position x="421" y="326" z="-10" />
+			<texture src="front_gate/lemon/lemon" />
+			<script src="front_gate/lemon/lemon" />
+		</object>
+		<object name="fx_blink_lemon">
+			<position x="431" y="335" z="-20" />		
+			<particles src="/particles_ready/Blink/blink.psysl" />
+		</object>
+		<object name="boards">
+			<position x="9" y="320" z="-10" />
+			<alpha value="0" />
+			<texture src="front_gate/boards/boards" />
+			<script src="front_gate/boards/boards" />
+		</object>
+		<object name="boards_anim">
+			<position z="-10" />
+			<scene src="/particles_ready/shed_closed/shed_closed.dae" looped="1" />
+		</object>
+		<object name="fx_blink_boards">
+			<position x="100" y="380" z="-20" />		
+			<particles src="/particles_ready/Blink/blink.psysl" />
+		</object>
+		<object name="fx_boards_changing">
+			<position x="60" y="380" z="-11" />
+			<particles src="\particles_ready\snake_appear\snake_appear.psysl" />
+			<script src="/zones/_common/fx_changing" />
+		</object>
+		<object name="to_shed">
+			<position x="5" y="231" z="-9" />
+			<texture src="front_gate/shed_MASK" />
+			<script src="front_gate/to_shed" />
+			<alpha value="0" />
+		</object>
+<!--		<object name="patch_of_earth">
+			<position x="189" y="543" z="-10" />
+			<texture src="front_gate/patch_of_earth/patch_of_earth_MASK" />
+			<script src="front_gate/patch_of_earth/patch_of_earth" />
+			<alpha value="0" />
+		</object>
+		<object name="patch_of_earth_open">
+			<position x="189" y="543" z="-15" />
+			<texture src="front_gate/patch_of_earth/patch_of_earth_open" />			
+		</object>	
+		<object name="fx_blink_patch_of_earth">
+			<position x="259" y="603" z="-20" />		
+			<particles src="/particles_ready/Blink/blink.psysl" />
+		</object>		
+		<object name="lantern_glass">
+			<position x="285" y="637" z="-20" />
+			<texture src="front_gate/lantern_glass/lantern_glass" />
+			<script src="front_gate/lantern_glass/lantern_glass" />
+		</object>
+-->		
+		<object name="to_HOB_plants">
+			<position x="770" y="400" z="-50" />
+			<texture src="/common/half_dark" />
+			<script src="front_gate/to_HOB_plants" />
+			<size width="250" height="170" />
+			<alpha value="0" />
+		</object>
+		<object name="mailbox">
+			<position x="378" y="411" z="-10" />
+			<texture src="front_gate/mailbox_inset/mailbox_closed" />
+			<script src="front_gate/mailbox_inset/mailbox" />
+		</object>
+		<object name="fx_blink_mailbox">
+			<position x="388" y="421" z="-20" />		
+			<particles src="/particles_ready/Blink/blink.psysl" />
+		</object>
+		<object name="sprouts">
+			<position x="350" y="520" z="-10" />
+			<texture src="front_gate/sprouts/sprouts" />
+			<script src="front_gate/sprouts/sprouts" />
+			<alpha value="0" />
+		</object>
+		<object name="fx_sprouts_changing">
+			<position x="400" y="560" z="-11" />
+			<particles src="\particles_ready\snake_appear\snake_appear.psysl" />
+			<script src="/zones/_common/fx_changing" />
+		</object>
+		<object name="fx_blink_sprouts">
+			<position x="420" y="550" z="-30" />		
+			<particles src="/particles_ready/Blink/blink.psysl" />
+		</object>
+		<object name="sprout1">
+			<position x="369" y="468" z="-20" />
+			<texture src="front_gate/sprouts/sprout1" />
+			<script src="front_gate/sprouts/sprout1" />
+		</object>
+		<object name="sprout2">
+			<position x="369" y="468" z="-20" />
+			<texture src="front_gate/sprouts/sprout2" />
+			<script src="front_gate/sprouts/sprout2" />
+		</object>
+		<object name="sprout3">
+			<position x="369" y="468" z="-20" />
+			<texture src="front_gate/sprouts/sprout3" />
+			<script src="front_gate/sprouts/sprout3" />
+		</object>
+		<object name="fx_sprout1_changing">
+			<position x="350" y="520" z="-11" />
+			<particles src="\particles_ready\snake_appear\snake_appear.psysl" />
+			<script src="/zones/_common/fx_changing" />
+		</object>
+		<object name="fx_sprout2_changing">
+			<position x="400" y="520" z="-11" />
+			<particles src="\particles_ready\snake_appear\snake_appear.psysl" />
+			<script src="/zones/_common/fx_changing" />
+		</object>
+		<object name="fx_sprout3_changing">
+			<position x="430" y="520" z="-11" />
+			<particles src="\particles_ready\snake_appear\snake_appear.psysl" />
+			<script src="/zones/_common/fx_changing" />
+		</object>
+		<object name="front_gate_carriage">
+			<position x="0" y="417" z="-50" />
+			<texture src="front_gate/front_gate_carriage/front_gate_carriage" />
+			<script src="front_gate/front_gate_carriage/front_gate_carriage" />	
+		</object>		
+		<object name="fx_flora">
+			<position x="785" y="438" z="-20" />		
+			<particles presim="2" src="/particles_ready/FrontGate_HOBLocator/FGate_HOBLocator.psysl" />
+		</object>
+		<object name="fx_shed">
+			<position x="73" y="248" z="-20" />
+			<texture src="front_gate/fx_shed/shed" />			
+			<material src="/materials/quad_interp" />
+			<interactive value="0" />
+		</object>
+		<object name="fx_cloud01">
+			<texture src="front_gate/fx_clouds/OblPlane_01" />
+			<animation src="front_gate/fx_clouds/cloud01" />
+			<!-- <particles src="/template.psysl" /> -->
+		</object>
+		<object name="fx_cloud02">
+			<texture src="front_gate/fx_clouds/OblPlane_02" />
+			<animation src="front_gate/fx_clouds/cloud02" />
+		</object>
+		
+		
+		<object name="to_parlor">
+			<position x="444" y="313" z="-10" />
+			<texture src="/common/half_dark" />
+			<script src="front_gate/to_parlor" />
+			<size width="186" height="200" />
+			<alpha value="0" />
+		</object>
+		<object name="house">
+			<position x="718" y="244" z="-10" />
+			<texture src="/common/half_dark" />
+			<script src="front_gate/house" />
+			<size width="113" height="160" />
+			<alpha value="0" />
+		</object>
+		<object name="flowers1">
+			<position x="0" y="430" z="-5" />
+			<texture src="/common/half_dark" />
+			<script src="front_gate/flowers1" />
+			<size width="120" height="90" />
+			<alpha value="0" />
+		</object>
+<!--		<object name="flowers2">
+			<position x="60" y="580" z="-5" />
+			<texture src="/common/half_dark" />
+			<script src="front_gate/flowers2" />
+			<size width="130" height="100" />
+			<alpha value="1" />
+		</object>
+		<object name="flowers3">
+			<position x="490" y="530" z="-5" />
+			<texture src="/common/half_dark" />
+			<script src="front_gate/flowers3" />
+			<size width="250" height="150" />
+			<alpha value="1" />
+		</object>
+-->
+		<object name="fx_bats01">
+			<position z="-1" />
+			<particles src="/particles_ready/bats/bats.psysl" />
+		</object>
+		<object name="fx_bats02">
+			<position z="-1" />
+			<particles src="/particles_ready/bats/bats2.psysl" />
+		</object>
+		<object name="fx_bats03">
+			<position z="-1" />
+			<particles src="/particles_ready/bats/bats3.psysl" />
+		</object>
+		<object name="fx_bats04">
+			<position z="-1" />
+			<particles src="/particles_ready/bats/bats4.psysl" />
+		</object>
+		<object name="fx_ghost">
+			<position z="-2" />
+			<particles src="/particles_ready/frontgate_ghosts/ghosts.psysl" />
+		</object>
+		<object name="fx_fog">
+			<alpha value="0.3" />
+			<position y="200" z="-1" />
+			<particles src="/particles_ready/gazeboofog/back_fog.psysl" />
+		</object>
+		
+		<object name="sfx_bats">
+			<script src="front_gate/sfx/bats" />
+		</object>
+		<object name="sfx_spirits">
+			<script src="front_gate/sfx/spirits" />
+		</object>
+		<object name="sfx_wind">
+			<script src="front_gate/sfx/wind" />
+		</object>
+		<object name="sfx_shadow">
+			<script src="front_gate/sfx/shadow" />
+		</object>
+	
+		<!-- TEMP -->
+<!--
+		<object name="intro.csc">
+			<position x="0" z="-100" />
+			<texture src="/common/half_dark" />
+			<size width="90" height="100" />
+			<script src="cutscenes/intro" />
+		</object>
+		<object name="ch2_end.csc">
+			<position z="-100" x="100" />
+			<texture src="/common/half_dark" />
+			<size width="90" height="100" />
+			<script src="cutscenes/ch2_end" />
+		</object>
+		<object name="ch2_garlic.csc">
+			<position z="-100" x="200" />
+			<texture src="/common/half_dark" />
+			<size width="90" height="100" />
+			<script src="cutscenes/ch2_garlic" />
+		</object>
+		<object name="ch2_opening.csc">
+			<position z="-100" x="300" />
+			<texture src="/common/half_dark" />
+			<size width="90" height="100" />
+			<script src="cutscenes/ch2_opening" />
+		</object>
+		<object name="ch3_end.csc">
+			<position z="-100" x="400" />
+			<texture src="/common/half_dark" />
+			<size width="90" height="100" />
+			<script src="cutscenes/ch3_end" />
+		</object>
+		<object name="ch4_end.csc">
+			<position z="-100" x="500" />
+			<texture src="/common/half_dark" />
+			<size width="90" height="100" />
+			<script src="cutscenes/ch4_end" />
+		</object>
+		<object name="ch4_mid.csc">
+			<position z="-100" x="600" />
+			<texture src="/common/half_dark" />
+			<size width="90" height="100" />
+			<script src="cutscenes/ch4_mid" />
+		</object>
+		<object name="ch5_end.csc">
+			<position z="-100" x="700" />
+			<texture src="/common/half_dark" />
+			<size width="90" height="100" />
+			<script src="cutscenes/ch5_end" />
+		</object>
+		<object name="ch5_mid.csc">
+			<position z="-100" x="800" />
+			<texture src="/common/half_dark" />
+			<size width="90" height="100" />
+			<script src="cutscenes/ch5_mid" />
+		</object>
+		<object name="ch6_end.csc">
+			<position z="-100" x="900" />
+			<texture src="/common/half_dark" />
+			<size width="90" height="100" />
+			<script src="cutscenes/ch6_end" />
+		</object>
+-->		
+<!--
+		<object name="debug_obj">
+			<position z="-1" />
+			<script src="test" />
+			<texture src="unexistent" />
+		</object>
+-->
+
+
+<!--
+		<object name="debug_obj1">
+			<position z="-1" />
+			<script src="test1" />
+			<texture src="unexistent" />
+		</object>
+-->
+
+	</objects>
+</location>

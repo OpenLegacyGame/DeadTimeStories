@@ -1,0 +1,231 @@
+<location>
+	<ambient src="/music/ambient/sfx_crickets" />
+	<objects>
+		<object name="background">
+			<texture src="swamp_island/background" />
+		</object>
+
+		<object name="fx_fog">
+			<particles src="/particles_ready/swamp/gaspump_fog.psysl" />
+		</object>
+
+		<object name="fx_bird_eye">
+			<scene src="/particles_ready/swamp/birdeye.DAE">
+				<particles src="/particles_ready/swamp/birdeye.psysl" />
+			</scene>
+		</object>
+		<object name="fx_moon_shine_on_water">
+			<scene src="/particles_ready/swamp/swamp_water1.DAE">
+				<particles src="/particles_ready/swamp/swamp_water1.psysl"/>
+				<particles src="/particles_ready/swamp/swamp_water1a.psysl"/>
+				<particles src="/particles_ready/swamp/swamp_water1b.psysl"/>
+			</scene>
+		</object>
+		<object name="fx_deep_eyes1">
+			<scene src="/particles_ready/swamp/deep_eyes1.DAE">
+				<particles src="/particles_ready/swamp/deep_eyes.psysl" />
+			</scene>
+		</object>
+		<object name="fx_deep_eyes2">
+			<scene src="/particles_ready/swamp/deep_eyes2.DAE">
+				<particles src="/particles_ready/swamp/deep_eyes.psysl" />
+			</scene>
+		</object>
+		<object name="fx_deep_eyes3">
+			<scene src="/particles_ready/swamp/deep_eyes3.DAE">
+				<particles src="/particles_ready/swamp/deep_eyes.psysl" />
+			</scene>
+		</object>
+		<object name="fx_deep_eyes4">
+			<scene src="/particles_ready/swamp/deep_eyes4.DAE">
+				<particles src="/particles_ready/swamp/deep_eyes.psysl" />
+			</scene>
+		</object>
+		<object name="fx_deep_eyes5">
+			<scene src="/particles_ready/swamp/deep_eyes5.DAE">
+				<particles src="/particles_ready/swamp/deep_eyes.psysl" />
+			</scene>
+		</object>
+		
+		<object name="fx_moon">
+			<position z="-1" />
+			<scene src="/particles_ready/gaspump/moon.DAE">
+				<particles src="/particles_ready/gaspump/moon.psysl" />
+			</scene>
+		</object>
+		
+		<object name="front">
+			<position z="-2" />
+			<texture src="swamp_island/top" />
+		</object>
+		
+		<object name="fx_water_front">
+			<scene src="/particles_ready/swamp/swamp_water2.DAE">
+				<particles src="/particles_ready/swamp/swamp_water2.psysl" />
+			</scene>
+		</object>
+		<object name="fx_pipe_changing">
+			<position x="774" y="409" z="-11" />
+			<particles src="\particles_ready\snake_appear\snake_appear.psysl" />
+			<script src="/zones/_common/fx_changing" />
+		</object>		
+		
+		<object name="to_swamp_house">
+			<position x="0" y="428" z="-20" />
+			<texture src="swamp_island/to_swamp_house" />
+			<script src="swamp_island/to_swamp_house" />
+			<alpha value="0" />
+		</object>
+		<object name="to_mangrove_circle">
+			<position x="256" y="173" z="-20" />
+			<texture src="swamp_island/to_mangrove_circle" />
+			<script src="swamp_island/to_mangrove_circle" />
+			<alpha value="0" />
+		</object>	
+		<object name="pipe">
+			<position x="748" y="393" z="-10" />
+			<texture src="swamp_island/pipe/pipe" />
+			<script src="swamp_island/pipe/pipe" />
+		</object>
+		<object name="fx_blink_pipe">
+			<position x="888" y="358" z="-20" />		
+			<particles src="/particles_ready/Blink/blink.psysl" />
+		</object>	
+		<object name="skeleton">
+			<position x="780" y="313" z="-10" />
+			<texture src="swamp_island/skeleton/skeleton_phase_01" />
+			<script src="swamp_island/skeleton/skeleton" />
+		</object>
+		<object name="bloomers">
+			<position x="56" y="251" z="-10" />
+			<texture src="swamp_island/bloomers/bloomers" />
+			<script src="swamp_island/bloomers/bloomers" />
+		</object>
+		<object name="fx_blink_bloomers">
+			<position x="123" y="253" z="-20" />		
+			<particles src="/particles_ready/Blink/blink.psysl" />
+		</object>		
+		<object name="nightdress">
+			<position x="0" y="252" z="-10" />
+			<texture src="swamp_island/nightdress/nightdress" />
+			<script src="swamp_island/nightdress/nightdress" />
+		</object>
+		<object name="fx_blink_nightdress">
+			<position x="10" y="277" z="-20" />		
+			<particles src="/particles_ready/Blink/blink.psysl" />
+		</object>		
+		<object name="shirt">
+			<position x="142" y="222" z="-10" />
+			<texture src="swamp_island/shirt/shirt" />
+			<script src="swamp_island/shirt/shirt" />
+		</object>
+		<object name="fx_blink_shirt">
+			<position x="155" y="247" z="-20" />		
+			<particles src="/particles_ready/Blink/blink.psysl" />
+		</object>	
+		<object name="trowel">
+			<position x="121" y="245" z="-10" />
+			<texture src="swamp_island/trowel/trowel" />
+			<script src="swamp_island/trowel/trowel" />
+		</object>
+		<object name="fx_blink_trowel">
+			<position x="133" y="258" z="-20" />		
+			<particles src="/particles_ready/Blink/blink.psysl" />
+		</object>		
+		<object name="bird">
+			<position x="319" y="91" z="-10" />
+			<texture src="swamp_island/bird/bird" />
+			<script src="swamp_island/bird/bird" />
+		</object>
+		<object name="bird_mask">
+			<position x="308" y="71" z="-15" />
+			<texture src="swamp_island/bird/bird_mask" />
+			<script src="swamp_island/bird/bird_mask" />
+			<alpha value="0" />
+		</object>
+		<object name="fx_blink_bird">
+			<position x="344" y="55" z="-20" />		
+			<particles src="/particles_ready/Blink/blink.psysl" />
+		</object>		
+		<object name="fish">
+			<position x="387" y="452" z="-10" />
+			<texture src="swamp_island/fish/fish" />
+			<script src="swamp_island/fish/fish" />
+		</object>
+		<object name="fx_blink_fish">
+			<position x="400" y="456" z="-20" />		
+			<particles src="/particles_ready/Blink/blink.psysl" />
+		</object>	
+		<object name="sticks">
+			<position x="387" y="477" z="-10" />
+			<texture src="swamp_island/sticks/sticks" />
+			<script src="swamp_island/sticks/sticks" />
+		</object>
+		<object name="fx_blink_sticks">
+			<position x="445" y="507" z="-20" />		
+			<particles src="/particles_ready/Blink/blink.psysl" />
+		</object>	
+		<object name="drawer">
+			<position x="586" y="499" z="-5" />
+			<texture src="swamp_island/drawer/drawer_closed" />
+			<script src="swamp_island/drawer/drawer" />
+		</object>
+		<object name="fx_blink_drawer">
+			<position x="596" y="610" z="-20" />		
+			<particles src="/particles_ready/Blink/blink.psysl" />
+		</object>	
+		<object name="moonshine">
+			<position x="669" y="508" z="-10" />
+			<texture src="swamp_island/moonshine/moonshine" />
+			<script src="swamp_island/moonshine/moonshine" />
+		</object>
+		<object name="fx_blink_moonshine">
+			<position x="680" y="521" z="-20" />		
+			<particles src="/particles_ready/Blink/blink.psysl" />
+		</object>	
+		<object name="thread">
+			<position x="640" y="525" z="-10" />
+			<texture src="swamp_island/thread/thread" />
+			<script src="swamp_island/thread/thread" />
+		</object>
+		<object name="fx_blink_thread">
+			<position x="650" y="535" z="-20" />		
+			<particles src="/particles_ready/Blink/blink.psysl" />
+		</object>	
+		<object name="wringer_corner">
+			<position x="673" y="514" z="-10" />				
+			<texture src="swamp_island/wringer_corner/hob_mask" />
+			<script src="swamp_island/wringer_corner/wringer_corner" />
+			<alpha value="0" />			
+		</object>
+		<object name="fx_flora_wringer_corner">
+			<position x="677" y="520" z="-20" />
+			<size width="96" height="100" />			
+			<particles presim="2" src="/particles_ready/FrontGate_HOBLocator/FGate_HOBLocator.psysl" />
+		</object>
+		<object name="wringer_mask">
+			<position x="494" y="398" z="-10" />
+			<texture src="swamp_island/wringer_minigame/wringer_mask" />
+			<script src="swamp_island/wringer_minigame/wringer_mask" />
+			<alpha value="0" />	
+		</object>			
+		<object name="wringer_minigame">
+			<position x="482" y="407" z="-6" />
+			<texture src="swamp_island/wringer_minigame/wringer_minigame" />
+			<script src="swamp_island/wringer_minigame/wringer_minigame" />
+		</object>		
+		
+		<object name="sound_frogs">
+			<script src="swamp_island/sfx/frogs" />
+		</object>
+		<object name="sound_howl_at_the_moon">
+			<script src="swamp_island/sfx/howl_at_the_moon" />
+		</object>
+		<object name="sound_eyes">
+			<script src="swamp_island/sfx/eyes" />
+		</object>
+		<object name="sound_water_moving">
+			<script src="swamp_island/sfx/water_moving" />
+		</object>
+	</objects>
+</location>

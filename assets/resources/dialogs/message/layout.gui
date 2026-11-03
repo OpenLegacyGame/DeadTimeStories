@@ -1,0 +1,28 @@
+<gui>
+	<image>
+		<file src="/common/half_dark" />
+		<size width="1024" height="768" />
+	</image>
+	
+	<image>
+		<file src="back_message_box" />
+		<position x="306" y="130" />
+	</image>
+			
+	<label id="prompt">
+		<position x="396" y="220" />
+		<size width="270" height="275" />
+		<text font="/fonts/acoustic_bass" color="FF2d1031">无提示</text>
+	</label>
+
+	<button id="anywhere">
+		<mask src="/common/half_dark" width="1024" height="768" />
+	</button>
+	
+	<button id="button_ok" template="/menu/button.tgui#menu" shortcuts="enter;esc">
+		<position x="373" y="485" />
+		<label template="/menu/label.tgui#menu_button">
+			<text>%确定%</text>
+		</label>
+	</button>
+</gui>

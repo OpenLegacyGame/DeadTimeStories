@@ -1,0 +1,22 @@
+<cellar_doors>
+	<onFinish script="_on_finish" />
+
+	<syllables>
+		<syllable index="0" name="ly" sound="/sound/sfx/mg/cellar_doors/mg_ly" />
+		<syllable index="1" name="tal" sound="/sound/sfx/mg/cellar_doors/mg_tar" />
+		<syllable index="2" name="iate" sound="/sound/sfx/mg/cellar_doors/mg_iate" />
+		<syllable index="3" name="car" sound="/sound/sfx/mg/cellar_doors/mg_car" />
+		<syllable index="4" name="sal" sound="/sound/sfx/mg/cellar_doors/mg_sal" />
+		<syllable index="5" name="va" sound="/sound/sfx/mg/cellar_doors/mg_va" />
+		<syllable index="6" name="tion" sound="/sound/sfx/mg/cellar_doors/mg_tion" />
+		<syllable index="7" name="lab" sound="/sound/sfx/mg/cellar_doors/mg_mal" />
+	</syllables>
+	<word>sal-va-tion</word>
+	
+	<incorrect_word_sounds>
+		<sound src="/sound/sfx/mg/mg_wrong_name" />
+	</incorrect_word_sounds>
+
+	<incorrect_word_fade_delay ms="1500" />
+	
+</cellar_doors>

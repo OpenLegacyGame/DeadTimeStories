@@ -1,0 +1,19 @@
+<zone>
+	<dependencies>
+		<dir src="lalaurie" />
+		<dir src="\particles_ready\souls" />
+		<dir src="\minigames\rats" />
+		<dir src="\minigames\dove_cote" />
+		<dir src="\minigames\cellar_doors" />
+		<dir src="\minigames\spirit_lock" />
+		<dir src="\minigames\reveal_spirits" />
+	</dependencies>
+	<locations>
+		<location name="back_yard" src="lalaurie/back_yard" />
+		<location name="cellar" src="lalaurie/cellar" />
+		<location name="gazebo_exterior" src="lalaurie/gazebo_exterior" />
+		<location name="pond" src="lalaurie/pond" />
+		<location name="railing_inset" src="lalaurie/back_yard/insets/railing_inset" />
+		<location name="scary_tree_inset" src="lalaurie/pond/insets/scary_tree_inset" />
+	</locations>
+</zone>

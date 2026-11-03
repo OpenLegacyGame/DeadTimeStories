@@ -1,0 +1,116 @@
+<animation_set looped="0">
+	<animation type="keys" applier="picture" priority="0" weight="1.0" start="0.0" looped="0">
+		<keys type="picture">
+			<cyclic value="0" />
+			<picture>
+				<key relative_time="0.4">logo/frame_007</key>
+				<key relative_time="0.04">logo/frame_007</key>
+				<key relative_time="0.04">logo/frame_008</key>
+				<key relative_time="0.04">logo/frame_009</key>
+				<key relative_time="0.04">logo/frame_010</key>
+				<key relative_time="0.04">logo/frame_011</key>
+				<key relative_time="0.04">logo/frame_012</key>
+				<key relative_time="0.04">logo/frame_013</key>
+				<key relative_time="0.04">logo/frame_014</key>
+				<key relative_time="0.04">logo/frame_015</key>
+				<key relative_time="0.04">logo/frame_016</key>
+				<key relative_time="0.04">logo/frame_017</key>
+				<key relative_time="0.04">logo/frame_018</key>
+				<key relative_time="0.04">logo/frame_019</key>
+				<key relative_time="0.04">logo/frame_020</key>
+				<key relative_time="0.04">logo/frame_021</key>
+				<key relative_time="0.04">logo/frame_022</key>
+				<key relative_time="0.04">logo/frame_023</key>
+				<key relative_time="0.04">logo/frame_024</key>
+				<key relative_time="0.04">logo/frame_025</key>
+				<key relative_time="0.04">logo/frame_026</key>
+				<key relative_time="0.04">logo/frame_027</key>
+				<key relative_time="0.04">logo/frame_028</key>
+				<key relative_time="0.04">logo/frame_029</key>
+				<key relative_time="0.04">logo/frame_030</key>
+				<key relative_time="0.04">logo/frame_031</key>
+				<key relative_time="0.04">logo/frame_032</key>
+				<key relative_time="0.04">logo/frame_033</key>
+				<key relative_time="0.04">logo/frame_034</key>
+				<key relative_time="0.04">logo/frame_035</key>
+				<key relative_time="0.04">logo/frame_036</key>
+				<key relative_time="0.04">logo/frame_037</key>
+				<key relative_time="0.04">logo/frame_038</key>
+				<key relative_time="0.04">logo/frame_039</key>
+				<key relative_time="0.04">logo/frame_040</key>
+				<key relative_time="0.04">logo/frame_041</key>
+				<key relative_time="0.04">logo/frame_042</key>
+				<key relative_time="0.04">logo/frame_043</key>
+				<key relative_time="0.04">logo/frame_044</key>
+				<key relative_time="0.04">logo/frame_045</key>
+				<key relative_time="0.04">logo/frame_046</key>
+				<key relative_time="0.04">logo/frame_047</key>
+				<key relative_time="0.04">logo/frame_048</key>
+				<key relative_time="0.04">logo/frame_049</key>
+				<key relative_time="0.04">logo/frame_050</key>
+				<key relative_time="0.04">logo/frame_051</key>
+				<key relative_time="0.04">logo/frame_052</key>
+				<key relative_time="0.04">logo/frame_053</key>
+				<key relative_time="0.04">logo/frame_054</key>
+				<key relative_time="0.04">logo/frame_055</key>
+				<key relative_time="0.04">logo/frame_056</key>
+				<key relative_time="0.04">logo/frame_057</key>
+				<key relative_time="0.04">logo/frame_058</key>
+				<key relative_time="0.04">logo/frame_059</key>
+				<key relative_time="0.04">logo/frame_060</key>
+				<key relative_time="0.04">logo/frame_061</key>
+				<key relative_time="0.04">logo/frame_062</key>
+				<key relative_time="0.04">logo/frame_063</key>
+				<key relative_time="0.04">logo/frame_064</key>
+				<key relative_time="0.04">logo/frame_065</key>
+				<key relative_time="0.04">logo/frame_066</key>
+				<key relative_time="0.04">logo/frame_067</key>
+				<key relative_time="0.04">logo/frame_068</key>
+				<key relative_time="0.04">logo/frame_069</key>
+				<key relative_time="0.04">logo/frame_070</key>
+				<key relative_time="0.04">logo/frame_071</key>
+				<key relative_time="0.04">logo/frame_072</key>
+				<key relative_time="0.04">logo/frame_073</key>
+				<key relative_time="0.04">logo/frame_074</key>
+				<key relative_time="0.04">logo/frame_075</key>
+				<key relative_time="0.04">logo/frame_076</key>
+				<key relative_time="0.04">logo/frame_077</key>
+				<key relative_time="0.04">logo/frame_078</key>
+				<key relative_time="0.04">logo/frame_079</key>
+				<key relative_time="0.04">logo/frame_080</key>
+				<key relative_time="0.04">logo/frame_081</key>
+				<key relative_time="0.04">logo/frame_082</key>
+				<key relative_time="0.04">logo/frame_083</key>
+				<key relative_time="0.04">logo/frame_084</key>
+				<key relative_time="0.04">logo/frame_085</key>
+				<key relative_time="0.04">logo/frame_086</key>
+				<key relative_time="0.04">logo/frame_087</key>
+				<key relative_time="0.04">logo/frame_088</key>
+				<key relative_time="0.04">logo/frame_089</key>
+				<key relative_time="0.04">logo/frame_090</key>
+				<key relative_time="0.04">logo/frame_091</key>
+				<key relative_time="0.04">logo/frame_092</key>
+				<key relative_time="0.04">logo/frame_093</key>
+				<key relative_time="0.04">logo/frame_094</key>
+				<key relative_time="0.04">logo/frame_095</key>
+				<key relative_time="0.04">logo/frame_096</key>
+				<key relative_time="0.04">logo/frame_097</key>
+				<key relative_time="0.04">logo/frame_098</key>
+				<key relative_time="1.0">logo/frame_098</key>
+			</picture>
+		</keys>
+	</animation>
+	
+</animation_set>
+
+	<animation type="keys" applier="alpha" priority="0" weight="1.0" start="0.0" looped="0">
+		<keys type="float">
+			<cyclic value="0" />
+			<float>
+				<key relative_time="0">0</key>
+				<key relative_time="1">1</key>
+				<key relative_time="2">1</key>
+				<key relative_time="1">0</key>
+			</float>
+		</keys>
+	</animation>

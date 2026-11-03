@@ -1,0 +1,57 @@
+<spirit_lock>
+	<onFinish script="_on_finish" />
+	
+	<!-- Order of the following pieces must correspond exactly
+		 to the scene object indexes in layout file (1..8)
+	     Each tag must be named exactly the same as its
+		 corresponding inventory object (see /inventory/_objects.xml).
+	-->		 
+	<pieces>
+		<aemaet_piece/>
+		<barbathioath_piece/>
+		<kedavra_piece/>
+		<ephphata_piece/>
+		<matba_piece/>
+		<selah_piece/>
+		<yaldabaoth_piece/>
+		<harrahya_piece/>
+	</pieces>
+	
+	<turn_lock>
+		<!-- This is lock's own angular velocity.
+		     Player cannot turn it faster than this value,
+			 although it still tries to follow the cursor movements, but with a possible lag.
+		-->
+		<velocity degrees_per_second="360" />
+		
+		<!-- This is lock's velocity when it swings back
+			 after an unsuccessful open attempt.
+		-->
+		<swing_back_velocity degrees_per_second="540" />
+		
+		<!-- This is min/max ratio between the lock radius and
+		     length of the radius-vector ending at the point which the user is holding.
+			 Out-of-bounds cursor position changes are ignored in rotation calculations.
+		-->
+		<limit_radius_vector min_ratio="0.25" max_ratio="1.25" />
+		
+		<!-- "min_degrees" is minimum angle between current and target grip points,
+			 at which the rotation will start. It prevents the "shaking" effect,
+			 which otherwise occurs after rotating the lock a bit and stopping
+			 the mouse cursor without releasing the mouse button.
+			 "max_degrees", however, is used for limiting changes in the target grip point
+			 (that is the point which the lock will try to "follow" with its
+			 own max rotation velocity). This setting should prevent "jumps",
+			 e.g. when the player moves mouse cursor through the lock center,
+			 thus reversing the radius-vector.
+		-->
+		<limit_angle_difference min_degrees="5" max_degrees="30" />
+		
+		<sequence>
+			<key angle_degrees="-360" sound="/sound/sfx/mg/spirit_lock/mg_holy" />
+			<key angle_degrees="-720" sound="/sound/sfx/mg/spirit_lock/mg_holy" />
+			<key angle_degrees="-1080" sound="/sound/sfx/mg/spirit_lock/mg_set_the_captives_free" />
+		</sequence>
+	</turn_lock>
+	
+</spirit_lock>

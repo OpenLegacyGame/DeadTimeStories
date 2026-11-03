@@ -1,0 +1,15 @@
+<animation_set looped="0">
+	<animation type="keys" applier="picture" priority="0" weight="1.0" start="0.0" looped="0">
+		<keys type="picture">
+			<cyclic value="0" />
+			<picture>
+				<key relative_time="0.00">block_rotation/01</key>
+				<key relative_time="0.05">block_rotation/02</key>
+				<key relative_time="0.05">block_rotation/03</key>
+				<key relative_time="0.05">block_rotation/04</key>
+				<key relative_time="0.05">block_rotation/05</key>
+				<key relative_time="0.05">block_rotation/06</key>	
+			</picture>
+		</keys>
+	</animation>
+</animation_set>

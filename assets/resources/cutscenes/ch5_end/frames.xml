@@ -1,0 +1,10 @@
+<replacements>
+	<replace src="{1}" dest="14" />
+	<replace src="{2}" dest="17" />
+	<replace src="{3}" dest="2" />
+	<replace src="{4}" dest="6" />
+	<replace src="{4_lip_fly}" dest="1" />
+	<replace src="{4_lip_rest}" dest="5" />
+	<replace src="{5}" dest="6" />
+	<replace src="{6}" dest="4" />
+</replacements>

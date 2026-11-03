@@ -1,0 +1,72 @@
+<objects>
+	<object name="back">
+		<position x="0" y="0" z="10" />
+		<texture src="background" />
+	</object>
+
+	<object name="exit">
+		<position x="0" y="618" z="8" />
+		<texture src="/common/half_dark" />
+		<alpha value="0.0" />
+		<size width="1024" height="150" />
+	</object>
+	
+	<object name="wheel">
+		<position x="508" y="379" z="1" />
+		<pivot x="374" y="374" />
+		<texture src="skull_circle" />
+	</object>
+	
+	<object name="lid">
+		<position x="446" y="318" z="0.8" />
+		<texture src="circle_lid" />
+	</object>
+	<object name="reward">
+		<position x="483" y="349" z="0.9" />
+		<texture src="skull_key" />
+	</object>
+	
+	<object name="skull_01">
+		<position x="508" y="135" z="0" />
+		<pivot x="69" y="69" />
+		<texture src="mask" />
+		<alpha value="0.0" />
+	</object>
+	<object name="skull_02">
+		<position x="719" y="257" z="0" />
+		<pivot x="69" y="69" />
+		<texture src="mask" />
+		<alpha value="0.0" />
+	</object>
+	<object name="skull_03">
+		<position x="719" y="500" z="0" />
+		<pivot x="69" y="69" />
+		<texture src="mask" />
+		<alpha value="0.0" />
+	</object>
+	<object name="skull_04">
+		<position x="508" y="621" z="0" />
+		<pivot x="69" y="69" />
+		<texture src="mask" />
+		<alpha value="0.0" />
+	</object>
+	<object name="skull_05">
+		<position x="299" y="500" z="0" />
+		<pivot x="69" y="69" />
+		<texture src="mask" />
+		<alpha value="0.0" />
+	</object>
+	<object name="skull_06">
+		<position x="308" y="253" z="0" />
+		<pivot x="69" y="69" />
+		<texture src="mask" />
+		<alpha value="0.0" />
+	</object>
+	
+	<object name="fx_active_skull_eyes">
+		<scene src="/particles_ready/voodoo_circle/skulleyes2.DAE">
+			<particles src="/particles_ready/voodoo_circle/skull_eye2.psysl" />
+		</scene>
+	</object>
+
+</objects>

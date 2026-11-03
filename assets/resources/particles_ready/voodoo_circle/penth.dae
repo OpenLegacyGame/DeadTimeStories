@@ -1,0 +1,1645 @@
+<?xml version="1.0" encoding="utf-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1">
+  <asset>
+    <contributor>
+      <author>s.andreev</author>
+      <authoring_tool>3dsMax 9 - Feeling ColladaMax v3.05B.</authoring_tool>
+      <comments>ColladaMax Export Options: ExportNormals=1;ExportEPolyAsTriangles=1;ExportXRefs=1;ExportSelected=1;ExportTangents=0;ExportAnimations=0;SampleAnim=1;ExportAnimClip=1;BakeMatrices=0;ExportRelativePaths=1;AnimStart=0;AnimEnd=2;</comments>
+    </contributor>
+    <created>2010-04-16T13:13:12Z</created>
+    <modified>2010-04-16T13:13:14Z</modified>
+    <unit meter="0.0254" name="inch"/>
+    <up_axis>Z_UP</up_axis>
+  </asset>
+  <library_lights>
+    <light id="ambient-environment-light" name="Ambient">
+      <technique_common>
+        <ambient>
+          <color>0.4 0.4 0.4</color>
+        </ambient>
+      </technique_common>
+      <extra>
+        <technique profile="FCOLLADA">
+          <intensity>1</intensity>
+        </technique>
+      </extra>
+    </light>
+  </library_lights>
+  <library_visual_scenes>
+    <visual_scene id="unnamed_scene" name="unnamed_scene">
+      <node id="_candle87-node" name="_candle87" type="NODE">
+        <translate>546.791 0 581.145</translate>
+        <rotate>-1 0 0 -90</rotate>
+        <extra>
+          <technique profile="MAX3D">
+            <helper>
+              <bounding_min>-0.5 -0.5 -0.5</bounding_min>
+              <bounding_max>0.5 0.5 0.5</bounding_max>
+            </helper>
+          </technique>
+        </extra>
+      </node>
+      <node id="_candle89-node" name="_candle89" type="NODE">
+        <translate>536.024 0 611.844</translate>
+        <rotate>-1 0 0 -90</rotate>
+        <extra>
+          <technique profile="MAX3D">
+            <helper>
+              <bounding_min>-0.5 -0.5 -0.5</bounding_min>
+              <bounding_max>0.5 0.5 0.5</bounding_max>
+            </helper>
+          </technique>
+        </extra>
+      </node>
+      <node id="_candle88-node" name="_candle88" type="NODE">
+        <translate>541.657 0 595.842</translate>
+        <rotate>-1 0 0 -90</rotate>
+        <extra>
+          <technique profile="MAX3D">
+            <helper>
+              <bounding_min>-0.5 -0.5 -0.5</bounding_min>
+              <bounding_max>0.5 0.5 0.5</bounding_max>
+            </helper>
+          </technique>
+        </extra>
+      </node>
+      <node id="_candle90-node" name="_candle90" type="NODE">
+        <translate>530.857 0 626.461</translate>
+        <rotate>-1 0 0 -90</rotate>
+        <extra>
+          <technique profile="MAX3D">
+            <helper>
+              <bounding_min>-0.5 -0.5 -0.5</bounding_min>
+              <bounding_max>0.5 0.5 0.5</bounding_max>
+            </helper>
+          </technique>
+        </extra>
+      </node>
+      <node id="_candle91-node" name="_candle91" type="NODE">
+        <translate>525.662 0 641.159</translate>
+        <rotate>-1 0 0 -90</rotate>
+        <extra>
+          <technique profile="MAX3D">
+            <helper>
+              <bounding_min>-0.5 -0.5 -0.5</bounding_min>
+              <bounding_max>0.5 0.5 0.5</bounding_max>
+            </helper>
+          </technique>
+        </extra>
+      </node>
+      <node id="_candle92-node" name="_candle92" type="NODE">
+        <translate>520.581 0 655.597</translate>
+        <rotate>-1 0 0 -90</rotate>
+        <extra>
+          <technique profile="MAX3D">
+            <helper>
+              <bounding_min>-0.5 -0.5 -0.5</bounding_min>
+              <bounding_max>0.5 0.5 0.5</bounding_max>
+            </helper>
+          </technique>
+        </extra>
+      </node>
+      <node id="_candle93-node" name="_candle93" type="NODE">
+        <translate>511.428 0 681.966</translate>
+        <rotate>-1 0 0 -90</rotate>
+        <extra>
+          <technique profile="MAX3D">
+            <helper>
+              <bounding_min>-0.5 -0.5 -0.5</bounding_min>
+              <bounding_max>0.5 0.5 0.5</bounding_max>
+            </helper>
+          </technique>
+        </extra>
+      </node>
+      <node id="_candle94-node" name="_candle94" type="NODE">
+        <translate>503.777 -0.000061 704.632</translate>
+        <rotate>-1 0 0 -90</rotate>
+        <extra>
+          <technique profile="MAX3D">
+            <helper>
+              <bounding_min>-0.5 -0.5 -0.5</bounding_min>
+              <bounding_max>0.5 0.5 0.5</bounding_max>
+            </helper>
+          </technique>
+        </extra>
+      </node>
+      <node id="_candle96-node" name="_candle96" type="NODE">
+        <translate>710.2 -0.00003 509.287</translate>
+        <rotate>-1 0 0 -90</rotate>
+        <extra>
+          <technique profile="MAX3D">
+            <helper>
+              <bounding_min>-0.5 -0.5 -0.5</bounding_min>
+              <bounding_max>0.5 0.5 0.5</bounding_max>
+            </helper>
+          </technique>
+        </extra>
+      </node>
+      <node id="_candle95-node" name="_candle95" type="NODE">
+        <translate>693.289 -0.00003 506.82</translate>
+        <rotate>-1 0 0 -90</rotate>
+        <extra>
+          <technique profile="MAX3D">
+            <helper>
+              <bounding_min>-0.5 -0.5 -0.5</bounding_min>
+              <bounding_max>0.5 0.5 0.5</bounding_max>
+            </helper>
+          </technique>
+        </extra>
+      </node>
+      <node id="_candle97-node" name="_candle97" type="NODE">
+        <translate>730.256 0 512.297</translate>
+        <rotate>-1 0 0 -90</rotate>
+        <extra>
+          <technique profile="MAX3D">
+            <helper>
+              <bounding_min>-0.5 -0.5 -0.5</bounding_min>
+              <bounding_max>0.5 0.5 0.5</bounding_max>
+            </helper>
+          </technique>
+        </extra>
+      </node>
+      <node id="_candle99-node" name="_candle99" type="NODE">
+        <translate>769.074 0 518.253</translate>
+        <rotate>-1 0 0 -90</rotate>
+        <extra>
+          <technique profile="MAX3D">
+            <helper>
+              <bounding_min>-0.5 -0.5 -0.5</bounding_min>
+              <bounding_max>0.5 0.5 0.5</bounding_max>
+            </helper>
+          </technique>
+        </extra>
+      </node>
+      <node id="_candle98-node" name="_candle98" type="NODE">
+        <translate>746.896 0 514.84</translate>
+        <rotate>-1 0 0 -90</rotate>
+        <extra>
+          <technique profile="MAX3D">
+            <helper>
+              <bounding_min>-0.5 -0.5 -0.5</bounding_min>
+              <bounding_max>0.5 0.5 0.5</bounding_max>
+            </helper>
+          </technique>
+        </extra>
+      </node>
+      <node id="_candle100-node" name="_candle100" type="NODE">
+        <translate>786.276 0 520.884</translate>
+        <rotate>-1 0 0 -90</rotate>
+        <extra>
+          <technique profile="MAX3D">
+            <helper>
+              <bounding_min>-0.5 -0.5 -0.5</bounding_min>
+              <bounding_max>0.5 0.5 0.5</bounding_max>
+            </helper>
+          </technique>
+        </extra>
+      </node>
+      <node id="_candle101-node" name="_candle101" type="NODE">
+        <translate>807.024 0 523.993</translate>
+        <rotate>-1 0 0 -90</rotate>
+        <extra>
+          <technique profile="MAX3D">
+            <helper>
+              <bounding_min>-0.5 -0.5 -0.5</bounding_min>
+              <bounding_max>0.5 0.5 0.5</bounding_max>
+            </helper>
+          </technique>
+        </extra>
+      </node>
+      <node id="_candle102-node" name="_candle102" type="NODE">
+        <translate>825.223 0 526.621</translate>
+        <rotate>-1 0 0 -90</rotate>
+        <extra>
+          <technique profile="MAX3D">
+            <helper>
+              <bounding_min>-0.5 -0.5 -0.5</bounding_min>
+              <bounding_max>0.5 0.5 0.5</bounding_max>
+            </helper>
+          </technique>
+        </extra>
+      </node>
+      <node id="_candle103-node" name="_candle103" type="NODE">
+        <translate>847.031 0 529.597</translate>
+        <rotate>-1 0 0 -90</rotate>
+        <extra>
+          <technique profile="MAX3D">
+            <helper>
+              <bounding_min>-0.5 -0.5 -0.5</bounding_min>
+              <bounding_max>0.5 0.5 0.5</bounding_max>
+            </helper>
+          </technique>
+        </extra>
+      </node>
+      <node id="_candle104-node" name="_candle104" type="NODE">
+        <translate>869.057 0 532.36</translate>
+        <rotate>-1 0 0 -90</rotate>
+        <extra>
+          <technique profile="MAX3D">
+            <helper>
+              <bounding_min>-0.5 -0.5 -0.5</bounding_min>
+              <bounding_max>0.5 0.5 0.5</bounding_max>
+            </helper>
+          </technique>
+        </extra>
+      </node>
+      <node id="_candle106-node" name="_candle106" type="NODE">
+        <translate>520.125 0 578.096</translate>
+        <rotate>-1 0 0 -90</rotate>
+        <extra>
+          <technique profile="MAX3D">
+            <helper>
+              <bounding_min>-0.5 -0.5 -0.5</bounding_min>
+              <bounding_max>0.5 0.5 0.5</bounding_max>
+            </helper>
+          </technique>
+        </extra>
+      </node>
+      <node id="_candle105-node" name="_candle105" type="NODE">
+        <translate>535.434 0 576.394</translate>
+        <rotate>-1 0 0 -90</rotate>
+        <extra>
+          <technique profile="MAX3D">
+            <helper>
+              <bounding_min>-0.5 -0.5 -0.5</bounding_min>
+              <bounding_max>0.5 0.5 0.5</bounding_max>
+            </helper>
+          </technique>
+        </extra>
+      </node>
+      <node id="_candle107-node" name="_candle107" type="NODE">
+        <translate>501.589 0 584.581</translate>
+        <rotate>-1 0 0 -90</rotate>
+        <extra>
+          <technique profile="MAX3D">
+            <helper>
+              <bounding_min>-0.5 -0.5 -0.5</bounding_min>
+              <bounding_max>0.5 0.5 0.5</bounding_max>
+            </helper>
+          </technique>
+        </extra>
+      </node>
+      <node id="_candle109-node" name="_candle109" type="NODE">
+        <translate>482.284 0 609.445</translate>
+        <rotate>-1 0 0 -90</rotate>
+        <extra>
+          <technique profile="MAX3D">
+            <helper>
+              <bounding_min>-0.5 -0.5 -0.5</bounding_min>
+              <bounding_max>0.5 0.5 0.5</bounding_max>
+            </helper>
+          </technique>
+        </extra>
+      </node>
+      <node id="_candle108-node" name="_candle108" type="NODE">
+        <translate>488.73 0 594.77</translate>
+        <rotate>-1 0 0 -90</rotate>
+        <extra>
+          <technique profile="MAX3D">
+            <helper>
+              <bounding_min>-0.5 -0.5 -0.5</bounding_min>
+              <bounding_max>0.5 0.5 0.5</bounding_max>
+            </helper>
+          </technique>
+        </extra>
+      </node>
+      <node id="_candle110-node" name="_candle110" type="NODE">
+        <translate>486.678 0 625.3</translate>
+        <rotate>-1 0 0 -90</rotate>
+        <extra>
+          <technique profile="MAX3D">
+            <helper>
+              <bounding_min>-0.5 -0.5 -0.5</bounding_min>
+              <bounding_max>0.5 0.5 0.5</bounding_max>
+            </helper>
+          </technique>
+        </extra>
+      </node>
+      <node id="_candle111-node" name="_candle111" type="NODE">
+        <translate>501.504 0 638.629</translate>
+        <rotate>-1 0 0 -90</rotate>
+        <extra>
+          <technique profile="MAX3D">
+            <helper>
+              <bounding_min>-0.5 -0.5 -0.5</bounding_min>
+              <bounding_max>0.5 0.5 0.5</bounding_max>
+            </helper>
+          </technique>
+        </extra>
+      </node>
+      <node id="_candle112-node" name="_candle112" type="NODE">
+        <translate>543.016 0 647.938</translate>
+        <rotate>-1 0 0 -90</rotate>
+        <extra>
+          <technique profile="MAX3D">
+            <helper>
+              <bounding_min>-0.5 -0.5 -0.5</bounding_min>
+              <bounding_max>0.5 0.5 0.5</bounding_max>
+            </helper>
+          </technique>
+        </extra>
+      </node>
+      <node id="_candle113-node" name="_candle113" type="NODE">
+        <translate>561.5 0 645.141</translate>
+        <rotate>-1 0 0 -90</rotate>
+        <extra>
+          <technique profile="MAX3D">
+            <helper>
+              <bounding_min>-0.5 -0.5 -0.5</bounding_min>
+              <bounding_max>0.5 0.5 0.5</bounding_max>
+            </helper>
+          </technique>
+        </extra>
+      </node>
+      <node id="_candle115-node" name="_candle115" type="NODE">
+        <translate>593.664 0 619.461</translate>
+        <rotate>-1 0 0 -90</rotate>
+        <extra>
+          <technique profile="MAX3D">
+            <helper>
+              <bounding_min>-0.5 -0.5 -0.5</bounding_min>
+              <bounding_max>0.5 0.5 0.5</bounding_max>
+            </helper>
+          </technique>
+        </extra>
+      </node>
+      <node id="_candle114-node" name="_candle114" type="NODE">
+        <translate>581.423 0 635.873</translate>
+        <rotate>-1 0 0 -90</rotate>
+        <extra>
+          <technique profile="MAX3D">
+            <helper>
+              <bounding_min>-0.5 -0.5 -0.5</bounding_min>
+              <bounding_max>0.5 0.5 0.5</bounding_max>
+            </helper>
+          </technique>
+        </extra>
+      </node>
+      <node id="_candle116-node" name="_candle116" type="NODE">
+        <translate>591.444 0 601.279</translate>
+        <rotate>-1 0 0 -90</rotate>
+        <extra>
+          <technique profile="MAX3D">
+            <helper>
+              <bounding_min>-0.5 -0.5 -0.5</bounding_min>
+              <bounding_max>0.5 0.5 0.5</bounding_max>
+            </helper>
+          </technique>
+        </extra>
+      </node>
+      <node id="_candle117-node" name="_candle117" type="NODE">
+        <translate>578.529 0 587.728</translate>
+        <rotate>-1 0 0 -90</rotate>
+        <extra>
+          <technique profile="MAX3D">
+            <helper>
+              <bounding_min>-0.5 -0.5 -0.5</bounding_min>
+              <bounding_max>0.5 0.5 0.5</bounding_max>
+            </helper>
+          </technique>
+        </extra>
+      </node>
+      <node id="_candle119-node" name="_candle119" type="NODE">
+        <translate>763.484 -0.00003 475.234</translate>
+        <rotate>-1 0 0 -90</rotate>
+        <extra>
+          <technique profile="MAX3D">
+            <helper>
+              <bounding_min>-0.5 -0.5 -0.5</bounding_min>
+              <bounding_max>0.5 0.5 0.5</bounding_max>
+            </helper>
+          </technique>
+        </extra>
+      </node>
+      <node id="_candle118-node" name="_candle118" type="NODE">
+        <translate>565.093 0 581.127</translate>
+        <rotate>-1 0 0 -90</rotate>
+        <extra>
+          <technique profile="MAX3D">
+            <helper>
+              <bounding_min>-0.5 -0.5 -0.5</bounding_min>
+              <bounding_max>0.5 0.5 0.5</bounding_max>
+            </helper>
+          </technique>
+        </extra>
+      </node>
+      <node id="_candle120-node" name="_candle120" type="NODE">
+        <translate>744.681 -0.00003 475.704</translate>
+        <rotate>-1 0 0 -90</rotate>
+        <extra>
+          <technique profile="MAX3D">
+            <helper>
+              <bounding_min>-0.5 -0.5 -0.5</bounding_min>
+              <bounding_max>0.5 0.5 0.5</bounding_max>
+            </helper>
+          </technique>
+        </extra>
+      </node>
+      <node id="_candle121-node" name="_candle121" type="NODE">
+        <translate>726.167 -0.00003 480.54</translate>
+        <rotate>-1 0 0 -90</rotate>
+        <extra>
+          <technique profile="MAX3D">
+            <helper>
+              <bounding_min>-0.5 -0.5 -0.5</bounding_min>
+              <bounding_max>0.5 0.5 0.5</bounding_max>
+            </helper>
+          </technique>
+        </extra>
+      </node>
+      <node id="_candle122-node" name="_candle122" type="NODE">
+        <translate>714.581 -0.00003 486.946</translate>
+        <rotate>-1 0 0 -90</rotate>
+        <extra>
+          <technique profile="MAX3D">
+            <helper>
+              <bounding_min>-0.5 -0.5 -0.5</bounding_min>
+              <bounding_max>0.5 0.5 0.5</bounding_max>
+            </helper>
+          </technique>
+        </extra>
+      </node>
+      <node id="_candle123-node" name="_candle123" type="NODE">
+        <translate>703.203 -0.00003 500.681</translate>
+        <rotate>-1 0 0 -90</rotate>
+        <extra>
+          <technique profile="MAX3D">
+            <helper>
+              <bounding_min>-0.5 -0.5 -0.5</bounding_min>
+              <bounding_max>0.5 0.5 0.5</bounding_max>
+            </helper>
+          </technique>
+        </extra>
+      </node>
+      <node id="_candle125-node" name="_candle125" type="NODE">
+        <translate>718.31 0 535.831</translate>
+        <rotate>-1 0 0 -90</rotate>
+        <extra>
+          <technique profile="MAX3D">
+            <helper>
+              <bounding_min>-0.5 -0.5 -0.5</bounding_min>
+              <bounding_max>0.5 0.5 0.5</bounding_max>
+            </helper>
+          </technique>
+        </extra>
+      </node>
+      <node id="_candle124-node" name="_candle124" type="NODE">
+        <translate>705.521 0 523.522</translate>
+        <rotate>-1 0 0 -90</rotate>
+        <extra>
+          <technique profile="MAX3D">
+            <helper>
+              <bounding_min>-0.5 -0.5 -0.5</bounding_min>
+              <bounding_max>0.5 0.5 0.5</bounding_max>
+            </helper>
+          </technique>
+        </extra>
+      </node>
+      <node id="_candle126-node" name="_candle126" type="NODE">
+        <translate>737.412 0 543.839</translate>
+        <rotate>-1 0 0 -90</rotate>
+        <extra>
+          <technique profile="MAX3D">
+            <helper>
+              <bounding_min>-0.5 -0.5 -0.5</bounding_min>
+              <bounding_max>0.5 0.5 0.5</bounding_max>
+            </helper>
+          </technique>
+        </extra>
+      </node>
+      <node id="_candle127-node" name="_candle127" type="NODE">
+        <translate>759.324 0 546.548</translate>
+        <rotate>-1 0 0 -90</rotate>
+        <extra>
+          <technique profile="MAX3D">
+            <helper>
+              <bounding_min>-0.5 -0.5 -0.5</bounding_min>
+              <bounding_max>0.5 0.5 0.5</bounding_max>
+            </helper>
+          </technique>
+        </extra>
+      </node>
+      <node id="_candle128-node" name="_candle128" type="NODE">
+        <translate>783.51 0 542.818</translate>
+        <rotate>-1 0 0 -90</rotate>
+        <extra>
+          <technique profile="MAX3D">
+            <helper>
+              <bounding_min>-0.5 -0.5 -0.5</bounding_min>
+              <bounding_max>0.5 0.5 0.5</bounding_max>
+            </helper>
+          </technique>
+        </extra>
+      </node>
+      <node id="_candle130-node" name="_candle130" type="NODE">
+        <translate>813.316 -0.00003 507.747</translate>
+        <rotate>-1 0 0 -90</rotate>
+        <extra>
+          <technique profile="MAX3D">
+            <helper>
+              <bounding_min>-0.5 -0.5 -0.5</bounding_min>
+              <bounding_max>0.5 0.5 0.5</bounding_max>
+            </helper>
+          </technique>
+        </extra>
+      </node>
+      <node id="_candle129-node" name="_candle129" type="NODE">
+        <translate>802.138 0 533.107</translate>
+        <rotate>-1 0 0 -90</rotate>
+        <extra>
+          <technique profile="MAX3D">
+            <helper>
+              <bounding_min>-0.5 -0.5 -0.5</bounding_min>
+              <bounding_max>0.5 0.5 0.5</bounding_max>
+            </helper>
+          </technique>
+        </extra>
+      </node>
+      <node id="_candle131-node" name="_candle131" type="NODE">
+        <translate>802.934 -0.00003 490.413</translate>
+        <rotate>-1 0 0 -90</rotate>
+        <extra>
+          <technique profile="MAX3D">
+            <helper>
+              <bounding_min>-0.5 -0.5 -0.5</bounding_min>
+              <bounding_max>0.5 0.5 0.5</bounding_max>
+            </helper>
+          </technique>
+        </extra>
+      </node>
+      <node id="_candle132-node" name="_candle132" type="NODE">
+        <translate>782.689 -0.00003 479.169</translate>
+        <rotate>-1 0 0 -90</rotate>
+        <extra>
+          <technique profile="MAX3D">
+            <helper>
+              <bounding_min>-0.5 -0.5 -0.5</bounding_min>
+              <bounding_max>0.5 0.5 0.5</bounding_max>
+            </helper>
+          </technique>
+        </extra>
+      </node>
+      <node id="_candle-node" name="_candle" type="NODE">
+        <translate>452.908 -0.00003 372.51</translate>
+        <rotate>-1 0 0 -90</rotate>
+        <extra>
+          <technique profile="MAX3D">
+            <helper>
+              <bounding_min>-0.5 -0.5 -0.5</bounding_min>
+              <bounding_max>0.5 0.5 0.5</bounding_max>
+            </helper>
+          </technique>
+        </extra>
+      </node>
+      <node id="_candle2-node" name="_candle2" type="NODE">
+        <translate>514.111 -0.00003 356.35</translate>
+        <rotate>-1 0 0 -90</rotate>
+        <extra>
+          <technique profile="MAX3D">
+            <helper>
+              <bounding_min>-0.5 -0.5 -0.5</bounding_min>
+              <bounding_max>0.5 0.5 0.5</bounding_max>
+            </helper>
+          </technique>
+        </extra>
+      </node>
+      <node id="_candle1-node" name="_candle1" type="NODE">
+        <translate>480.099 -0.00003 363.87</translate>
+        <rotate>-1 0 0 -90</rotate>
+        <extra>
+          <technique profile="MAX3D">
+            <helper>
+              <bounding_min>-0.5 -0.5 -0.5</bounding_min>
+              <bounding_max>0.5 0.5 0.5</bounding_max>
+            </helper>
+          </technique>
+        </extra>
+      </node>
+      <node id="_candle3-node" name="_candle3" type="NODE">
+        <translate>547.676 -0.00003 352.092</translate>
+        <rotate>-1 0 0 -90</rotate>
+        <extra>
+          <technique profile="MAX3D">
+            <helper>
+              <bounding_min>-0.5 -0.5 -0.5</bounding_min>
+              <bounding_max>0.5 0.5 0.5</bounding_max>
+            </helper>
+          </technique>
+        </extra>
+      </node>
+      <node id="_candle4-node" name="_candle4" type="NODE">
+        <translate>577.7 -0.00003 350.812</translate>
+        <rotate>-1 0 0 -90</rotate>
+        <extra>
+          <technique profile="MAX3D">
+            <helper>
+              <bounding_min>-0.5 -0.5 -0.5</bounding_min>
+              <bounding_max>0.5 0.5 0.5</bounding_max>
+            </helper>
+          </technique>
+        </extra>
+      </node>
+      <node id="_candle5-node" name="_candle5" type="NODE">
+        <translate>606.445 -0.00003 351.828</translate>
+        <rotate>-1 0 0 -90</rotate>
+        <extra>
+          <technique profile="MAX3D">
+            <helper>
+              <bounding_min>-0.5 -0.5 -0.5</bounding_min>
+              <bounding_max>0.5 0.5 0.5</bounding_max>
+            </helper>
+          </technique>
+        </extra>
+      </node>
+      <node id="_candle6-node" name="_candle6" type="NODE">
+        <translate>637.028 -0.00003 355.308</translate>
+        <rotate>-1 0 0 -90</rotate>
+        <extra>
+          <technique profile="MAX3D">
+            <helper>
+              <bounding_min>-0.5 -0.5 -0.5</bounding_min>
+              <bounding_max>0.5 0.5 0.5</bounding_max>
+            </helper>
+          </technique>
+        </extra>
+      </node>
+      <node id="_candle8-node" name="_candle8" type="NODE">
+        <translate>699.119 -0.00003 370.557</translate>
+        <rotate>-1 0 0 -90</rotate>
+        <extra>
+          <technique profile="MAX3D">
+            <helper>
+              <bounding_min>-0.5 -0.5 -0.5</bounding_min>
+              <bounding_max>0.5 0.5 0.5</bounding_max>
+            </helper>
+          </technique>
+        </extra>
+      </node>
+      <node id="_candle7-node" name="_candle7" type="NODE">
+        <translate>668.611 -0.00003 361.595</translate>
+        <rotate>-1 0 0 -90</rotate>
+        <extra>
+          <technique profile="MAX3D">
+            <helper>
+              <bounding_min>-0.5 -0.5 -0.5</bounding_min>
+              <bounding_max>0.5 0.5 0.5</bounding_max>
+            </helper>
+          </technique>
+        </extra>
+      </node>
+      <node id="_candle9-node" name="_candle9" type="NODE">
+        <translate>727.401 -0.00003 381.926</translate>
+        <rotate>-1 0 0 -90</rotate>
+        <extra>
+          <technique profile="MAX3D">
+            <helper>
+              <bounding_min>-0.5 -0.5 -0.5</bounding_min>
+              <bounding_max>0.5 0.5 0.5</bounding_max>
+            </helper>
+          </technique>
+        </extra>
+      </node>
+      <node id="_candle10-node" name="_candle10" type="NODE">
+        <translate>751.786 -0.00003 394.839</translate>
+        <rotate>-1 0 0 -90</rotate>
+        <extra>
+          <technique profile="MAX3D">
+            <helper>
+              <bounding_min>-0.5 -0.5 -0.5</bounding_min>
+              <bounding_max>0.5 0.5 0.5</bounding_max>
+            </helper>
+          </technique>
+        </extra>
+      </node>
+      <node id="_candle12-node" name="_candle12" type="NODE">
+        <translate>797.21 -0.00003 432.17</translate>
+        <rotate>-1 0 0 -90</rotate>
+        <extra>
+          <technique profile="MAX3D">
+            <helper>
+              <bounding_min>-0.5 -0.5 -0.5</bounding_min>
+              <bounding_max>0.5 0.5 0.5</bounding_max>
+            </helper>
+          </technique>
+        </extra>
+      </node>
+      <node id="_candle11-node" name="_candle11" type="NODE">
+        <translate>775.573 -0.00003 411.487</translate>
+        <rotate>-1 0 0 -90</rotate>
+        <extra>
+          <technique profile="MAX3D">
+            <helper>
+              <bounding_min>-0.5 -0.5 -0.5</bounding_min>
+              <bounding_max>0.5 0.5 0.5</bounding_max>
+            </helper>
+          </technique>
+        </extra>
+      </node>
+      <node id="_candle13-node" name="_candle13" type="NODE">
+        <translate>813.188 -0.00003 453.925</translate>
+        <rotate>-1 0 0 -90</rotate>
+        <extra>
+          <technique profile="MAX3D">
+            <helper>
+              <bounding_min>-0.5 -0.5 -0.5</bounding_min>
+              <bounding_max>0.5 0.5 0.5</bounding_max>
+            </helper>
+          </technique>
+        </extra>
+      </node>
+      <node id="_candle14-node" name="_candle14" type="NODE">
+        <translate>823.018 -0.00003 474.173</translate>
+        <rotate>-1 0 0 -90</rotate>
+        <extra>
+          <technique profile="MAX3D">
+            <helper>
+              <bounding_min>-0.5 -0.5 -0.5</bounding_min>
+              <bounding_max>0.5 0.5 0.5</bounding_max>
+            </helper>
+          </technique>
+        </extra>
+      </node>
+      <node id="_candle15-node" name="_candle15" type="NODE">
+        <translate>829.6 -0.00003 503.483</translate>
+        <rotate>-1 0 0 -90</rotate>
+        <extra>
+          <technique profile="MAX3D">
+            <helper>
+              <bounding_min>-0.5 -0.5 -0.5</bounding_min>
+              <bounding_max>0.5 0.5 0.5</bounding_max>
+            </helper>
+          </technique>
+        </extra>
+      </node>
+      <node id="_candle16-node" name="_candle16" type="NODE">
+        <translate>829.442 0 519.863</translate>
+        <rotate>-1 0 0 -90</rotate>
+        <extra>
+          <technique profile="MAX3D">
+            <helper>
+              <bounding_min>-0.5 -0.5 -0.5</bounding_min>
+              <bounding_max>0.5 0.5 0.5</bounding_max>
+            </helper>
+          </technique>
+        </extra>
+      </node>
+      <node id="_candle18-node" name="_candle18" type="NODE">
+        <translate>805.211 0 579.436</translate>
+        <rotate>-1 0 0 -90</rotate>
+        <extra>
+          <technique profile="MAX3D">
+            <helper>
+              <bounding_min>-0.5 -0.5 -0.5</bounding_min>
+              <bounding_max>0.5 0.5 0.5</bounding_max>
+            </helper>
+          </technique>
+        </extra>
+      </node>
+      <node id="_candle17-node" name="_candle17" type="NODE">
+        <translate>821.444 0 551.263</translate>
+        <rotate>-1 0 0 -90</rotate>
+        <extra>
+          <technique profile="MAX3D">
+            <helper>
+              <bounding_min>-0.5 -0.5 -0.5</bounding_min>
+              <bounding_max>0.5 0.5 0.5</bounding_max>
+            </helper>
+          </technique>
+        </extra>
+      </node>
+      <node id="_candle19-node" name="_candle19" type="NODE">
+        <translate>788.619 0 598.361</translate>
+        <rotate>-1 0 0 -90</rotate>
+        <extra>
+          <technique profile="MAX3D">
+            <helper>
+              <bounding_min>-0.5 -0.5 -0.5</bounding_min>
+              <bounding_max>0.5 0.5 0.5</bounding_max>
+            </helper>
+          </technique>
+        </extra>
+      </node>
+      <node id="_candle20-node" name="_candle20" type="NODE">
+        <translate>768.755 0 615.272</translate>
+        <rotate>-1 0 0 -90</rotate>
+        <extra>
+          <technique profile="MAX3D">
+            <helper>
+              <bounding_min>-0.5 -0.5 -0.5</bounding_min>
+              <bounding_max>0.5 0.5 0.5</bounding_max>
+            </helper>
+          </technique>
+        </extra>
+      </node>
+      <node id="_candle22-node" name="_candle22" type="NODE">
+        <translate>721.29 0 642.29</translate>
+        <rotate>-1 0 0 -90</rotate>
+        <extra>
+          <technique profile="MAX3D">
+            <helper>
+              <bounding_min>-0.5 -0.5 -0.5</bounding_min>
+              <bounding_max>0.5 0.5 0.5</bounding_max>
+            </helper>
+          </technique>
+        </extra>
+      </node>
+      <node id="_candle21-node" name="_candle21" type="NODE">
+        <translate>744.172 0 631.038</translate>
+        <rotate>-1 0 0 -90</rotate>
+        <extra>
+          <technique profile="MAX3D">
+            <helper>
+              <bounding_min>-0.5 -0.5 -0.5</bounding_min>
+              <bounding_max>0.5 0.5 0.5</bounding_max>
+            </helper>
+          </technique>
+        </extra>
+      </node>
+      <node id="_candle23-node" name="_candle23" type="NODE">
+        <translate>692.136 0 653.241</translate>
+        <rotate>-1 0 0 -90</rotate>
+        <extra>
+          <technique profile="MAX3D">
+            <helper>
+              <bounding_min>-0.5 -0.5 -0.5</bounding_min>
+              <bounding_max>0.5 0.5 0.5</bounding_max>
+            </helper>
+          </technique>
+        </extra>
+      </node>
+      <node id="_candle24-node" name="_candle24" type="NODE">
+        <translate>662.984 0 661.207</translate>
+        <rotate>-1 0 0 -90</rotate>
+        <extra>
+          <technique profile="MAX3D">
+            <helper>
+              <bounding_min>-0.5 -0.5 -0.5</bounding_min>
+              <bounding_max>0.5 0.5 0.5</bounding_max>
+            </helper>
+          </technique>
+        </extra>
+      </node>
+      <node id="_candle25-node" name="_candle25" type="NODE">
+        <translate>631.179 0 667.022</translate>
+        <rotate>-1 0 0 -90</rotate>
+        <extra>
+          <technique profile="MAX3D">
+            <helper>
+              <bounding_min>-0.5 -0.5 -0.5</bounding_min>
+              <bounding_max>0.5 0.5 0.5</bounding_max>
+            </helper>
+          </technique>
+        </extra>
+      </node>
+      <node id="_candle26-node" name="_candle26" type="NODE">
+        <translate>600.384 0 670.038</translate>
+        <rotate>-1 0 0 -90</rotate>
+        <extra>
+          <technique profile="MAX3D">
+            <helper>
+              <bounding_min>-0.5 -0.5 -0.5</bounding_min>
+              <bounding_max>0.5 0.5 0.5</bounding_max>
+            </helper>
+          </technique>
+        </extra>
+      </node>
+      <node id="_candle28-node" name="_candle28" type="NODE">
+        <translate>544.968 0 669.147</translate>
+        <rotate>-1 0 0 -90</rotate>
+        <extra>
+          <technique profile="MAX3D">
+            <helper>
+              <bounding_min>-0.5 -0.5 -0.5</bounding_min>
+              <bounding_max>0.5 0.5 0.5</bounding_max>
+            </helper>
+          </technique>
+        </extra>
+      </node>
+      <node id="_candle27-node" name="_candle27" type="NODE">
+        <translate>575.454 0 670.646</translate>
+        <rotate>-1 0 0 -90</rotate>
+        <extra>
+          <technique profile="MAX3D">
+            <helper>
+              <bounding_min>-0.5 -0.5 -0.5</bounding_min>
+              <bounding_max>0.5 0.5 0.5</bounding_max>
+            </helper>
+          </technique>
+        </extra>
+      </node>
+      <node id="_candle29-node" name="_candle29" type="NODE">
+        <translate>512.169 0 664.781</translate>
+        <rotate>-1 0 0 -90</rotate>
+        <extra>
+          <technique profile="MAX3D">
+            <helper>
+              <bounding_min>-0.5 -0.5 -0.5</bounding_min>
+              <bounding_max>0.5 0.5 0.5</bounding_max>
+            </helper>
+          </technique>
+        </extra>
+      </node>
+      <node id="_candle30-node" name="_candle30" type="NODE">
+        <translate>475.252 0 656.244</translate>
+        <rotate>-1 0 0 -90</rotate>
+        <extra>
+          <technique profile="MAX3D">
+            <helper>
+              <bounding_min>-0.5 -0.5 -0.5</bounding_min>
+              <bounding_max>0.5 0.5 0.5</bounding_max>
+            </helper>
+          </technique>
+        </extra>
+      </node>
+      <node id="_candle31-node" name="_candle31" type="NODE">
+        <translate>441.485 0 644.52</translate>
+        <rotate>-1 0 0 -90</rotate>
+        <extra>
+          <technique profile="MAX3D">
+            <helper>
+              <bounding_min>-0.5 -0.5 -0.5</bounding_min>
+              <bounding_max>0.5 0.5 0.5</bounding_max>
+            </helper>
+          </technique>
+        </extra>
+      </node>
+      <node id="_candle33-node" name="_candle33" type="NODE">
+        <translate>381.06 0 609.266</translate>
+        <rotate>-1 0 0 -90</rotate>
+        <extra>
+          <technique profile="MAX3D">
+            <helper>
+              <bounding_min>-0.5 -0.5 -0.5</bounding_min>
+              <bounding_max>0.5 0.5 0.5</bounding_max>
+            </helper>
+          </technique>
+        </extra>
+      </node>
+      <node id="_candle32-node" name="_candle32" type="NODE">
+        <translate>407.816 0 627.879</translate>
+        <rotate>-1 0 0 -90</rotate>
+        <extra>
+          <technique profile="MAX3D">
+            <helper>
+              <bounding_min>-0.5 -0.5 -0.5</bounding_min>
+              <bounding_max>0.5 0.5 0.5</bounding_max>
+            </helper>
+          </technique>
+        </extra>
+      </node>
+      <node id="_candle34-node" name="_candle34" type="NODE">
+        <translate>357.755 0 586.332</translate>
+        <rotate>-1 0 0 -90</rotate>
+        <extra>
+          <technique profile="MAX3D">
+            <helper>
+              <bounding_min>-0.5 -0.5 -0.5</bounding_min>
+              <bounding_max>0.5 0.5 0.5</bounding_max>
+            </helper>
+          </technique>
+        </extra>
+      </node>
+      <node id="_candle35-node" name="_candle35" type="NODE">
+        <translate>343.259 0 565.733</translate>
+        <rotate>-1 0 0 -90</rotate>
+        <extra>
+          <technique profile="MAX3D">
+            <helper>
+              <bounding_min>-0.5 -0.5 -0.5</bounding_min>
+              <bounding_max>0.5 0.5 0.5</bounding_max>
+            </helper>
+          </technique>
+        </extra>
+      </node>
+      <node id="_candle36-node" name="_candle36" type="NODE">
+        <translate>333.269 0 543.872</translate>
+        <rotate>-1 0 0 -90</rotate>
+        <extra>
+          <technique profile="MAX3D">
+            <helper>
+              <bounding_min>-0.5 -0.5 -0.5</bounding_min>
+              <bounding_max>0.5 0.5 0.5</bounding_max>
+            </helper>
+          </technique>
+        </extra>
+      </node>
+      <node id="_candle37-node" name="_candle37" type="NODE">
+        <translate>327.981 0 518.852</translate>
+        <rotate>-1 0 0 -90</rotate>
+        <extra>
+          <technique profile="MAX3D">
+            <helper>
+              <bounding_min>-0.5 -0.5 -0.5</bounding_min>
+              <bounding_max>0.5 0.5 0.5</bounding_max>
+            </helper>
+          </technique>
+        </extra>
+      </node>
+      <node id="_candle39-node" name="_candle39" type="NODE">
+        <translate>336.118 -0.00003 470.089</translate>
+        <rotate>-1 0 0 -90</rotate>
+        <extra>
+          <technique profile="MAX3D">
+            <helper>
+              <bounding_min>-0.5 -0.5 -0.5</bounding_min>
+              <bounding_max>0.5 0.5 0.5</bounding_max>
+            </helper>
+          </technique>
+        </extra>
+      </node>
+      <node id="_candle38-node" name="_candle38" type="NODE">
+        <translate>328.766 -0.00003 495.947</translate>
+        <rotate>-1 0 0 -90</rotate>
+        <extra>
+          <technique profile="MAX3D">
+            <helper>
+              <bounding_min>-0.5 -0.5 -0.5</bounding_min>
+              <bounding_max>0.5 0.5 0.5</bounding_max>
+            </helper>
+          </technique>
+        </extra>
+      </node>
+      <node id="_candle40-node" name="_candle40" type="NODE">
+        <translate>346.591 -0.00003 450.275</translate>
+        <rotate>-1 0 0 -90</rotate>
+        <extra>
+          <technique profile="MAX3D">
+            <helper>
+              <bounding_min>-0.5 -0.5 -0.5</bounding_min>
+              <bounding_max>0.5 0.5 0.5</bounding_max>
+            </helper>
+          </technique>
+        </extra>
+      </node>
+      <node id="_candle41-node" name="_candle41" type="NODE">
+        <translate>362.412 -0.00003 429.819</translate>
+        <rotate>-1 0 0 -90</rotate>
+        <extra>
+          <technique profile="MAX3D">
+            <helper>
+              <bounding_min>-0.5 -0.5 -0.5</bounding_min>
+              <bounding_max>0.5 0.5 0.5</bounding_max>
+            </helper>
+          </technique>
+        </extra>
+      </node>
+      <node id="_candle42-node" name="_candle42" type="NODE">
+        <translate>377.877 -0.00003 414.876</translate>
+        <rotate>-1 0 0 -90</rotate>
+        <extra>
+          <technique profile="MAX3D">
+            <helper>
+              <bounding_min>-0.5 -0.5 -0.5</bounding_min>
+              <bounding_max>0.5 0.5 0.5</bounding_max>
+            </helper>
+          </technique>
+        </extra>
+      </node>
+      <node id="_candle44-node" name="_candle44" type="NODE">
+        <translate>425.624 -0.00003 384.056</translate>
+        <rotate>-1 0 0 -90</rotate>
+        <extra>
+          <technique profile="MAX3D">
+            <helper>
+              <bounding_min>-0.5 -0.5 -0.5</bounding_min>
+              <bounding_max>0.5 0.5 0.5</bounding_max>
+            </helper>
+          </technique>
+        </extra>
+      </node>
+      <node id="_candle43-node" name="_candle43" type="NODE">
+        <translate>398.853 -0.00003 399.161</translate>
+        <rotate>-1 0 0 -90</rotate>
+        <extra>
+          <technique profile="MAX3D">
+            <helper>
+              <bounding_min>-0.5 -0.5 -0.5</bounding_min>
+              <bounding_max>0.5 0.5 0.5</bounding_max>
+            </helper>
+          </technique>
+        </extra>
+      </node>
+      <node id="_candle45-node" name="_candle45" type="NODE">
+        <translate>407.447 -0.00003 380.26</translate>
+        <rotate>-1 0 0 -90</rotate>
+        <extra>
+          <technique profile="MAX3D">
+            <helper>
+              <bounding_min>-0.5 -0.5 -0.5</bounding_min>
+              <bounding_max>0.5 0.5 0.5</bounding_max>
+            </helper>
+          </technique>
+        </extra>
+      </node>
+      <node id="_candle46-node" name="_candle46" type="NODE">
+        <translate>389.12 -0.00003 370.796</translate>
+        <rotate>-1 0 0 -90</rotate>
+        <extra>
+          <technique profile="MAX3D">
+            <helper>
+              <bounding_min>-0.5 -0.5 -0.5</bounding_min>
+              <bounding_max>0.5 0.5 0.5</bounding_max>
+            </helper>
+          </technique>
+        </extra>
+      </node>
+      <node id="_candle47-node" name="_candle47" type="NODE">
+        <translate>372.514 -0.00003 362.332</translate>
+        <rotate>-1 0 0 -90</rotate>
+        <extra>
+          <technique profile="MAX3D">
+            <helper>
+              <bounding_min>-0.5 -0.5 -0.5</bounding_min>
+              <bounding_max>0.5 0.5 0.5</bounding_max>
+            </helper>
+          </technique>
+        </extra>
+      </node>
+      <node id="_candle48-node" name="_candle48" type="NODE">
+        <translate>441.422 -0.00003 398.014</translate>
+        <rotate>-1 0 0 -90</rotate>
+        <extra>
+          <technique profile="MAX3D">
+            <helper>
+              <bounding_min>-0.5 -0.5 -0.5</bounding_min>
+              <bounding_max>0.5 0.5 0.5</bounding_max>
+            </helper>
+          </technique>
+        </extra>
+      </node>
+      <node id="_candle49-node" name="_candle49" type="NODE">
+        <translate>458.943 -0.00003 386.957</translate>
+        <rotate>-1 0 0 -90</rotate>
+        <extra>
+          <technique profile="MAX3D">
+            <helper>
+              <bounding_min>-0.5 -0.5 -0.5</bounding_min>
+              <bounding_max>0.5 0.5 0.5</bounding_max>
+            </helper>
+          </technique>
+        </extra>
+      </node>
+      <node id="_candle51-node" name="_candle51" type="NODE">
+        <translate>502.439 -0.00003 379.816</translate>
+        <rotate>-1 0 0 -90</rotate>
+        <extra>
+          <technique profile="MAX3D">
+            <helper>
+              <bounding_min>-0.5 -0.5 -0.5</bounding_min>
+              <bounding_max>0.5 0.5 0.5</bounding_max>
+            </helper>
+          </technique>
+        </extra>
+      </node>
+      <node id="_candle50-node" name="_candle50" type="NODE">
+        <translate>477.909 -0.00003 380.665</translate>
+        <rotate>-1 0 0 -90</rotate>
+        <extra>
+          <technique profile="MAX3D">
+            <helper>
+              <bounding_min>-0.5 -0.5 -0.5</bounding_min>
+              <bounding_max>0.5 0.5 0.5</bounding_max>
+            </helper>
+          </technique>
+        </extra>
+      </node>
+      <node id="_candle52-node" name="_candle52" type="NODE">
+        <translate>522.329 -0.00003 385.809</translate>
+        <rotate>-1 0 0 -90</rotate>
+        <extra>
+          <technique profile="MAX3D">
+            <helper>
+              <bounding_min>-0.5 -0.5 -0.5</bounding_min>
+              <bounding_max>0.5 0.5 0.5</bounding_max>
+            </helper>
+          </technique>
+        </extra>
+      </node>
+      <node id="_candle53-node" name="_candle53" type="NODE">
+        <translate>535.402 -0.00003 398.061</translate>
+        <rotate>-1 0 0 -90</rotate>
+        <extra>
+          <technique profile="MAX3D">
+            <helper>
+              <bounding_min>-0.5 -0.5 -0.5</bounding_min>
+              <bounding_max>0.5 0.5 0.5</bounding_max>
+            </helper>
+          </technique>
+        </extra>
+      </node>
+      <node id="_candle54-node" name="_candle54" type="NODE">
+        <translate>534.576 -0.00003 420.799</translate>
+        <rotate>-1 0 0 -90</rotate>
+        <extra>
+          <technique profile="MAX3D">
+            <helper>
+              <bounding_min>-0.5 -0.5 -0.5</bounding_min>
+              <bounding_max>0.5 0.5 0.5</bounding_max>
+            </helper>
+          </technique>
+        </extra>
+      </node>
+      <node id="_candle55-node" name="_candle55" type="NODE">
+        <translate>524.376 -0.00003 432.205</translate>
+        <rotate>-1 0 0 -90</rotate>
+        <extra>
+          <technique profile="MAX3D">
+            <helper>
+              <bounding_min>-0.5 -0.5 -0.5</bounding_min>
+              <bounding_max>0.5 0.5 0.5</bounding_max>
+            </helper>
+          </technique>
+        </extra>
+      </node>
+      <node id="_candle57-node" name="_candle57" type="NODE">
+        <translate>488.108 -0.00003 445.849</translate>
+        <rotate>-1 0 0 -90</rotate>
+        <extra>
+          <technique profile="MAX3D">
+            <helper>
+              <bounding_min>-0.5 -0.5 -0.5</bounding_min>
+              <bounding_max>0.5 0.5 0.5</bounding_max>
+            </helper>
+          </technique>
+        </extra>
+      </node>
+      <node id="_candle56-node" name="_candle56" type="NODE">
+        <translate>510.368 -0.00003 440.214</translate>
+        <rotate>-1 0 0 -90</rotate>
+        <extra>
+          <technique profile="MAX3D">
+            <helper>
+              <bounding_min>-0.5 -0.5 -0.5</bounding_min>
+              <bounding_max>0.5 0.5 0.5</bounding_max>
+            </helper>
+          </technique>
+        </extra>
+      </node>
+      <node id="_candle58-node" name="_candle58" type="NODE">
+        <translate>464.303 -0.00003 444.575</translate>
+        <rotate>-1 0 0 -90</rotate>
+        <extra>
+          <technique profile="MAX3D">
+            <helper>
+              <bounding_min>-0.5 -0.5 -0.5</bounding_min>
+              <bounding_max>0.5 0.5 0.5</bounding_max>
+            </helper>
+          </technique>
+        </extra>
+      </node>
+      <node id="_candle59-node" name="_candle59" type="NODE">
+        <translate>446.678 -0.00003 437.164</translate>
+        <rotate>-1 0 0 -90</rotate>
+        <extra>
+          <technique profile="MAX3D">
+            <helper>
+              <bounding_min>-0.5 -0.5 -0.5</bounding_min>
+              <bounding_max>0.5 0.5 0.5</bounding_max>
+            </helper>
+          </technique>
+        </extra>
+      </node>
+      <node id="_candle60-node" name="_candle60" type="NODE">
+        <translate>435.117 -0.00003 420.033</translate>
+        <rotate>-1 0 0 -90</rotate>
+        <extra>
+          <technique profile="MAX3D">
+            <helper>
+              <bounding_min>-0.5 -0.5 -0.5</bounding_min>
+              <bounding_max>0.5 0.5 0.5</bounding_max>
+            </helper>
+          </technique>
+        </extra>
+      </node>
+      <node id="_candle61-node" name="_candle61" type="NODE">
+        <translate>535.37 -0.00003 450.09</translate>
+        <rotate>-1 0 0 -90</rotate>
+        <extra>
+          <technique profile="MAX3D">
+            <helper>
+              <bounding_min>-0.5 -0.5 -0.5</bounding_min>
+              <bounding_max>0.5 0.5 0.5</bounding_max>
+            </helper>
+          </technique>
+        </extra>
+      </node>
+      <node id="_candle63-node" name="_candle63" type="NODE">
+        <translate>508.152 -0.00003 470.809</translate>
+        <rotate>-1 0 0 -90</rotate>
+        <extra>
+          <technique profile="MAX3D">
+            <helper>
+              <bounding_min>-0.5 -0.5 -0.5</bounding_min>
+              <bounding_max>0.5 0.5 0.5</bounding_max>
+            </helper>
+          </technique>
+        </extra>
+      </node>
+      <node id="_candle62-node" name="_candle62" type="NODE">
+        <translate>520.174 -0.00003 458.972</translate>
+        <rotate>-1 0 0 -90</rotate>
+        <extra>
+          <technique profile="MAX3D">
+            <helper>
+              <bounding_min>-0.5 -0.5 -0.5</bounding_min>
+              <bounding_max>0.5 0.5 0.5</bounding_max>
+            </helper>
+          </technique>
+        </extra>
+      </node>
+      <node id="_candle64-node" name="_candle64" type="NODE">
+        <translate>500.928 -0.00003 484.917</translate>
+        <rotate>-1 0 0 -90</rotate>
+        <extra>
+          <technique profile="MAX3D">
+            <helper>
+              <bounding_min>-0.5 -0.5 -0.5</bounding_min>
+              <bounding_max>0.5 0.5 0.5</bounding_max>
+            </helper>
+          </technique>
+        </extra>
+      </node>
+      <node id="_candle65-node" name="_candle65" type="NODE">
+        <translate>499.792 -0.00003 498.787</translate>
+        <rotate>-1 0 0 -90</rotate>
+        <extra>
+          <technique profile="MAX3D">
+            <helper>
+              <bounding_min>-0.5 -0.5 -0.5</bounding_min>
+              <bounding_max>0.5 0.5 0.5</bounding_max>
+            </helper>
+          </technique>
+        </extra>
+      </node>
+      <node id="_candle66-node" name="_candle66" type="NODE">
+        <translate>505.255 0 514.089</translate>
+        <rotate>-1 0 0 -90</rotate>
+        <extra>
+          <technique profile="MAX3D">
+            <helper>
+              <bounding_min>-0.5 -0.5 -0.5</bounding_min>
+              <bounding_max>0.5 0.5 0.5</bounding_max>
+            </helper>
+          </technique>
+        </extra>
+      </node>
+      <node id="_candle67-node" name="_candle67" type="NODE">
+        <translate>514.46 0 525.406</translate>
+        <rotate>-1 0 0 -90</rotate>
+        <extra>
+          <technique profile="MAX3D">
+            <helper>
+              <bounding_min>-0.5 -0.5 -0.5</bounding_min>
+              <bounding_max>0.5 0.5 0.5</bounding_max>
+            </helper>
+          </technique>
+        </extra>
+      </node>
+      <node id="_candle68-node" name="_candle68" type="NODE">
+        <translate>526.6 0 534.524</translate>
+        <rotate>-1 0 0 -90</rotate>
+        <extra>
+          <technique profile="MAX3D">
+            <helper>
+              <bounding_min>-0.5 -0.5 -0.5</bounding_min>
+              <bounding_max>0.5 0.5 0.5</bounding_max>
+            </helper>
+          </technique>
+        </extra>
+      </node>
+      <node id="_candle70-node" name="_candle70" type="NODE">
+        <translate>559.55 0 546.813</translate>
+        <rotate>-1 0 0 -90</rotate>
+        <extra>
+          <technique profile="MAX3D">
+            <helper>
+              <bounding_min>-0.5 -0.5 -0.5</bounding_min>
+              <bounding_max>0.5 0.5 0.5</bounding_max>
+            </helper>
+          </technique>
+        </extra>
+      </node>
+      <node id="_candle69-node" name="_candle69" type="NODE">
+        <translate>542.748 0 542.103</translate>
+        <rotate>-1 0 0 -90</rotate>
+        <extra>
+          <technique profile="MAX3D">
+            <helper>
+              <bounding_min>-0.5 -0.5 -0.5</bounding_min>
+              <bounding_max>0.5 0.5 0.5</bounding_max>
+            </helper>
+          </technique>
+        </extra>
+      </node>
+      <node id="_candle71-node" name="_candle71" type="NODE">
+        <translate>579.589 0 549.313</translate>
+        <rotate>-1 0 0 -90</rotate>
+        <extra>
+          <technique profile="MAX3D">
+            <helper>
+              <bounding_min>-0.5 -0.5 -0.5</bounding_min>
+              <bounding_max>0.5 0.5 0.5</bounding_max>
+            </helper>
+          </technique>
+        </extra>
+      </node>
+      <node id="_candle72-node" name="_candle72" type="NODE">
+        <translate>597.89 0 548.881</translate>
+        <rotate>-1 0 0 -90</rotate>
+        <extra>
+          <technique profile="MAX3D">
+            <helper>
+              <bounding_min>-0.5 -0.5 -0.5</bounding_min>
+              <bounding_max>0.5 0.5 0.5</bounding_max>
+            </helper>
+          </technique>
+        </extra>
+      </node>
+      <node id="_candle73-node" name="_candle73" type="NODE">
+        <translate>618.383 0 545.28</translate>
+        <rotate>-1 0 0 -90</rotate>
+        <extra>
+          <technique profile="MAX3D">
+            <helper>
+              <bounding_min>-0.5 -0.5 -0.5</bounding_min>
+              <bounding_max>0.5 0.5 0.5</bounding_max>
+            </helper>
+          </technique>
+        </extra>
+      </node>
+      <node id="_candle74-node" name="_candle74" type="NODE">
+        <translate>639.637 0 537.341</translate>
+        <rotate>-1 0 0 -90</rotate>
+        <extra>
+          <technique profile="MAX3D">
+            <helper>
+              <bounding_min>-0.5 -0.5 -0.5</bounding_min>
+              <bounding_max>0.5 0.5 0.5</bounding_max>
+            </helper>
+          </technique>
+        </extra>
+      </node>
+      <node id="_candle76-node" name="_candle76" type="NODE">
+        <translate>666.246 0 513.83</translate>
+        <rotate>-1 0 0 -90</rotate>
+        <extra>
+          <technique profile="MAX3D">
+            <helper>
+              <bounding_min>-0.5 -0.5 -0.5</bounding_min>
+              <bounding_max>0.5 0.5 0.5</bounding_max>
+            </helper>
+          </technique>
+        </extra>
+      </node>
+      <node id="_candle75-node" name="_candle75" type="NODE">
+        <translate>654.467 0 527.581</translate>
+        <rotate>-1 0 0 -90</rotate>
+        <extra>
+          <technique profile="MAX3D">
+            <helper>
+              <bounding_min>-0.5 -0.5 -0.5</bounding_min>
+              <bounding_max>0.5 0.5 0.5</bounding_max>
+            </helper>
+          </technique>
+        </extra>
+      </node>
+      <node id="_candle77-node" name="_candle77" type="NODE">
+        <translate>671.569 -0.00003 498.675</translate>
+        <rotate>-1 0 0 -90</rotate>
+        <extra>
+          <technique profile="MAX3D">
+            <helper>
+              <bounding_min>-0.5 -0.5 -0.5</bounding_min>
+              <bounding_max>0.5 0.5 0.5</bounding_max>
+            </helper>
+          </technique>
+        </extra>
+      </node>
+      <node id="_candle78-node" name="_candle78" type="NODE">
+        <translate>669.241 -0.00003 481.462</translate>
+        <rotate>-1 0 0 -90</rotate>
+        <extra>
+          <technique profile="MAX3D">
+            <helper>
+              <bounding_min>-0.5 -0.5 -0.5</bounding_min>
+              <bounding_max>0.5 0.5 0.5</bounding_max>
+            </helper>
+          </technique>
+        </extra>
+      </node>
+      <node id="_candle79-node" name="_candle79" type="NODE">
+        <translate>657.194 -0.00003 464.075</translate>
+        <rotate>-1 0 0 -90</rotate>
+        <extra>
+          <technique profile="MAX3D">
+            <helper>
+              <bounding_min>-0.5 -0.5 -0.5</bounding_min>
+              <bounding_max>0.5 0.5 0.5</bounding_max>
+            </helper>
+          </technique>
+        </extra>
+      </node>
+      <node id="_candle80-node" name="_candle80" type="NODE">
+        <translate>645.003 -0.00003 454.819</translate>
+        <rotate>-1 0 0 -90</rotate>
+        <extra>
+          <technique profile="MAX3D">
+            <helper>
+              <bounding_min>-0.5 -0.5 -0.5</bounding_min>
+              <bounding_max>0.5 0.5 0.5</bounding_max>
+            </helper>
+          </technique>
+        </extra>
+      </node>
+      <node id="_candle82-node" name="_candle82" type="NODE">
+        <translate>612.509 -0.00003 442.524</translate>
+        <rotate>-1 0 0 -90</rotate>
+        <extra>
+          <technique profile="MAX3D">
+            <helper>
+              <bounding_min>-0.5 -0.5 -0.5</bounding_min>
+              <bounding_max>0.5 0.5 0.5</bounding_max>
+            </helper>
+          </technique>
+        </extra>
+      </node>
+      <node id="_candle81-node" name="_candle81" type="NODE">
+        <translate>630.958 -0.00003 447.975</translate>
+        <rotate>-1 0 0 -90</rotate>
+        <extra>
+          <technique profile="MAX3D">
+            <helper>
+              <bounding_min>-0.5 -0.5 -0.5</bounding_min>
+              <bounding_max>0.5 0.5 0.5</bounding_max>
+            </helper>
+          </technique>
+        </extra>
+      </node>
+      <node id="_candle83-node" name="_candle83" type="NODE">
+        <translate>596.278 -0.00003 440.167</translate>
+        <rotate>-1 0 0 -90</rotate>
+        <extra>
+          <technique profile="MAX3D">
+            <helper>
+              <bounding_min>-0.5 -0.5 -0.5</bounding_min>
+              <bounding_max>0.5 0.5 0.5</bounding_max>
+            </helper>
+          </technique>
+        </extra>
+      </node>
+      <node id="_candle84-node" name="_candle84" type="NODE">
+        <translate>574.274 -0.00003 440.235</translate>
+        <rotate>-1 0 0 -90</rotate>
+        <extra>
+          <technique profile="MAX3D">
+            <helper>
+              <bounding_min>-0.5 -0.5 -0.5</bounding_min>
+              <bounding_max>0.5 0.5 0.5</bounding_max>
+            </helper>
+          </technique>
+        </extra>
+      </node>
+      <node id="_candle85-node" name="_candle85" type="NODE">
+        <translate>555.263 -0.00003 443.331</translate>
+        <rotate>-1 0 0 -90</rotate>
+        <extra>
+          <technique profile="MAX3D">
+            <helper>
+              <bounding_min>-0.5 -0.5 -0.5</bounding_min>
+              <bounding_max>0.5 0.5 0.5</bounding_max>
+            </helper>
+          </technique>
+        </extra>
+      </node>
+      <node id="_candle86-node" name="_candle86" type="NODE">
+        <translate>553.152 0 562.708</translate>
+        <rotate>-1 0 0 -90</rotate>
+        <extra>
+          <technique profile="MAX3D">
+            <helper>
+              <bounding_min>-0.5 -0.5 -0.5</bounding_min>
+              <bounding_max>0.5 0.5 0.5</bounding_max>
+            </helper>
+          </technique>
+        </extra>
+      </node>
+      <node id="VisualSceneNode" type="NODE">
+        <instance_light url="#ambient-environment-light"/>
+      </node>
+      <extra>
+        <technique profile="FCOLLADA">
+          <start_time>0</start_time>
+          <end_time>2</end_time>
+        </technique>
+      </extra>
+      <extra>
+        <technique profile="MAX3D">
+          <frame_rate>30</frame_rate>
+        </technique>
+      </extra>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_visual_scene url="#unnamed_scene"/>
+  </scene>
+</COLLADA>

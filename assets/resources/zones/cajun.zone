@@ -1,0 +1,19 @@
+<zone>
+	<dependencies>
+		<dir src="cajun" />
+		<dir src="\minigames\leeches" />
+	</dependencies>
+	<locations>
+		<location name="swamp_house" src="cajun/swamp_house" />
+		<location name="swamp_island" src="cajun/swamp_island" />
+		<location name="mangrove_circle" src="cajun/mangrove_circle" />
+		<location name="house_inset" src="cajun/swamp_house/insets/house_inset" />
+		<location name="alligator_1_inset" src="cajun/swamp_house/insets/alligator_1_inset" />
+		<location name="alligator_2_inset" src="cajun/swamp_house/insets/alligator_2_inset" />
+		<location name="alligator_3_inset" src="cajun/swamp_house/insets/alligator_3_inset" />
+		<location name="alligator_4_inset" src="cajun/swamp_house/insets/alligator_4_inset" />
+		<location name="alligator_5_inset" src="cajun/swamp_house/insets/alligator_5_inset" />
+		<location name="alligator_6_inset" src="cajun/swamp_house/insets/alligator_6_inset" />
+		<location name="picture_inset" src="cajun/mangrove_circle/insets/picture_inset" />
+	</locations>
+</zone>

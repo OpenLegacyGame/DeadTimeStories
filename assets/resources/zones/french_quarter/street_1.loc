@@ -1,0 +1,161 @@
+<location>
+	<music>
+		<track src="/music/04_French_Quarter_Jazz_Carnavale" silence_after="5" />
+		<track src="/music/05_French_Quarter_Tragic_Fate" silence_after="5" />
+	</music> 
+	<ambient src="/music/ambient/sfx_FR_Q_amb" />
+	<onFirstVisit script="street_1/starter" />
+	<onEnter script="street_1/on_enter" />
+	<objects>
+		<object name="background">
+			<texture src="street_1/background" />
+		</object>
+		<object name="top">
+			<position z="-3" />
+			<texture src="street_1/build_top" />
+			<interactive value="0" />
+		</object>
+		<object name="bottom">
+			<position z="-2" />
+			<texture src="street_1/build_bottom" />
+			<interactive value="0" />
+		</object>	
+		<object name="lipstick_trigger">
+			<script src="street_1/lipstick_trigger" />		
+		</object>	
+		<object name="carriage_trigger">
+			<script src="street_1/carriage_trigger" />		
+		</object>			
+		<object name="fx_bats">
+			<particles src="\particles_ready\bats\bats4.psysl" />
+			<particles src="\particles_ready\bats\bats3.psysl" />
+			<particles src="\particles_ready\bats\bats2.psysl" />
+			<particles src="\particles_ready\bats\bats.psysl" />
+		</object>
+		<object name="fx_fog">
+			<particles presim="3" src="/particles_ready/street_01/bg_fog.psysl" />
+		</object>
+		
+		
+		<object name="street_1_carriage">
+			<position x="754" y="369" z="-15" />
+			<texture src="street_1/street_1_carriage/street_1_carriage" />
+			<script src="street_1/street_1_carriage/street_1_carriage" />
+			<alpha value="0" />
+		</object>	
+		<object name="to_apothecary_shop">
+			<position x="0" y="174" z="-15" />
+			<texture src="street_1/apothecary_mask" />
+			<script src="street_1/to_apothecary_shop" />
+			<alpha value="0" />
+		</object>
+		<object name="to_street_2">
+			<position x="211" y="397" z="-15" />
+			<size width="132" height="84" />
+			<texture src="/common/half_dark" />
+			<script src="street_1/to_street_2" />
+			<alpha value="0" />
+		</object>
+		<object name="to_morning_room">
+			<position x="430" y="170" z="-20" />
+			<texture src="street_1/to_morning_room/door_mask" />
+			<script src="street_1/to_morning_room/door_mask" />
+			<alpha value="0" />
+		</object>
+		<object name="antons_door">
+			<position x="522" y="353" z="-10" />
+			<texture src="street_1/antons_door/door_opened" />
+			<script src="street_1/antons_door/door" />
+		</object>
+		<object name="fx_blink_antons_door">
+			<position x="543" y="382" z="-20" />		
+			<particles src="/particles_ready/Blink/blink.psysl" />
+		</object>
+		<object name="cobble">
+			<position x="517" y="599" z="-10" />
+			<texture src="street_1/cobble/cobble" />
+			<script src="street_1/cobble/cobble" />
+		</object>
+		<object name="fx_blink_cobble">
+			<position x="532" y="612" z="-20" />		
+			<particles src="/particles_ready/Blink/blink.psysl" />
+		</object>
+		<object name="horseshoe">
+			<position x="163" y="551" z="-20" />
+			<texture src="street_1/horseshoe/horseshoe" />
+			<script src="street_1/horseshoe/horseshoe" />
+		</object>
+		<object name="fx_blink_horseshoe">
+			<position x="185" y="565" z="-20" />		
+			<particles src="/particles_ready/Blink/blink.psysl" />
+		</object>
+		
+		<object name="newspaper_stand">
+			<position x="114" y="424" z="-15" />
+			<script src="street_1/newspaper_stand/newspaper_stand" />
+			<texture src="street_1/newspaper_stand/stand_mask" />
+			<alpha value="0" />
+		</object>
+		<object name="fx_blink_newspaper_stand">
+			<position x="145" y="450" z="-40" />		
+			<particles src="/particles_ready/Blink/blink.psysl" />
+		</object>
+
+		<object name="gas_lamp">
+			<position x="713" y="277" z="-20" />
+			<script src="street_1/gas_lamp/gas_lamp" />
+			<texture src="street_1/gas_lamp/gas_lamp_safe" />
+		</object>
+		<object name="fx_blink_gas_lamp">
+			<position x="735" y="298" z="-30" />		
+			<particles src="/particles_ready/Blink/blink.psysl" />
+		</object>	
+		<object name="street_clock">
+			<position x="249" y="162" z="-25" />
+			<script src="street_1/street_clock/street_clock" />
+			<texture src="street_1/street_clock/clock_mask" />
+			<alpha value="0" />
+		</object>
+		<object name="street_clock_lid">
+			<position x="250" y="164" z="-20" />
+			<texture src="street_1/street_clock/clock_lid" />
+			<visible value="0" />
+			<interactive value="0" />
+		</object>
+		<object name="street_clock_hands">
+			<position x="254" y="171" z="-20" />
+			<script src="street_1/street_clock/street_clock" />
+			<texture src="street_1/street_clock/clock_hands" />
+			<visible value="0" />
+			<interactive value="0" />
+		</object>
+		<object name="fx_blink_street_clock">
+			<position x="290" y="290" z="-30" />		
+			<particles src="/particles_ready/Blink/blink.psysl" />
+		</object>	
+<!--names	-->	
+		<object name="esther">
+			<position x="344" y="616" z="-15" />
+			<texture src="street_1/esther/esther" />
+		</object>	
+		<object name="esther_mask">
+			<position x="339" y="609" z="-20" />
+			<script src="street_1/esther/esther_mask" />
+			<texture src="street_1/esther/esther_mask" />
+			<alpha value="0" />
+		</object>	
+		
+		<object name="sfx_wind">
+			<script src="street_1/sfx/wind" />
+		</object>
+		<object name="sfx_bats">
+			<script src="street_1/sfx/bats" />
+		</object>
+		<object name="sfx_wierd_rustle">
+			<script src="street_1/sfx/wierd_rustle" />
+		</object>
+		<object name="sfx_clock">
+			<script src="street_1/sfx/clock" />
+		</object>
+	</objects>
+</location>

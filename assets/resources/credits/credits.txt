@@ -1,0 +1,166 @@
+﻿ChinaAVG第62号汉化作品
+
+!亡灵故事
+
+#翻译
+odair
+
+#美工
+慕容枫叶
+
+#技术
+shane007    NapTID
+
+#汉化包
+NapTID
+
+#测试
+NapTID
+慕容枫叶
+波洛
+
+!欢迎光临冒险解谜游戏中文网
+!www.chinaavg.com
+
+!
+!I-play
+
+#Producer
+Doug Spaulding
+
+#Game Designer/Creative Director
+Jane Jensen
+
+#Production Assistant
+John Curst McAuley
+
+#Director of QA, Publishing
+Thomas Hulvershorn
+
+#QA Manager
+Vladimir Tikhomirov
+
+#QA Lead
+Denis Poguts
+
+#QA Engineers
+Anna Bukina
+Ivan Zotkin
+Viktoria Yurchenko
+
+#Marketing
+Nancy Kiss
+
+#VP  Games Production
+Eyal Ronen
+
+#Executive Producer
+Robert Adams
+
+#Product Manager
+Mark Litwin
+
+!
+!Nikitova Games
+
+#Producer
+Aleksei Gilenko
+
+#Art Director
+Roman Nesin
+
+#Game Designers
+Vitaliy Okorokov
+Ksenia Tomasheva
+
+#Lead Programmer
+Yuriy Miroshnyk
+
+#Game Logic Programmer
+Andrey Antsut
+
+#Artists
+Ekaterina Matkovskaya
+Artem Poliakov
+Sergey Andreev
+Anna Bashmakova
+Vitaly Smyk
+Irina Smyk
+
+#Music
+Marta Tsvetsikh
+
+#Sound Engineer
+Alexander Kolomiets
+
+#Executives
+Olya Nikitova
+Mikhail Vatsovsky
+
+#Business Development Manager
+Natalia Makarova
+
+#Special Thanks
+Sergey Lesiuk
+Alexander Kaplun
+Alexander Kravchuk
+Ekaterina Kulish
+Yaroslav Medvedev
+Dmitry Pantiukhov
+Vladislav Zabela
+
+!
+!Self-Adhesive Records, Seattle, WA
+#Voice Recording/Editing
+
+#Cast
+Ed Ryan (Edward Blackgate)
+Renee Mincey (Jessie Bodeen)
+Chelsea Binta (Cloe, Spirits)
+Chelsea Binta (Adelaide, Spirits)
+Deanna Sarkar (Delphine LaLaurie, Spirits)
+Kristina Yuen (Mambo Marie, Spirits)
+Chelsea Binta (Bella, Spirits)
+Deanna Sarkar (Mrs. Anton, Spirits)
+Chris Maxfield (Doctor, Spirits)
+Jeff Blancato (Pharmacist, First Gentleman, Spirits)
+Jon Goff (Second Gentleman)
+
+!
+!University of Bolton, UK
+#Post Beta Game Balancing Support
+
+#Coordinators
+Louise Blenkharn, Andrew Williams
+
+#Reviewers
+Catherine Urmston, Amanda Dewhurst, Angela Bommer,
+Shauni Maple, Alys Baines-Dinning, Kylie Loveridge,
+Michaela Halsall, Amelia Dewhurst, Nicola Holmes,
+Lee Hodges, Michael Cox, Chris Pepper, Saima Survay,
+Alexandra Brezuica, Amanda Creed, Kathyn Gabrielides,
+Ahmet Ayirga, Richard Allsop, Luke Stephenson,
+Natalie Woods, David Stammers, Nicholas Roberts
+
+!
+!Middleware
+
+Freetype Font Library
+Copyright (C) 2006 The FreeType Project (www.freetype.org)
+
+Lua 5.0 Scripting Library
+Copyright (C) 1994?008 Lua.org, PUC-Rio
+
+OpenAL Sound Library
+connect.creativelabs.com/openal
+
+TinyXML Parsing Library
+www.sourceforge.net/projects/tinyxml
+
+ZLib General Purpose Compression Library
+www.zlib.net
+
+!
+#Deadtime Stories (C) 2010 Oberon Media, Inc.
+#I-play is a trademark of Oberon Media.
+#All rights Reserved.

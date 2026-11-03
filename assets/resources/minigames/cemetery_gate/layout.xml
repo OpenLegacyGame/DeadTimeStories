@@ -1,0 +1,73 @@
+<objects>
+	<object name="back">
+		<position x="0" y="0" z="10" />
+		<texture src="background" />
+	</object>
+	<object name="exit">
+		<position x="0" y="618" z="5" />
+		<texture src="/common/half_dark" />
+		<alpha value="0.0" />
+		<size width="1024" height="150" />
+	</object>
+	
+	<object name="fx_block_rotation">
+		<particles src="/particles_ready/cemeterygates/letterfx.psysl" />
+	</object>
+	
+	<object name="block_01">
+		<position x="195" y="380" z="0" />
+		<texture src="block" />
+	</object>
+	<object name="block_02">
+		<position x="257" y="368" z="0" />
+		<texture src="block" />
+	</object>
+	<object name="block_03">
+		<position x="313" y="348" z="0" />
+		<texture src="block" />
+	</object>
+	
+	<object name="block_04">
+		<position x="540" y="388" z="0" />
+		<texture src="block" />
+	</object>
+	<object name="block_05">
+		<position x="604" y="375" z="0" />
+		<texture src="block" />
+	</object>
+	<object name="block_06">
+		<position x="662" y="383" z="0" />
+		<texture src="block" />
+	</object>
+
+	<object name="block_07">
+		<position x="202" y="493" z="0" />
+		<texture src="block" />
+	</object>
+	<object name="block_08">
+		<position x="259" y="490" z="0" />
+		<texture src="block" />
+	</object>
+	<object name="block_09">
+		<position x="318" y="490" z="0" />
+		<texture src="block" />
+	</object>
+	
+	<object name="block_10">
+		<position x="529" y="492" z="0" />
+		<texture src="block" />
+	</object>
+	<object name="block_11">
+		<position x="592" y="499" z="0" />
+		<texture src="block" />
+	</object>
+	<object name="block_12">
+		<position x="643" y="501" z="0" />
+		<texture src="block" />
+	</object>
+	<object name="block_13">
+		<position x="721" y="499" z="0" />
+		<texture src="block" />
+	</object>
+	
+</objects>

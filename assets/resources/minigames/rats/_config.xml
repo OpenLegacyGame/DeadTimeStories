@@ -1,0 +1,137 @@
+<rats_puzzle>
+	<onFinish script="_on_finish" />
+	
+	<!-- quantity is total number of rats in the cellar. -->
+	<rats quantity="3" />
+	
+	<!-- The following is the total number of possible light ray sections on the scene.
+	     They are called "beams" instead of "rays" mostly to avoid confusion with "rats".
+		 
+		 Each "beam" is a straight line connecting two objects - source and target. 
+		 Source of the first beam is the opened window.
+		 Other beams' sources are the mirrors (via reflection of another beam).
+		 
+		 Each beam is linked by its zero-based "global index" to a scene object.
+		 These scene objects are described in layout.xml and have names
+		 "beam_00", "beam_01" and so on.
+		 This naming convention is hardcoded in fsm_pz06_objects.cpp,
+		 and currently supports up to 100 beams (that should be enough for any tuning).
+	-->
+	<beams quantity="16" />
+
+	<!-- The following tag describes the first beam.
+		 This beam's direction is not controlled by the player in any way -
+		 it always falls from the window and falls onto the mirror
+		 specified by target_mirror argument (zero-based index).
+	-->
+	<window beam_global_index="0" target_mirror="0" />
+
+	<!-- quantity here is mainly for better readability. It is only used for validation
+	     (the game will throw an exception if it does not match the
+		 actual number of mirrors described by child tags).
+	-->
+	<mirrors quantity="3">
+	
+		<!-- Every <mirror> tag below describes a single mirror.
+			 Attributes:
+			 
+			 index         - only for better readability. The mirrors MUST follow in the strict order (0,1,2,...).
+			                 The game will throw an exception otherwise.
+			 num_states    - number of states this mirror has. States can be switched by the player in game,
+			                 making the mirror face another direction (and thus reflect beams in other directions).
+			 initial_state - zero-based index of the state in which this mirror is in the beginning of the game.
+			 
+			 In layout.xml, every mirror is represented by one scene object per state it has.
+			 One and only one of these objects is visible at any given time.
+			 The naming convention for mirror objects is "mirror_xx_yy",
+			 where xx is two-digit zero-based index of the mirror,
+			 and yy is two-digit zero-based index of the state
+			 (e.g. "mirror_01_02" is the second(01) mirror in its third(02) state).
+			 This naming convention is hardcoded in fsm_pz06_objects.cpp,
+			 and currently supports up to 10 mirrors with up to 5 states for each one.			 
+			 
+			 <state> child tags describe the states. Same as for mirrors, their
+			 "index" attributes are provided only for readability and MUST follow
+			 in the strict order, otherwise the game will throw an exception.
+			 
+			 Every <state> tag must have one or more child <beam> tags,
+			 which describe rules of beam reflection by given mirror in given state.
+			 Attributes:
+			 
+			 global_index - zero-based index of scene object for the beam which
+			                is described by current rule.
+			 from         - source from which the beam comes to the current mirror.
+			                This can be "window" or "mirror_x", where x is zero-based index of another mirror.
+			 to			  - object which the reflected beam will hit. Possible values are:
+							"wall"     - the reflected beam hits a blank wall. For the game logic, this means
+							             that a beam reflected to "wall" requires no further reflection calculations.
+							"mirror_x" - the reflected beam hits another mirror (with zero-based index x).
+							             For the game logic, this means that, for calculating further reflection,
+										 the game must search for a rule in the current state of target mirror.
+							"rat_x"    - the reflected beam hits a rat (with zero-based index x) and scares it away.
+							             If this rat has already been scared before, it behaves exactly like "wall".
+
+							NOTE: these values are used only for reflection calculations and have nothing to do
+							with graphical look and position of the beams, which depend only on the beam's
+							scene object described in layout.xml.
+							
+			Naming conventions for the beams (used in comments next to the reflection rules below, and in some resource files):
+			
+			1) The reflecting mirror is specified by a letter of English alphabet corresponding to its index (0 - a, 1 - b, 2 - c, ...).
+			2) State of the reflecting mirror is specified by a number equal to its zero-based index.
+			3) Some mirrors can accept rays from several different sources.
+			   In this case, the previous source mirror is specified by another letter prefix.
+			   
+			Examples:
+			
+			a1 - beam reflected from mirror 0(a), while it is in state 1.
+			cb2 - beam reflected from mirror 1(b), while it is in state 2.
+			      "c" prefix means that the beam came to mirror 1(b) from mirror 2(c).
+		-->
+	
+		<mirror index="0" num_states="3" initial_state="0">
+			<state index="0">
+				<beam global_index="1" from="window" to="wall" />
+			</state>
+			
+			<state index="1">
+				<beam global_index="3" from="window" to="mirror_1" /> 
+			</state>
+			<state index="2">
+				<beam global_index="2" from="window" to="mirror_2" /> 
+			</state>
+		</mirror>
+		
+		<mirror index="1" num_states="3" initial_state="0">
+			<state index="0">
+				<beam global_index="7" from="mirror_2" to="wall" />
+				<beam global_index="10" from="mirror_0" to="wall" />
+			</state>
+			<state index="1">
+				<beam global_index="8" from="mirror_2" to="wall" /> 
+				<beam global_index="11" from="mirror_0" to="wall" />
+			</state>
+			<state index="2">
+				<beam global_index="9" from="mirror_2" to="wall" /> 
+				<beam global_index="12" from="mirror_0" to="mirror_2" /> 
+			</state>
+		</mirror>
+		
+		<mirror index="2" num_states="3" initial_state="1"> 
+			<state index="0">
+				<beam global_index="4" from="mirror_0" to="wall" />
+				<beam global_index="13" from="mirror_1" to="rat_0" />
+			</state>
+			<state index="1">
+				<beam global_index="6" from="mirror_0" to="rat_2" />
+				<beam global_index="15" from="mirror_1" to="wall" />
+			</state>
+			<state index="2">
+				<beam global_index="5" from="mirror_0" to="mirror_1" />
+				<beam global_index="14" from="mirror_1" to="rat_1" />
+			</state>
+			
+		</mirror>
+	</mirrors>
+	
+</rats_puzzle>

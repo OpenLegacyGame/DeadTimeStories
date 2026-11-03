@@ -1,0 +1,25 @@
+<location stripcode="0101">
+	<objects>
+		<object name="back">
+			<texture src="/common/half_dark" />
+			<size width="1024" height="768" />
+			<script src="mailbox_inset/back" />
+		</object>
+		<object name="inset">
+			<position x="304" y="127" z="-10" />
+			<texture src="mailbox_inset/mailbox_closed" />
+			<script src="mailbox_inset/inset" />
+		</object>
+		<object name="mailbox_mask">
+			<position x="405" y="229" z="-15" />
+			<texture src="mailbox_inset/mailbox_mask" />
+			<script src="mailbox_inset/mailbox_mask" />
+			<alpha value="0" />
+		</object>
+		<object name="brass">
+			<position x="417" y="304" z="-20" />
+			<texture src="mailbox_inset/brass/brass" />
+			<script src="mailbox_inset/brass/brass" />
+		</object>
+	</objects>
+</location>

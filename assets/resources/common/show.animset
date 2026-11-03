@@ -1,0 +1,5 @@
+<animation_set looped="0">
+	<animation type="const" applier="visible" priority="0" weight="1.0" start="0.0" looped="0">
+		<const type="float">1.0</const>
+	</animation>
+</animation_set>

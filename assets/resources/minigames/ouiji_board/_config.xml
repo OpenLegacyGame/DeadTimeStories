@@ -1,0 +1,8 @@
+<ouiji_board>
+	<onFinish script="_on_finish" />
+	<!--      0        1         2         3       -->
+	<!--      123456789012345678901234567890123456 -->
+	<alphabet>abcdefghijklmnopqrstuvwxyz1234567890</alphabet>
+	<phrase>open me</phrase>
+	<planchette_move_speed pixels_per_second="400" />
+</ouiji_board>

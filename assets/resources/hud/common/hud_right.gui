@@ -1,0 +1,57 @@
+<gui>
+	<group template="templates.tgui#right_group" >
+		<image id="back_right">
+			<file src="back_right" />
+		</image>
+		<button id="plant_book" shortcuts="p">
+			<view>
+				<normal src="bt_plant_book_E" />
+				<hover src="bt_plant_book_O" />
+				<clicked src="bt_plant_book_T" />
+			</view>
+			<mask src="bt_plant_book_MASK" />
+		</button>
+		
+		<progress id="hint_bottle">
+			<view default="nearest_below">
+				<file progress="0" src="pb_hint_bottle_001" />
+				<file progress="10" src="pb_hint_bottle_002" />
+				<file progress="20" src="pb_hint_bottle_003" />
+				<file progress="30" src="pb_hint_bottle_004" />
+				<file progress="40" src="pb_hint_bottle_005" />
+				<file progress="50" src="pb_hint_bottle_006" />
+				<file progress="60" src="pb_hint_bottle_007" />
+				<file progress="70" src="pb_hint_bottle_008" />
+				<file progress="80" src="pb_hint_bottle_009" />
+				<file progress="90" src="pb_hint_bottle_010" />
+				<file progress="99" src="pb_hint_bottle_011" />
+			</view>
+			<state progress="0" />
+			
+			<button id="hint_bottle_button">
+				<size width="206" height="147" />
+				<mask src="bt_hint_bottle_MASK" />
+				
+				<label id="hint_bottle_charge_label" visible="0">
+					<position x="150" y="70" />
+					<text font="/fonts/acoustic_bass" color="FFFF0000">100%</text>
+				</label>
+			</button>
+		</progress>
+		<image id="right_skull">
+			<file src="back_right_scull" />
+		</image>
+		<button id="arrow_right">
+			<view>
+				<normal src="bt_arrow_right_E" />
+				<hover src="bt_arrow_right_O" />
+				<clicked src="bt_arrow_right_T" />
+				<disabled src="bt_arrow_right_T" />
+			</view>
+			<mask src="bt_arrow_right_MASK" />
+		</button>
+		<image id="back_right_pillow" transparent="1">
+			<file src="back_right_pillow" />
+		</image>
+	</group>
+</gui>

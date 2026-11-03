@@ -1,0 +1,296 @@
+<objects>
+	<object name="back">
+		<position x="0" y="0" z="10" />
+		<texture src="back" />
+	</object>
+	<object name="exit">
+		<position x="0" y="618" z="10" />
+		<texture src="/common/half_dark" />
+		<alpha value="0.0" />
+		<size width="1024" height="150" />
+	</object>
+	
+	<object name="half_dark">
+		<position x="0" y="0" z="-50" />
+		<texture src="/common/half_dark" />
+		<size width="1024" height="768" />
+		<interactive value="0" />
+		<visible value="0" />
+	</object>
+	
+	<object name="sheet">
+		<position x="17" y="54" z="0" />
+		<texture src="sheet_mask" />
+		<alpha value="0.0" />
+	</object>
+	<object name="sheet_zoomed">
+		<position x="44" y="21" z="-60" />
+		<texture src="sheet" />
+	</object>
+	
+	<object name="shelf_01">
+		<texture src="/common/half_dark" />
+		<position x="267" y="85" z="5" />
+		<size width="95" height="159" />
+		<alpha value="0.0" />
+	</object>
+	<object name="shelf_02">
+		<texture src="/common/half_dark" />
+		<position x="374" y="85" z="5" />
+		<size width="101" height="154" />
+		<alpha value="0.0" />
+	</object>
+	<object name="shelf_03">
+		<texture src="/common/half_dark" />
+		<position x="493" y="85" z="5" />
+		<size width="107" height="155" />
+		<alpha value="0.0" />
+	</object>
+	<object name="shelf_04">
+		<texture src="/common/half_dark" />
+		<position x="609" y="85" z="5" />
+		<size width="107" height="154" />
+		<alpha value="0.0" />
+	</object>
+	<object name="shelf_05">
+		<texture src="/common/half_dark" />
+		<position x="731" y="85" z="5" />
+		<size width="117" height="154" />
+		<alpha value="0.0" />
+	</object>
+	<object name="shelf_06">
+		<texture src="/common/half_dark" />
+		<position x="865" y="85" z="5" />
+		<size width="115" height="155" />
+		<alpha value="0.0" />
+	</object>
+	<object name="shelf_07">
+		<texture src="/common/half_dark" />
+		<position x="272" y="260" z="5" />
+		<size width="82" height="134" />
+		<alpha value="0.0" />
+	</object>
+	<object name="shelf_08">
+		<texture src="/common/half_dark" />
+		<position x="371" y="260" z="5" />
+		<size width="102" height="130" />
+		<alpha value="0.0" />
+	</object>	
+	<object name="shelf_09">
+		<texture src="/common/half_dark" />
+		<position x="488" y="260" z="5" />
+		<size width="112" height="131" />
+		<alpha value="0.0" />
+	</object>
+	<object name="shelf_10">
+		<texture src="/common/half_dark" />
+		<position x="614" y="260" z="5" />
+		<size width="110" height="130" />
+		<alpha value="0.0" />
+	</object>
+	<object name="shelf_11">
+		<texture src="/common/half_dark" />
+		<position x="739" y="260" z="5" />
+		<size width="116" height="133" />
+		<alpha value="0.0" />
+	</object>
+	<object name="shelf_12">
+		<texture src="/common/half_dark" />
+		<position x="874" y="260" z="5" />
+		<size width="116" height="129" />
+		<alpha value="0.0" />
+	</object>
+	<object name="shelf_13">
+		<texture src="/common/half_dark" />
+		<position x="259" y="412" z="5" />
+		<size width="92" height="150" />
+		<alpha value="0.0" />
+	</object>
+	<object name="shelf_14">
+		<texture src="/common/half_dark" />
+		<position x="368" y="412" z="5" />
+		<size width="99" height="146" />
+		<alpha value="0.0" />
+	</object>	
+	<object name="shelf_15">
+		<texture src="/common/half_dark" />
+		<position x="485" y="412" z="5" />
+		<size width="112" height="148" />
+		<alpha value="0.0" />
+	</object>
+	<object name="shelf_16">
+		<texture src="/common/half_dark" />
+		<position x="614" y="412" z="5" />
+		<size width="116" height="149" />
+		<alpha value="0.0" />
+	</object>
+	<object name="shelf_17">
+		<texture src="/common/half_dark" />
+		<position x="747" y="412" z="5" />
+		<size width="117" height="152" />
+		<alpha value="0.0" />
+	</object>	
+	<object name="shelf_18">
+		<texture src="/common/half_dark" />
+		<position x="888" y="412" z="5" />
+		<size width="106" height="156" />
+		<alpha value="0.0" />
+	</object>
+	
+	<object name="shelf_01_item_pos">
+		<position x="315" y="237" />
+		<interactive value="0" />
+	</object>
+	<object name="shelf_02_item_pos">
+		<position x="423" y="237" />
+		<interactive value="0" />
+	</object>
+	<object name="shelf_03_item_pos">
+		<position x="540" y="237" />
+		<interactive value="0" />
+	</object>
+	<object name="shelf_04_item_pos">
+		<position x="664" y="237" />
+		<interactive value="0" />
+	</object>
+	<object name="shelf_05_item_pos">
+		<position x="787" y="237" />
+		<interactive value="0" />
+	</object>
+	<object name="shelf_06_item_pos">
+		<position x="918" y="237" />
+		<interactive value="0" />
+	</object>
+	<object name="shelf_07_item_pos">
+		<position x="312" y="388" />
+		<interactive value="0" />
+	</object>
+	<object name="shelf_08_item_pos">
+		<position x="420" y="390" />
+		<interactive value="0" />
+	</object>
+	<object name="shelf_09_item_pos">
+		<position x="543" y="390" />
+		<interactive value="0" />
+	</object>
+	<object name="shelf_10_item_pos">
+		<position x="665" y="390" />
+		<interactive value="0" />
+	</object>
+	<object name="shelf_11_item_pos">
+		<position x="800" y="390" />
+		<interactive value="0" />
+	</object>
+	<object name="shelf_12_item_pos">
+		<position x="932" y="390" />
+		<interactive value="0" />
+	</object>
+	<object name="shelf_13_item_pos">
+		<position x="304" y="561" />
+		<interactive value="0" />
+	</object>
+	<object name="shelf_14_item_pos">
+		<position x="413" y="561" />
+		<interactive value="0" />
+	</object>
+	<object name="shelf_15_item_pos">
+		<position x="536" y="561" />
+		<interactive value="0" />
+	</object>
+	<object name="shelf_16_item_pos">
+		<position x="668" y="561" />
+		<interactive value="0" />
+	</object>
+	<object name="shelf_17_item_pos">
+		<position x="802" y="564" />
+		<interactive value="0" />
+	</object>
+	<object name="shelf_18_item_pos">
+		<position x="946" y="561" />
+		<interactive value="0" />
+	</object>
+	
+	<object name="item_01">
+		<texture src="items/quinine" />
+		<pivot x="34" y="66" />
+	</object>
+	<object name="item_02">
+		<texture src="items/chloral" />
+		<pivot x="36" y="111" />
+	</object>
+	<object name="item_03">
+		<texture src="items/aconite" />
+		<pivot x="35" y="96" />
+	</object>
+	<object name="item_04">
+		<texture src="items/heroin" />
+		<pivot x="15" y="80" />
+	</object>
+	<object name="item_05">
+		<texture src="items/strychnine" />
+		<pivot x="43" y="67" />
+	</object>
+	<object name="item_06">
+		<texture src="items/ethyl_ether" />
+		<pivot x="39" y="111" />
+	</object>
+	<object name="item_07">
+		<texture src="items/laudanum" />
+		<pivot x="30" y="89" />
+	</object>
+	<object name="item_08">
+		<texture src="items/iodine" />
+		<pivot x="25" y="116" />
+	</object>	
+	<object name="item_09">
+		<texture src="items/alcohol" />
+		<pivot x="23" y="99" />
+	</object>
+	<object name="item_10">
+		<texture src="items/chloroform" />
+		<pivot x="35" y="97" />
+	</object>
+	<object name="item_11">
+		<texture src="items/mercury" />
+		<pivot x="36" y="79" />
+	</object>
+	<object name="item_12">
+		<texture src="items/ipecac" />
+		<pivot x="45" y="70" />
+	</object>
+	<object name="item_13">
+		<texture src="items/morphine" />
+		<pivot x="26" y="94" />
+	</object>
+	<object name="item_14">
+		<texture src="items/belladonna" />
+		<pivot x="33" y="74" />
+	</object>	
+	<object name="item_15">
+		<texture src="items/ammonium" />
+		<pivot x="50" y="62" />
+	</object>
+	<object name="item_16">
+		<texture src="items/aspirin" />
+		<pivot x="45" y="85" />
+	</object>
+	<object name="item_17">
+		<texture src="items/opium" />
+		<pivot x="25" y="74" />
+	</object>	
+	<object name="item_18">
+		<texture src="items/leeches" />
+		<pivot x="42" y="73" />
+	</object>
+	
+	<object name="fx_item_selected">
+		<particles src="/particles_ready/aphoteke/item_sel.psysl" />
+		<enable value="0" />
+		<interactive value="0" />
+	</object>
+	<object name="fx_item_reward">
+		<particles src="/particles_ready/aphoteke/item_last.psysl" />
+		<enable value="0" />
+		<interactive value="0" />
+	</object>
+</objects>

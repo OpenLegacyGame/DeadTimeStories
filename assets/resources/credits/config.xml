@@ -1,0 +1,7 @@
+<credits>
+	<text_y start_top="600" end_bottom="50" />
+	<scroll_speed px_per_sec="25" />
+	<font_general src="/fonts/timesi_big" color="FF210e2d" />
+	<font_section src="/fonts/ravenwood_26" color="FF7f0080" />
+	<font_heading src="/fonts/ravenwood_32" color="FF840000" />
+</credits>

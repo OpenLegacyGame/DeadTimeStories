@@ -1,0 +1,11 @@
+<gui>
+	<label>
+		<position x="20" y="150" />
+		<size width="260" />
+		<align hor="center" />
+		<text font="/fonts/spell_book_ingredient" color="00000000">%黄精\n(字面含义:所罗门的封印)%</text>
+	</label>
+	<image>
+		<file src="pb_page_solomonseal_left" />
+	</image>
+</gui>

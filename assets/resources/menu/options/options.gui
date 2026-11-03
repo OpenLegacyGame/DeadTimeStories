@@ -1,0 +1,38 @@
+<gui>
+	<include src="../common_back.gui" />
+	
+	<image>
+		<file src="/common/half_dark" />
+		<size width="1024" height="768" />
+	</image>
+	<image>
+		<file src="back_options" />
+		<position x="205" y="151" />
+	</image>
+
+	<image>
+		<file src="../profiles/profile_overlay" />
+		<position x="272" y="363" />
+	</image>
+
+	<include src="common.gui" />
+	
+	<image transparent="1">
+		<file src="overlay_options" />
+		<position x="504" y="156" />
+	</image>
+		
+	<button id="exit" template="/menu/button.tgui#menu" shortcuts="enter">
+		<position x="358" y="508" />
+		<label template="/menu/label.tgui#menu_button">
+			<text>%确认%</text>
+		</label>
+	</button>
+	
+	<label>
+		<position x="610" y="207" />
+		<size width="170" height="70" />
+		<align ver="center" hor="center" />
+		<text font="/fonts/ravenwood_26" color="FFe9d49a" >%设置%</text>
+	</label>
+</gui>

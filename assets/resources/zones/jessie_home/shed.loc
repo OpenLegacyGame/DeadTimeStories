@@ -1,0 +1,152 @@
+<location stripcode="0300">
+	<music>
+		<track src="/music/09_Voodoo_drums" silence_after="15" />		
+	</music>
+	<ambient src="/music/ambient/sfx_shed_amb" />
+	<onFirstVisit script="shed/starter" />
+	<onEnter script="shed/on_enter" />
+	<objects>
+		<object name="back">
+			<texture src="shed/background" />
+		</object>
+		<object name="return">
+			<position x="0" y="630" z="-10" />
+			<size width="1024" height="768" />
+			<texture src="/common/half_dark" />
+			<script src="shed/return" />
+			<alpha value="0" />
+		</object>
+		<object name="watering_can">
+			<position x="309" y="472" z="-10" />
+			<texture src="shed/watering_can/watering_can" />
+			<script src="shed/watering_can/watering_can" />
+		</object>
+		<object name="drawer1">
+			<position x="410" y="442" z="-40" />
+			<texture src="shed/drawer1/drawer_01_closed" />
+			<script src="shed/drawer1/drawer1" />
+		</object>
+		<object name="salt">
+			<position x="458" y="461" z="-50" />
+			<texture src="shed/salt/salt" />
+			<script src="shed/salt/salt" />
+		</object>
+		<object name="drawer2">
+			<position x="407" y="477" z="-10" />
+			<texture src="shed/drawer2/drawer_02_closed" />
+			<script src="shed/drawer2/drawer2" />
+		</object>
+		<object name="plant_book">
+			<position x="449" y="495" z="-30" />
+			<texture src="shed/plant_book/plant_book" />
+			<script src="shed/plant_book/plant_book" />
+		</object>
+		<object name="clippers">
+			<position x="508" y="513" z="-25" />
+			<texture src="shed/clippers/clippers" />
+			<script src="shed/clippers/clippers" />
+		</object>
+		<object name="spice_chest">
+			<position x="758" y="313" z="-20" />
+			<texture src="shed/spice_chest/box_closed" />
+			<script src="shed/spice_chest/spice_chest" />
+		</object>
+		<object name="fx_spice_chest_changing">
+			<position x="778" y="333" z="-21" />
+			<particles src="\particles_ready\snake_appear\snake_appear.psysl" />
+			<script src="/zones/_common/fx_changing" />
+		</object>
+		<object name="drawer3">
+			<position x="596" y="497" z="-20" />
+			<texture src="shed/drawer3/drawer_03_closed" />
+			<script src="shed/drawer3/drawer3" />
+		</object>
+		<object name="drawer4">
+			<position x="594" y="542" z="-10" />
+			<texture src="shed/drawer4/drawer_04_closed" />
+			<script src="shed/drawer4/drawer4" />
+		</object> 
+		<object name="spell_book">
+			<position x="632" y="545" z="-15" />
+			<texture src="/common/half_dark" />
+			<script src="shed/spell_book/spell_book" />
+			<size width="120" height="80" />
+			<alpha value="0" />
+		</object> 
+		<object name="snake">
+			<position x="570" y="267" z="-10" />
+			<texture src="shed/snake_inset/snake" />
+			<script src="shed/snake_inset/snake" />
+		</object>
+		<object name="fx_blink_snake">
+			<position z="-30" />
+			<scene src="/particles_ready/snake_fx/snake_eyes.DAE">
+				<particles src="/particles_ready/snake_fx/snake_eyes.psysl" />
+			</scene>
+		</object>		
+		<object name="fx_snake_tongue">
+			<position x="609" y="279" z="-11" />
+			<texture src="\particles_ready\snake_fx\tongue" />
+		</object>
+		<object name="toolbox">
+			<position x="134" y="313" z="-20" />
+			<texture src="shed/toolbox/toolbox_closed" />
+<!--		<script src="shed/toolbox/toolbox" />-->
+		</object>
+<!--		<object name="fx_toolbox_changing">
+			<position x="204" y="393" z="-21" />
+			<particles src="\particles_ready\snake_appear\snake_appear.psysl" />
+			<script src="/zones/_common/fx_changing" />
+		</object>
+		<object name="spade_handle">
+			<position x="200" y="374" z="-20" />
+			<texture src="shed/spade_handle/toolbox_spade_handle" />
+			<script src="shed/spade_handle/toolbox_spade_handle" />
+		</object>
+-->
+		<object name="spellmixing">
+			<position x="530" y="327" z="-10" />
+			<texture src="/common/half_dark" />
+			<script src="shed/spellmixing/spellmixing" />
+			<size width="186" height="122" />
+			<alpha value="0" />
+		</object>
+		<object name="fx_flora_spell">
+			<position x="530" y="327" z="-5" />
+			<particles presim="2" src="/particles_ready/FrontGate_HOBLocator/FGate_HOBLocator.psysl" />
+		</object>
+		<object name="to_HOB_shed_shelves">
+			<position x="330" y="150" z="-40" />
+      <size width="200" height="150" />
+			<texture src="/common/half_dark" />
+			<script src="shed/to_HOB_shed_shelves" />
+			<alpha value="0" />
+		</object>
+		<object name="fx_flora">
+			<position x="330" y="150" z="-20" />
+			<particles presim="2" src="/particles_ready/FrontGate_HOBLocator/FGate_HOBLocator.psysl" />
+		</object>
+		<object name="dried_flowers">
+			<position x="750" y="100" z="-5" />
+			<texture src="/common/half_dark" />
+			<script src="shed/dried_flowers" />
+			<size width="280" height="150" />
+			<alpha value="0" />
+		</object>
+		<object name="fx_bats">
+			<position z="-100" />
+			<scene src="/particles_ready/ray_dust/shed_duster.DAE">
+				<particles src="/particles_ready/ray_dust/ray_dust.psysl" />
+			</scene>
+		</object>
+		<object name="fx_flies">
+			<position z="-100" />
+			<scene src="/particles_ready/cellarFlys/flys_shed.DAE">
+				<particles presim="3" src="/particles_ready/cellarFlys/flys.psysl" />
+				<particles presim="3" src="/particles_ready/cellarFlys/flys_shadow.psysl" />				
+				<particles presim="3" src="/particles_ready/cellarFlys/shed_glow.psysl" />
+				<particles presim="3" src="/particles_ready/cellarFlys/shed_lamp.psysl" />
+			</scene>
+		</object>
+	</objects>
+</location>

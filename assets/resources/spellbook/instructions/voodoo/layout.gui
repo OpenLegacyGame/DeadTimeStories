@@ -1,0 +1,18 @@
+<gui>
+	<label>
+		<position x="60" y="50" />
+		<align hor="left" vert="top" />
+		<text font="/fonts/ravenwood_20" color="FF840000">%关于巫毒%</text>
+		
+		<label>
+			<position y="30" />
+			<size width="230" />
+			<align hor="left" vert="top" />
+			<text font="/fonts/hint" color="FF210e2d">%巫毒教起源于奴隶买卖的时期. 它是由古老的非洲教派和西方的天主教 混合而成的. 它的信仰是基于邪恶的非洲蛇教. 它使用魔法来避免日常生活中的危险 - 野生动物, 敌人和疾病. 魔法也可以用来创造爱的祝福, 健康和幸福. 巫毒法术是自然的力量, 所使用的基本原料都是大自然的产物, 比如水, 土, 动物和植物. 法术是在韦夫上制造的 - 一种巫毒符号. 它们是指向洛阿, 巫毒幽灵的.%</text>
+		</label>
+	</label>
+	
+	<image>
+		<file src="sb_voodoo_magic" />
+	</image>	
+</gui>

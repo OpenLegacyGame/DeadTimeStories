@@ -1,0 +1,346 @@
+<gui>
+	<group id="no_hints_available" visible="0">
+		<position x="196" y="0" />
+		
+		<image>
+			<file src="hint_list" />
+			<position y="-220" />
+		</image>			
+				
+		<label>
+			<position x="110" y="27" />
+			<text font="/fonts/hint_big" color="FF210e2d">%现在没有能为你提供的提示.%</text>
+		</label>
+		
+		<button id="button_view_activated_hints">
+			<view>
+				<normal src="hint_button_bg" />
+			</view>
+			<influence>
+				<hover>
+					<onEnter><label_view_activated_hints_1 text_color="FFeff1c6" /></onEnter>
+					<onLeave><label_view_activated_hints_1 text_color="FF210e2d" /></onLeave>
+				</hover>
+			</influence>
+			<position x="140" y="100" />
+			<size width="230" height="25" />		
+			
+			<label id="label_view_activated_hints_1">
+				<position x="5" y="15" />
+				<text font="/fonts/hint_big" color="FF210e2d">%重播上一次提示%</text>
+			</label>
+		</button>
+		
+		<button id="button_hints_close">
+			<view>
+				<normal src="hint_button_bg" />
+			</view>
+			<influence>
+				<hover>
+					<onEnter><label_no_hints_available_close text_color="FFeff1c6" /></onEnter>
+					<onLeave><label_no_hints_available_close text_color="FF210e2d" /></onLeave>
+				</hover>
+			</influence>
+
+			<position x="435" y="100" />
+			<size width="230" height="25" />		
+			
+			<label id="label_no_hints_available_close">
+				<position x="5" y="15" />
+				<text font="/fonts/hint_big" color="FF210e2d">%关闭%</text>
+			</label>
+		</button>		
+	</group>
+
+	<group id="cant_afford_hint" visible="0">
+		<position x="196" y="0" />
+
+		<image>
+			<file src="hint_list" />
+			<position y="-220" />
+		</image>
+		
+		<label>
+			<position x="110" y="30" />
+			<text font="/fonts/hint_big" color="FF210e2d">%你现在还不能使用另一次提示.%</text>
+		</label>
+		
+		<button id="button_view_activated_hints">
+			<view>
+				<normal src="hint_button_bg" />
+			</view>
+			<influence>
+				<hover>
+					<onEnter><label_view_activated_hints_2 text_color="FFeff1c6" /></onEnter>
+					<onLeave><label_view_activated_hints_2 text_color="FF210e2d" /></onLeave>
+				</hover>
+			</influence>
+
+			<position x="205" y="100" />
+			<size width="230" height="25" />		
+			
+			<label id="label_view_activated_hints_2">
+				<position x="5" y="15" />
+				<text font="/fonts/hint_big" color="FF210e2d">%重播上一次提示%</text>
+			</label>
+		</button>
+		
+		<!-- TODO: add a close button or remove this group altogether (if won't use anymore) -->
+	</group>
+	
+	<group id="select_hint" visible="0">
+		<position x="196" y="0" />
+		
+		<image id="select_hint_bg">
+			<file src="hint_list" />
+			<position y="0" />
+		</image>	
+		
+		<label id="label_hint_list_title">
+			<position x="110" y="27" />
+			<text font="/fonts/hint_big" color="FF210e2d">%有以下几个提示可供选择. 请选择一个.%</text>
+		</label>
+		<label id="label_hint_list_title_cant_afford">
+			<position x="110" y="27" />
+			<text font="/fonts/hint_big" color="FF210e2d">%你现在还不能使用另一个提示.%</text>
+		</label>
+		
+		<label id="label_hint_objective_1">
+			<position x="130" y="70" />
+			<text font="/fonts/hint_big" color="FF58525b">%目标 1%</text>
+			
+			<button id="button_hint_1_1">
+				<view>
+					<normal src="hint_button_bg" />
+				</view>
+				<influence>
+					<hover>
+						<onEnter><label_hint_1_1 text_color="FFeff1c6" /></onEnter>
+						<onLeave><label_hint_1_1 text_color="FF7f0080" /></onLeave>
+					</hover>
+				</influence>
+			
+				<position x="20" y="7" />
+				<size width="220" height="22" />
+				<label id="label_hint_1_1">
+					<position x="5" y="15" />
+					<text font="/fonts/hint" color="FF7f0080">%提示 1%</text>
+				</label>
+				
+				<button id="button_hint_1_2">
+					<view>
+						<normal src="hint_button_bg" />
+					</view>
+					<influence>
+						<hover>
+							<onEnter><label_hint_1_2 text_color="FFeff1c6" /></onEnter>
+							<onLeave><label_hint_1_2 text_color="FF7f0080" /></onLeave>
+						</hover>
+					</influence>
+					
+					<position x="0" y="20" />
+					<size width="220" height="22" />
+					<label id="label_hint_1_2">
+						<position x="5" y="15" />
+						<text font="/fonts/hint" color="FF7f0080">%提示 2%</text>
+					</label>
+					
+					<button id="button_hint_1_3">
+						<view>
+							<normal src="hint_button_bg" />
+						</view>
+						<influence>
+							<hover>
+								<onEnter><label_hint_1_3 text_color="FFeff1c6" /></onEnter>
+								<onLeave><label_hint_1_3 text_color="FF7f0080" /></onLeave>
+							</hover>
+						</influence>
+					
+						<position x="0" y="20" />
+						<size width="220" height="22" />
+						<label id="label_hint_1_3">
+							<position x="5" y="15" />
+							<text font="/fonts/hint" color="FF7f0080">%提示 3%</text>
+						</label>
+					</button>						
+				</button>
+			</button>
+		</label>
+		
+		<label id="label_hint_objective_2">
+			<position x="130" y="160" />
+			<text font="/fonts/hint_big" color="FF58525b">%目标 2%</text>
+			
+			<button id="button_hint_2_1">
+				<view>
+					<normal src="hint_button_bg" />
+				</view>
+				<influence>
+					<hover>
+						<onEnter><label_hint_2_1 text_color="FFeff1c6" /></onEnter>
+						<onLeave><label_hint_2_1 text_color="FF7f0080" /></onLeave>
+					</hover>
+				</influence>
+				
+				<position x="20" y="7" />
+				<size width="220" height="22" />
+				<label id="label_hint_2_1">
+					<position x="5" y="15" />
+					<text font="/fonts/hint" color="FF7f0080">%提示 1%</text>
+				</label>
+				
+				<button id="button_hint_2_2">
+					<view>
+						<normal src="hint_button_bg" />
+					</view>
+					<influence>
+						<hover>
+							<onEnter><label_hint_2_2 text_color="FFeff1c6" /></onEnter>
+							<onLeave><label_hint_2_2 text_color="FF7f0080" /></onLeave>
+						</hover>
+					</influence>
+				
+					<position x="0" y="20" />
+					<size width="220" height="22" />
+					<label id="label_hint_2_2">
+						<position x="5" y="15" />
+						<text font="/fonts/hint" color="FF7f0080">%提示 2%</text>
+					</label>
+					
+					<button id="button_hint_2_3">
+						<view>
+							<normal src="hint_button_bg" />
+						</view>
+						<influence>
+							<hover>
+								<onEnter><label_hint_2_3 text_color="FFeff1c6" /></onEnter>
+								<onLeave><label_hint_2_3 text_color="FF7f0080" /></onLeave>
+							</hover>
+						</influence>
+					
+						<position x="0" y="20" />
+						<size width="220" height="22" />
+						<label id="label_hint_2_3">
+							<position x="5" y="15" />
+							<text font="/fonts/hint" color="FF7f0080">%提示 3%</text>
+						</label>
+					</button>						
+				</button>
+			</button>
+		</label>
+		
+		<label id="label_hint_objective_3">
+			<position x="130" y="250" />
+			<text font="/fonts/hint_big" color="FF58525b">%目标 3%</text>
+			
+			<button id="button_hint_3_1">
+				<view>
+					<normal src="hint_button_bg" />
+				</view>
+				<influence>
+					<hover>
+						<onEnter><label_hint_3_1 text_color="FFeff1c6" /></onEnter>
+						<onLeave><label_hint_3_1 text_color="FF7f0080" /></onLeave>
+					</hover>
+				</influence>
+				
+				<position x="20" y="7" />
+				<size width="220" height="22" />
+				<label id="label_hint_3_1">
+					<position x="5" y="15" />
+					<text font="/fonts/hint" color="FF7f0080">%提示 1%</text>
+				</label>
+				
+				<button id="button_hint_3_2">
+					<view>
+						<normal src="hint_button_bg" />
+					</view>
+					<influence>
+						<hover>
+							<onEnter><label_hint_3_2 text_color="FFeff1c6" /></onEnter>
+							<onLeave><label_hint_3_2 text_color="FF7f0080" /></onLeave>
+						</hover>
+					</influence>
+				
+					<position x="0" y="20" />
+					<size width="220" height="22" />
+					<label id="label_hint_3_2">
+						<position x="5" y="15" />
+						<text font="/fonts/hint" color="FF7f0080">%提示 2%</text>
+					</label>
+					
+					<button id="button_hint_3_3">
+						<view>
+							<normal src="hint_button_bg" />
+						</view>
+						<influence>
+							<hover>
+								<onEnter><label_hint_3_3 text_color="FFeff1c6" /></onEnter>
+								<onLeave><label_hint_3_3 text_color="FF7f0080" /></onLeave>
+							</hover>
+						</influence>
+				
+						<position x="0" y="20" />
+						<size width="220" height="22" />
+						<label id="label_hint_3_3">
+							<position x="5" y="15" />
+							<text font="/fonts/hint" color="FF7f0080">%提示 3%</text>
+						</label>
+					</button>						
+				</button>
+			</button>
+		</label>
+		
+		<button id="button_view_activated_hints">
+			<view>
+				<normal src="hint_button_bg" />
+			</view>
+			<influence>
+				<hover>
+					<onEnter><label_view_activated_hints_3 text_color="FFeff1c6" /></onEnter>
+					<onLeave><label_view_activated_hints_3 text_color="FF210e2d" /></onLeave>
+				</hover>
+			</influence>
+
+			<position x="105" y="340" />
+			<size width="230" height="25" />		
+			
+			<label id="label_view_activated_hints_3">
+				<position x="5" y="15" />
+				<text font="/fonts/hint_big" color="FF210e2d">%重播上一条提示%</text>
+			</label>
+		</button>
+
+		<button id="button_hints_close">
+			<view>
+				<normal src="hint_button_bg" />
+			</view>
+			<influence>
+				<hover>
+					<onEnter>
+						<label_hint_selection_close text_color="FFeff1c6" />
+						<label_hint_selection_close_cant_afford text_color="FFeff1c6" />
+					</onEnter>
+					<onLeave>
+						<label_hint_selection_close text_color="FF210e2d" />
+						<label_hint_selection_close_cant_afford text_color="FF210e2d" />
+					</onLeave>
+				</hover>
+			</influence>
+
+			<position x="420" y="340" />
+			<size width="230" height="25" />		
+			
+			<label id="label_hint_selection_close">
+				<position x="5" y="15" />
+				<text font="/fonts/hint_big" color="FF210e2d">%不谢谢%</text>
+			</label>
+			<label id="label_hint_selection_close_cant_afford">
+				<position x="5" y="15" />
+				<text font="/fonts/hint_big" color="FF210e2d">%关闭%</text>
+			</label>
+		</button>	
+		
+	</group>
+	
+</gui>

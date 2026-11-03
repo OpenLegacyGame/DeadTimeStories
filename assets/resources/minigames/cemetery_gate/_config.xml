@@ -1,0 +1,29 @@
+<cemetery_gate>
+	<onFinish script="_on_finish" />
+
+	<!-- Alphabet is only used for letter validation.
+	
+	          0        1         2
+	          12345678901234567890123456 -->
+	<alphabet>abcdefghijklmnopqrstuvwxyz</alphabet>
+	
+	<letter_blocks>
+		<block letters="aeio" />
+		<block letters="lixo" />
+		<block letters="lwbu" />
+		<block letters="mrla" />
+		<block letters="ezyc" />
+		<block letters="nkmr" />
+		<block letters="ehlv" />
+		<block letters="nfqd" />
+		<block letters="dgws" />
+		<block letters="hjvo" />
+		<block letters="eakz" />
+		<block letters="rbxe" />
+		<block letters="euoq" />
+	</letter_blocks>
+	<phrase>all men end here</phrase>
+	<initial_correct_letters min="0" max="0" />
+	<font src="/fonts/ravenwood_20" color="FFB1F8F8" />
+	<letter_displace_from_block_center x="-4" y="3" />
+</cemetery_gate>

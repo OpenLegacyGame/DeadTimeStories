@@ -1,0 +1,183 @@
+<particles_layout>
+    <world_emitting value="1" />
+    <parameters>
+        <parameter type="Float">
+            <position x="10" y="10" />
+            <name value="terminate" />
+            <burstCollective value="0" />
+            <distribution type="fixed">
+                <fixed value="0.400000006" />
+            </distribution>
+        </parameter>
+        <parameter type="Float">
+            <position x="10" y="60" />
+            <name value="Life time" />
+            <burstCollective value="0" />
+            <distribution type="fixed">
+                <fixed value="0" />
+            </distribution>
+        </parameter>
+        <parameter type="Vector3">
+            <position x="10" y="110" />
+            <name value="Position" />
+            <burstCollective value="0" />
+            <distribution type="box_random">
+                <box_random>
+                    <from x="20" y="5" z="0" />
+                    <to x="-20" y="0" z="0" />
+                </box_random>
+            </distribution>
+        </parameter>
+        <parameter type="Vector3">
+            <position x="10" y="160" />
+            <name value="Velocity" />
+            <burstCollective value="0" />
+            <distribution type="box_random">
+                <box_random>
+                    <from x="-100" y="0" z="0" />
+                    <to x="100" y="0" z="0" />
+                </box_random>
+            </distribution>
+        </parameter>
+        <parameter type="Float">
+            <position x="10" y="210" />
+            <name value="size" />
+            <burstCollective value="0" />
+            <distribution type="linear_random">
+                <linear_random>
+                    <from value="10" />
+                    <to value="50" />
+                </linear_random>
+            </distribution>
+        </parameter>
+        <parameter type="Float">
+            <position x="10" y="260" />
+            <name value="rotationRand" />
+            <burstCollective value="0" />
+            <distribution type="linear_random">
+                <linear_random>
+                    <from value="-5" />
+                    <to value="5" />
+                </linear_random>
+            </distribution>
+        </parameter>
+        <parameter type="Vector3">
+            <position x="10" y="310" />
+            <name value="color" />
+            <burstCollective value="0" />
+            <distribution type="fixed_vector">
+                <fixed_vector x="0.600000024" y="0.600000024" z="1" />
+            </distribution>
+        </parameter>
+        <parameter type="Spawn Global Position">
+            <position x="10" y="360" />
+            <name value="Spawn world. pos." />
+        </parameter>
+    </parameters>
+    <modifiers>
+        <modifier type="Linear addition">
+            <position x="630" y="70" />
+            <speed value="1" />
+        </modifier>
+        <modifier type="Linear addition">
+            <position x="630" y="130" />
+            <speed value="-4" />
+        </modifier>
+        <modifier type="Gravity">
+            <position x="630" y="190" />
+            <gravity x="0.000000" y="-10.000000" z="0.000000" />
+        </modifier>
+        <modifier type="Move">
+            <position x="630" y="250" />
+        </modifier>
+    </modifiers>
+    <functions>
+        <function type="Div">
+            <position x="217" y="597" />
+        </function>
+        <function type="Sub">
+            <position x="217" y="752" />
+        </function>
+        <function type="Distribution">
+            <position x="30" y="714" />
+            <distribution type="fixed">
+                <fixed value="1" />
+            </distribution>
+        </function>
+        <function type="Mul">
+            <position x="366" y="689" />
+        </function>
+        <function type="Distribution">
+            <position x="366" y="752" />
+            <distribution type="fixed">
+                <fixed value="1" />
+            </distribution>
+        </function>
+        <function type="Mul">
+            <position x="518" y="714" />
+        </function>
+        <function type="Mul">
+            <position x="475" y="814" />
+        </function>
+        <function type="Distribution">
+            <position x="366" y="856" />
+            <distribution type="fixed">
+                <fixed value="4" />
+            </distribution>
+        </function>
+        <function type="Add (vector)">
+            <position x="405" y="100" />
+        </function>
+    </functions>
+    <generator type="Generator">
+        <position x="630" y="10" />
+        <phase_distribution type="fixed">
+            <fixed value="1" />
+        </phase_distribution>
+        <time_distribution type="fixed">
+            <fixed value="0.01" />
+        </time_distribution>
+        <burst_distribution type="fixed">
+            <fixed value="1" />
+        </burst_distribution>
+    </generator>
+    <terminator type="Terminator: v1 &lt; v2">
+        <position x="630" y="310" />
+    </terminator>
+    <constructor type="Constructor">
+        <position x="630" y="370" />
+        <slice_tex x="1" y="1" />
+        <texture src="particles_ready/sprites/fireball.png" />
+        <material src="materials/quad_tex_add.mat" />
+    </constructor>
+    <connections>
+        <connection input_block="1" input_index="0" output_block="8" output_index="0" />
+        <connection input_block="2" input_index="0" output_block="11" output_index="0" />
+        <connection input_block="3" input_index="0" output_block="10" output_index="0" />
+        <connection input_block="4" input_index="0" output_block="9" output_index="0" />
+        <connection input_block="8" input_index="0" output_block="1" output_index="0" />
+        <connection input_block="9" input_index="0" output_block="4" output_index="0" />
+        <connection input_block="10" input_index="0" output_block="3" output_index="0" />
+        <connection input_block="11" input_index="0" output_block="2" output_index="0" />
+        <connection input_block="11" input_index="1" output_block="3" output_index="0" />
+        <connection input_block="12" input_index="0" output_block="1" output_index="0" />
+        <connection input_block="12" input_index="1" output_block="0" output_index="0" />
+        <connection input_block="13" input_index="0" output_block="14" output_index="0" />
+        <connection input_block="13" input_index="1" output_block="12" output_index="0" />
+        <connection input_block="15" input_index="0" output_block="12" output_index="0" />
+        <connection input_block="15" input_index="1" output_block="18" output_index="0" />
+        <connection input_block="17" input_index="0" output_block="15" output_index="0" />
+        <connection input_block="17" input_index="1" output_block="16" output_index="0" />
+        <connection input_block="18" input_index="0" output_block="19" output_index="0" />
+        <connection input_block="18" input_index="1" output_block="13" output_index="0" />
+        <connection input_block="20" input_index="0" output_block="2" output_index="0" />
+        <connection input_block="20" input_index="1" output_block="7" output_index="0" />
+        <connection input_block="22" input_index="0" output_block="0" output_index="0" />
+        <connection input_block="22" input_index="1" output_block="1" output_index="0" />
+        <connection input_block="23" input_index="0" output_block="20" output_index="0" />
+        <connection input_block="23" input_index="1" output_block="4" output_index="0" />
+        <connection input_block="23" input_index="2" output_block="6" output_index="0" />
+        <connection input_block="23" input_index="3" output_block="17" output_index="0" />
+        <connection input_block="23" input_index="4" output_block="5" output_index="0" />
+    </connections>
+</particles_layout>

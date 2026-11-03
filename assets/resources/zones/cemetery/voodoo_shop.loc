@@ -1,0 +1,120 @@
+<location>
+	<onFirstVisit script="voodoo_shop/starter" />
+	<ambient src="/music/ambient/sfx_shop_amb" />
+	<objects>
+		<object name="background">
+			<texture src="voodoo_shop/background" />
+		</object>
+
+		<object name="fx_fay_dust">
+			<scene src="/particles_ready/woodoshop/raydust.DAE">
+				<particles src="/particles_ready/woodoshop/wodo_raydust.psysl" />
+			</scene>
+		</object>
+		<object name="fx_candle_glow">
+			<scene src="/particles_ready/woodoshop/candle.DAE">
+				<particles src="/particles_ready/candle/candle.psysl" />
+				<particles src="/particles_ready/candle/candle_glow.psysl" />
+			</scene>
+		</object>
+		
+		<object name="fx_skull_eye1">
+			<position x="603" y="496" z="-30" />
+			<particles src="/particles_ready/voodoo_circle/skull_eye1.psysl" />
+		</object>
+		<object name="fx_skull_eye2">
+			<position x="620" y="496" z="-30" />
+			<particles src="/particles_ready/voodoo_circle/skull_eye1.psysl" />
+		</object>
+
+		<object name="to_gates">
+			<position x="0" y="470" z="-20" />
+			<texture src="voodoo_shop/to_gates" />
+			<script src="voodoo_shop/to_gates" />
+			<alpha value="0" />
+		</object>
+		<object name="bird_fish_trigger">
+			<script src="voodoo_shop/bird_fish_trigger" />
+		</object>
+		<object name="voodoo_shelf">
+			<position x="709" y="360" z="-10" />
+			<texture src="voodoo_shop/voodoo_shelf/voodoo_shelf" />
+			<script src="voodoo_shop/voodoo_shelf/voodoo_shelf" />
+			<alpha value="0" />
+		</object>	
+		<object name="fx_blink_voodoo_shelf">
+			<position x="730" y="390" z="-20" />		
+			<particles src="/particles_ready/Blink/blink.psysl" />
+		</object>
+		<object name="cat">
+			<position x="522" y="457" z="-10" />
+			<texture src="voodoo_shop/cat/cat" />
+			<script src="voodoo_shop/cat/cat" />
+			<sound src="/sound/sfx/sfx_cat_phrrr" type="env" />
+		</object>
+		<object name="fx_blink_cat">
+			<position x="365" y="521" z="-20" />		
+			<particles src="/particles_ready/Blink/blink.psysl" />
+		</object>
+		<object name="cat_eating">
+			<position x="656" y="609" z="-10" />
+			<texture src="voodoo_shop/cat_eating/cat_eating" />
+			<script src="voodoo_shop/cat_eating/cat_eating" />
+		</object>		
+		<object name="chest">
+			<position x="210" y="431" z="-10" />
+			<texture src="voodoo_shop/chest/chest_opened" />
+			<script src="voodoo_shop/chest/chest" />
+		</object>
+		<object name="chest_mask">
+			<position x="228" y="518" z="-20" />
+			<texture src="voodoo_shop/chest/chest_mask" />
+			<script src="voodoo_shop/chest/chest_mask" />
+			<alpha value="0" />
+		</object>
+		<object name="fx_blink_chest">
+			<position x="240" y="540" z="-20" />		
+			<particles src="/particles_ready/Blink/blink.psysl" />
+		</object>		
+		<object name="baron">
+			<position x="574" y="421" z="-15" />
+			<texture src="voodoo_shop/baron/baron_mask" />
+			<script src="voodoo_shop/baron/baron" />
+			<alpha value="0" />
+		</object>
+		<object name="fx_blink_baron">
+			<position x="530" y="470" z="-20" />		
+			<particles src="/particles_ready/Blink/blink.psysl" />
+		</object>	
+		<object name="hat_skull">
+			<position x="580" y="429" z="-5" />
+			<texture src="voodoo_shop/hat_skull/hat_skull" />
+			<script src="voodoo_shop/hat_skull/hat_skull" />
+		</object>
+		<object name="hat_table">
+			<position x="608" y="459" z="-20" />
+			<texture src="voodoo_shop/hat_table/hat_table" />
+			<script src="voodoo_shop/hat_table/hat_table" />
+		</object>
+		
+		<object name="sound_crack">
+			<script src="voodoo_shop/sfx/crack" />
+		</object>
+		<object name="skulls">
+			<position x="432" y="408" z="-5" />
+			<texture src="voodoo_shop/skulls/skull" />
+			<script src="voodoo_shop/skulls/skulls" />
+		</object>	
+		<object name="skulls_mask">
+			<position x="433" y="372" z="-10" />
+			<texture src="voodoo_shop/skulls/skulls_mask" />
+			<script src="voodoo_shop/skulls/skulls_mask" />
+			<alpha value="0" />
+		</object>
+		<object name="skulls_lid">
+			<position x="509" y="444" z="-5" />
+			<texture src="voodoo_shop/skulls/lid_open" />
+			<script src="voodoo_shop/skulls/lid" />
+		</object>			
+	</objects>
+</location>

@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1">
+  <asset>
+    <contributor>
+      <author>s.andreev</author>
+      <authoring_tool>3dsMax 9 - Feeling ColladaMax v3.05B.</authoring_tool>
+      <comments>ColladaMax Export Options: ExportNormals=1;ExportEPolyAsTriangles=1;ExportXRefs=1;ExportSelected=1;ExportTangents=0;ExportAnimations=1;SampleAnim=1;ExportAnimClip=1;BakeMatrices=0;ExportRelativePaths=1;AnimStart=0;AnimEnd=2;</comments>
+    </contributor>
+    <created>2009-12-08T10:43:18Z</created>
+    <modified>2009-12-08T10:43:19Z</modified>
+    <unit meter="0.0254" name="inch"/>
+    <up_axis>Z_UP</up_axis>
+  </asset>
+  <library_animations>
+    <animation id="_buttonLoc4-node-translation">
+      <source id="_buttonLoc4-node-translation__buttonLoc4-node_translation-input">
+        <float_array id="_buttonLoc4-node-translation__buttonLoc4-node_translation-input-array" count="61">0 0.033333 0.066666 0.1 0.133333 0.166667 0.2 0.233333 0.266667 0.3 0.333333 0.366667 0.4 0.433333 0.466667 0.5 0.533333 0.566667 0.6 0.633333 0.666667 0.7 0.733333 0.766667 0.8 0.833333 0.866667 0.9 0.933333 0.966667 1 1.03333 1.06667 1.1 1.13333 1.16667 1.2 1.23333 1.26667 1.3 1.33333 1.36667 1.4 1.43333 1.46667 1.5 1.53333 1.56667 1.6 1.63333 1.66667 1.7 1.73333 1.76667 1.8 1.83333 1.86667 1.9 1.93333 1.96667 2</float_array>
+        <technique_common>
+          <accessor source="#_buttonLoc4-node-translation__buttonLoc4-node_translation-input-array" count="61" stride="1">
+            <param name="TIME" type="float"/>
+          </accessor>
+        </technique_common>
+        <technique profile="MAYA">
+          <pre_infinity>CONSTANT</pre_infinity>
+          <post_infinity>CONSTANT</post_infinity>
+        </technique>
+      </source>
+      <source id="_buttonLoc4-node-translation__buttonLoc4-node_translation-output">
+        <float_array id="_buttonLoc4-node-translation__buttonLoc4-node_translation-output-array" count="183">528.878 481.895 0 532.171 481.895 0 535.487 481.895 0 538.824 481.895 0 542.182 481.895 0 545.559 481.895 0 548.953 481.895 0 552.365 481.895 0 555.792 481.895 0 559.233 481.895 0 562.687 481.895 0 566.154 481.895 0 569.631 481.895 0 573.117 481.895 0 576.612 481.895 0 580.115 481.895 0 583.623 481.895 0 587.136 481.895 0 590.653 481.895 0 594.172 481.895 0 597.692 481.895 0 601.171 482.355 0 604.633 482.984 0 608.093 483.613 0 610.908 484.671 0 610.173 488.101 0 609.439 491.526 0 608.707 494.943 0 607.976 498.353 0 607.933 501.773 0 608.46 505.199 0 608.985 508.613 0 609.509 512.014 0 609.077 514.864 0 605.923 516.163 0 602.784 517.455 0 599.661 518.741 0 596.557 520.019 0 593.471 521.29 0 590.396 522.28 0 587.272 521.239 0 584.17 520.205 0 581.093 519.179 0 577.927 518.64 0 574.769 518.189 0 571.64 517.742 0 568.54 517.299 0 565.47 516.861 0 562.456 516.291 0 559.48 515.696 0 556.539 515.108 0 553.632 514.527 0 550.762 513.953 0 547.928 513.402 0 545.078 513.402 0 542.27 513.402 0 539.503 513.402 0 536.779 513.402 0 534.1 513.402 0 531.466 513.402 0 528.878 513.402 0</float_array>
+        <technique_common>
+          <accessor source="#_buttonLoc4-node-translation__buttonLoc4-node_translation-output-array" count="61" stride="3">
+            <param name="X" type="float"/>
+            <param name="Y" type="float"/>
+            <param name="Z" type="float"/>
+          </accessor>
+        </technique_common>
+      </source>
+      <source id="_buttonLoc4-node-translation__buttonLoc4-node_translation-interpolations">
+        <Name_array id="_buttonLoc4-node-translation__buttonLoc4-node_translation-interpolations-array" count="61">LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR</Name_array>
+        <technique_common>
+          <accessor source="#_buttonLoc4-node-translation__buttonLoc4-node_translation-interpolations-array" count="61" stride="1">
+            <param name="INTERPOLATION" type="Name"/>
+          </accessor>
+        </technique_common>
+      </source>
+      <sampler id="_buttonLoc4-node-translation__buttonLoc4-node_translation-sampler">
+        <input semantic="INPUT" source="#_buttonLoc4-node-translation__buttonLoc4-node_translation-input"/>
+        <input semantic="OUTPUT" source="#_buttonLoc4-node-translation__buttonLoc4-node_translation-output"/>
+        <input semantic="INTERPOLATION" source="#_buttonLoc4-node-translation__buttonLoc4-node_translation-interpolations"/>
+      </sampler>
+      <channel source="#_buttonLoc4-node-translation__buttonLoc4-node_translation-sampler" target="_buttonLoc4-node/translation"/>
+    </animation>
+    <animation id="_buttonLoc3-node-translation">
+      <source id="_buttonLoc3-node-translation__buttonLoc3-node_translation-input">
+        <float_array id="_buttonLoc3-node-translation__buttonLoc3-node_translation-input-array" count="61">0 0.033333 0.066666 0.1 0.133333 0.166667 0.2 0.233333 0.266667 0.3 0.333333 0.366667 0.4 0.433333 0.466667 0.5 0.533333 0.566667 0.6 0.633333 0.666667 0.7 0.733333 0.766667 0.8 0.833333 0.866667 0.9 0.933333 0.966667 1 1.03333 1.06667 1.1 1.13333 1.16667 1.2 1.23333 1.26667 1.3 1.33333 1.36667 1.4 1.43333 1.46667 1.5 1.53333 1.56667 1.6 1.63333 1.66667 1.7 1.73333 1.76667 1.8 1.83333 1.86667 1.9 1.93333 1.96667 2</float_array>
+        <technique_common>
+          <accessor source="#_buttonLoc3-node-translation__buttonLoc3-node_translation-input-array" count="61" stride="1">
+            <param name="TIME" type="float"/>
+          </accessor>
+        </technique_common>
+        <technique profile="MAYA">
+          <pre_infinity>CONSTANT</pre_infinity>
+          <post_infinity>CONSTANT</post_infinity>
+        </technique>
+      </source>
+      <source id="_buttonLoc3-node-translation__buttonLoc3-node_translation-output">
+        <float_array id="_buttonLoc3-node-translation__buttonLoc3-node_translation-output-array" count="183">528.878 481.895 0 526.138 481.895 0 523.362 481.895 0 520.55 481.895 0 517.704 481.895 0 514.824 481.895 0 511.911 481.895 0 508.967 481.895 0 505.992 481.895 0 502.987 481.895 0 499.953 481.895 0 496.891 481.895 0 493.802 481.895 0 490.687 481.895 0 487.547 481.895 0 484.383 481.895 0 481.195 481.895 0 477.985 481.895 0 474.753 481.895 0 471.501 481.895 0 468.229 481.895 0 464.939 481.895 0 461.631 481.895 0 458.319 482.04 0 455.032 482.637 0 451.73 483.238 0 448.415 483.84 0 447.088 485.785 0 447.799 489.105 0 448.513 492.435 0 449.229 495.776 0 449.946 499.125 0 449.71 502.511 0 449.187 505.912 0 448.663 509.32 0 448.138 512.734 0 449.382 515.153 0 452.583 516.471 0 455.787 517.79 0 458.993 519.11 0 462.199 520.43 0 465.406 521.751 0 468.653 521.849 0 471.94 520.754 0 475.225 519.659 0 478.566 518.821 0 481.985 518.333 0 485.398 517.845 0 488.805 517.358 0 492.204 516.873 0 495.57 516.238 0 498.92 515.568 0 502.26 514.9 0 505.589 514.234 0 508.906 513.57 0 512.259 513.402 0 515.614 513.402 0 518.955 513.402 0 522.28 513.402 0 525.588 513.402 0 528.878 513.402 0</float_array>
+        <technique_common>
+          <accessor source="#_buttonLoc3-node-translation__buttonLoc3-node_translation-output-array" count="61" stride="3">
+            <param name="X" type="float"/>
+            <param name="Y" type="float"/>
+            <param name="Z" type="float"/>
+          </accessor>
+        </technique_common>
+      </source>
+      <source id="_buttonLoc3-node-translation__buttonLoc3-node_translation-interpolations">
+        <Name_array id="_buttonLoc3-node-translation__buttonLoc3-node_translation-interpolations-array" count="61">LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR</Name_array>
+        <technique_common>
+          <accessor source="#_buttonLoc3-node-translation__buttonLoc3-node_translation-interpolations-array" count="61" stride="1">
+            <param name="INTERPOLATION" type="Name"/>
+          </accessor>
+        </technique_common>
+      </source>
+      <sampler id="_buttonLoc3-node-translation__buttonLoc3-node_translation-sampler">
+        <input semantic="INPUT" source="#_buttonLoc3-node-translation__buttonLoc3-node_translation-input"/>
+        <input semantic="OUTPUT" source="#_buttonLoc3-node-translation__buttonLoc3-node_translation-output"/>
+        <input semantic="INTERPOLATION" source="#_buttonLoc3-node-translation__buttonLoc3-node_translation-interpolations"/>
+      </sampler>
+      <channel source="#_buttonLoc3-node-translation__buttonLoc3-node_translation-sampler" target="_buttonLoc3-node/translation"/>
+    </animation>
+  </library_animations>
+  <library_animation_clips>
+    <animation_clip id="AnimationClip" start="0" end="2">
+      <instance_animation url="#_buttonLoc4-node-translation"/>
+      <instance_animation url="#_buttonLoc3-node-translation"/>
+    </animation_clip>
+  </library_animation_clips>
+  <library_lights>
+    <light id="ambient-environment-light" name="Ambient">
+      <technique_common>
+        <ambient>
+          <color>0.4 0.4 0.4</color>
+        </ambient>
+      </technique_common>
+      <extra>
+        <technique profile="FCOLLADA">
+          <intensity>1</intensity>
+        </technique>
+      </extra>
+    </light>
+  </library_lights>
+  <library_visual_scenes>
+    <visual_scene id="unnamed_scene" name="unnamed_scene">
+      <node id="gui_dialog-node" name="gui_dialog" type="NODE">
+        <translate>0 0 0</translate>
+        <rotate>-1 0 0 -90</rotate>
+        <node id="_buttonLoc4-node" name="_buttonLoc4" type="NODE">
+          <translate sid="translation">528.878 481.895 0</translate>
+          <rotate sid="RotZ">0 0 1 0</rotate>
+          <rotate sid="RotY">0 1 0 0</rotate>
+          <rotate sid="RotX">1 0 0 0</rotate>
+          <scale>1 1 1</scale>
+        </node>
+        <node id="_buttonLoc3-node" name="_buttonLoc3" type="NODE">
+          <translate sid="translation">528.878 481.895 0</translate>
+          <rotate sid="RotZ">0 0 1 0</rotate>
+          <rotate sid="RotY">0 1 0 0</rotate>
+          <rotate sid="RotX">1 0 0 0</rotate>
+          <scale>1 1 1</scale>
+        </node>
+      </node>
+      <node id="VisualSceneNode" type="NODE">
+        <instance_light url="#ambient-environment-light"/>
+      </node>
+      <extra>
+        <technique profile="FCOLLADA">
+          <start_time>0</start_time>
+          <end_time>2</end_time>
+        </technique>
+      </extra>
+      <extra>
+        <technique profile="MAX3D">
+          <frame_rate>30</frame_rate>
+        </technique>
+      </extra>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_visual_scene url="#unnamed_scene"/>
+  </scene>
+</COLLADA>

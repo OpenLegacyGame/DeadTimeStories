@@ -1,0 +1,10 @@
+<spell>
+	<ingredient item="lily" text="%百合花%" x="435" y="152" />
+	<ingredient item="white_paint" text="%白色颜料%" x="435" y="176" />
+	<ingredient item="dirt" text="%泥土%" x="435" y="200" />
+	<ingredient item="sulfur" text="%硫磺%" x="435" y="224" />
+	<ingredient item="feather" text="%羽毛%" x="435" y="248" />
+	<ingredient item="vial_with_blood" text="%血%" x="435" y="272" />
+	<ingredient item="white_paint" container="1" text="%罐子%" x="435" y="80" />
+	<ingredient item="brush" text="%画笔%" x="435" y="344" />
+</spell>

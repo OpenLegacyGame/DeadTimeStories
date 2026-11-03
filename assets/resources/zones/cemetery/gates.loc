@@ -1,0 +1,203 @@
+<location>
+	<onFirstVisit script="gates/starter" />
+	
+	<music>
+		<track src="/music/02_Jessie_Theme" silence_after="8" />
+		<track src="/music/09_Voodoo_drums" silence_after="8" />
+		<track src="/music/07_Cajun_Swamp_Mystery" silence_after="8" />
+		<track src="/music/08_Naughty_Spirits" silence_after="8" />
+		<track src="/music/01_DTS_Theme" silence_after="8" />
+		<track src="/music/10_Grand_Finale" silence_after="8" />
+	</music>
+	<ambient src="/sound/sfx/sfx_wierd_rustle1" />
+	
+	<objects>
+		<object name="background">
+			<position z="10" />
+			<texture src="gates/background" />
+		</object>
+
+		<object name="front">
+			<position z="5" />
+			<texture src="gates/top" />
+		</object>
+		
+		<object name="fx_fog">
+			<position z="8" />
+			<particles presim="5" src="/particles_ready/cemeterygates/fog.psysl" />
+		</object>
+
+		<object name="fx_bats">
+			<position z="9" />
+			<particles src="\particles_ready\bats\bats.psysl" />
+			<particles src="\particles_ready\bats\bats2.psysl" />
+			<particles src="\particles_ready\bats\bats3.psysl" />
+			<particles src="\particles_ready\bats\bats4.psysl" />
+		</object>
+		<object name="shop_door">
+			<position x="72" y="341" z="0" />
+			<texture src="gates/shop_door/shop_closed" />
+			<script src="gates/shop_door/shop_door" />
+			<alpha value="1" />
+		</object>		
+		<object name="shop_door_mask">
+			<position x="39" y="340" z="-30" />
+			<texture src="gates/shop_door/shop_door_mask" />
+			<script src="gates/shop_door/shop_door_mask" />
+			<alpha value="0" />
+		</object>
+		<object name="fx_house_lamp">
+			<scene src="/particles_ready/cemeterygates/lamp.DAE">
+				<particles src="/particles_ready/cemeterygates/lamp.psysl" />
+			</scene>
+		</object>
+
+		<object name="fx_skull_eyes">
+			<scene src="/particles_ready/cemeterygates/skull_eyes.DAE">
+				<particles src="/particles_ready/cemeterygates/eye_skull.psysl" />
+				<particles src="/particles_ready/cemeterygates/eye_fog1.psysl" />
+				<particles src="/particles_ready/cemeterygates/eye_fog2.psysl" />
+			</scene>
+		</object>
+		
+		<object name="fx_deep_eyes">
+			<position z="9" />
+			<scene src="/particles_ready/cemeterygates/deep_eyes.DAE">
+				<particles src="/particles_ready/swamp/deep_eyes.psysl" />
+			</scene>
+		</object>		
+		<object name="hint_trigger">
+			<script src="gates/hint_trigger" />
+		</object>
+		<object name="gates_carriage">
+			<position x="0" y="445" z="-20" />
+			<texture src="gates/gates_carriage/gates_carriage" />
+			<script src="gates/gates_carriage/gates_carriage" />
+			<alpha value="1" />
+		</object>
+		<object name="skull">
+			<position x="258" y="242" z="-10" />
+			<texture src="gates/skull/skull" />
+			<script src="gates/skull/skull" />
+		</object>
+		<object name="fx_blink_skull">
+			<position x="268" y="252" z="-20" />		
+			<particles src="/particles_ready/Blink/blink.psysl" />
+		</object>
+		<object name="bell">
+			<position x="564" y="561" z="-10" />
+			<texture src="gates/bell/bell" />
+			<script src="gates/bell/bell" />
+		</object>
+		<object name="fx_blink_bell">
+			<position x="637" y="605" z="-20" />		
+			<particles src="/particles_ready/Blink/blink.psysl" />
+		</object>
+		<object name="gates">
+			<position x="129" y="184" z="-5" />
+			<texture src="gates/gates/gates_closed" />
+			<script src="gates/gates/gates" />
+		</object>
+		<object name="gates_mask">
+			<position x="328" y="210" z="-20" />
+			<texture src="gates/gates/gates_mask" />
+			<script src="gates/gates/gates_mask" />
+			<alpha value="0" />			
+		</object>
+		<object name="fx_blink_gates">
+			<position x="480" y="370" z="-20" />		
+			<particles src="/particles_ready/Blink/blink.psysl" />
+		</object>
+		<object name="fx_boy_spirit_static">
+			<scene src="/particles_ready/souls/soul_gates/soul_gates1_s.DAE" looped="1">
+				<particles src="/particles_ready/souls/soul01_anim.psysl" />
+				<particles src="/particles_ready/souls/soul01_anim1.psysl" />
+			</scene>
+		</object>
+		<object name="fx_boy_spirit_dynamic">
+			<enable value="0" />
+			<scene src="/particles_ready/souls/soul_gates/soul_gates1_d.DAE">
+				<particles src="/particles_ready/souls/soul02_anim.psysl" />
+				<particles src="/particles_ready/souls/soul02_anim1.psysl" />
+			</scene>
+		</object>
+		<object name="boy_spirit">
+			<alpha value="0" />
+			<position x="450" y="537" z="-10" />
+			<texture src="gates/boy_spirit/boy_spirit" />
+			<script src="gates/boy_spirit/boy_spirit" />
+		</object>
+		<object name="fx_blink_boy_spirit">
+			<position x="718" y="471" z="-20" />		
+			<particles src="/particles_ready/Blink/blink.psysl" />
+		</object>
+		<object name="fx_girl_spirit_static">
+			<scene src="/particles_ready/souls/soul_gates/soul_gates2_s.DAE" looped="1">
+				<particles src="/particles_ready/souls/soul01_anim.psysl" />
+				<particles src="/particles_ready/souls/soul01_anim1.psysl" />
+			</scene>
+		</object>
+		<object name="fx_girl_spirit_dynamic">
+			<enable value="0" />
+			<scene src="/particles_ready/souls/soul_gates/soul_gates2_d.DAE">
+				<particles src="/particles_ready/souls/soul02_anim.psysl" />	
+				<particles src="/particles_ready/souls/soul02_anim1.psysl" />
+			</scene>
+		</object>
+		<object name="girl_spirit">
+			<alpha value="0" />
+			<position x="800" y="0" z="-10" />
+			<texture src="gates/girl_spirit/girl_spirit" />
+			<script src="gates/girl_spirit/girl_spirit" />
+		</object>
+		<object name="fx_blink_girl_spirit">
+			<position x="230" y="169" z="-20" />		
+			<particles src="/particles_ready/Blink/blink.psysl" />
+		</object>
+		<object name="slingshot">
+			<position x="450" y="567" z="-10" />
+			<texture src="gates/slingshot/slingshot" />
+			<script src="gates/slingshot/slingshot" />
+		</object>
+		<object name="fx_blink_slingshot">
+			<position x="730" y="580" z="-20" />		
+			<particles src="/particles_ready/Blink/blink.psysl" />
+		</object>
+		<object name="left_block">
+			<position x="378" y="468" z="-10" />
+			<texture src="gates/left_block/left_block" />
+			<script src="gates/left_block/left_block" />
+		</object>
+		<object name="right_block">
+			<position x="570" y="471" z="-10" />
+			<texture src="gates/right_block/right_block" />
+			<script src="gates/right_block/right_block" />
+		</object>
+		
+		<object name="sfx_bats">
+			<script src="gates/sfx/bats" />
+		</object>
+		<object name="sfx_wind">
+			<script src="gates/sfx/wind" />
+		</object>
+		<object name="sound_howl_at_the_moon">
+			<script src="gates/sfx/howl_at_the_moon" />
+		</object>
+		<object name="sound_eyes">
+			<script src="gates/sfx/eyes" />
+		</object>
+		
+		<object name="sound_angry_cat">
+			<script src="gates/sfx/angry_cat" />
+		</object>
+		<object name="sound_cat_small">
+			<script src="gates/sfx/cat_small" />
+		</object>
+		<object name="sound_raven">
+			<script src="gates/sfx/raven" />
+		</object>
+		<object name="sound_raven_far">
+			<script src="gates/sfx/raven_far" />
+		</object>
+	</objects>
+</location>

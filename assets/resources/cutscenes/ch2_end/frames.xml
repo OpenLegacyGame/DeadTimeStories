@@ -1,0 +1,8 @@
+<replacements>
+	<replace src="{1}" dest="2" />
+	<replace src="{2}" dest="7" />
+	<replace src="{3}" dest="23" />
+	<replace src="{3/2}" dest="11.5" />
+	<replace src="{4}" dest="11.5" />
+	<replace src="{5}" dest="2.5" />
+</replacements>

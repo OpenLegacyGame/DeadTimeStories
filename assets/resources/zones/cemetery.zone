@@ -1,0 +1,15 @@
+<zone>
+	<dependencies>
+		<dir src="cemetery" />
+		<dir src="\minigames\cemetery_gate" />
+		<dir src="\minigames\voodoo_circle" />
+	</dependencies>
+	<locations>
+		<location name="gates" src="cemetery/gates" />
+		<location name="voodoo_shop" src="cemetery/voodoo_shop" />
+		<location name="voodoo_circle" src="cemetery/voodoo_circle" />
+		<location name="chest_inset" src="cemetery/voodoo_shop/insets/chest_inset" />
+		<location name="baron_inset" src="cemetery/voodoo_shop/insets/baron_inset" />
+		<location name="tarot_inset" src="cemetery/voodoo_shop/insets/tarot_inset" />
+	</locations>
+</zone>

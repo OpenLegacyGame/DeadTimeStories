@@ -1,0 +1,34 @@
+<zone>
+	<dependencies>
+		<dir src="jessie_home" />
+		<dir src="\cutscenes\intro" />
+		<dir src="\cutscenes\cutscene2" />
+		<dir src="\minigames\_common_spellmixing" />
+		<dir src="\minigames\_spellmixing_banish_spirits" />
+		<dir src="\minigames\_spellmixing_graveyard_grease" />
+		<dir src="\minigames\_spellmixing_reveal_spirits" />
+		<dir src="\minigames\_spellmixing_aconite_antidote" />
+		<dir src="\minigames\_spellmixing_voodoo_doll" />
+		<dir src="\minigames\window_cleaning" />
+		<dir src="\minigames\hex_bones" />
+		<dir src="\minigames\ouiji_board" />
+		<dir src="\minigames\piano" />
+	</dependencies>
+	<locations>
+		<location name="shed" src="jessie_home/shed" />
+		<location name="front_gate" src="jessie_home/front_gate" />
+		<location name="rock_inset" src="jessie_home/front_gate/insets/rock_inset" />
+		<location name="mailbox_inset" src="jessie_home/front_gate/insets/mailbox_inset" />
+		<location name="spice_box_inset" src="jessie_home/shed/insets/spice_box_inset" />
+		<location name="snake_inset" src="jessie_home/shed/insets/snake_inset" />
+		<location name="openme_inset" src="jessie_home/shed/insets/openme_inset" />
+		<location name="parlor" src="jessie_home/parlor" />
+		<location name="teacup_inset" src="jessie_home/parlor/insets/teacup_inset" />
+		<location name="piano_inset" src="jessie_home/parlor/insets/piano_inset" />
+		<location name="kitchen" src="jessie_home/kitchen" />
+		<location name="drawer_inset" src="jessie_home/kitchen/insets/drawer_inset" />
+		<location name="bedroom" src="jessie_home/bedroom" />
+		<location name="music_box_inset" src="jessie_home/bedroom/insets/music_box_inset" />
+		<location name="saint_inset" src="jessie_home/bedroom/insets/saint_inset" />
+	</locations>
+</zone>

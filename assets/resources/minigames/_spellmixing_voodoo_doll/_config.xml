@@ -1,0 +1,82 @@
+<voodoo>
+
+	<!--
+		<fx_actions> elements describe any visual/sound effects which need to be played on certain events.
+		Format is similar to that of cutscenes, only with <end_fx/> instead of <end/>.
+	-->
+
+	<onFinish script="_on_finish">
+		<fx_actions>
+			<end_fx/>
+		</fx_actions>
+	</onFinish>
+
+	<!--
+		The following is the sequence of actions necessary to win the minigame.
+		show_scene_objects and hide_scene_objects are the final visual results of adding an ingredient.
+		They are processed both after playing fx described by <fx_actions> contents (right after add),
+		and when re-entering a partially finished minigame.
+	-->
+	<ingredients>
+		<ingredient inventory_item="sticks"
+			central="1" show_scene_objects="doll_sticks" hide_scene_objects="" >
+			<fx_actions>
+				<end_fx/>
+			</fx_actions>
+		</ingredient>
+		<ingredient inventory_item="string"
+			show_scene_objects="doll_string" hide_scene_objects="doll_sticks" >
+			<fx_actions>
+				<end_fx/>
+			</fx_actions>
+		</ingredient>
+		<ingredient inventory_item="moss"
+			show_scene_objects="doll_moss" hide_scene_objects="doll_string" >
+			<fx_actions>
+				<end_fx/>
+			</fx_actions>
+		</ingredient>
+		<ingredient inventory_item="muslin_bandage"
+			show_scene_objects="doll_muslin_bandage" hide_scene_objects="doll_moss" >
+			<fx_actions>
+				<end_fx/>
+			</fx_actions>
+		</ingredient>
+		<ingredient inventory_item="sewing_kit"
+			show_scene_objects="doll_sewing_kit" hide_scene_objects="doll_muslin_bandage" >
+			<fx_actions>
+				<end_fx/>
+			</fx_actions>
+		</ingredient>
+		<ingredient inventory_item="lipstick"
+			show_scene_objects="doll_lipstick" hide_scene_objects="doll_sewing_kit" >
+			<fx_actions>
+				<end_fx/>
+			</fx_actions>
+		</ingredient>
+		<ingredient inventory_item="glue"
+			show_scene_objects="doll_glue" hide_scene_objects="doll_lipstick" >
+			<fx_actions>
+				<end_fx/>
+			</fx_actions>
+		</ingredient>
+		<ingredient inventory_item="two_buttons"
+			show_scene_objects="doll_two_buttons" hide_scene_objects="doll_glue" >
+			<fx_actions>
+				<end_fx/>
+			</fx_actions>
+		</ingredient>
+		<ingredient inventory_item="lalauries_hair"
+			show_scene_objects="doll_lalauries_hair" hide_scene_objects="doll_two_buttons" >
+			<fx_actions>
+				<end_fx/>
+			</fx_actions>
+		</ingredient>
+		<ingredient inventory_item="lalauries_dress_piece"
+			show_scene_objects="doll_lalauries_dress_piece" hide_scene_objects="doll_lalauries_hair" >
+			<fx_actions>
+				<end_fx/>
+			</fx_actions>
+		</ingredient>
+	</ingredients>
+</voodoo>

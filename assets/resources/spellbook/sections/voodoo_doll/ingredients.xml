@@ -1,0 +1,12 @@
+<spell>
+	<ingredient item="string" text="%丝带%" x="435" y="152" />
+	<ingredient item="moss" text="%苔藓%" x="435" y="176" />
+	<ingredient item="muslin_bandage" text="%绷带%" x="435" y="200" />
+	<ingredient item="sewing_kit" text="%缝纫工具%" x="435" y="224" />
+	<ingredient item="glue" text="%胶水%" x="435" y="248" />
+	<ingredient item="two_buttons" text="%两粒纽扣%" x="435" y="272" />
+	<ingredient item="lalauries_hair" text="%头发%" x="435" y="296" />
+	<ingredient item="lipstick" text="%口红%" x="435" y="320" />
+	<ingredient item="lalauries_dress_piece" text="%裙子%" x="435" y="344" />
+	<ingredient item="sticks" container="1" text="%两根棍子%" x="435" y="80" />
+</spell>

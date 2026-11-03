@@ -1,0 +1,95 @@
+<spellmixing>
+	<onFinish script="_on_finish" />
+	
+	<spell_items>
+		<ingredient from_table="1" inventory="graveyard_ash" in_loa="graveyard_ash_in_loa" loa_pivot_x="121" loa_pivot_y="146" />
+		<ingredient from_table="1" inventory="holy_water" in_loa="holy_water_in_loa" loa_pivot_x="48" loa_pivot_y="179" />
+		<ingredient inventory="salt" in_loa="salt" loa_pivot_x="35" loa_pivot_y="69" />
+		<ingredient inventory="mint" in_loa="mint" loa_pivot_x="63" loa_pivot_y="94" />
+		<ingredient inventory="clove" in_loa="clove" loa_pivot_x="55" loa_pivot_y="37" />
+		<ingredient inventory="devils_shoestring" in_loa="devils_shoestring" loa_pivot_x="77" loa_pivot_y="51" />
+		<ingredient inventory="solomon_seal" in_loa="solomon_seal" loa_pivot_x="85" loa_pivot_y="57" />
+		<ingredient inventory="envenomed_apple" in_loa="envenomed_apple" loa_pivot_x="46" loa_pivot_y="100" />
+		<bottle inventory="bottle" in_loa="bottle" />
+	</spell_items>
+	
+	<scene_objects>
+		<loa_ingredient_slot name="slot_1" />
+		<loa_ingredient_slot name="slot_2" />
+		<loa_ingredient_slot name="slot_3" />
+		<loa_ingredient_slot name="slot_4" />
+		<loa_ingredient_slot name="slot_5" />
+		<loa_ingredient_slot name="slot_6" />
+		<loa_ingredient_slot name="slot_7" />
+		<loa_ingredient_slot name="slot_8" />
+		<loa_bottle_slot name="slot_central" />
+		<loa_shining name="loa" />
+		<loa_black name="loa_black" />
+		<loa_mask name="loa_mask" />
+		<mortar name="mortar" />
+		<mortar_full name="mortar_full" />
+		<mortar_with_ingredients name="mortar_with_ingredients" />
+		<mortar_mixture_ready name="mortar_mixture_ready" />
+		<pestle_outside_mortar name="pestle" />
+		<pestle_in_mortar name="pestle_mixing" />
+		<full_bottle name="full_bottle" />
+		<riddle name="riddle" />
+		<hint_back name="arrows_back" />
+		<hint_back_fx name="arrows_back_fx" />
+		<hint_cw name="arrow_right" />
+		<hint_ccw name="arrow_left" />
+		<hint_text_cw name="arrow_right_text" />
+		<hint_text_ccw name="arrow_left_text" />
+		<fx_put_into_mortar name="fx_put_into_mortar" />
+	</scene_objects>
+	
+	<need_reset wrong_ingredient_order="0" wrong_mixing="0" />
+	<reset_round_actions> 
+		<!-- 
+			Format is similar to that of cutscenes, only with extra <reset_round> action
+			and <end_reset/> instead of <end/>.
+		-->
+		<anim object="reset_fx" src="/common/show">
+			<anim object="reset_fx" src="/minigames/_common_spellmixing/reset_fx_1">
+				<reset_round>
+					<anim object="reset_fx" src="/minigames/_common_spellmixing/reset_fx_2">
+						<anim object="reset_fx" src="/common/hide">
+							<end_reset/>
+						</anim>
+					</anim>
+				</reset_round>
+			</anim>
+		</anim>
+	</reset_round_actions>
+	
+	<rounds>
+		<round>
+			<ingredients>
+				<graveyard_ash/>
+				<holy_water/>
+				<salt/>
+				<mint/>
+				<clove/>
+				<solomon_seal/>
+				<devils_shoestring/>
+				<envenomed_apple/>
+			</ingredients>
+			<gestures>
+				<ccw/>
+				<ccw/>
+				<ccw/>
+			</gestures>
+		</round>
+	</rounds>
+	
+	<mixing>
+		<pestle_start_pos x="150" y="194" />
+		<mortar left="48" top="152" right="253" bottom="237" />
+		<hint_text_cw_offset x="14" y="-2" />
+		<hint_text_ccw_offset x="14" y="-2" />
+		<hint_text font="/fonts/hint_big" color="EE352F27" />
+		<min_time_before_first_failure ms="2500" />
+		<min_failure_time_after_direction_switch ms="1000" />
+	</mixing>
+	
+</spellmixing>

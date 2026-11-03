@@ -1,0 +1,372 @@
+<hob stripcode="2300">
+	<groups>
+<!-- inventory -->	
+		<group0 environment="0">
+			<object name="%硫磺%">
+				<position x="400" y="499" z="0" />
+				<texture src="HOB_cellar_corner/sulfur" />
+			</object>
+			<object name="%发刷%">
+				<position x="764" y="432" z="0" />
+				<texture src="HOB_cellar_corner/lalauries_hair" />
+			</object>
+		</group0>
+<!-- complex items -->	
+		<group1>
+			<complex name="%猫%">
+				<object>
+					<position x="864" y="163" z="0" />
+					<texture src="HOB_cellar_corner/cat_1" />
+				</object>
+				<object>
+					<position x="377" y="131" z="0" />
+					<texture src="HOB_cellar_corner/cat_2" />
+				</object>
+				<object>
+					<position x="214" y="298" z="0" />
+					<texture src="HOB_cellar_corner/cat_3" />
+				</object>
+			</complex>
+			<complex name="%扑克牌%">
+				<object>
+					<position x="62" y="109" z="0" />
+					<texture src="HOB_cellar_corner/joker" />
+				</object>
+				<object>
+					<position x="715" y="67" z="0" />
+					<texture src="HOB_cellar_corner/ace" />
+				</object>
+				<object>
+					<position x="119" y="608" z="0" />
+					<texture src="HOB_cellar_corner/queen" />
+				</object>
+			</complex>
+			<complex name="%角%">
+				<object>
+					<position x="781" y="72" z="0" />
+					<texture src="HOB_cellar_corner/bull_horn" />
+				</object>
+				<object>
+					<position x="368" y="8" z="0" />
+					<texture src="HOB_cellar_corner/moose_horn" />
+				</object>
+				<object>
+					<position x="871" y="520" z="0" />
+					<texture src="HOB_cellar_corner/deer_horn" />
+				</object>
+			</complex>
+			<complex name="%打击乐器%">
+				<object>
+					<position x="950" y="154" z="0" />
+					<texture src="HOB_cellar_corner/tomtom" />
+				</object>
+				<object>
+					<position x="512" y="108" z="0" />
+					<texture src="HOB_cellar_corner/war_drum" />
+				</object>
+				<object>
+					<position x="6" y="250" z="0" />
+					<texture src="HOB_cellar_corner/percussion" />
+				</object>
+			</complex>
+			<complex name="%轮子%">
+				<object>
+					<position x="801" y="561" z="0" />
+					<texture src="HOB_cellar_corner/fly_wheel" />
+				</object>
+				<object>
+					<position x="620" y="507" z="0" />
+					<texture src="HOB_cellar_corner/wooden_wheel" />
+				</object>
+				<object>
+					<position x="250" y="297" z="0" />
+					<texture src="HOB_cellar_corner/carved_wheel" />
+				</object>
+			</complex>
+		</group1>	
+<!-- dif_0 -->		
+		<group2>
+			<object name="%剃刀%">
+				<position x="743" y="584" z="0" />
+				<texture src="HOB_cellar_corner/razor" />
+			</object>
+			<object name="%蝙蝠%">
+				<position x="689" y="125" z="0" />
+				<texture src="HOB_cellar_corner/bat" />
+			</object>			
+			<object name="%巫毒祭司%">
+				<position x="501" y="490" z="0" />
+				<texture src="HOB_cellar_corner/voodoo_priest" />
+			</object>			
+			<object name="%手%">
+				<position x="938" y="318" z="0" />
+				<texture src="HOB_cellar_corner/doll_hand" />
+			</object>			
+			<object name="%钢锯%">
+				<position x="125" y="42" z="0" />
+				<texture src="HOB_cellar_corner/fret_saw" />
+			</object>			
+			<object name="%携瓶器%">
+				<position x="328" y="481" z="0" />
+				<texture src="HOB_cellar_corner/bottle_carrier" />
+			</object>			
+			<object name="%石棺%">
+				<position x="62" y="462" z="0" />
+				<texture src="HOB_cellar_corner/sarcophagus" />
+			</object>			
+			<object name="%稻草人%">
+				<position x="113" y="488" z="0" />
+				<texture src="HOB_cellar_corner/scarecrow" />
+			</object>			
+			<object name="%链子%">
+				<position x="487" y="187" z="0" />
+				<texture src="HOB_cellar_corner/chain" />
+			</object>			
+			<object name="%骷髅%">
+				<position x="897" y="493" z="0" />
+				<texture src="HOB_cellar_corner/skeleton" />
+			</object>			
+			<object name="%小提琴%">
+				<position x="192" y="400" z="0" />
+				<texture src="HOB_cellar_corner/violin" />
+			</object>			
+			<object name="%铃铛%">
+				<position x="312" y="300" z="0" />
+				<texture src="HOB_cellar_corner/bell" />
+			</object>			
+			<object name="%木桶%">
+				<position x="524" y="204" z="0" />
+				<texture src="HOB_cellar_corner/tub" />
+			</object>			
+			<object name="%蛇%">
+				<position x="51" y="199" z="0" />
+				<texture src="HOB_cellar_corner/snake" />
+			</object>			
+			<object name="%王冠%">
+				<position x="94" y="309" z="0" />
+				<texture src="HOB_cellar_corner/crown" />
+			</object>			
+			<object name="%面具%">
+				<position x="724" y="318" z="0" />
+				<texture src="HOB_cellar_corner/mask" />
+			</object>				
+			<object name="%马%">
+				<position x="687" y="544" z="0" />
+				<texture src="HOB_cellar_corner/horse" />
+			</object>			
+			<object name="%钳子%">
+				<position x="208" y="498" z="0" />
+				<texture src="HOB_cellar_corner/grip" />
+			</object>			
+			<object name="%项圈%">
+				<position x="321" y="42" z="0" />
+				<texture src="HOB_cellar_corner/collar" />
+			</object>			
+			<object name="%礼帽%">
+				<position x="426" y="406" z="0" />
+				<texture src="HOB_cellar_corner/top_hat" />
+			</object>			
+			<object name="%凸轮%">
+				<position x="920" y="496" z="0" />
+				<texture src="HOB_cellar_corner/cog_wheel" />
+			</object>			
+			<object name="%靴子%">
+				<position x="177" y="23" z="0" />
+				<texture src="HOB_cellar_corner/boot" />
+			</object>						
+		</group2>	
+<!-- dif_1 -->
+		<group3>
+			<object name="%馅饼%">
+				<position x="422" y="584" z="0" />
+				<texture src="HOB_cellar_corner/pie" />
+			</object>		
+			<object name="%怪兽石像%">
+				<position x="327" y="204" z="0" />
+				<texture src="HOB_cellar_corner/idol_statue" />
+			</object>		
+			<object name="%恶魔%">
+				<position x="598" y="1" z="0" />
+				<texture src="HOB_cellar_corner/devil" />
+			</object>		
+			<object name="%砝码%">
+				<position x="256" y="534" z="0" />
+				<texture src="HOB_cellar_corner/weight" />
+			</object>		
+			<object name="%根%">
+				<position x="79" y="-2" z="0" />
+				<texture src="HOB_cellar_corner/mandrake_root" />
+			</object>		
+			<object name="%画板%">
+				<position x="0" y="487" z="0" />
+				<texture src="HOB_cellar_corner/drawing_board" />
+			</object>		
+			<object name="%琴弓%">
+				<position x="382" y="407" z="0" />
+				<texture src="HOB_cellar_corner/fiddlestick" />
+			</object>		
+			<object name="%色子%">
+				<position x="615" y="99" z="-5" />
+				<texture src="HOB_cellar_corner/dice" />
+			</object>		
+			<object name="%弹簧%">
+				<position x="982" y="355" z="0" />
+				<texture src="HOB_cellar_corner/spring" />
+			</object>		
+			<object name="%钥匙%">
+				<position x="513" y="448" z="0" />
+				<texture src="HOB_cellar_corner/key" />
+			</object>		
+			<object name="%小丑%">
+				<position x="870" y="35" z="0" />
+				<texture src="HOB_cellar_corner/jester" />
+			</object>		
+			<object name="%箭%">
+				<position x="452" y="278" z="0" />
+				<texture src="HOB_cellar_corner/arrow" />
+			</object>		
+			<object name="%筛子%">
+				<position x="650" y="428" z="0" />
+				<texture src="HOB_cellar_corner/sieve" />
+			</object>
+			<object name="%熨斗%">
+				<position x="339" y="311" z="0" />
+				<texture src="HOB_cellar_corner/iron" />
+			</object>
+			<object name="%娃娃%">
+				<position x="914" y="64" z="0" />
+				<texture src="HOB_cellar_corner/puppet" />
+			</object>
+			<object name="%葡萄%">
+				<position x="211" y="223" z="0" />
+				<texture src="HOB_cellar_corner/grape" />
+			</object>
+			<object name="%皮带%">
+				<position x="282" y="120" z="0" />
+				<texture src="HOB_cellar_corner/strap" />
+			</object>
+			<object name="%剑%">
+				<position x="86" y="583" z="0" />
+				<texture src="HOB_cellar_corner/rapier" />
+			</object>
+			<object name="%摩羯座%">
+				<position x="461" y="520" z="0" />
+				<texture src="HOB_cellar_corner/capricorn" />
+			</object>
+			<object name="%蚂蚁%">
+				<position x="752" y="87" z="0" />
+				<texture src="HOB_cellar_corner/ant" />
+			</object>
+			<object name="%镰刀%">
+				<position x="3" y="124" z="0" />
+				<texture src="HOB_cellar_corner/scythe" />
+			</object>
+			<object name="%桨%">
+				<position x="299" y="49" z="0" />
+				<texture src="HOB_cellar_corner/oar" />
+			</object>
+		</group3>
+<!-- dif_2 -->
+		<group4>
+			<object name="%镣铐%">
+				<position x="712" y="451" z="0" />
+				<texture src="HOB_cellar_corner/shackles" />
+			</object>
+			<object name="%黄瓜%">
+				<position x="39" y="407" z="0" />
+				<texture src="HOB_cellar_corner/cucumber" />
+			</object>
+			<object name="%仙人掌%">
+				<position x="746" y="230" z="0" />
+				<texture src="HOB_cellar_corner/cactus" />
+			</object>
+			<object name="%水晶球%">
+				<position x="428" y="228" z="-5" />
+				<texture src="HOB_cellar_corner/crystal_ball" />
+			</object>			
+			<object name="%螳螂%">
+				<position x="715" y="218" z="0" />
+				<texture src="HOB_cellar_corner/mantis" />
+			</object>			
+			<object name="%鞭子%">
+				<position x="312" y="444" z="0" />
+				<texture src="HOB_cellar_corner/whip" />
+			</object>			
+			<object name="%钉子%">
+				<position x="10" y="353" z="0" />
+				<texture src="HOB_cellar_corner/nail" />
+			</object>			
+			<object name="%明信片%">
+				<position x="807" y="337" z="0" />
+				<texture src="HOB_cellar_corner/post_card" />
+			</object>			
+			<object name="%手枪%">
+				<position x="807" y="0" z="0" />
+				<texture src="HOB_cellar_corner/pistole" />
+			</object>			
+		</group4>
+<!-- dif_4 -->
+		<group5>
+			<object name="%咖啡壶%">
+				<position x="161" y="468" z="0" />
+				<texture src="HOB_cellar_corner/cezve" />
+			</object>
+			<object name="%枪管%">
+				<position x="341" y="408" z="0" />
+				<texture src="HOB_cellar_corner/barrel" />
+			</object>
+			<object name="%护腕%">
+				<position x="516" y="305" z="0" />
+				<texture src="HOB_cellar_corner/bracer" />
+			</object>
+		</group5>
+	</groups>
+	
+	<rounds>
+		<round0
+			congratulations="%太好了!\n\n你找到了一些硫磺.\n也许以后会有用.%"
+			congratulations_image="/inventory/sulfur"		
+			script_complete="HOB_cellar_corner/complete_round0"
+		>
+			<slot00 group="group0" object="%硫磺%" />
+			<slot01 group="group2" />
+			<slot02 group="group2" />
+			<slot03 group="group2" />
+			<slot04 group="group2" />
+			<slot05 group="group3" />
+			<slot06 group="group2" />
+			<slot07 group="group2" />
+			<slot08 group="group3" />
+			<slot09 group="group2" />
+			<slot10 group="group4" />
+			<slot11 group="group2" />
+		</round0>
+		<round1
+			congratulations="%太好了!\n\n你找到了一把带有拉洛瑞小姐\n头发的发刷.\n也许以后会有用.%"
+			congratulations_image="/inventory/lalauries_hair"
+			script_complete="HOB_cellar_corner/complete_round1"
+		>
+			<slot00 group="group0" object="%发刷%" />
+			<slot01 group="group2" />
+			<slot02 group="group1" />
+			<slot03 group="group4" />
+			<slot04 group="group2" />
+			<slot05 group="group3" />
+			<slot06 group="group1" />
+			<slot07 group="group3" />
+			<slot08 group="group2" />
+			<slot09 group="group4" />
+			<slot10 group="group3" />
+			<slot11 group="group2" />
+		</round1>
+	</rounds>
+	
+	<environment>
+		<object>
+			<position x="0" y="0" z="10" />
+			<texture src="HOB_cellar_corner/background" />
+			<size width="1024" height="768" />
+		</object>
+	</environment>
+	
+</hob>

@@ -1,0 +1,46 @@
+<gui>
+	<image>
+		<position x="516" y="240" />
+		<file src="/menu/slider_back" />
+		
+		<slider id="sfx_volume" template="/menu/slider.tgui#options" />
+		<label template="/menu/label.tgui#slider">
+			<text>%音效及语音音量%</text>
+		</label>
+	</image>
+
+	<image>
+		<position x="516" y="303" />
+		<file src="/menu/slider_back" />
+		
+		<slider id="env_volume" template="/menu/slider.tgui#options" />
+		
+		<label template="/menu/label.tgui#slider">
+			<text>%环境音量%</text>
+		</label>
+	</image>
+	
+	<image>
+		<position x="516" y="366" />
+		<file src="/menu/slider_back" />
+		
+		<slider id="music_volume" template="/menu/slider.tgui#options" />
+		
+		<label template="/menu/label.tgui#slider">
+			<text>%音乐音量%</text>
+		</label>
+	</image>
+	
+	<label id="no_windowed">
+		<position x="389" y="476" />
+		<text font="/fonts/spell_book_ingredient" color="FF000000">%窗口模式不可用%</text>
+	</label>
+	
+	
+	<checkbox id="windowed" template="/menu/checkbox.tgui#menu">
+		<position x="518" y="436" />
+		<label template="/menu/label.tgui#checkbox">
+			<text>%窗口模式%</text>
+		</label>
+	</checkbox>
+</gui>

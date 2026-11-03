@@ -1,0 +1,13 @@
+	<carriage>
+	<destinations>
+		<destination zone="jessie_home" location="front_gate" button="button_jessie_home" />
+		<destination zone="lalaurie" location="back_yard" button="button_lalaurie" />
+		<destination zone="cajun" location="swamp_house" button="button_cajun" />
+		<destination zone="french_quarter" location="street_1" button="button_french_quarter" />
+		<destination zone="cemetery" location="gates" button="button_cemetery" />
+	</destinations>
+	<layout>
+		<first_button x="0" y="115" /> <!-- relative to the containing widget - see layout.xml -->
+		<button_step x="0" y="30" />
+	</layout>
+</carriage>

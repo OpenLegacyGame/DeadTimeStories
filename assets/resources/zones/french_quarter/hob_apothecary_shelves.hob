@@ -1,0 +1,397 @@
+<hob>
+	<groups>
+<!-- inventory -->	
+		<group0 environment="0">
+			<object name="%小苏打%">
+				<position x="581" y="458" z="0" />
+				<texture src="HOB_apothecary_shelves/baking_soda" />
+			</object>
+			<object name="%阿司匹林%">
+				<position x="545" y="201" z="0" />
+				<texture src="HOB_apothecary_shelves/aspirin" />
+			</object>
+			<object name="%纱布绷带%">
+				<position x="688" y="504" z="0" />
+				<texture src="HOB_apothecary_shelves/muslin_bandage" />
+			</object>
+		</group0>
+<!-- complex items -->	
+		<group1>
+			<complex name="%药片%">
+				<object>
+					<position x="783" y="551" z="0" />
+					<texture src="HOB_apothecary_shelves/pill1" />
+				</object>
+				<object>
+					<position x="272" y="293" z="0" />
+					<texture src="HOB_apothecary_shelves/pill2" />
+				</object>
+				<object>
+					<position x="53" y="389" z="0" />
+					<texture src="HOB_apothecary_shelves/pill3" />
+				</object>
+			</complex>
+			<complex name="%烧瓶%">
+				<object>
+					<position x="225" y="39" z="0" />
+					<texture src="HOB_apothecary_shelves/flask1" />
+				</object>
+				<object>
+					<position x="48" y="232" z="0" />
+					<texture src="HOB_apothecary_shelves/flask2" />
+				</object>
+				<object>
+					<position x="417" y="239" z="0" />
+					<texture src="HOB_apothecary_shelves/flask3" />
+				</object>
+			</complex>
+			<complex name="%心%">
+				<object>
+					<position x="724" y="359" z="0" />
+					<texture src="HOB_apothecary_shelves/heart1" />
+				</object>
+				<object>
+					<position x="828" y="99" z="0" />
+					<texture src="HOB_apothecary_shelves/heart2" />
+				</object>
+				<object>
+					<position x="278" y="10" z="0" />
+					<texture src="HOB_apothecary_shelves/heart3" />
+				</object>
+			</complex>
+			<complex name="%甲虫%">
+				<object>
+					<position x="970" y="17" z="0" />
+					<texture src="HOB_apothecary_shelves/scarab" />
+				</object>
+				<object>
+					<position x="101" y="97" z="0" />
+					<texture src="HOB_apothecary_shelves/beetle" />
+				</object>
+			</complex>						
+		</group1>	
+<!-- dif_0 -->	
+		<group2>
+			<object name="%眼球%">
+				<position x="166" y="80" z="0" />
+				<texture src="HOB_apothecary_shelves/eyeball" />
+			</object>
+			<object name="%眼镜%">
+				<position x="214" y="449" z="0" />
+				<texture src="HOB_apothecary_shelves/spectacles" />
+			</object>
+			<object name="%药用滴管%">
+				<position x="229" y="562" z="0" />
+				<texture src="HOB_apothecary_shelves/medicine_dropper" />
+			</object>
+			<object name="%女帽%">
+				<position x="656" y="390" z="-5" />
+				<texture src="HOB_apothecary_shelves/bonnet" />
+			</object>		
+			<object name="%梯子%">
+				<position x="823" y="518" z="0" />
+				<texture src="HOB_apothecary_shelves/step_ladder" />
+			</object>		
+			<object name="%人体模型%">
+				<position x="731" y="364" z="0" />
+				<texture src="HOB_apothecary_shelves/dummy" />
+			</object>		
+			<object name="%量杯%">
+				<position x="341" y="570" z="0" />
+				<texture src="HOB_apothecary_shelves/measuring_glass" />
+			</object>		
+			<object name="%漏斗%">
+				<position x="545" y="17" z="0" />
+				<texture src="HOB_apothecary_shelves/funnel" />
+			</object>		
+			<object name="%馅饼%">
+				<position x="222" y="524" z="0" />
+				<texture src="HOB_apothecary_shelves/pie" />
+			</object>		
+			<object name="%花瓶%">
+				<position x="478" y="24" z="0" />
+				<texture src="HOB_apothecary_shelves/vase" />
+			</object>		
+			<object name="%蛋%">
+				<position x="351" y="360" z="0" />
+				<texture src="HOB_apothecary_shelves/egg" />
+			</object>		
+			<object name="%兔子%">
+				<position x="410" y="524" z="0" />
+				<texture src="HOB_apothecary_shelves/rabbit" />
+			</object>		
+			<object name="%鸡头%">
+				<position x="9" y="451" z="0" />
+				<texture src="HOB_apothecary_shelves/chicken_head" />
+			</object>
+		</group2>
+<!-- gif_1 -->		
+		<group3>
+			<object name="%四叶草%">
+				<position x="376" y="527" z="0" />
+				<texture src="HOB_apothecary_shelves/clover" />
+			</object>		
+			<object name="%假肢%">
+				<position x="608" y="293" z="0" />
+				<texture src="HOB_apothecary_shelves/artificial_limb" />
+			</object>
+			<object name="%斧子%">
+				<position x="419" y="382" z="0" />
+				<texture src="HOB_apothecary_shelves/axe" />
+			</object>
+			<object name="%气压表%">
+				<position x="286" y="104" z="-5" />
+				<texture src="HOB_apothecary_shelves/barometer" />
+			</object>
+			<object name="%桶%">
+				<position x="36" y="540" z="0" />
+				<texture src="HOB_apothecary_shelves/barrel" />
+			</object>
+			<object name="%熊皮%">
+				<position x="937" y="27" z="0" />
+				<texture src="HOB_apothecary_shelves/bear" />
+			</object>
+			<object name="%铃铛%">
+				<position x="0" y="32" z="0" />
+				<texture src="HOB_apothecary_shelves/bell" />
+			</object>
+			<object name="%脑子%">
+				<position x="416" y="64" z="0" />
+				<texture src="HOB_apothecary_shelves/brain" />
+			</object>
+			<object name="%魔法饰物%">
+				<position x="255" y="378" z="0" />
+				<texture src="HOB_apothecary_shelves/charm" />
+			</object>
+			<object name="%圆锯%">
+				<position x="628" y="532" z="0" />
+				<texture src="HOB_apothecary_shelves/circular_saw" />
+			</object>
+			<object name="%夹钳%">
+				<position x="513" y="186" z="0" />
+				<texture src="HOB_apothecary_shelves/clamp" />
+			</object>
+			<object name="%椰子%">
+				<position x="182" y="203" z="0" />
+				<texture src="HOB_apothecary_shelves/coconut" />
+			</object>
+			<object name="%松果%">
+				<position x="418" y="354" z="0" />
+				<texture src="HOB_apothecary_shelves/cone" />
+			</object>
+			<object name="%王冠%">
+				<position x="-21" y="525" z="0" />
+				<texture src="HOB_apothecary_shelves/crown" />
+			</object>
+			<object name="%假牙%">
+				<position x="202" y="160" z="0" />
+				<texture src="HOB_apothecary_shelves/denture" />
+			</object>
+			<object name="%圆规%">
+				<position x="112" y="326" z="0" />
+				<texture src="HOB_apothecary_shelves/divider" />
+			</object>
+<!--			<object name="%灌肠器%">
+				<position x="514" y="338" z="0" />
+				<texture src="HOB_apothecary_shelves/enema" />
+			</object> -->	
+			<object name="%青蛙腿%">
+				<position x="269" y="333" z="0" />
+				<texture src="HOB_apothecary_shelves/frog_legs" />
+			</object>
+			<object name="%地球仪%">
+				<position x="604" y="249" z="0" />
+				<texture src="HOB_apothecary_shelves/globe" />
+			</object>
+			<object name="%水烟袋%">
+				<position x="509" y="70" z="-5" />
+				<texture src="HOB_apothecary_shelves/hookah" />
+			</object>
+			<object name="%锤子%">
+				<position x="582" y="503" z="0" />
+				<texture src="HOB_apothecary_shelves/mall" />
+			</object>
+			<object name="%显微镜%">
+				<position x="120" y="500" z="0" />
+				<texture src="HOB_apothecary_shelves/microscope" />
+			</object>
+			<object name="%研钵%">
+				<position x="176" y="232" z="0" />
+				<texture src="HOB_apothecary_shelves/mortar" />
+			</object>
+			<object name="%绞索%">
+				<position x="785" y="335" z="-5" />
+				<texture src="HOB_apothecary_shelves/noose" />
+			</object>
+			<object name="%节拍器%">
+				<position x="456" y="215" z="0" />
+				<texture src="HOB_apothecary_shelves/pendulum" />
+			</object>
+			<object name="%杵%">
+				<position x="253" y="93" z="0" />
+				<texture src="HOB_apothecary_shelves/pestle" />
+			</object>
+			<object name="%手枪%">
+				<position x="346" y="214" z="0" />
+				<texture src="HOB_apothecary_shelves/pistol" />
+			</object>
+			<object name="%罂粟%">
+				<position x="492" y="447" z="0" />
+				<texture src="HOB_apothecary_shelves/poppy" />
+			</object>
+			<object name="%玫瑰%">
+				<position x="539" y="536" z="-5" />
+				<texture src="HOB_apothecary_shelves/rose" />
+			</object>
+			<object name="%红宝石%">
+				<position x="94" y="304" z="-5" />
+				<texture src="HOB_apothecary_shelves/ruby" />
+			</object>
+			<object name="%沙漏%">
+				<position x="54" y="104" z="0" />
+				<texture src="HOB_apothecary_shelves/sand_glass" />
+			</object>
+			<object name="%鼻烟盒%">
+				<position x="420" y="180" z="0" />
+				<texture src="HOB_apothecary_shelves/snuff_box" />
+			</object>
+			<object name="%扳子%">
+				<position x="346" y="81" z="0" />
+				<texture src="HOB_apothecary_shelves/spanner" />
+			</object>
+			<object name="%鱼叉%">
+				<position x="585" y="124" z="0" />
+				<texture src="HOB_apothecary_shelves/spear" />
+			</object>
+			<object name="%权杖%">
+				<position x="835" y="61" z="0" />
+				<texture src="HOB_apothecary_shelves/staff" />
+			</object>
+			<object name="%太阳%">
+				<position x="17" y="227" z="0" />
+				<texture src="HOB_apothecary_shelves/sun" />
+			</object>
+			<object name="%注射筒%">
+				<position x="861" y="499" z="-5" />
+				<texture src="HOB_apothecary_shelves/syringe" />
+			</object>
+			<object name="%软管%">
+				<position x="744" y="524" z="0" />
+				<texture src="HOB_apothecary_shelves/tubes" />
+			</object>
+			<object name="%黄蜂%">
+				<position x="82" y="379" z="0" />
+				<texture src="HOB_apothecary_shelves/wasp" />
+			</object>
+		</group3>
+		
+<!-- gif_2 -->		
+		<group4>
+			<object name="%手术刀%">
+				<position x="77" y="583" z="-5" />
+				<texture src="HOB_apothecary_shelves/scalpel" />
+			</object>		
+			<object name="%指挥棒%">
+				<position x="377" y="305" z="0" />
+				<texture src="HOB_apothecary_shelves/pointer" />
+			</object>		
+			<object name="%珍珠%">
+				<position x="464" y="180" z="0" />
+				<texture src="HOB_apothecary_shelves/pearl" />
+			</object>		
+			<object name="%钳子%">
+				<position x="809" y="228" z="0" />
+				<texture src="HOB_apothecary_shelves/dentist_pincers" />
+			</object>
+			<object name="%蜂巢%">
+				<position x="138" y="441" z="0" />
+				<texture src="HOB_apothecary_shelves/cell" />
+			</object>
+			<object name="%捕鼠器%">
+				<position x="952" y="456" z="0" />
+				<texture src="HOB_apothecary_shelves/mouse_trap" />
+			</object>
+			<object name="%尖牙%">
+				<position x="817" y="545" z="0" />
+				<texture src="HOB_apothecary_shelves/tusk" />
+			</object>
+			<object name="%相框%">
+				<position x="843" y="329" z="0" />
+				<texture src="HOB_apothecary_shelves/frame" />
+			</object>
+		</group4>
+<!-- gif_4 -->		
+		<group5>		
+			<object name="%吸入器%">
+				<position x="517" y="568" z="0" />
+				<texture src="HOB_apothecary_shelves/inhaler" />
+			</object>	
+		</group5>
+	</groups>
+	
+	<rounds>
+		<round0
+			congratulations="%非常好!\n\n你找到了小苏打.\n也许以后会有用.%"
+			congratulations_image="/inventory/baking_soda"		
+			script_complete="HOB_apothecary_shelves/complete_round0"
+		>
+			<slot00 group="group0" object="%小苏打%" />
+			<slot01 group="group1" />
+			<slot02 group="group2" />
+			<slot03 group="group2" />
+			<slot04 group="group3" />
+			<slot05 group="group4" />
+			<slot06 group="group3" />
+			<slot07 group="group2" />
+			<slot08 group="group4" />
+			<slot09 group="group2" />
+			<slot10 group="group2" />
+			<slot11 group="group3" />
+		</round0>
+		<round1
+			congratulations="%非常好!\n\n你找到了阿司匹林粉末.\n也许以后会有用.%"
+			congratulations_image="/inventory/aspirin"
+			script_complete="HOB_apothecary_shelves/complete_round1"
+		>
+			<slot00 group="group0" object="%阿司匹林%" />
+			<slot01 group="group2" />
+			<slot02 group="group2" />
+			<slot03 group="group2" />
+			<slot04 group="group4" />
+			<slot05 group="group3" />
+			<slot06 group="group3" />
+			<slot07 group="group2" />
+			<slot08 group="group2" />
+			<slot09 group="group4" />
+			<slot10 group="group4" />
+			<slot11 group="group3" />
+		</round1>
+		<round2
+			congratulations="%非常好!\n\n你找到了纱布绷带.\n也许以后会有用.%"
+			congratulations_image="/inventory/muslin_bandage"
+			script_complete="HOB_apothecary_shelves/complete_round2"
+		>
+			<slot00 group="group0" object="%纱布绷带%" />
+			<slot01 group="group2" />
+			<slot02 group="group3" />
+			<slot03 group="group4" />
+			<slot04 group="group4" />
+			<slot05 group="group3" />
+			<slot06 group="group5" />
+			<slot07 group="group3" />
+			<slot08 group="group4" />
+			<slot09 group="group4" />
+			<slot10 group="group1" />
+			<slot11 group="group2" />
+		</round2>
+	</rounds>
+	
+	<environment>
+		<object>
+			<position x="0" y="0" z="10" />
+			<texture src="HOB_apothecary_shelves/background" />
+			<size width="1024" height="768" />
+		</object>
+	</environment>
+	
+</hob>

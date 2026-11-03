@@ -1,0 +1,39 @@
+<gui>
+	<include src="../common_back.gui" />
+	
+<image>
+		<file src="/common/half_dark" />
+		<position x="0" y="0" />
+		<size width="1024" height="768" />
+	</image>
+	
+	<image>
+		<file src="/menu/options/back_options" />
+		<position x="205" y="151" />
+	</image>
+
+	<image transparent="1">
+		<file src="/menu/options/overlay_options" />
+		<position x="504" y="156" />
+	</image>
+
+	<label id="prompt">
+		<position x="366" y="270" />
+		<size width="330" height="225" />
+		<text font="/fonts/acoustic_bass" color="FF000000">%在这个存档中你已经完成了游戏.\n\n 你想开始新游戏吗 \n(将会覆盖这个数据)?%</text>
+	</label>
+		
+	<button id="yes" template="/menu/button.tgui#menu">
+		<position x="256" y="508" />
+		<label template="/menu/label.tgui#menu_button">
+			<text>%是%</text>
+		</label>
+	</button>
+	
+	<button id="no" template="/menu/button.tgui#menu" shortcuts="esc">
+		<position x="452" y="508" />
+		<label template="/menu/label.tgui#menu_button">
+			<text>%否%</text>
+		</label>
+	</button>
+</gui>

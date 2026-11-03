@@ -1,0 +1,13 @@
+<const>
+	<back_texture src="hint_description" />
+	<back_margin x="60" y="3" />
+	<back_useful_height ratio="0.6" />
+	<back_position x="196" y="0" />
+	<back_offset_per_extra_line_of_text x="0" y="0" />
+	<start_text_offset x="0" y="0" />
+	<start_text_offset_per_extra_line_of_text x="0" y="0" />
+	<text font="/fonts/hint" material="/materials/quad_tex" color="FF210e2d"
+		max_width="370" max_lines="0" interval_mul="1.0" />
+	<min_show_time ms="2000" />
+	<time_to_hide ms="0" /> <!--infinite-->
+</const>

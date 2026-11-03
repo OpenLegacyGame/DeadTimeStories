@@ -1,0 +1,145 @@
+<location>
+<!--	<music>
+		<track src="/music/horror_jazz" silence_after="20" />
+	</music> -->
+	<onFirstVisit script="street_2/starter" />
+	<ambient src="/music/ambient/sfx_FR_Q_amb" />
+	<onEnter script="street_2/on_enter" />
+	<objects>
+		<object name="background">
+			<texture src="street_2/background" />
+		</object>
+		<object name="bucket_trigger">
+			<script src="street_2/bucket_trigger" />		
+		</object>
+		<object name="hint_trigger_2">
+			<script src="street_2/hint_trigger_2" />		
+		</object>
+		<object name="fx_glow">
+			<scene src="/particles_ready/street_02/street_02_glow.DAE">
+				<particles src="/particles_ready/candle/candle_glow.psysl" />
+			</scene>
+		</object>
+		<object name="fx_fog">
+			<particles presim="3" src="/particles_ready/street_02/fog.psysl" />
+		</object>
+
+		<object name="hint_trigger">
+			<script src="street_2/hint_trigger" />
+		</object>		
+		<object name="to_street_1">
+			<position x="61" y="532" z="-15" />			
+			<texture src="street_2/to_street_1" />
+			<script src="street_2/to_street_1" />
+			<alpha value="0" />
+		</object>	
+		<object name="street_rock">
+			<position x="778" y="510" z="-10" />
+			<texture src="street_2/street_rock/bessie_stone_mask" />
+			<script src="street_2/street_rock/street_rock" />
+			<alpha value="0" />
+		</object>
+
+		<object name="horseshoe">
+			<position x="791" y="527" z="-10" />
+			<texture src="street_2/street_rock/horseshoe" />
+			<visible value="0" />
+			<interactive value="0" />
+		</object>
+		<object name="bessie">
+			<position x="811" y="513" z="-10" />
+			<texture src="street_2/street_rock/bessie" />
+			<visible value="0" />
+			<interactive value="0" />
+		</object>
+		<object name="fx_blink_street_rock">
+			<position x="803" y="539" z="-20" />		
+			<particles src="/particles_ready/Blink/blink.psysl" />
+		</object>
+		<object name="fx_flora_well">
+			<position x="413" y="247" z="-20" />
+			<size width="50" height="50" />			
+			<particles presim="2" src="/particles_ready/FrontGate_HOBLocator/FGate_HOBLocator.psysl" />
+		</object>
+		<object name="well">
+			<position x="345" y="119" z="-10" />
+			<texture src="street_2/well/well_blocked" />
+			<script src="street_2/well/well" />
+		</object>
+		<object name="bucket_full">
+			<position x="423" y="257" z="-11" />
+			<texture src="street_2/well/bucket_full" />
+			<interactive value="0" />
+			<visible value="0" />
+		</object>
+		<object name="fx_blink_well">
+			<position x="520" y="180" z="-20" />		
+			<particles src="/particles_ready/Blink/blink.psysl" />
+		</object>
+		<object name="antons_key">
+			<position x="597" y="411" z="-10" />
+			<texture src="street_2/antons_key/antons_key" />
+			<script src="street_2/antons_key/antons_key" />
+		</object>
+		<object name="fx_blink_antons_key">
+			<position x="625" y="420" z="-20" />		
+			<particles src="/particles_ready/Blink/blink.psysl" />
+		</object>		
+		<object name="clock_hands">
+			<position x="38" y="252" z="-5" />
+			<texture src="street_2/clock_hands/clock_hands" />
+			<script src="street_2/clock_hands/clock_hands" />
+		</object>
+		<object name="fx_blink_clock_hands">
+			<position x="70" y="285" z="-20" />		
+			<particles src="/particles_ready/Blink/blink.psysl" />
+		</object>
+		<object name="clock_hands_mask">
+			<position x="14" y="240" z="-10" />
+			<texture src="street_2/clock_hands/clock_hands_mask" />
+			<script src="street_2/clock_hands/clock_hands_mask" />
+			<alpha value="0" />
+		</object>
+<!--names	-->	
+		<object name="ezra">
+			<position x="585" y="137" z="-15" />
+			<texture src="street_2/ezra/ezra" />
+		</object>	
+		<object name="ezra_mask">
+			<position x="580" y="131" z="-20" />
+			<script src="street_2/ezra/ezra_mask" />
+			<texture src="street_2/ezra/ezra_mask" />
+			<alpha value="0" />
+		</object>	
+		<object name="elijah">
+			<position x="21" y="192" z="-15" />
+			<texture src="street_2/elijah/elijah" />
+		</object>	
+		<object name="elijah_mask">
+			<position x="17" y="190" z="-20" />
+			<script src="street_2/elijah/elijah_mask" />
+			<texture src="street_2/elijah/elijah_mask" />
+			<alpha value="0" />
+		</object>
+		<object name="chance">
+			<position x="875" y="158" z="-15" />
+			<texture src="street_2/chance/chance" />
+		</object>	
+		<object name="chance_mask">
+			<position x="868" y="152" z="-20" />
+			<script src="street_2/chance/chance_mask" />
+			<texture src="street_2/chance/chance_mask" />
+			<alpha value="0" />
+		</object>
+		
+		<object name="sfx_wind">
+			<script src="street_2/sfx/wind" />
+		</object>
+		<object name="sfx_wierd_rustle">
+			<script src="street_2/sfx/wierd_rustle" />
+		</object>
+		<object name="sfx_spirits">
+			<script src="street_2/sfx/spirits" />
+		</object>
+	</objects>
+</location>

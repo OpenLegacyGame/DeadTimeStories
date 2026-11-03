@@ -1,0 +1,18 @@
+<location>
+	<objects>
+		<object name="back">
+			<texture src="/common/half_dark" />
+			<size width="1024" height="768" />
+			<script src="baron_inset/back" />
+		</object>
+		<object name="inset">
+			<position x="304" y="127" z="-10" />
+			<texture src="baron_inset/inset" />
+		</object>
+		<object name="rum">
+			<position x="481" y="406" z="-20" />
+			<texture src="baron_inset/rum/rum" />
+			<script src="baron_inset/rum/rum" />
+		</object>
+	</objects>
+</location>

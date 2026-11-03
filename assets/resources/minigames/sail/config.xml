@@ -1,0 +1,51 @@
+<sail>
+	<exit y="580" />
+	<script_onfinish src="on_finish" />
+	<script_onexit src="on_exit" />
+	<back src="background" />
+	<final_position_threshold value="30" />
+	<sew_inventory_object name="sewing_kit" />
+	<inventory_objects>
+		<trowel transforms_into_ingame="tablecloth" />
+		<nightdress transforms_into_ingame="nightdress" />
+		<bloomers transforms_into_ingame="bloomers" />
+		<tablecloth transforms_into_ingame="trowel" />
+		<shirt transforms_into_ingame="shirt" />
+	</inventory_objects>
+	<ingame_objects>
+		<trowel>
+			<final_position x="332" y="380" />
+			<pivot x="0" y="0" />
+			<texture src="towel" />
+			<texture_fixed src="towel_fixed" />
+		</trowel>
+		<nightdress>
+			<final_position x="177" y="156" />
+			<pivot x="0" y="0" />
+			<texture src="nightdress" />
+			<texture_fixed src="nightdress_fixed" />
+		</nightdress>
+		<bloomers>
+			<final_position x="322" y="74" />
+			<pivot x="0" y="0" />
+			<texture src="bloomers" />
+			<texture_fixed src="bloomers_fixed" />
+		</bloomers>
+		<tablecloth>
+			<final_position x="491" y="58" />
+			<pivot x="0" y="0" />
+			<texture src="tablecloth" />
+			<texture_fixed src="tablecloth_fixed" />
+		</tablecloth>
+		<shirt>
+			<final_position x="241" y="124" />
+			<pivot x="0" y="0" />
+			<texture src="shirt" />
+			<texture_fixed src="shirt_fixed" />
+		</shirt>
+	</ingame_objects>
+	<sew_mask>
+		<position x="177" y="58" z="-2" />
+		<texture src="seam" />
+	</sew_mask>
+</sail>

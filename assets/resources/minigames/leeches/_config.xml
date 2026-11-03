@@ -1,0 +1,5 @@
+<leeches_puzzle>
+	<onFinish script="_on_finish" />
+	
+	<leeches quantity="3" appear_interval_min_ms="1000" appear_interval_max_ms="3000" />
+</leeches_puzzle>

@@ -1,0 +1,1 @@
+gotoLocation("jessie_home.parlor")

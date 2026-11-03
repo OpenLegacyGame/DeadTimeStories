@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1">
+  <asset>
+    <contributor>
+      <author>s.andreev</author>
+      <authoring_tool>3dsMax 9 - Feeling ColladaMax v3.05B.</authoring_tool>
+      <comments>ColladaMax Export Options: ExportNormals=1;ExportEPolyAsTriangles=1;ExportXRefs=1;ExportSelected=1;ExportTangents=0;ExportAnimations=1;SampleAnim=1;ExportAnimClip=1;BakeMatrices=0;ExportRelativePaths=1;AnimStart=0;AnimEnd=2;</comments>
+    </contributor>
+    <created>2009-12-01T15:07:39Z</created>
+    <modified>2009-12-01T15:07:48Z</modified>
+    <unit meter="0.0254" name="inch"/>
+    <up_axis>Z_UP</up_axis>
+  </asset>
+  <library_animations>
+    <animation id="_Spir1-node-translation">
+      <source id="_Spir1-node-translation__Spir1-node_translation-input">
+        <float_array id="_Spir1-node-translation__Spir1-node_translation-input-array" count="61">0 0.033333 0.066666 0.1 0.133333 0.166667 0.2 0.233333 0.266667 0.3 0.333333 0.366667 0.4 0.433333 0.466667 0.5 0.533333 0.566667 0.6 0.633333 0.666667 0.7 0.733333 0.766667 0.8 0.833333 0.866667 0.9 0.933333 0.966667 1 1.03333 1.06667 1.1 1.13333 1.16667 1.2 1.23333 1.26667 1.3 1.33333 1.36667 1.4 1.43333 1.46667 1.5 1.53333 1.56667 1.6 1.63333 1.66667 1.7 1.73333 1.76667 1.8 1.83333 1.86667 1.9 1.93333 1.96667 2</float_array>
+        <technique_common>
+          <accessor source="#_Spir1-node-translation__Spir1-node_translation-input-array" count="61" stride="1">
+            <param name="TIME" type="float"/>
+          </accessor>
+        </technique_common>
+        <technique profile="MAYA">
+          <pre_infinity>CONSTANT</pre_infinity>
+          <post_infinity>CONSTANT</post_infinity>
+        </technique>
+      </source>
+      <source id="_Spir1-node-translation__Spir1-node_translation-output">
+        <float_array id="_Spir1-node-translation__Spir1-node_translation-output-array" count="183">993.599 0 654.056 1000.99 0 633.241 1005.61 0 611.651 1006.23 0 589.602 1001.59 0 568.063 991.269 0 548.599 976.383 0 532.331 958.586 0 519.272 939.274 0 508.539 919.547 0 498.578 900.138 0 488.019 882.095 0 475.305 868.044 0 458.41 862.961 0 437.153 867.52 0 415.643 877.345 0 395.874 888.473 0 376.781 898.824 0 357.261 907.349 0 336.884 913.353 0 315.632 916.45 0 293.768 916.582 0 271.685 913.968 0 249.753 908.973 0 228.235 901.995 0 207.274 893.393 0 186.922 883.468 0 167.18 872.459 0 148.022 860.553 0 129.405 847.9 0 111.288 834.617 0 93.6285 820.797 0 76.3878 806.512 0 59.5248 791.825 0 43.0116 776.785 0 26.8183 761.436 0 10.9203 745.809 0 -4.70664 729.935 0 -20.0813 713.838 0 -35.2234 697.539 0 -50.1481 681.058 0 -64.87 664.409 0 -79.4026 647.606 0 -93.7571 630.662 0 -107.945 613.588 0 -121.975 596.392 0 -135.857 596.392 0 -135.857 596.392 0 -135.857 596.392 0 -135.857 596.392 0 -135.857 596.392 0 -135.857 596.392 0 -135.857 596.392 0 -135.857 596.392 0 -135.857 596.392 0 -135.857 596.392 0 -135.857 596.392 0 -135.857 596.392 0 -135.857 596.392 0 -135.857 596.392 0 -135.857 596.392 0 -135.857</float_array>
+        <technique_common>
+          <accessor source="#_Spir1-node-translation__Spir1-node_translation-output-array" count="61" stride="3">
+            <param name="X" type="float"/>
+            <param name="Y" type="float"/>
+            <param name="Z" type="float"/>
+          </accessor>
+        </technique_common>
+      </source>
+      <source id="_Spir1-node-translation__Spir1-node_translation-interpolations">
+        <Name_array id="_Spir1-node-translation__Spir1-node_translation-interpolations-array" count="61">LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR</Name_array>
+        <technique_common>
+          <accessor source="#_Spir1-node-translation__Spir1-node_translation-interpolations-array" count="61" stride="1">
+            <param name="INTERPOLATION" type="Name"/>
+          </accessor>
+        </technique_common>
+      </source>
+      <sampler id="_Spir1-node-translation__Spir1-node_translation-sampler">
+        <input semantic="INPUT" source="#_Spir1-node-translation__Spir1-node_translation-input"/>
+        <input semantic="OUTPUT" source="#_Spir1-node-translation__Spir1-node_translation-output"/>
+        <input semantic="INTERPOLATION" source="#_Spir1-node-translation__Spir1-node_translation-interpolations"/>
+      </sampler>
+      <channel source="#_Spir1-node-translation__Spir1-node_translation-sampler" target="_Spir1-node/translation"/>
+    </animation>
+    <animation id="_spir2-node-translation">
+      <source id="_spir2-node-translation__spir2-node_translation-input">
+        <float_array id="_spir2-node-translation__spir2-node_translation-input-array" count="61">0 0.033333 0.066666 0.1 0.133333 0.166667 0.2 0.233333 0.266667 0.3 0.333333 0.366667 0.4 0.433333 0.466667 0.5 0.533333 0.566667 0.6 0.633333 0.666667 0.7 0.733333 0.766667 0.8 0.833333 0.866667 0.9 0.933333 0.966667 1 1.03333 1.06667 1.1 1.13333 1.16667 1.2 1.23333 1.26667 1.3 1.33333 1.36667 1.4 1.43333 1.46667 1.5 1.53333 1.56667 1.6 1.63333 1.66667 1.7 1.73333 1.76667 1.8 1.83333 1.86667 1.9 1.93333 1.96667 2</float_array>
+        <technique_common>
+          <accessor source="#_spir2-node-translation__spir2-node_translation-input-array" count="61" stride="1">
+            <param name="TIME" type="float"/>
+          </accessor>
+        </technique_common>
+        <technique profile="MAYA">
+          <pre_infinity>CONSTANT</pre_infinity>
+          <post_infinity>CONSTANT</post_infinity>
+        </technique>
+      </source>
+      <source id="_spir2-node-translation__spir2-node_translation-output">
+        <float_array id="_spir2-node-translation__spir2-node_translation-output-array" count="183">993.599 0 654.056 993.599 0 654.056 993.599 0 654.056 993.599 0 654.056 993.599 0 654.056 993.599 0 654.056 993.599 0 654.056 993.599 0 654.056 993.599 0 654.056 1005.63 0 637.684 1010.96 0 618.293 1004.75 0 599.145 992.654 0 582.796 979.177 0 567.539 965.709 0 552.275 952.801 0 536.536 940.731 0 520.147 929.617 0 503.095 919.381 0 485.501 909.952 0 467.462 901.304 0 449.034 893.445 0 430.258 886.407 0 411.158 880.249 0 391.757 875.059 0 372.075 870.955 0 352.139 868.096 0 331.988 866.69 0 311.685 867.003 0 291.337 869.358 0 271.127 874.127 0 251.351 881.652 0 232.46 891.73 0 214.786 903.398 0 198.109 915.773 0 181.946 928.193 0 165.818 940.181 0 149.366 951.386 0 132.374 961.569 0 114.751 970.582 0 96.5019 978.363 0 77.6953 984.918 0 58.4258 990.298 0 38.796 994.582 0 18.8979 997.863 0 -1.19157 1000.23 0 -21.408 1001.78 0 -41.7048 1002.6 0 -62.0441 1002.75 0 -82.4 1002.31 0 -102.751 1001.34 0 -123.083 999.876 0 -143.388 997.975 0 -163.656 995.675 0 -183.882 995.675 0 -183.882 995.675 0 -183.882 995.675 0 -183.882 995.675 0 -183.882 995.675 0 -183.882 995.675 0 -183.882 995.675 0 -183.882</float_array>
+        <technique_common>
+          <accessor source="#_spir2-node-translation__spir2-node_translation-output-array" count="61" stride="3">
+            <param name="X" type="float"/>
+            <param name="Y" type="float"/>
+            <param name="Z" type="float"/>
+          </accessor>
+        </technique_common>
+      </source>
+      <source id="_spir2-node-translation__spir2-node_translation-interpolations">
+        <Name_array id="_spir2-node-translation__spir2-node_translation-interpolations-array" count="61">LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR</Name_array>
+        <technique_common>
+          <accessor source="#_spir2-node-translation__spir2-node_translation-interpolations-array" count="61" stride="1">
+            <param name="INTERPOLATION" type="Name"/>
+          </accessor>
+        </technique_common>
+      </source>
+      <sampler id="_spir2-node-translation__spir2-node_translation-sampler">
+        <input semantic="INPUT" source="#_spir2-node-translation__spir2-node_translation-input"/>
+        <input semantic="OUTPUT" source="#_spir2-node-translation__spir2-node_translation-output"/>
+        <input semantic="INTERPOLATION" source="#_spir2-node-translation__spir2-node_translation-interpolations"/>
+      </sampler>
+      <channel source="#_spir2-node-translation__spir2-node_translation-sampler" target="_spir2-node/translation"/>
+    </animation>
+  </library_animations>
+  <library_animation_clips>
+    <animation_clip id="AnimationClip" start="0" end="3.33333">
+      <instance_animation url="#_Spir1-node-translation"/>
+      <instance_animation url="#_spir2-node-translation"/>
+    </animation_clip>
+  </library_animation_clips>
+  <library_lights>
+    <light id="ambient-environment-light" name="Ambient">
+      <technique_common>
+        <ambient>
+          <color>0.4 0.4 0.4</color>
+        </ambient>
+      </technique_common>
+      <extra>
+        <technique profile="FCOLLADA">
+          <intensity>1</intensity>
+        </technique>
+      </extra>
+    </light>
+  </library_lights>
+  <library_visual_scenes>
+    <visual_scene id="unnamed_scene" name="unnamed_scene">
+      <node id="_Spir1-node" name="_Spir1" type="NODE">
+        <translate sid="translation">993.599 0 654.056</translate>
+        <rotate sid="RotZ">0 0 1 0</rotate>
+        <rotate sid="RotY">0 1 0 0</rotate>
+        <rotate sid="RotX">1 0 0 90</rotate>
+        <scale>43.8771 43.8771 43.8771</scale>
+        <extra>
+          <technique profile="MAX3D">
+            <helper>
+              <bounding_min>-0.5 -0.5 -0.5</bounding_min>
+              <bounding_max>0.5 0.5 0.5</bounding_max>
+            </helper>
+          </technique>
+        </extra>
+      </node>
+      <node id="_spir2-node" name="_spir2" type="NODE">
+        <translate sid="translation">993.599 0 654.056</translate>
+        <rotate sid="RotZ">0 0 1 0</rotate>
+        <rotate sid="RotY">0 1 0 0</rotate>
+        <rotate sid="RotX">1 0 0 90</rotate>
+        <scale>43.8771 43.8771 43.8771</scale>
+        <extra>
+          <technique profile="MAX3D">
+            <helper>
+              <bounding_min>-0.5 -0.5 -0.5</bounding_min>
+              <bounding_max>0.5 0.5 0.5</bounding_max>
+            </helper>
+          </technique>
+        </extra>
+      </node>
+      <node id="VisualSceneNode" type="NODE">
+        <instance_light url="#ambient-environment-light"/>
+      </node>
+      <extra>
+        <technique profile="FCOLLADA">
+          <start_time>0</start_time>
+          <end_time>2</end_time>
+        </technique>
+      </extra>
+      <extra>
+        <technique profile="MAX3D">
+          <frame_rate>30</frame_rate>
+        </technique>
+      </extra>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_visual_scene url="#unnamed_scene"/>
+  </scene>
+</COLLADA>

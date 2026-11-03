@@ -1,0 +1,392 @@
+<hob stripcode="2100">
+	<objects>
+		<object name="hook hint">
+			<position x="647" y="0" z="-5" />
+			<texture src="HOB_fishing_basket/hook_mask" />
+			<script src="HOB_fishing_basket/hook_mask" />
+			<alpha value="0" />	
+		</object>
+	</objects>
+	<groups>
+<!-- inventory -->	
+		<group0 environment="0">
+			<object name="%绳子%">
+				<position x="535" y="247" z="0" />
+				<texture src="HOB_fishing_basket/rope" />
+			</object>
+			<object name="%金属钳%">
+				<position x="127" y="358" z="0" />
+				<texture src="HOB_fishing_basket/metal_cutters" />
+			</object>
+			<object name="%布片%">
+				<position x="441" y="366" z="0" />
+				<texture src="HOB_fishing_basket/piece_of_lalauries_dress" />
+			</object>
+		</group0>
+<!-- complex items -->	
+		<group1>
+			<complex name="%鱼%">
+				<object>
+					<position x="13" y="370" z="0" />
+					<texture src="HOB_fishing_basket/fish_1" />
+				</object>
+				<object>
+					<position x="627" y="346" z="0" />
+					<texture src="HOB_fishing_basket/fish_2" />
+				</object>
+				<object>
+					<position x="854" y="475" z="0" />
+					<texture src="HOB_fishing_basket/fish_3" />
+				</object>
+			</complex>
+			<complex name="%勾子%">
+				<object>
+					<position x="897" y="85" z="0" />
+					<texture src="HOB_fishing_basket/hook_1" />
+				</object>
+				<object>
+					<position x="137" y="41" z="0" />
+					<texture src="HOB_fishing_basket/hook_2" />
+				</object>
+				<object>
+					<position x="321" y="115" z="0" />
+					<texture src="HOB_fishing_basket/hook_3" />
+				</object>
+			</complex>
+			<complex name="%蟾蜍%">
+				<object>
+					<position x="389" y="291" z="0" />
+					<texture src="HOB_fishing_basket/toad_1" />
+				</object>
+				<object>
+					<position x="308" y="549" z="0" />
+					<texture src="HOB_fishing_basket/toad_2" />
+				</object>
+				<object>
+					<position x="106" y="143" z="0" />
+					<texture src="HOB_fishing_basket/toad_3" />
+				</object>
+			</complex>
+		</group1>	
+<!-- dif_0 -->		
+		<group2>
+			<object name="%铃铛%">
+				<position x="631" y="454" z="0" />
+				<texture src="HOB_fishing_basket/bell" />
+			</object>
+
+			<object name="%面包%">
+				<position x="893" y="211" z="0" />
+				<texture src="HOB_fishing_basket/bread" />
+			</object>
+			<object name="%子弹%">
+				<position x="764" y="369" z="0" />
+				<texture src="HOB_fishing_basket/bullet" />
+			</object>
+			<object name="%指南针%">
+				<position x="392" y="230" z="0" />
+				<texture src="HOB_fishing_basket/compass" />
+			</object>
+			<object name="%蜻蜓%">
+				<position x="608" y="0" z="0" />
+				<texture src="HOB_fishing_basket/dragonfly" />
+			</object>
+			<object name="%鱼线%">
+				<position x="366" y="80" z="0" />
+				<texture src="HOB_fishing_basket/fishing_line" />
+			</object>
+			<object name="%手套%">
+				<position x="163" y="343" z="0" />
+				<texture src="HOB_fishing_basket/glove" />
+			</object>
+			<object name="%仓鼠%">
+				<position x="584" y="286" z="0" />
+				<texture src="HOB_fishing_basket/hamster" />
+			</object>
+			<object name="%帽子%">
+				<position x="14" y="306" z="0" />
+				<texture src="HOB_fishing_basket/hat" />
+			</object>
+			<object name="%尺子%">
+				<position x="572" y="135" z="0" />
+				<texture src="HOB_fishing_basket/ruler" />
+			</object>
+			<object name="%围巾%">
+				<position x="40" y="370" z="0" />
+				<texture src="HOB_fishing_basket/scarf" />
+			</object>
+			<object name="%海龟%">
+				<position x="890" y="160" z="0" />
+				<texture src="HOB_fishing_basket/turtle" />
+			</object>
+			<object name="%鞭子%">
+				<position x="10" y="177" z="0" />
+				<texture src="HOB_fishing_basket/whip" />
+			</object>
+			<object name="%竖琴%">
+				<position x="686" y="276" z="0" />
+				<texture src="HOB_fishing_basket/harp" />
+			</object>
+		</group2>
+		<!-- dif_1 -->
+		<group3>
+			<object name="%鱼叉%">
+				<position x="-9" y="70" z="0" />
+				<texture src="HOB_fishing_basket/harpoon" />
+			</object>		
+			<object name="%手铐%">
+				<position x="62" y="81" z="0" />
+				<texture src="HOB_fishing_basket/manacle" />
+			</object>		
+			<object name="%链子%">
+				<position x="500" y="551" z="0" />
+				<texture src="HOB_fishing_basket/chain" />
+			</object>
+			<object name="%蛆%">
+				<position x="876" y="234" z="0" />
+				<texture src="HOB_fishing_basket/worm" />
+			</object>
+			<object name="%刀子%">
+				<position x="4" y="353" z="0" />
+				<texture src="HOB_fishing_basket/knife" />
+			</object>
+			<object name="%网%">
+				<position x="896" y="476" z="0" />
+				<texture src="HOB_fishing_basket/net" />
+			</object>
+			<object name="%钳子%">
+				<position x="234" y="394" z="0" />
+				<texture src="HOB_fishing_basket/nippers" />
+			</object>
+			<object name="%簸箕%">
+				<position x="41" y="517" z="0" />
+				<texture src="HOB_fishing_basket/dustpan" />
+			</object>
+			<object name="%靴子%">
+				<position x="0" y="7" z="0" />
+				<texture src="HOB_fishing_basket/boot" />
+			</object>
+			<object name="%兜帽%">
+				<position x="752" y="506" z="0" />
+				<texture src="HOB_fishing_basket/hood" />
+			</object>
+			<object name="%锡罐%">
+				<position x="917" y="409" z="0" />
+				<texture src="HOB_fishing_basket/tin" />
+			</object>
+			<object name="%刀鞘%">
+				<position x="425" y="301" z="0" />
+				<texture src="HOB_fishing_basket/sheath" />
+			</object>			
+			<object name="%蛇%">
+				<position x="140" y="37" z="0" />
+				<texture src="HOB_fishing_basket/snake" />
+			</object>			
+			<object name="%怀表%">
+				<position x="355" y="556" z="0" />
+				<texture src="HOB_fishing_basket/watch" />
+			</object>			
+			<object name="%蟑螂%">
+				<position x="467" y="537" z="0" />
+				<texture src="HOB_fishing_basket/pond_skater" />
+			</object>			
+			<object name="%鱼饵%">
+				<position x="559" y="181" z="0" />
+				<texture src="HOB_fishing_basket/bait" />
+			</object>			
+			<object name="%鱼骨%">
+				<position x="924" y="330" z="0" />
+				<texture src="HOB_fishing_basket/fishbone" />
+			</object>			
+			<object name="%螳螂%">
+				<position x="622" y="504" z="0" />
+				<texture src="HOB_fishing_basket/mantis" />
+			</object>			
+			<object name="%桨%">
+				<position x="226" y="1" z="0" />
+				<texture src="HOB_fishing_basket/oar" />
+			</object>			
+			<object name="%葡萄%">
+				<position x="339" y="520" z="0" />
+				<texture src="HOB_fishing_basket/grape" />
+			</object>			
+			<object name="%角%">
+				<position x="47" y="125" z="0" />
+				<texture src="HOB_fishing_basket/horn" />
+			</object>			
+			<object name="%蚌%">
+				<position x="735" y="146" z="0" />
+				<texture src="HOB_fishing_basket/mussel" />
+			</object>			
+			<object name="%蜗牛%">
+				<position x="320" y="351" z="-5" />
+				<texture src="HOB_fishing_basket/snail" />
+			</object>			
+			<object name="%火炬%">
+				<position x="185" y="-1" z="0" />
+				<texture src="HOB_fishing_basket/torch" />
+			</object>			
+			<object name="%戒指%">
+				<position x="576" y="395" z="0" />
+				<texture src="HOB_fishing_basket/ring" />
+			</object>			
+			<object name="%撬棍%">
+				<position x="12" y="570" z="-5" />
+				<texture src="HOB_fishing_basket/crow_bar" />
+			</object>
+			<object name="%锚%">
+				<position x="7" y="401" z="0" />
+				<texture src="HOB_fishing_basket/anchor" />
+			</object>
+			<object name="%螺旋钻%">
+				<position x="802" y="46" z="0" />
+				<texture src="HOB_fishing_basket/auger" />
+			</object>
+			<object name="%钱包%">
+				<position x="181" y="147" z="0" />
+				<texture src="HOB_fishing_basket/wallet" />
+			</object>
+			<object name="%蚂蚱%">
+				<position x="801" y="147" z="0" />
+				<texture src="HOB_fishing_basket/grasshopper" />
+			</object>				
+			<object name="%短柄斧%">
+				<position x="146" y="292" z="0" />
+				<texture src="HOB_fishing_basket/hatchet" />
+			</object>		
+			<object name="%煎蛋卷%">
+				<position x="416" y="18" z="0" />
+				<texture src="HOB_fishing_basket/omelet" />
+			</object>		
+			<object name="%皮带%">
+				<position x="456" y="484" z="0" />
+				<texture src="HOB_fishing_basket/strap" />
+			</object>		
+			<object name="%挂锁%">
+				<position x="305" y="476" z="0" />
+				<texture src="HOB_fishing_basket/padlock" />
+			</object>		
+			<object name="%鳞片%">
+				<position x="421" y="200" z="0" />
+				<texture src="HOB_fishing_basket/scales" />
+			</object>		
+			<object name="%蜈蚣%">
+				<position x="404" y="411" z="0" />
+				<texture src="HOB_fishing_basket/centipede" />
+			</object>		
+		</group3>
+		<!-- dif_2 -->
+		<group4>
+			<object name="%金币%">
+				<position x="764" y="323" z="0" />
+				<texture src="HOB_fishing_basket/coin" />
+			</object>		
+			<object name="%鱼漂%">
+				<position x="762" y="133" z="0" />
+				<texture src="HOB_fishing_basket/float" />
+			</object>		
+			<object name="%餐巾%">
+				<position x="389" y="557" z="0" />
+				<texture src="HOB_fishing_basket/napkin" />
+			</object>		
+			<object name="%钉子%">
+				<position x="513" y="186" z="0" />
+				<texture src="HOB_fishing_basket/nail" />
+			</object>		
+			<object name="%蝴蝶%">
+				<position x="693" y="354" z="0" />
+				<texture src="HOB_fishing_basket/butterfly" />
+			</object>		
+			<object name="%蛾子%">
+				<position x="384" y="171" z="0" />
+				<texture src="HOB_fishing_basket/moth" />
+			</object>		
+			<object name="%短袜%">
+				<position x="226" y="558" z="0" />
+				<texture src="HOB_fishing_basket/sock" />
+			</object>		
+			<object name="%榔头%">
+				<position x="505" y="57" z="0" />
+				<texture src="HOB_fishing_basket/hammer" />
+			</object>		
+			<object name="%笛子%">
+				<position x="5" y="65" z="0" />
+				<texture src="HOB_fishing_basket/flute" />
+			</object>		
+			<object name="%纽扣%">
+				<position x="952" y="99" z="0" />
+				<texture src="HOB_fishing_basket/button" />
+			</object>		
+			<object name="%爪子%">
+				<position x="429" y="480" z="0" />
+				<texture src="HOB_fishing_basket/claw" />
+			</object>			
+		</group4>
+	</groups>
+	
+	<rounds>
+		<round0
+			congratulations="%非常好!\n\n你找到了一根绳子.\n也许以后会有用.%"
+			congratulations_image="/inventory/rope"		
+			script_complete="HOB_fishing_basket/complete_round0"
+		>
+			<slot00 group="group0" object="%绳子%" />
+			<slot01 group="group1" />
+			<slot02 group="group2" />
+			<slot03 group="group2" />
+			<slot04 group="group2" />
+			<slot05 group="group3" />
+			<slot06 group="group2" />
+			<slot07 group="group3" />
+			<slot08 group="group2" />
+			<slot09 group="group3" />
+			<slot10 group="group2" />
+			<slot11 group="group2" />
+		</round0>
+		<round1
+			congratulations="%非常好!\n\n你找到了一把金属钳.\n也许以后会有用.%"
+			congratulations_image="/inventory/metal_cutters"
+			script_complete="HOB_fishing_basket/complete_round1"
+		>
+			<slot00 group="group0" object="%金属钳%" />
+			<slot01 group="group2" />
+			<slot02 group="group2" />
+			<slot03 group="group4" />
+			<slot04 group="group2" />
+			<slot05 group="group2" />
+			<slot06 group="group1" />
+			<slot07 group="group3" />
+			<slot08 group="group3" />
+			<slot09 group="group2" />
+			<slot10 group="group4" />
+			<slot11 group="group2" />
+		</round1>
+		<round2
+			congratulations="%非常好!\n\n你找到了一块拉洛瑞夫\n人衣服上的布片.也许以后会有用.%"
+			congratulations_image="/inventory/lalauries_dress_piece"
+			script_complete="HOB_fishing_basket/complete_round2"
+		>
+			<slot00 group="group0" object="%布片%" />
+			<slot01 group="group2" />
+			<slot02 group="group3" />
+			<slot03 group="group3" />
+			<slot04 group="group4" />
+			<slot05 group="group3" />
+			<slot06 group="group2" />
+			<slot07 group="group4" />
+			<slot08 group="group2" />
+			<slot09 group="group3" />
+			<slot10 group="group1" />
+			<slot11 group="group4" />
+		</round2>
+	</rounds>
+	
+	<environment>
+		<object>
+			<position x="0" y="0" z="10" />
+			<texture src="HOB_fishing_basket/background" />
+			<size width="1024" height="768" />
+		</object>
+	</environment>
+	
+</hob>

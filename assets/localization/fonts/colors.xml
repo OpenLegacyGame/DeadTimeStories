@@ -1,0 +1,4 @@
+<colors default="0xFFFFFFFF">
+	<hob value="0xFFFFFF00" />
+	<hob_hidden value="0x80FFFF00" />
+</colors>

@@ -1,0 +1,55 @@
+<objects>
+	<object name="back">
+		<position x="0" y="0" z="10" />
+		<texture src="background" />
+		<interactive value="0" />
+	</object>
+	<object name="exit">
+		<position x="0" y="295" z="-5" />
+		<texture src="exit_mask" />
+		<alpha value="0.0" />
+	</object>
+	
+	<object name="leech_01">
+		<texture src="/common/transparent" />
+		<position x="220" y="320" z="-10" />
+		<visible value="0" />
+		<alpha value="0.8" />
+	</object>
+	<object name="leech_02">
+		<texture src="/common/transparent" />
+		<position x="230" y="215" z="-10" />
+		<visible value="0" />
+		<alpha value="0.8" />
+	</object>
+	<object name="leech_03">
+		<texture src="/common/transparent" />
+		<position x="400" y="360" z="-10" />
+		<visible value="0" />
+		<alpha value="0.8" />
+	</object>
+
+	<object name="bucket">
+		<position x="175" y="147" z="2" />
+		<texture src="bucket" />
+		<alpha value="0.0" />
+	</object>
+	
+	<object name="tablecloth">
+		<position x="462" y="149" z="2" />
+		<texture src="tablecloth" />
+		<alpha value="0.0" />
+	</object>
+
+	<object name="roll">
+		<position x="579" y="384" z="2" />
+		<texture src="roll" />
+		<alpha value="0.0" />
+	</object>
+	
+	<object name="swamp">
+		<position x="194" y="584" z="1" />
+		<texture src="swamp" />
+		<alpha value="0.0" />
+	</object>
+</objects>

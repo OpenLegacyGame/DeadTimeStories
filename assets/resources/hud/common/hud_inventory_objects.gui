@@ -1,0 +1,54 @@
+<gui>
+	<group>
+		<position y="682" />
+
+		<button id="inventory_object_1">
+			<view><normal src="/common/transparent" /></view>
+			<drag_and_drop enabled="1" />
+			<position x="170" />
+		</button>
+
+		<button id="inventory_object_2">
+			<view><normal src="/common/transparent" /></view>
+			<drag_and_drop enabled="1" />
+			<position x="257" />
+		</button>
+
+		<button id="inventory_object_3">
+			<view><normal src="/common/transparent" /></view>
+			<drag_and_drop enabled="1" />
+			<position x="347" />
+		</button>
+
+		<button id="inventory_object_4">
+			<view><normal src="/common/transparent" /></view>
+			<drag_and_drop enabled="1" />
+			<position x="429" />
+		</button>
+
+		<button id="inventory_object_5">
+			<view><normal src="/common/transparent" /></view>
+			<drag_and_drop enabled="1" />
+			<position x="515" />
+		</button>
+
+		<button id="inventory_object_6">
+			<view><normal src="/common/transparent" /></view>
+			<drag_and_drop enabled="1" />
+			<position x="596" />
+		</button>
+
+		<button id="inventory_object_7">
+			<view><normal src="/common/transparent" /></view>
+			<drag_and_drop enabled="1" />
+			<position x="680" />
+		</button>
+
+		<button id="inventory_object_8">
+			<view><normal src="/common/transparent" /></view>
+			<drag_and_drop enabled="1" />
+			<position x="764" />
+		</button>
+
+	</group>
+</gui>

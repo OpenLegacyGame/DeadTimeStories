@@ -1,0 +1,22 @@
+<location stripcode="0102">
+	<objects>
+		<object name="back">
+			<texture src="/common/half_dark" />
+			<size width="1024" height="768" />
+			<script src="rock_inset/back" />
+		</object>
+		<object name="inset">
+			<position x="304" y="127" z="-10" />
+			<texture src="rock_inset/inset" />
+		</object>
+		<object name="bottle">
+			<position x="481" y="406" z="-20" />
+			<texture src="rock_inset/bottle/bottle" />
+			<script src="rock_inset/bottle/bottle" />
+		</object>
+<!--			<object name="fx_bottle">
+			<position x="524" y="337" z="-15" />
+			<script src="../../../fx/fx" />
+		</object> -->
+	</objects>
+</location>

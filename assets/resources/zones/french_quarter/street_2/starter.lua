@@ -1,0 +1,12 @@
+blockedWell_addKnownName("Bessie")
+blockedWell_addKnownName("Nathan")
+blockedWell_addKnownName("Esther")
+blockedWell_addKnownName("Ezra")
+blockedWell_addKnownName("Elijah")
+blockedWell_addKnownName("Chance")
+blockedWell_addKnownName("Joseph")
+blockedWell_addKnownName("Rainie")
+blockedWell_addKnownName("Alfonse")
+blockedWell_addKnownName("Elfi")
+
+gotoState("french_quarter.street_2.hint_trigger", "disabled")

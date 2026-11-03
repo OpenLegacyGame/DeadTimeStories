@@ -1,0 +1,135 @@
+<location stripcode="0700">
+	<onFirstVisit script="parlor/starter" />
+	<music>
+		<track src="/music/02_Jessie_Theme" silence_after="12" />
+		<track src="/music/03_Spirit_World" silence_after="12" />
+		<track src="/music/07_Cajun_Swamp_Mystery" silence_after="12" />
+		<track src="/music/11_Piano_Melancholy" silence_after="12" />
+	</music>
+	<ambient src="/music/ambient/sfx_Parlor_amb" />
+ 	<objects>
+		<object name="back">
+			<texture src="parlor/background" />
+		</object>
+		<object name="return">
+			<position x="0" y="630" z="-10" />
+			<size width="1024" height="150" />
+			<texture src="/common/half_dark" />
+			<script src="parlor/parlor_back" />
+			<alpha value="0" />
+		</object>
+		<object name="teacup">
+			<position x="200" y="350" z="-50" />
+			<texture src="/common/half_dark" />
+			<script src="parlor/teacup_inset/teacaup" />
+			<size width="180" height="70" />
+			<alpha value="0" />	
+		</object>
+		<object name="fx_blink_teacup">
+			<position x="320" y="365" z="-20" />		
+			<particles src="/particles_ready/Blink/blink.psysl" />
+		</object>
+		<object name="window">
+			<position x="0" y="0" z="-20" />
+			<texture src="/common/half_dark" />
+			<script src="parlor/window/window" />
+			<size width="200" height="400" />
+			<alpha value="0" />
+		</object>
+		<object name="fx_flora_window">
+			<position x="0" y="280" z="-5" />
+			<particles presim="2" src="/particles_ready/FrontGate_HOBLocator/FGate_HOBLocator.psysl" />
+		</object>
+		<object name="to_kitchen">
+			<position x="530" y="100" z="-20" />
+			<texture src="/common/half_dark" />
+			<script src="parlor/to_kitchen" />
+			<size width="130" height="400" />
+			<alpha value="0" />
+		</object>
+		<object name="to_bedroom">
+			<position x="930" y="30" z="-20" />
+			<texture src="/common/half_dark" />
+			<script src="parlor/to_bedroom" />
+			<size width="130" height="550" />
+			<alpha value="0" />
+		</object>
+		<object name="piano">
+			<position x="680" y="357" z="-20" />
+			<texture src="/common/half_dark" />
+			<script src="parlor/piano/piano" />
+			<size width="200" height="100" />
+			<alpha value="0" />
+		</object>
+		<object name="fx_piano_changing">
+			<position x="720" y="397" z="-31" />
+			<particles src="\particles_ready\snake_appear\snake_appear.psysl" />
+			<script src="/zones/_common/fx_changing" />
+		</object>
+		<object name="fx_blink_piano">
+			<position x="730" y="440" z="-20" />		
+			<particles src="/particles_ready/Blink/blink.psysl" />
+		</object>
+		<object name="piano_open">
+			<position x="636" y="357" z="-19" />
+			<texture src="parlor/piano/piano_open" />
+			<script src="parlor/piano/piano_open" />
+		</object>
+		<object name="fx_flora_piano">
+			<position x="700" y="300" z="-20" />
+			<particles presim="2" src="/particles_ready/FrontGate_HOBLocator/FGate_HOBLocator.psysl" />
+		</object>
+		<object name="hex_table">
+			<position x="300" y="500" z="-20" />
+			<texture src="/common/half_dark" />
+			<script src="parlor/hex_table/table" />
+			<size width="300" height="100" />
+			<alpha value="0" />
+		</object>
+		<object name="fx_flora_table">
+			<position x="300" y="500" z="-5" />
+			<particles presim="2" src="/particles_ready/FrontGate_HOBLocator/FGate_HOBLocator.psysl" />
+		</object>
+		<object name="fx_candles">
+			<visible value="0" />
+			<scene src="/particles_ready/candle/candles_parlor.DAE">
+				<particles presim="1" src="/particles_ready/candle/candle.psysl" />
+			</scene>
+		</object>
+		<object name="ray_dust">
+			<texture src="parlor/ray_dust/ray_dust" />
+			<script src="parlor/ray_dust/ray_dust" />
+			<scene src="/particles_ready/ray_dust/parlor_duster.DAE" particles="/particles_ready/ray_dust/ray_dust.psysl" />
+		</object>
+		<object name="fx_mirror">
+			<particles presim="2" src="/particles_ready/mirror_veil/veil.psysl" />
+		</object>
+		<object name="fx_spider">
+			<particles src="/particles_ready/parlor_bug/parlor_bug.psysl" />
+		</object>
+		<object name="mirror">
+			<position x="200" y="180" z="-5" />
+			<texture src="/common/half_dark" />
+			<script src="parlor/mirror" />
+			<size width="120" height="180" />
+			<alpha value="0" />
+		</object>
+		<object name="boarded_window">
+			<position x="270" y="130" z="-3" />
+			<texture src="/common/half_dark" />
+			<script src="parlor/boarded_window" />
+			<size width="100" height="230" />
+			<alpha value="0" />
+		</object>
+		
+		<object name="sfx_draft">
+			<script src="parlor/sfx/draft" />
+		</object>
+		<object name="sfx_wind">
+			<script src="parlor/sfx/wind" />
+		</object>
+		<object name="sfx_clock">
+			<script src="parlor/sfx/clock" />
+		</object>
+	</objects>
+</location>

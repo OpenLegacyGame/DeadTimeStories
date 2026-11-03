@@ -1,0 +1,7 @@
+<spell>
+	<ingredient item="yellow_monkshood" text="%黄附子花%" x="435" y="152" />
+	<ingredient item="aspirin" text="%阿司匹林粉末%" x="435" y="176" />
+	<ingredient item="baking_soda" text="%小苏打%" x="435" y="200" />
+	<ingredient item="aconite" text="%乌头%" x="435" y="224" />
+	<ingredient item="aconite" container="1" text="%空袋子%" x="435" y="80" />
+</spell>

@@ -1,0 +1,283 @@
+<location stripcode="2000">
+	<onEnter script="pond/on_enter" />
+	<onExit script="pond/on_exit" />
+	<ambient src="/music/ambient/sfx_water_waves" />
+	<objects>
+		<object name="background">
+			<position z="10" />
+			<texture src="pond/background" />
+		</object>
+		<object name="fx_bats01">
+			<position z="9" />
+			<particles src="\particles_ready\bats\bats.psysl" />
+			<particles src="\particles_ready\bats\bats2.psysl" />
+			<particles src="\particles_ready\bats\bats3.psysl" />
+			<particles src="\particles_ready\bats\bats4.psysl" />
+		</object>
+		<object name="fx_back_fog">
+			<position z="8" />
+			<particles presim="4" src="\particles_ready\gazebooFog\back_fog.psysl" />
+		</object>
+		<object name="layer_tree">
+			<position z="7" />
+			<texture src="pond/tree" />
+		</object>
+		<object name="layer_front">
+			<position z="1" />
+			<texture src="pond/front" />
+		</object>
+		<object name="fx_blood">
+			<position z="6" />
+			<scene src="\particles_ready\pond\pond_blood.DAE" looped="1">
+				<particles src="\particles_ready\pond\pond_blood.psysl" />
+			</scene>
+		</object>
+		<object name="fx_blood1">
+			<position z="6" />
+			<scene src="\particles_ready\pond\pond_blood1.DAE" looped="1">
+				<particles src="\particles_ready\pond\pond_blood1.psysl" />
+			</scene>
+		</object>
+		<object name="fx_blood_spec">
+			<position z="6" />
+			<scene src="\particles_ready\pond\pond_blood_spec.DAE" looped="1">
+				<particles src="\particles_ready\pond\pond_bloodspec.psysl" />
+			</scene>
+		</object>
+		<object name="fx_river">
+			<scene src="\particles_ready\river\pond_river.DAE">
+				<particles src="\particles_ready\river\river_shine.psysl" />
+			</scene>
+		</object>
+		<object name="fx_coals">
+			<particles presim="1" src="\particles_ready\coals\pond_coals.psysl" />
+		</object>
+		<object name="return">
+			<position x="0" y="541" z="-50" />	
+			<texture src="pond/pond_back" />
+			<script src="pond/pond_back" />
+			<alpha value="0" />
+		</object>
+		<object name="scary_tree">
+			<position x="750" y="212" z="-2" />			
+			<texture src="pond/scary_tree/scary_tree" />
+			<script src="pond/scary_tree/scary_tree" />
+		</object>
+		<object name="sound_wood_growling">
+			<sound src="/sound/sfx/sfx_wood_growling" type="env" />
+		</object>
+		<object name="fx_blink_scary_tree">
+			<position x="760" y="220" z="-20" />		
+			<particles src="/particles_ready/Blink/blink.psysl" />
+		</object>
+		<object name="ash">
+			<position x="116" y="558" z="-10" />
+			<size width="121" height="125" />			
+			<texture src="pond/ash/ash" />
+			<script src="pond/ash/ash" />
+			<alpha value="0" />
+		</object>
+		<object name="fx_blink_ash">
+			<position x="83" y="528" z="-20" />		
+			<particles src="/particles_ready/Blink/blink.psysl" />
+		</object>
+		<object name="fishing_basket">
+			<position x="224" y="232" z="-10" />
+			<texture src="pond/fishing_basket/fishing_basket" />
+			<script src="pond/fishing_basket/fishing_basket" />
+			<alpha value="0" />
+		</object>
+		<object name="fx_flora_basket">
+			<position x="215" y="246" z="-25" />
+			<size width="135" height="173" />
+			<particles presim="2" src="/particles_ready/FrontGate_HOBLocator/FGate_HOBLocator.psysl" />
+		</object>
+		
+		<object name="harrahya_piece">
+			<position x="289" y="269" z="-10" />
+			<size width="86" height="123" />
+			<alpha value="0" />
+			<texture src="/common/half_dark" />
+			<script src="pond/harrahya_piece/harrahya_piece" />
+		</object>
+		<object name="fx_blink_harrahya_piece">
+			<scene src="\particles_ready\pieces\piece_harrahya.DAE" looped="1">
+				<particles src="\particles_ready\pieces\pieces.psysl" />
+			</scene>
+		</object>
+		
+		<object name="harrahya_spirit">
+			<scene src="/particles_ready/souls/soul_pond/soul_pond1_s.dae">
+				<particles src="/particles_ready/souls/soul01_anim.psysl" />
+				<particles src="/particles_ready/souls/soul01_anim1.psysl" />
+			</scene>			
+			<script src="pond/harrahya_spirit/harrahya_spirit" />
+			<alpha value="0" />
+			<interactive value="0" />
+		</object>
+		<object name="harrahya_spirit_mask">
+			<position x="288" y="238" z="-10" />
+			<texture src="/particles_ready/souls/soul_pond/soul_pond1_288x238" />
+			<script src="pond/harrahya_spirit/harrahya_spirit_mask" />
+			<alpha value="0" />
+			<interactive value="0" />
+		</object>
+		<object name="harrahya_spirit_disappear_fx">
+			<scene src="/particles_ready/souls/soul_pond/soul_pond1_d.dae" looped="0">
+				<particles src="/particles_ready/souls/soul02_anim.psysl" />
+				<particles src="/particles_ready/souls/soul02_anim1.psysl" />
+			</scene>
+			<alpha value="0" />
+			<interactive value="0" />			
+		</object>
+
+		<object name="matba_piece">
+			<position x="543" y="325" z="-10" />
+			<size width="94" height="127" />
+			<alpha value="0" />
+			<texture src="/common/half_dark" />
+			<script src="pond/matba_piece/matba_piece" />
+		</object>
+		<object name="fx_blink_matba_piece">
+			<scene src="\particles_ready\pieces\piece_matba.DAE" looped="1">
+				<particles src="\particles_ready\pieces\pieces.psysl" />
+			</scene>
+		</object>
+
+		<object name="matba_spirit">
+			<scene src="/particles_ready/souls/soul_pond/soul_pond2_s.dae">
+				<particles src="/particles_ready/souls/soul01_anim.psysl" />
+				<particles src="/particles_ready/souls/soul01_anim1.psysl" />
+			</scene>			
+			<script src="pond/matba_spirit/matba_spirit" />
+			<alpha value="0" />
+			<interactive value="0" />
+		</object>
+		<object name="matba_spirit_mask">
+			<position x="527" y="262" z="-10" />
+			<texture src="/particles_ready/souls/soul_pond/soul_pond2_527x262" />
+			<script src="pond/matba_spirit/matba_spirit_mask" />
+			<alpha value="0" />
+			<interactive value="0" />
+		</object>
+		<object name="matba_spirit_disappear_fx">
+			<scene src="/particles_ready/souls/soul_pond/soul_pond2_d.dae" looped="0">
+				<particles src="/particles_ready/souls/soul02_anim.psysl" />
+				<particles src="/particles_ready/souls/soul02_anim1.psysl" />
+			</scene>
+			<alpha value="0" />
+			<interactive value="0" />			
+		</object>
+		
+		<object name="selah_piece">
+			<position x="702" y="309" z="-10" />
+			<size width="86" height="134" />
+			<alpha value="0" />
+			<texture src="/common/half_dark" />
+			<script src="pond/selah_piece/selah_piece" />
+		</object>
+		<object name="fx_blink_selah_piece">
+			<scene src="\particles_ready\pieces\piece_selah.DAE" looped="1">
+				<particles src="\particles_ready\pieces\pieces.psysl" />
+			</scene>
+		</object>
+		
+		<object name="selah_spirit">			<position z="-3" />
+			<scene src="/particles_ready/souls/soul_pond/soul_pond3_s.dae">
+				<particles src="/particles_ready/souls/soul01_anim.psysl" />
+				<particles src="/particles_ready/souls/soul01_anim1.psysl" />
+			</scene>			
+			<script src="pond/selah_spirit/selah_spirit" />
+			<alpha value="0" />
+			<interactive value="0" />
+		</object>
+		<object name="selah_spirit_mask">
+			<position x="698" y="304" z="-10" />
+			<texture src="/particles_ready/souls/soul_pond/soul_pond3_698x304" />
+			<script src="pond/selah_spirit/selah_spirit_mask" />
+			<alpha value="0" />
+			<interactive value="0" />
+		</object>
+		<object name="selah_spirit_disappear_fx">
+			<scene src="/particles_ready/souls/soul_pond/soul_pond3_d.dae" looped="0">
+				<particles src="/particles_ready/souls/soul02_anim.psysl" />
+				<particles src="/particles_ready/souls/soul02_anim1.psysl" />
+			</scene>
+			<alpha value="0" />
+			<interactive value="0" />			
+		</object>
+		
+		<object name="yaldabaoth_piece">
+			<position x="928" y="356" z="-10" />
+			<size width="94" height="134" />
+			<alpha value="0" />
+			<texture src="/common/half_dark" />
+			<script src="pond/yaldabaoth_piece/yaldabaoth_piece" />
+		</object>
+		<object name="fx_blink_yaldabaoth_piece">
+			<scene src="\particles_ready\pieces\piece_yaldabaoth.DAE" looped="1">
+				<particles src="\particles_ready\pieces\pieces.psysl" />
+			</scene>
+		</object>
+		
+		<object name="yaldabaoth_spirit">
+			<position z="-3" />
+			<scene src="/particles_ready/souls/soul_pond/soul_pond4_s.dae">
+				<particles src="/particles_ready/souls/soul01_anim.psysl" />
+				<particles src="/particles_ready/souls/soul01_anim1.psysl" />
+			</scene>			
+			<script src="pond/yaldabaoth_spirit/yaldabaoth_spirit" />
+			<alpha value="0" />
+			<interactive value="0" />
+		</object>
+		<object name="yaldabaoth_spirit_mask">
+			<position x="904" y="302" z="-10" />
+			<texture src="/particles_ready/souls/soul_pond/soul_pond4_904x302" />
+			<script src="pond/yaldabaoth_spirit/yaldabaoth_spirit_mask" />
+			<alpha value="0" />
+			<interactive value="0" />
+		</object>
+		<object name="yaldabaoth_spirit_disappear_fx">
+			<scene src="/particles_ready/souls/soul_pond/soul_pond4_d.dae" looped="0">
+				<particles src="/particles_ready/souls/soul02_anim.psysl" />
+				<particles src="/particles_ready/souls/soul02_anim1.psysl" />
+			</scene>
+			<alpha value="0" />
+			<interactive value="0" />			
+		</object>
+		
+		<object name="reveal_spell">
+			<position x="408" y="541" z="-20" />
+			<texture src="pond/reveal_spell/reveal_spell" />
+			<script src="pond/reveal_spell/reveal_spell" />
+		</object>
+		<object name="reveal_spell_bubbles">
+			<position x="204" y="270" z="-21" />
+			<particles src="/particles_ready/mixture_bubles/reveal_pond.psysl" />
+		</object>
+		<object name="fx_reveal_place">
+			<scene src="\particles_ready\helix\hlx_pond.DAE" looped="1">
+				<particles src="\particles_ready\helix\helix.psysl" />
+			</scene>
+		</object>
+		
+		<object name="fx_veil">
+			<particles src="/particles_ready/pond/pond_veil.psysl" />
+			<particles src="/particles_ready/pond/pond_veil1.psysl" />
+		</object>
+		
+		<object name="sfx_wind">
+			<script src="pond/sfx/wind" />
+		</object>
+		<object name="sfx_night_bird">
+			<script src="pond/sfx/night_bird" />
+		</object>
+		<object name="sfx_bats">
+			<script src="pond/sfx/bats" />
+		</object>
+		<object name="sfx_spirit_whining">
+			<script src="sfx/spirit_whining" />
+		</object>
+		
+	</objects>
+</location>

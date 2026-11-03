@@ -1,0 +1,159 @@
+<particles_layout>
+    <world_emitting value="1" />
+    <parameters>
+        <parameter type="Float">
+            <position x="10" y="10" />
+            <name value="terminate" />
+            <burstCollective value="0" />
+            <distribution type="fixed">
+                <fixed value="3" />
+            </distribution>
+        </parameter>
+        <parameter type="Float">
+            <position x="10" y="60" />
+            <name value="Life time" />
+            <burstCollective value="0" />
+            <distribution type="fixed">
+                <fixed value="0" />
+            </distribution>
+        </parameter>
+        <parameter type="Vector3">
+            <position x="10" y="110" />
+            <name value="Position" />
+            <burstCollective value="0" />
+            <distribution type="linear_random_vector">
+                <linear_random_vector>
+                    <from x="990" y="685" z="0" />
+                    <to x="960" y="740" z="0" />
+                </linear_random_vector>
+            </distribution>
+        </parameter>
+        <parameter type="Float">
+            <position x="10" y="160" />
+            <name value="size" />
+            <burstCollective value="0" />
+            <distribution type="linear_random">
+                <linear_random>
+                    <from value="40" />
+                    <to value="60" />
+                </linear_random>
+            </distribution>
+        </parameter>
+        <parameter type="Float">
+            <position x="10" y="210" />
+            <name value="rotationRand" />
+            <burstCollective value="0" />
+            <distribution type="linear_random">
+                <linear_random>
+                    <from value="-20" />
+                    <to value="20" />
+                </linear_random>
+            </distribution>
+        </parameter>
+        <parameter type="Vector3">
+            <position x="10" y="260" />
+            <name value="Vector3" />
+            <burstCollective value="0" />
+            <distribution type="linear_random_vector">
+                <linear_random_vector>
+                    <from x="0.600000024" y="0.200000003" z="0.5" />
+                    <to x="1" y="0" z="0.100000001" />
+                </linear_random_vector>
+            </distribution>
+        </parameter>
+    </parameters>
+    <modifiers>
+        <modifier type="Linear addition">
+            <position x="789" y="70" />
+            <speed value="1" />
+        </modifier>
+        <modifier type="Linear addition">
+            <position x="789" y="130" />
+            <speed value="-4" />
+        </modifier>
+    </modifiers>
+    <functions>
+        <function type="Div">
+            <position x="264" y="366" />
+        </function>
+        <function type="Sub">
+            <position x="441" y="415" />
+        </function>
+        <function type="Distribution">
+            <position x="264" y="460" />
+            <distribution type="fixed">
+                <fixed value="0.5" />
+            </distribution>
+        </function>
+        <function type="Mul">
+            <position x="441" y="487" />
+        </function>
+        <function type="Mul">
+            <position x="627" y="460" />
+        </function>
+        <function type="Distribution">
+            <position x="441" y="537" />
+            <distribution type="fixed">
+                <fixed value="4" />
+            </distribution>
+        </function>
+        <function type="Distribution">
+            <position x="441" y="289" />
+            <distribution type="fixed">
+                <fixed value="1" />
+            </distribution>
+        </function>
+        <function type="Sub">
+            <position x="593" y="573" />
+        </function>
+        <function type="Mul">
+            <position x="222" y="238" />
+        </function>
+    </functions>
+    <generator type="Generator">
+        <position x="789" y="10" />
+        <phase_distribution type="fixed">
+            <fixed value="0" />
+        </phase_distribution>
+        <time_distribution type="fixed">
+            <fixed value="0.20000000000000001" />
+        </time_distribution>
+        <burst_distribution type="fixed">
+            <fixed value="1" />
+        </burst_distribution>
+    </generator>
+    <terminator type="Terminator: v1 &lt; v2">
+        <position x="789" y="190" />
+    </terminator>
+    <constructor type="Constructor">
+        <position x="789" y="250" />
+        <slice_tex x="1" y="1" />
+        <texture src="particles_ready/sprites/smoke.png" />
+        <material src="materials/quad_tex_add.mat" />
+    </constructor>
+    <connections>
+        <connection input_block="1" input_index="0" output_block="6" output_index="0" />
+        <connection input_block="3" input_index="0" output_block="7" output_index="0" />
+        <connection input_block="6" input_index="0" output_block="1" output_index="0" />
+        <connection input_block="7" input_index="0" output_block="3" output_index="0" />
+        <connection input_block="8" input_index="0" output_block="1" output_index="0" />
+        <connection input_block="8" input_index="1" output_block="0" output_index="0" />
+        <connection input_block="9" input_index="0" output_block="8" output_index="0" />
+        <connection input_block="9" input_index="1" output_block="10" output_index="0" />
+        <connection input_block="11" input_index="0" output_block="9" output_index="0" />
+        <connection input_block="11" input_index="1" output_block="9" output_index="0" />
+        <connection input_block="12" input_index="0" output_block="11" output_index="0" />
+        <connection input_block="12" input_index="1" output_block="13" output_index="0" />
+        <connection input_block="15" input_index="0" output_block="14" output_index="0" />
+        <connection input_block="15" input_index="1" output_block="12" output_index="0" />
+        <connection input_block="16" input_index="0" output_block="1" output_index="0" />
+        <connection input_block="16" input_index="1" output_block="4" output_index="0" />
+        <connection input_block="18" input_index="0" output_block="0" output_index="0" />
+        <connection input_block="18" input_index="1" output_block="1" output_index="0" />
+        <connection input_block="19" input_index="0" output_block="2" output_index="0" />
+        <connection input_block="19" input_index="1" output_block="3" output_index="0" />
+        <connection input_block="19" input_index="2" output_block="5" output_index="0" />
+        <connection input_block="19" input_index="3" output_block="15" output_index="0" />
+        <connection input_block="19" input_index="4" output_block="16" output_index="0" />
+    </connections>
+</particles_layout>

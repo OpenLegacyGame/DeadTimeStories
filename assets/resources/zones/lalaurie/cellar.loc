@@ -1,0 +1,122 @@
+<location stripcode="2200">
+	<onEnter script="cellar/on_enter" />
+	<onExit script="cellar/on_exit" />
+	<music>
+		<track src="/music/08_Naughty_Spirits" silence_after="15" />
+	</music>
+	<ambient src="/music/ambient/sfx_Cellar_amb" />
+	<objects>
+		<object name="background">
+			<texture src="cellar/background" />
+		</object>
+		<object name="rats_trigger">
+			<script src="cellar/rats_trigger" />
+		</object>
+		<object name="return">
+			<position x="0" y="630" z="-10" />
+			<size width="1024" height="150" />
+			<texture src="/common/half_dark" />
+			<script src="cellar/cellar_back" />
+			<alpha value="0" />
+		</object>
+		<object name="seeds">
+			<position x="285" y="430" z="-10" />
+			<texture src="cellar/seeds/seeds" />
+			<script src="cellar/seeds/seeds" />
+		</object>
+		<object name="fx_blink_seeds">
+			<position x="620" y="330" z="-20" />		
+			<particles src="/particles_ready/Blink/blink.psysl" />
+		</object>
+		<object name="cellar_lamp">
+			<position x="90" y="211" z="-10" />
+			<texture src="cellar/cellar_lamp/cellar_lamp" />
+			<script src="cellar/cellar_lamp/cellar_lamp" />
+		</object>
+		<object name="fx_blink_cellar_lamp">
+			<position x="220" y="350" z="-20" />		
+			<particles src="/particles_ready/Blink/blink.psysl" />
+		</object>
+		<object name="cellar_corner">
+			<position x="438" y="303" z="-10" />
+			<texture src="cellar/cellar_corner/cellar_corner" />
+			<script src="cellar/cellar_corner/cellar_corner" />
+			<alpha value="0" />
+		</object>
+		<object name="fx_flora_corner">
+			<position x="400" y="290" z="-25" />
+			<size width="119" height="98" />
+			<particles src="/particles_ready/FrontGate_HOBLocator/FGate_HOBLocator.psysl" />
+		</object>
+
+		
+		<object name="ephphata_piece">
+			<position x="577" y="466" z="-10" />
+			<size width="103" height="151" />
+			<alpha value="0" />
+			<texture src="/common/half_dark" />
+			<script src="cellar/ephphata_piece/ephphata_piece" />
+		</object>
+		<object name="fx_blink_ephphata_piece">
+			<scene src="/particles_ready/pieces/piece_ephphata.DAE" looped="1">
+				<particles src="/particles_ready/pieces/pieces.psysl" />
+			</scene>
+		</object>
+		<object name="ephphata_spirit">
+			<scene src="/particles_ready/souls/soul_cellar/soul_cellar_s.dae">
+				<particles src="/particles_ready/souls/soul01_anim.psysl" />
+				<particles src="/particles_ready/souls/soul01_anim1.psysl" />
+			</scene>			
+			<script src="cellar/ephphata_spirit/ephphata_spirit" />
+			<alpha value="0" />
+			<interactive value="0" />
+		</object>
+		<object name="ephphata_spirit_mask">
+			<position x="547" y="390" z="-10" />
+			<texture src="/particles_ready/souls/soul_cellar/soul_cellar_547x390" />
+			<script src="cellar/ephphata_spirit/ephphata_spirit_mask" />
+			<alpha value="0" />
+			<interactive value="0" />
+		</object>
+		<object name="ephphata_spirit_disappear_fx">
+			<scene src="/particles_ready/souls/soul_cellar/soul_cellar_d.dae" looped="0">
+				<particles src="/particles_ready/souls/soul02_anim.psysl" />
+				<particles src="/particles_ready/souls/soul02_anim1.psysl" />
+			</scene>
+			<alpha value="0" />
+			<interactive value="0" />			
+		</object>
+		<object name="reveal_spell">
+			<position x="63" y="465" z="-20" />
+			<texture src="cellar/reveal_spell/reveal_spell" />
+			<script src="cellar/reveal_spell/reveal_spell" />
+		</object>
+		<object name="reveal_spell_bubbles">
+			<position x="31" y="232" z="-21" />
+			<particles src="/particles_ready/mixture_bubles/reveal_cellar.psysl" />
+		</object>
+		<object name="fx_lamp">
+			<position z="-100" />
+			<scene src="/particles_ready/cellar_lamp/lamp_cellar.DAE">
+				<particles src="/particles_ready/cellar_lamp/cellar_lamp.psysl" />
+			</scene>
+		</object>
+		<object name="fx_flies">
+			<position z="-100" />
+			<scene src="/particles_ready/cellarFlys/flys_holder.DAE">
+				<particles src="/particles_ready/cellarFlys/flys.psysl" />
+				<particles src="/particles_ready/cellarFlys/flys_shadow.psysl" />
+			</scene>
+		</object>
+		<object name="fx_reveal_place">
+			<position z="-100" />
+			<scene src="/particles_ready/helix/hlx_cellar.DAE" looped="1">
+				<particles src="/particles_ready/helix/helix.psysl" />
+			</scene>
+		</object>
+		
+		<object name="sfx_wierd_rustle">
+			<script src="cellar/sfx/wierd_rustle" />
+		</object>
+	</objects>
+</location>

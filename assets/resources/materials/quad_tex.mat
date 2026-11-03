@@ -1,0 +1,29 @@
+<material>
+	<!-- [samplers] -->
+	<samplers>
+		<!-- [sampler channel="uint" -->
+		<sampler channel="0">
+			<!-- [blend [color="{replace|modulate|add|subtract|interpolate}"] [alpha="-//-//-"] -->
+			<combine color="modulate" alpha="modulate" />
+			<!-- [args [arg0="{texture[n]|constant|color|previous}"] [arg1="-//-//-"] [arg2="-//-//-"]] -->
+			<args>
+				<color arg0="texture" arg1="color" />
+				<alpha arg0="texture" arg1="color" />
+			</args>
+			
+			<!-- [texture id="string"] -->
+			<texture id="textureDiffuse">
+				<!-- [address u="{wrap|clamp}" v="{wrap|clamp}] -->
+				<address u="clamp" v="clamp" />
+				<!-- [filter min="{linear|point}" max="{linear|point} mip="{linear|point|none} -->
+				<filter min="linear" max="linear" mip="none" />
+			</texture>
+		</sampler>	
+	</samplers>
+	
+	<!-- [alphablend {enabled="0" | enabled="1" srcfactor="{srcalpha|invsrcalpha|one|srccolor|destcolor|zero}" destfactor="{srcalpha|invsrcalpha|one}"}] -->
+	<alphablend enabled="1" srcfactor="srcalpha" destfactor="invsrcalpha" />
+	<ztest enabled="0" />
+	<zwrite enabled="0" />
+	<culling enabled="0" />
+</material>

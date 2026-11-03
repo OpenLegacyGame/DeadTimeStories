@@ -1,0 +1,25 @@
+<location>
+	<objects>
+		<object name="back">
+			<texture src="/common/half_dark" />
+			<size width="1024" height="768" />
+			<script src="house_inset/back" />
+		</object>
+		<object name="inset">
+			<position x="222" y="114" z="-15" />
+			<texture src="house_inset/house" />
+			<script src="house_inset/inset" />
+		</object>
+		<object name="boat_hook">
+			<position x="584" y="208" z="-20" />
+			<texture src="house_inset/boat_hook/boat_hook" />
+			<script src="house_inset/boat_hook/boat_hook" />
+		</object>
+		<object name="anole_place">
+			<position x="424" y="379" z="-20" />
+			<texture src="house_inset/anole_place/anole_place" />
+			<script src="house_inset/anole_place/anole_place" />
+			<alpha value="0" /> 
+		</object>
+	</objects>
+</location>

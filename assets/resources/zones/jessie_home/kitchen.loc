@@ -1,0 +1,186 @@
+<location stripcode="1300">
+	<ambient src="/music/ambient/sfx_Kitchen_amb" />
+	<onEnter script="kitchen/on_enter" />
+	<objects>
+		<object name="back">
+			<texture src="kitchen/background" />
+		</object>
+		<object name="return">
+			<position x="0" y="630" z="-10" />
+			<size width="1024" height="150" />
+			<texture src="/common/half_dark" />
+			<script src="kitchen/kitchen_back" />
+			<alpha value="0" />
+		</object>
+		<object name="garlic_trigger">
+			<script src="kitchen/garlic_trigger" />			
+		</object>
+		<object name="garlic_head">
+			<position x="453" y="589" z="-40" />
+			<texture src="kitchen/garlic_head/garlic_head" />
+			<script src="kitchen/garlic_head/garlic_head" />			
+		</object>
+		<object name="fx_blink_garlic_head">
+			<position x="460" y="600" z="-50" />		
+			<particles src="/particles_ready/Blink/blink.psysl" />
+			<particles src="/particles_ready/snake_appear/snake_appear.psysl" />
+		</object>
+		<object name="drawer_shelf">
+			<position x="689" y="454" z="-20" />
+			<texture src="kitchen/drawer_inset/drawer_shelf" />
+			<script src="kitchen/drawer_inset/drawer_shelf" />
+			<alpha value="0" />
+		</object>
+		<object name="fx_blink_drawer">
+			<position x="830" y="500" z="-30" />		
+			<particles src="/particles_ready/Blink/blink.psysl" />
+		</object>
+		<object name="cabinet">
+			<position x="616" y="470" z="-20" />
+			<texture src="kitchen/cabinet/cabinet_opened" />
+		</object>
+		<object name="cabinet_mask">
+			<position x="616" y="470" z="-20" />
+			<texture src="kitchen/cabinet/cabinet_closed" />
+			<script src="kitchen/cabinet/cabinet" />
+			<alpha value="0" />
+		</object>
+		<object name="fx_blink_cabinet">
+			<position x="680" y="540" z="-30" />		
+			<particles src="/particles_ready/Blink/blink.psysl" />
+		</object>
+		<object name="water_bowl">
+			<position x="693" y="567" z="-30" />
+			<texture src="kitchen/water_bowl/water_bowl" />
+			<script src="kitchen/water_bowl/water_bowl" />			
+		</object>
+		<object name="lantern">
+			<position x="45" y="315" z="-20" />
+			<texture src="kitchen/lantern/lantern" />
+			<script src="kitchen/lantern/lantern" />
+		</object>
+		<object name="fx_blink_lantern">
+			<position x="145" y="410" z="-40" />		
+			<particles src="/particles_ready/Blink/blink.psysl" />
+		</object>
+		<object name="lantern_mask">
+			<position x="45" y="315" z="-35" />
+			<texture src="kitchen/lantern/lantern_mask" />
+			<script src="kitchen/lantern/lantern_mask" />
+			<alpha value="0" />
+		</object>		
+		<object name="lantern_assembled">
+			<position x="45" y="315" z="-30" />
+			<texture src="/common/half_dark" />
+			<script src="kitchen/lantern/lantern_assembled" />
+			<size width="50" height="120" />
+			<alpha value="0" />
+		</object>
+		<object name="lantern_oil">
+			<position x="45" y="315" z="-25" />
+			<texture src="kitchen/lantern_oil/lantern_oil" />
+			<script src="kitchen/lantern_oil/lantern_oil" />
+		</object>
+		<object name="lantern_wick">
+			<position x="45" y="315" z="-30" />
+			<texture src="kitchen/lantern_wick/lantern_wick" />
+			<script src="kitchen/lantern_wick/lantern_wick" />
+		</object>
+		<object name="lantern_glass">
+			<position x="45" y="315" z="-31" />
+			<texture src="kitchen/lantern_glass/lantern_glass" />
+			<script src="kitchen/lantern_glass/lantern_glass" /> 
+		</object>
+		<object name="water_pump">
+			<position x="318" y="180" z="-20" />
+			<texture src="kitchen/water_pump/water_pump" />
+			<script src="kitchen/water_pump/water_pump" />
+			<alpha value="0" />
+		</object>
+		<object name="fx_blink_waper_pump">
+			<position x="338" y="200" z="-30" />		
+			<particles src="/particles_ready/Blink/blink.psysl" />
+		</object>
+		<object name="water_pump_handle">
+			<position x="298" y="197" z="-30" /> 
+			<texture src="kitchen/water_pump_handle/water_pump_handle" />
+			<script src="kitchen/water_pump_handle/water_pump_handle" />
+		</object>
+		<object name="water_pump_jug">
+			<position x="407" y="509" z="-25" /> 
+			<texture src="kitchen/water_pump_jug/water_pump_jug_empty" />
+			<script src="kitchen/water_pump_jug/water_pump_jug" />
+		</object>
+		<object name="fx_water_pump_jug_changing">
+			<position x="427" y="509" z="-26" />
+			<particles src="\particles_ready\snake_appear\snake_appear.psysl" />
+			<script src="/zones/_common/fx_changing" />
+		</object>
+<!--		<object name="water_pump_knob">
+			<position x="474" y="555" z="-30" /> 
+			<texture src="kitchen/water_pump_knob/water_pump_knob" />
+			<script src="kitchen/water_pump_knob/water_pump_knob" />
+		</object>
+		<object name="fx_blink_knob">
+			<position x="490" y="565" z="-100" />		
+			<particles src="/particles_ready/Blink/blink.psysl" />
+			<particles src="/particles_ready/snake_appear/snake_appear.psysl" />
+		</object>
+-->
+		<object name="fx_water_no_jug">
+			<position z="-50" />
+			<scene src="\particles_ready\water\water_engine.DAE">
+				<particles src="\particles_ready\water\water_left.psysl" />
+				<particles src="\particles_ready\water\water_left1.psysl" />
+				<particles src="\particles_ready\water\water_right.psysl" />
+				<particles src="\particles_ready\water\water_right1.psysl" />
+			</scene>
+			<script src="kitchen/fx_water_no_jug/fx_water_no_jug" />
+		</object>
+		<object name="fx_water_jug">
+			<position z="-50" />
+			<scene src="\particles_ready\water\water_engine.DAE">
+				<particles src="\particles_ready\water\water_left2.psysl" />
+				<particles src="\particles_ready\water\water_left3.psysl" />
+				<particles src="\particles_ready\water\water_right2.psysl" />
+				<particles src="\particles_ready\water\water_right3.psysl" />
+			</scene>
+			<script src="kitchen/fx_water_jug/fx_water_jug" />
+		</object>
+		<object name="fx_flora_shelves">
+			<position x="725" y="130" z="-25" />
+			<particles presim="2" src="/particles_ready/FrontGate_HOBLocator/FGate_HOBLocator.psysl" />
+		</object>
+		<object name="kitchen_shelves">
+			<position x="725" y="140" z="-30" />
+			<texture src="/common/half_dark" />
+			<script src="kitchen/kitchen_shelves/kitchen_shelves" />
+			<size width="250" height="100" />
+			<alpha value="0" />
+		</object>
+		<object name="fx_candles">
+			<position x="145" y="405" z="-45" />
+			<particles presim="2" src="/particles_ready/candle/candle.psysl" />
+		</object>
+		<object name="fx_ray_dust">
+			<scene src="/particles_ready/ray_dust/kitchen_duster.DAE" particles="/particles_ready/ray_dust/ray_dust.psysl" />
+		</object>
+		<object name="fx_flies">
+			<position z="-100" />
+			<scene src="/particles_ready/cellarFlys/flys_kitchen.DAE">
+				<particles presim="3" src="/particles_ready/cellarFlys/flys.psysl" />
+			</scene>
+		</object>
+		<object name="fx_bugs">
+			<position z="-15" />
+			<particles presim="20" src="/particles_ready/bugs/kitchen_bugs.psysl" />
+		</object>
+		
+		<object name="sfx_draft">
+			<script src="kitchen/sfx/draft" />
+		</object>
+		<object name="sfx_wind">
+			<script src="kitchen/sfx/wind" />
+		</object>
+	</objects>
+</location>

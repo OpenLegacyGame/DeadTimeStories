@@ -1,0 +1,239 @@
+<hob stripcode="0400">
+	<groups>
+		<group0 environment="0">
+			<object name="钥匙">
+				<position x="810" y="499" z="0" />
+				<texture src="HOB_shed_shelves/Key_scenes" />
+			</object>
+			<object name="油壶">
+				<position x="875" y="442" z="0" />
+				<texture src="HOB_shed_shelves/Oil_can_scenes" />
+			</object>
+			<object name="胶水">
+				<position x="424" y="88" z="0" />
+				<texture src="HOB_shed_shelves/Glue_scenes" />
+			</object>
+		</group0>
+
+<!--dif_0-->
+		<group2>
+			<object name="羽毛扇">
+				<position x="643" y="469" z="0" />
+				<texture src="HOB_shed_shelves/Fan_scenes" />
+			</object>	
+			<object name="面具">
+				<position x="675" y="199" z="0" />
+				<texture src="HOB_shed_shelves/Voodoo_mask_scenes" />
+			</object>	
+			<object name="橄榄">
+				<position x="497" y="336" z="0" />
+				<texture src="HOB_shed_shelves/olive_scenes" />
+			</object>	
+			<object name="手套">
+				<position x="641" y="561" z="0" />
+				<texture src="HOB_shed_shelves/Gloves_scenes" />
+			</object>
+			<object name="菜谱">
+				<position x="588" y="0" z="0" />
+				<texture src="HOB_shed_shelves/Calendar_scenes" />
+			</object>
+			<object name="羊头骨">
+				<position x="763" y="13" z="0" />
+				<texture src="HOB_shed_shelves/Goat_skull_scenes" />
+			</object>			
+			<object name="莲花">
+				<position x="879" y="209" z="-1" />
+				<texture src="HOB_shed_shelves/water_lily_scenes" />
+			</object>	
+			<object name="刺猬">
+				<position x="93" y="120" z="0" />
+				<texture src="HOB_shed_shelves/Hedgehog_scenes" />
+			</object>	
+			<object name="心">
+				<position x="176" y="533" z="0" />
+				<texture src="HOB_shed_shelves/heart_painting_scenes" />
+			</object>	
+			<object name="轮子">
+				<position x="-34" y="0" z="0" />
+				<texture src="HOB_shed_shelves/Wheel_scenes" />
+			</object>	
+			<object name="干草叉">
+				<position x="931" y="40" z="5" />
+				<texture src="HOB_shed_shelves/wooden_pitchfork_scenes" />
+			</object>
+			<object name="辫子">
+				<position x="1" y="167" z="0" />
+				<texture src="HOB_shed_shelves/braid_scenes" />
+			</object>				
+		</group2>
+<!--dif_1-->
+		<group3>
+			<object name="蜂巢">
+				<position x="588" y="531" z="0" />
+				<texture src="HOB_shed_shelves/Honeycombs_scenes" />
+			</object>		
+			<object name="睡帽">
+				<position x="48" y="330" z="0" />
+				<texture src="HOB_shed_shelves/night_cap_scenes" />
+			</object>
+			<object name="树枝">
+				<position x="-9" y="469" z="0" />
+				<texture src="HOB_shed_shelves/snag_scenes" />
+			</object>	
+			<object name="手镯">
+				<position x="320" y="369" z="0" />
+				<texture src="HOB_shed_shelves/Bracelet_scenes" />
+			</object>
+			<object name="房子">
+				<position x="589" y="87" z="0" />
+				<texture src="HOB_shed_shelves/House_bottle_scenes" />
+			</object>					
+			<object name="翅膀">
+				<position x="915" y="341" z="10" />
+				<texture src="HOB_shed_shelves/Bats_wing_scenes" />
+			</object>
+			<object name="沙子">
+				<position x="338" y="78" z="0" />
+				<texture src="HOB_shed_shelves/Hour-glass_scenes" />
+			</object>
+			<object name="爬虫">
+				<position x="447" y="501" z="0" />
+				<texture src="HOB_shed_shelves/Reptile_scenes" />
+			</object>
+			<object name="一捆木柴">
+				<position x="172" y="376" z="0" />
+				<texture src="HOB_shed_shelves/Bundle_scenes" />
+			</object>
+			<object name="水桶">
+				<position x="336" y="491" z="0" />
+				<texture src="HOB_shed_shelves/Bucket_scenes" />
+			</object>			
+			<object name="剪子">
+				<position x="389" y="370" z="-1" />
+				<texture src="HOB_shed_shelves/Scissors_scenes" />
+			</object>
+			<object name="高脚杯">
+				<position x="732" y="262" z="0" />
+				<texture src="HOB_shed_shelves/Goblet_scenes" />
+			</object>
+			<object name="狗脖套">
+				<position x="325" y="422" z="0" />
+				<texture src="HOB_shed_shelves/Dog_collar_scenes" />
+			</object>
+			<object name="剃刀">
+				<position x="482" y="122" z="0" />
+				<texture src="HOB_shed_shelves/shaving_razor_scenes" />
+			</object>
+			<object name="蛾子">
+				<position x="316" y="0" z="0" />
+				<texture src="HOB_shed_shelves/fly_scenes" />
+			</object>		
+			<object name="过滤器">
+				<position x="376" y="199" z="0" />
+				<texture src="HOB_shed_shelves/strainer_scenes" />
+			</object>			
+			<object name="软木塞">
+				<position x="448" y="404" z="0" />
+				<texture src="HOB_shed_shelves/cork_scenes" />
+			</object>			
+			<object name="蜈蚣">
+				<position x="879" y="380" z="0" />
+				<texture src="HOB_shed_shelves/centipede_scenes" />
+			</object>			
+			<object name="咖啡豆">
+				<position x="292" y="480" z="0" />
+				<texture src="HOB_shed_shelves/Coffee_bean_scenes" />
+			</object>			
+		</group3>	
+<!--dif_2-->
+		<group4>
+			<object name="大丽花">
+				<position x="258" y="261" z="0" />
+				<texture src="HOB_shed_shelves/Dry_dahlia_scenes" />
+			</object>		
+			<object name="鸡爪">
+				<position x="776" y="392" z="0" />
+				<texture src="HOB_shed_shelves/Bird_foot_scenes" />
+			</object>		
+			<object name="巫毒符号">
+				<position x="112" y="17" z="0" />
+				<texture src="HOB_shed_shelves/Voodoo_symbol_scenes" />
+			</object>		
+			<object name="栗子">
+				<position x="593" y="325" z="0" />
+				<texture src="HOB_shed_shelves/chestnut_scenes" />
+			</object>		
+		</group4>		
+	</groups>
+	
+	<rounds>
+		<round0
+			congratulations="%太棒了! 我找到了一把钥匙.%"
+			congratulations_image="/inventory/key"
+			script_complete="HOB_shed_shelves/complete_round0"
+		>
+			<slot00 group="group0" object="钥匙" />
+			<slot01 group="group2" />
+			<slot02 group="group2" />
+			<slot03 group="group2" />
+			<slot04 group="group2" />
+			<slot05 group="group2" />
+			<slot06 group="group2" />
+			<slot07 group="group2" />
+			<slot08 group="group2" />
+			<slot09 group="group2" />
+			<slot10 group="group2" />
+			<slot11 group="group2" />
+		</round0>
+		<round1
+			congratulations="%太棒了! 我找到了一个油壶.%"
+			congratulations_image="/inventory/oil"
+			script_complete="HOB_shed_shelves/complete_round1"
+		>
+			<slot00 group="group0" object="油壶" />
+			<slot01 group="group2" />
+			<slot02 group="group3" />
+			<slot03 group="group3" />
+			<slot04 group="group3" />
+			<slot05 group="group3" />
+			<slot06 group="group2" />
+			<slot07 group="group3" />
+			<slot08 group="group2" />
+			<slot09 group="group3" />
+			<slot10 group="group3" />
+			<slot11 group="group3" />
+		</round1>
+		<round2
+			congratulations="%太棒了! 我找到了胶水.%"
+			congratulations_image="/inventory/glue"
+			script_complete="HOB_shed_shelves/complete_round2"
+		>
+			<slot00 group="group0" object="胶水" />
+			<slot01 group="group2" />
+			<slot02 group="group3" />
+			<slot03 group="group3" />
+			<slot04 group="group3" />
+			<slot05 group="group3" />
+			<slot06 group="group2" />
+			<slot07 group="group3" />
+			<slot08 group="group2" />
+			<slot09 group="group3" />
+			<slot10 group="group3" />
+			<slot11 group="group3" />
+		</round2>
+</rounds>
+	
+	<environment>
+		<object>
+			<position x="0" y="0" z="10" />
+			<texture src="HOB_shed_shelves/background" />
+			<size width="1024" height="768" />
+		</object>
+		<object>
+			<position x="664" y="162" z="-10" />
+			<texture src="HOB_shed_shelves/flowers" />
+			<interactive value="0" />
+		</object>
+	</environment>
+	
+</hob>

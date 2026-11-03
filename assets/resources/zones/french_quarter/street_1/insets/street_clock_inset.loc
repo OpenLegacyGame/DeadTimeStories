@@ -1,0 +1,15 @@
+<location>
+	<objects>
+		<object name="back">
+			<texture src="/common/half_dark" />
+			<position x="0" y="0" z="-5" />
+			<size width="1024" height="768" />
+			<script src="street_clock_inset/back" />
+		</object>
+		<object name="inset">
+			<position x="304" y="127" z="-10" />
+			<texture src="street_clock_inset/clock" />
+			<script src="street_clock_inset/inset" />
+		</object>
+	</objects>
+</location>

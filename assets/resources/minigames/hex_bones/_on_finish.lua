@@ -1,0 +1,5 @@
+showMessageDialog( getString("puzzles/hex_bones/congratulations") )
+gotoState("jessie_home.parlor.hex_table", "inactive")
+gotoState("jessie_home.shed.spellmixing", "active2")
+gotoState("jessie_home.front_gate.to_HOB_plants", "active3")
+gotoState("jessie_home.shed.to_HOB_shed_shelves", "active2")

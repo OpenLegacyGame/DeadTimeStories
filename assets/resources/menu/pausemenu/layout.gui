@@ -1,0 +1,45 @@
+<gui>
+	<image>
+		<file src="/common/half_dark" />
+		<position x="0" y="0" />
+		<size width="1024" height="768" />
+	</image>
+	
+	<image>
+		<file src="../options/back_options" />
+		<position x="205" y="151" />
+	</image>
+
+	<image>
+		<file src="../profiles/profile_overlay" />
+		<position x="272" y="363" />
+	</image>
+
+	<include src="../options/common.gui" />
+	
+	<image transparent="1">
+		<file src="../options/overlay_options" />
+		<position x="504" y="156" />
+	</image>
+		
+	<button id="return_to_game" template="/menu/button.tgui#menu" shortcuts="esc">
+		<position x="452" y="508" />
+		<label template="/menu/label.tgui#menu_button">
+			<text>%返回游戏%</text>
+		</label>
+	</button>
+	
+	<button id="return_to_mainmenu" template="/menu/button.tgui#menu">
+		<position x="256" y="508" />
+		<label template="/menu/label.tgui#menu_button">
+			<text>%主菜单%</text>
+		</label>
+	</button>
+	
+	<label>
+		<position x="610" y="207" />
+		<size width="170" height="70" />
+		<align ver="center" hor="center" />
+		<text font="/fonts/ravenwood_26" color="FFe9d49a" >%设置%</text>
+	</label>
+</gui>

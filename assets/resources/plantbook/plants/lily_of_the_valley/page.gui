@@ -1,0 +1,11 @@
+<gui>
+	<label>
+		<position y="150" />
+		<size width="350" />
+		<align hor="center" />
+		<text font="/fonts/spell_book_ingredient" color="00000000">%铃兰%</text>
+	</label>
+	<image>
+		<file src="pb_page_lili_right" />
+	</image>
+</gui>

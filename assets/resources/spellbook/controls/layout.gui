@@ -1,0 +1,95 @@
+<gui>
+	<!-- NOTE: duplicate id "close" is intentional, the real button is defined later in the file.
+	     Our goal is to allow closing the book by clicking anywhere outside of it,
+		 so we create a second, invisible "close button" taking the whole screen,
+		 and then overlap it with another non-functional button roughly covering the spellbook area (which must be excluded).
+	-->
+	<button id="close"> 
+		<mask src="/common/half_dark" width="1024" height="768" />
+	</button>
+	<button id="dummy">
+		<position x="130" y="90" />
+		<mask src="/common/half_dark" width="745" height="500" />
+	</button>
+
+	<button id="recipes" shortcuts="r;pgdn">
+		<view>
+			<normal src="bt_recipie_E" />
+			<hover src="bt_recipie_O" />
+		</view>
+		<mask src="bt_recipie_E" />
+		<position x="837" y="153" />
+		<label>
+			<position y="27" />
+			<size width="160" />
+			<text font="/fonts/ravenwood_20" color="FFeec400">%配方%</text>
+		</label>
+	</button>	
+
+	<button id="instructions" shortcuts="i;pgup">
+		<view>
+			<normal src="bt_instructions_E" />
+			<hover src="bt_instructions_O" />
+		</view>
+		<mask src="bt_instructions_E" />
+		<position x="811" y="222" />
+		<label>
+			<position y="63" />
+			<size width="200" />
+			<text font="/fonts/ravenwood_20" color="FFeec400">%操作指南%</text>
+		</label>
+	</button>
+
+	<button id="prev_page" shortcuts="left">
+		<position x="140" y="90" />
+		<mask src="/common/half_dark" width="340" height="500" />
+		<influence>
+			<normal>
+				<onEnter> <arrow_left texture="bt_arrow_left_E" visible="1" /> </onEnter>
+			</normal>
+			<hover>
+				<onEnter> <arrow_left texture="bt_arrow_left_O" visible="1" /> </onEnter>
+			</hover>
+			<disabled>
+				<onEnter> <arrow_left visible="0" /> </onEnter>
+				<onLeave> <arrow_left visible="1" /> </onLeave>
+			</disabled>
+		</influence>
+	</button>
+	
+	<image id="arrow_left" transparent="1">
+		<file src="bt_arrow_left_E" />
+		<position x="182" y="481" />
+	</image>
+	
+	<button id="next_page" shortcuts="right">
+		<position x="520" y="90" />
+		<mask src="/common/half_dark" width="340" height="500" />
+		<influence>
+			<normal>
+				<onEnter> <arrow_right texture="bt_arrow_right_E" visible="1" /> </onEnter>
+			</normal>
+			<hover>
+				<onEnter> <arrow_right texture="bt_arrow_right_O" visible="1" /> </onEnter>
+			</hover>
+			<disabled>
+				<onEnter> <arrow_right visible="0" /> </onEnter>
+				<onLeave> <arrow_right visible="1" /> </onLeave>
+			</disabled>
+		</influence>
+	</button>	
+	
+	<image id="arrow_right" transparent="1">
+		<file src="bt_arrow_right_E" />
+		<position x="729" y="481" />
+	</image>
+
+	<button id="close" shortcuts="esc">
+		<view>
+			<normal src="bt_exit_E" />
+			<hover src="bt_exit_O" />
+		</view>
+		<mask src="bt_exit_E" />
+		<position x="492" y="68" />
+	</button>
+</gui>

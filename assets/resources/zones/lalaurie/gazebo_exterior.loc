@@ -1,0 +1,189 @@
+<location stripcode="1800">
+	<onEnter script="gazebo_exterior/on_enter" />
+	<onExit script="gazebo_exterior/on_exit" />
+	
+	<objects>
+		<object name="background">
+			<position z="10" />
+			<texture src="gazebo_exterior/background" />
+		</object>
+		<object name="fx_back_fog">
+			<position z="9" />
+			<particles presim="4" src="\particles_ready\gazebooFog\back_fog.psysl" />
+		</object>
+		<object name="fx_layer_gazebo">
+			<position x="233" y="169" z="0" />
+			<texture src="gazebo_exterior/gazebo" />
+		</object>
+		<object name="fx_miasma01">
+			<position z="-7" />
+			<particles presim="6" src="/particles_ready/gazebooFog/agzebo_miazma.psysl" />
+			<particles presim="6" src="\particles_ready\gazebooFog\agzebo_miazma_f.psysl" />
+			<particles presim="6" src="\particles_ready\gazebooFog\agzebo_miazma_f1.psysl" />
+			<particles presim="6" src="\particles_ready\gazebooFog\agzebo_miazma_f2.psysl" />
+			<particles presim="6" src="\particles_ready\gazebooFog\agzebo_miazma_f3.psysl" />
+			<particles presim="6" src="\particles_ready\gazebooFog\agzebo_miazma1.psysl" />
+			<particles presim="6" src="\particles_ready\gazebooFog\agzebo_miazma2.psysl" />
+			<particles presim="6" src="\particles_ready\gazebooFog\agzebo_miazma3.psysl" />
+			<sound src="/sound/sfx/sfx_miasma" type="env" />
+		</object>
+		<object name="palms">
+			<texture src="gazebo_exterior/palms" />
+		</object>
+		<object name="gazebo_build">
+			<position x="0" y="0" z="-2" />
+			<texture src="gazebo_exterior/gazebo_build" />
+		</object>
+		<object name="return">
+			<position x="154" y="532" z="-10" />
+			<texture src="gazebo_exterior/to_backyard" />
+			<script src="gazebo_exterior/gazebo_exterior_back" />
+			<alpha value="0" />
+		</object>
+		<object name="to_pond">
+			<position x="646" y="16" z="-10" />
+			<texture src="gazebo_exterior/to_pond" />
+			<script src="gazebo_exterior/to_pond" />
+			<alpha value="0" />
+		</object>
+		<object name="spirit_lock">
+			<position x="228" y="170" z="-15" />
+			<texture src="gazebo_exterior/spirit_lock/gazebo_mask" />
+			<script src="gazebo_exterior/spirit_lock/spirit_lock" />
+			<alpha value="0" />
+		</object>
+		<object name="fx_blink_spirit_lock">
+			<position x="303" y="245" z="-20" />		
+			<particles src="/particles_ready/Blink/blink.psysl" />
+		</object>
+		<object name="gazebo_door">
+			<position x="233" y="169" z="-5" />
+			<texture src="gazebo_exterior/gazebo_door/gazebo" />
+			<script src="gazebo_exterior/gazebo_door/gazebo_door" />
+		</object>
+		<object name="lily">
+			<position x="623" y="285" z="-10" />
+			<texture src="gazebo_exterior/lily/lily" />
+			<script src="gazebo_exterior/lily/lily" />
+		</object>
+		<object name="fx_blink_lily">
+			<position x="640" y="304" z="-20" />		
+			<particles src="/particles_ready/Blink/blink.psysl" />
+		</object>
+		<object name="lily_mask">
+			<position x="611" y="269" z="-30" />
+			<texture src="gazebo_exterior/lily/lily_mask" />
+			<script src="gazebo_exterior/lily/lily_mask" />
+			<alpha value="0" />
+		</object>
+		<object name="storage_trunk">
+			<position x="655" y="362" z="-10" />
+			<texture src="gazebo_exterior/storage_trunk/storage_trunk" />
+			<script src="gazebo_exterior/storage_trunk/storage_trunk" />
+		</object>
+		<object name="storage_trunk_mask">
+			<position x="655" y="362" z="-11" />
+			<texture src="gazebo_exterior/storage_trunk/storage_trunk_mask" />
+			<script src="gazebo_exterior/storage_trunk/storage_trunk_mask" />
+			<alpha value="0" />
+		</object>
+		<object name="fx_blink_storage_trunk">
+			<position x="765" y="533" z="-20" />		
+			<particles src="/particles_ready/Blink/blink.psysl" />
+		</object>
+		<object name="saw">
+			<position x="804" y="448" z="-20" />
+			<texture src="gazebo_exterior/saw/saw" />
+			<script src="gazebo_exterior/saw/saw" />
+		</object>
+		<object name="fx_blink_saw">
+			<position x="810" y="460" z="-25" />		
+			<particles src="/particles_ready/Blink/blink.psysl" />
+		</object>
+		<object name="white_paint">
+			<position x="703" y="461" z="-20" />
+			<texture src="gazebo_exterior/white_paint/white_paint" />
+			<script src="gazebo_exterior/white_paint/white_paint" />
+		</object>
+		<object name="fx_blink_white_paint">
+			<position x="710" y="470" z="-25" />		
+			<particles src="/particles_ready/Blink/blink.psysl" />
+		</object>
+		<object name="lipstick">
+			<position x="270" y="466" z="-20" />
+			<texture src="gazebo_exterior/lipstick/lipstick" />
+			<script src="gazebo_exterior/lipstick/lipstick" />
+		</object>
+		<object name="fx_blink_lipstick">
+			<position x="275" y="470" z="-25" />		
+			<particles src="/particles_ready/Blink/blink.psysl" />
+		</object>
+		
+		<object name="aemaet_piece">
+			<position x="491" y="223" z="-10" />
+			<size width="79" height="118" />
+			<alpha value="0" />
+			<texture src="/common/half_dark" />
+			<script src="gazebo_exterior/aemaet_piece/aemaet_piece" />
+		</object>
+		<object name="fx_blink_aemaet_piece">
+			<scene src="\particles_ready\pieces\piece_aemaet.DAE" looped="1">
+				<particles src="\particles_ready\pieces\pieces.psysl" />
+			</scene>
+		</object>
+
+
+		<object name="aemaet_spirit">
+			<scene src="/particles_ready/souls/soul_gazebo/soul_gazebo_s.dae">
+				<particles src="/particles_ready/souls/soul01_anim.psysl" />
+				<particles src="/particles_ready/souls/soul01_anim1.psysl" />
+			</scene>			
+			<script src="gazebo_exterior/aemaet_spirit/aemaet_spirit" />
+			<alpha value="0" />
+			<interactive value="0" />
+		</object>
+		<object name="aemaet_spirit_mask">
+			<position x="482" y="152" z="-10" />
+			<texture src="/particles_ready/souls/soul_gazebo/soul_gazebo_482x152" />
+			<script src="gazebo_exterior/aemaet_spirit/aemaet_spirit_mask" />
+			<alpha value="0" />
+			<interactive value="0" />
+		</object>
+		<object name="aemaet_spirit_disappear_fx">
+			<scene src="/particles_ready/souls/soul_gazebo/soul_gazebo_d.dae" looped="0">
+				<particles src="/particles_ready/souls/soul02_anim.psysl" />
+				<particles src="/particles_ready/souls/soul02_anim1.psysl" />
+			</scene>
+			<alpha value="0" />
+			<interactive value="0" />			
+		</object>
+		
+		<object name="reveal_spell">
+			<position x="493" y="539" z="-20" />
+			<texture src="gazebo_exterior/reveal_spell/reveal_spell" />
+			<script src="gazebo_exterior/reveal_spell/reveal_spell" />
+		</object>
+		<object name="reveal_spell_bubbles">
+			<position x="246" y="269" z="-21" />
+			<particles src="/particles_ready/mixture_bubles/reveal_gazebo.psysl" />
+		</object>
+		<object name="fx_reveal_place">
+			<scene src="\particles_ready\helix\hlx_gazebo.DAE" looped="1">
+				<particles src="\particles_ready\helix\helix.psysl" />
+			</scene>
+		</object>
+		
+		<object name="sfx_wind">
+			<script src="gazebo_exterior/sfx/wind" />
+		</object>
+		<object name="sfx_rustle">
+			<script src="gazebo_exterior/sfx/rustle" />
+		</object>
+		<object name="sfx_night_bird">
+			<script src="gazebo_exterior/sfx/night_bird" />
+		</object>
+		<object name="sfx_spirit_whining">
+			<script src="sfx/spirit_whining" />
+		</object>
+	</objects>
+</location>

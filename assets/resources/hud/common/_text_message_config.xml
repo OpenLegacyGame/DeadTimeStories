@@ -1,0 +1,13 @@
+<const>
+	<back_texture src="text_message2" />
+	<back_margin x="60" y="3" />
+	<back_useful_height ratio="0.4" />
+	<back_position x="74" y="-24" />
+	<back_offset_per_extra_line_of_text x="0" y="22" />
+	<start_text_offset x="0" y="20" />
+	<start_text_offset_per_extra_line_of_text x="0" y="-16" />
+	<text font="/fonts/reactive_text" material="/materials/quad_tex" color="FF210e2d"
+		max_width="780" max_lines="2" interval_mul="0.9" />
+	<min_show_time ms="2000" />
+	<time_to_hide ms="10000" />
+</const>

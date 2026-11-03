@@ -1,0 +1,39 @@
+<deadtime>
+
+	<common_resource_dirs>
+		<dir src="common" />
+		<dir src="cursors" />
+		<dir src="dialogs" />
+		<dir src="hobs" />
+		<dir src="hud" />
+		<dir src="inventory" />
+		<dir src="plantbook" />
+		<dir src="spellbook" />
+		<dir src="sound/sfx" />
+		<dir src="carriage" />
+	</common_resource_dirs>
+	
+	<zones>
+		<zone name="jessie_home" src="zones/jessie_home" />
+		<zone name="lalaurie" src="zones/lalaurie" />
+		<zone name="french_quarter" src="zones/french_quarter" />
+		<zone name="cajun" src="zones/cajun" />
+		<zone name="cemetery" src="zones/cemetery" />
+	</zones>
+	
+	<intro cutscene="Intro" />
+	<start zone="jessie_home" script="start_game" />
+	
+	<hint_bottle numHints="1" fullRechargeSeconds="120" />
+	<hint_scripts location="hints_location" />
+	
+	<skip_puzzle timerSeconds="95" />
+	
+	<drag_and_drop start_drag_time_ms="300" />
+	
+	<dialogs>
+		<min_time_to_close_by_any_click default_ms="2000">
+			<talking_face ms="3000" />
+		</min_time_to_close_by_any_click>
+	</dialogs>
+</deadtime>

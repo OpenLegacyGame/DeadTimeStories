@@ -1,0 +1,29 @@
+<piano_puzzle>
+	<onFinish script="_on_finish" />
+	<keys min="1" max="24" />
+	<auto_play_timeout ms="1000" /> <!-- set 0 for no autoplay -->
+	<reward inventory_item="white_pepper" />
+	<rounds>
+		<!-- NOTE: key indexes are 1-based. Current order is: -->
+		<!-- white keys: 01..14 left-to-right -->
+		<!-- black keys: 19..24 right-to-left -->
+		<round>
+			<key index="18" />
+			<key index="8" />
+			<key index="5" />
+		</round>
+		<round>
+			<key index="8" />
+			<key index="11" />
+			<key index="9" />
+			<key index="5" />
+		</round>
+		<round>
+			<key index="7" />
+			<key index="18" />
+			<key index="9" />
+			<key index="8" />
+			<key index="18" />
+		</round>
+	</rounds>
+</piano_puzzle>

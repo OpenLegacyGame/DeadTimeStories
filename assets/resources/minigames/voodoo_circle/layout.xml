@@ -1,0 +1,294 @@
+<objects>
+	<object name="back">
+		<position x="0" y="0" z="10" />
+		<texture src="background" />
+	</object>
+	
+	<object name="exit">
+		<position x="0" y="421" z="5" />
+		<texture src="to_gates" />
+		<alpha value="0.0" />
+	</object>
+	
+	<patch name="shape_01">
+		<position x="214" y="240" z="0" />
+		<texture src="shapes/01" />
+		<discretization segments_x="30" segments_y="30" />
+		<vertex_alpha default="0.0" />
+		<interactive value="0" />
+	</patch>
+	<patch name="shape_02">
+		<position x="758" y="446" z="0" />
+		<texture src="shapes/02" />
+		<discretization segments_x="30" segments_y="30" />
+		<vertex_alpha default="0.0" />
+		<interactive value="0" />
+	</patch>
+	<patch name="shape_03">
+		<position x="625" y="400" z="0" />
+		<texture src="shapes/03" />
+		<discretization segments_x="30" segments_y="30" />
+		<vertex_alpha default="0.0" />
+		<interactive value="0" />
+	</patch>
+	<patch name="shape_04">
+		<position x="633" y="437" z="0" />
+		<texture src="shapes/04" />
+		<discretization segments_x="20" segments_y="20" />
+		<vertex_alpha default="0.0" />
+		<interactive value="0" />
+	</patch>
+	<patch name="shape_05">
+		<position x="276" y="286" z="0" />
+		<texture src="shapes/05" />
+		<discretization segments_x="20" segments_y="20" />
+		<vertex_alpha default="0.0" />
+		<interactive value="0" />
+	</patch>
+	<patch name="shape_06">
+		<position x="375" y="325" z="0" />
+		<texture src="shapes/06" />
+		<discretization segments_x="20" segments_y="20" />
+		<vertex_alpha default="0.0" />
+		<interactive value="0" />
+	</patch>
+	<patch name="shape_07">
+		<position x="456" y="379" z="0" />
+		<texture src="shapes/07" />
+		<discretization segments_x="20" segments_y="20" />
+		<vertex_alpha default="0.0" />
+		<interactive value="0" />
+	</patch>
+	<patch name="shape_08">
+		<position x="419" y="599" z="0" />
+		<texture src="shapes/08" />
+		<discretization segments_x="20" segments_y="20" />
+		<vertex_alpha default="0.0" />
+		<interactive value="0" />
+	</patch>
+	<patch name="shape_09">
+		<position x="420" y="520" z="0" />
+		<texture src="shapes/09" />
+		<discretization segments_x="20" segments_y="20" />
+		<vertex_alpha default="0.0" />
+		<interactive value="0" />
+	</patch>
+	<patch name="shape_10">
+		<position x="494" y="463" z="0" />
+		<texture src="shapes/10" />
+		<discretization segments_x="20" segments_y="20" />
+		<vertex_alpha default="0.0" />
+		<interactive value="0" />
+	</patch>
+	<patch name="shape_11">
+		<position x="431" y="383" z="0" />
+		<texture src="shapes/11" />
+		<discretization segments_x="30" segments_y="30" />
+		<vertex_alpha default="0.0" />
+		<interactive value="0" />
+	</patch>
+	
+	<object name="voodoo_circle_mask">
+		<position x="304" y="315" z="0" />
+		<texture src="voodoo_circle_mask" />
+		<alpha value="0.0" />
+	</object>
+	
+	<object name="obj_01">
+		<position x="648" y="549" z="-0.1" />
+		<texture src="objects/wrong_trumpet" />
+	</object>
+	<object name="obj_02">
+		<position x="386" y="422" z="-0.1" />
+		<texture src="objects/wrong_glasses" />
+	</object>
+	<object name="obj_03">
+		<position x="697" y="359" z="-0.1" />
+		<texture src="objects/wrong_shoe" />
+	</object>
+	<object name="obj_04">
+		<position x="264" y="380" z="-0.1" />
+		<texture src="objects/wrong_stone_1" />
+	</object>
+	<object name="obj_05">
+		<position x="202" y="504" z="-0.1" />
+		<texture src="objects/wrong_root" />
+	</object>
+	<object name="obj_06">
+		<position x="479" y="371" z="-0.1" />
+		<texture src="objects/wrong_wheel" />
+	</object>
+	<object name="obj_07">
+		<position x="403" y="624" z="-0.1" />
+		<texture src="objects/wrong_bottle" />
+	</object>
+	<object name="obj_08">
+		<position x="377" y="334" z="-0.1" />
+		<texture src="objects/wrong_rose" />
+	</object>
+	<object name="obj_09">
+		<position x="471" y="550" z="-0.1" />
+		<texture src="objects/wrong_skull" />
+	</object>	
+
+	<object name="obj_01_moved" z="-0.1">
+		<position x="70" y="566" />
+		<texture src="objects/trumpet" />
+		<interactive value="0" />
+		<visible value="0" />
+	</object>
+	<object name="obj_02_moved" z="-0.1">
+		<position x="304" y="309" />
+		<texture src="objects/glasses" />
+		<interactive value="0" />
+		<visible value="0" />
+	</object>
+	<object name="obj_03_moved" z="-0.1">
+		<position x="893" y="397" />
+		<texture src="objects/shoe" />
+		<interactive value="0" />
+		<visible value="0" />
+	</object>
+	<object name="obj_04_moved">
+		<position x="86" y="441" z="-0.2" />
+		<texture src="objects/stone_1" />
+		<interactive value="0" />
+		<visible value="0" />
+	</object>
+	<object name="obj_05_moved" z="-0.1">
+		<position x="75" y="354" />
+		<texture src="objects/root" />
+		<interactive value="0" />
+		<visible value="0" />
+	</object>
+	<object name="obj_06_moved" z="-0.1">
+		<position x="820" y="551" />
+		<texture src="objects/wheel" />
+		<interactive value="0" />
+		<visible value="0" />
+	</object>
+	<object name="obj_07_moved" z="-0.1">
+		<position x="0" y="520" />
+		<texture src="objects/bottle" />
+		<interactive value="0" />
+		<visible value="0" />
+	</object>
+	<object name="obj_08_moved" z="-0.1">
+		<position x="212" y="261" />
+		<texture src="objects/rose" />
+		<interactive value="0" />
+		<visible value="0" />
+	</object>
+	<object name="obj_09_moved" z="-0.1">
+		<position x="833" y="340" />
+		<texture src="objects/skull" />
+		<interactive value="0" />
+		<visible value="0" />
+	</object>	
+	
+	<object name="moss">
+		<position x="659" y="526" z="-0.1" />
+		<texture src="objects/moss" />
+	</object>
+	
+	<object name="spell_item_02" z="-0.1">
+		<position x="551" y="202" />
+		<texture src="objects/wrong_cage" />
+	</object>
+	<object name="spell_item_03">
+		<position x="557" y="556" z="-0.1" />
+		<texture src="objects/wrong_coconut" />
+	</object>
+	<object name="spell_item_04">
+		<position x="529" y="359" z="0" />
+		<texture src="objects/doll_1" />
+	</object>	
+
+	<object name="spell_item_01_placed">
+		<pivot x="43" y="131" />
+		<texture src="objects/rum" />
+		<interactive value="0" />
+		<visible value="0" />
+	</object>
+	<object name="spell_item_02_placed">
+		<pivot x="122" y="166" />
+		<texture src="objects/cage" />
+		<interactive value="0" />
+		<visible value="0" />
+	</object>
+	<object name="spell_item_03_placed">
+		<pivot x="47" y="41" />
+		<texture src="objects/coconut" />
+		<interactive value="0" />
+		<visible value="0" />
+	</object>
+	<object name="spell_item_04_placed">
+		<position x="502" y="435" />
+		<texture src="objects/doll_2" />
+		<interactive value="0" />
+		<visible value="0" />
+	</object>
+	
+	<object name="spell_item_slot_01">
+		<position x="456" y="552" z="-0.2" />
+		<texture src="slots/01_MASKS" />
+		<alpha value="0.0" />
+		<interactive value="0" />
+	</object>
+	<object name="spell_item_slot_02">
+		<position x="686" y="444" z="-0.2" />
+		<texture src="slots/02_MASKS" />
+		<alpha value="0.0" />
+		<interactive value="0" />
+	</object>
+	<object name="spell_item_slot_03">
+		<position x="406" y="364" z="-0.2" />
+		<texture src="slots/04_MASKS" />
+		<alpha value="0.0" />
+		<interactive value="0" />
+	</object>
+	<object name="spell_item_slot_central">
+		<position x="506" y="439" z="-0.1" />
+		<texture src="slots/03_MASKS" />
+		<alpha value="0.0" />
+		<interactive value="0" />
+	</object>
+	
+	<object name="fx_voodoo_circle_ambient">
+		<interactive value="0" />
+		<enable value="0" />
+		<scene src="/particles_ready/voodoo_circle/penth.DAE">
+			<particles src="/particles_ready/voodoo_circle/penth_still.psysl" />
+		</scene>
+	</object>
+	<object name="fx_voodoo_circle_flash">
+		<interactive value="0" />
+		<enable value="0" />
+		<scene src="/particles_ready/voodoo_circle/penth.DAE">
+			<particles src="/particles_ready/voodoo_circle/penth_gone.psysl" />
+		</scene>
+	</object>
+
+	<object name="fx_spirits">
+		<position x="-150" y="100" />
+		<scene src="/particles_ready/souls/soul_pond/soul_pond3_d.dae" looped="0">
+			<particles src="/particles_ready/souls/soul02_anim.psysl" />
+			<particles src="/particles_ready/souls/soul02_anim1.psysl" />
+		</scene>
+		<enable value="0" />
+	</object>
+
+	<object name="fx_doll">
+		<position x="502" y="435" z="-10" />
+		<texture src="objects/doll_2" />
+		<visible value="0" />
+	</object>
+
+	<object name="fader">
+		<position z="-100" />
+		<texture src="/common/black" />
+		<size width="1024" height="768" />
+		<alpha value="0.0" />
+		<interactive value="0" />
+	</object>
+</objects>

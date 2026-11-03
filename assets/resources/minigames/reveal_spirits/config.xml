@@ -1,0 +1,22 @@
+<reveal_spirits>
+	<onExit script="on_exit" />
+
+	<reveal_speed alpha_per_second="0.30" first_touch_boost="0.20" />
+	<vanish_speed alpha_per_second="0.40" />
+	<min_mouse_move_frequency ms="200" />
+	
+	<sounds>
+		<brush src="/sound/sfx/mg/reveal_spirits/mg_brush_use" />
+		<spirit_revealed src="/sound/sfx/mg/mg_section_clean" />
+		<spirit_vanish
+			male="/sound/sfx/mg/reveal_spirits/mg_spirit_disappear_male"
+			female="/sound/sfx/mg/reveal_spirits/mg_spirit_disappear_female"
+			no_repeat_sound_delay_ms="5000" />
+		/>
+	</sounds>
+	
+	<female_spirits>
+		<spirit name="lalaurie.pond.selah_spirit" />
+	</female_spirits>
+	
+</reveal_spirits>

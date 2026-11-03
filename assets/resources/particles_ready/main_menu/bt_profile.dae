@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="utf-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1">
+  <asset>
+    <contributor>
+      <author>s.andreev</author>
+      <authoring_tool>3dsMax 9 - Feeling ColladaMax v3.05B.</authoring_tool>
+      <comments>ColladaMax Export Options: ExportNormals=1;ExportEPolyAsTriangles=1;ExportXRefs=1;ExportSelected=1;ExportTangents=0;ExportAnimations=1;SampleAnim=1;ExportAnimClip=1;BakeMatrices=0;ExportRelativePaths=1;AnimStart=0;AnimEnd=16.6667;</comments>
+      <source_data>file:///D:/W_WORK/DeadTime/ColladaExport/Buttons.max</source_data>
+    </contributor>
+    <created>2010-04-11T15:42:55Z</created>
+    <modified>2010-04-11T15:42:56Z</modified>
+    <unit meter="0.0254" name="inch"/>
+    <up_axis>Z_UP</up_axis>
+  </asset>
+  <library_animations>
+    <animation id="_profile-node-translation">
+      <source id="_profile-node-translation__profile-node_translation.X-input">
+        <float_array id="_profile-node-translation__profile-node_translation.X-input-array" count="501">0 0.033333 0.066666 0.1 0.133333 0.166667 0.2 0.233333 0.266667 0.3 0.333333 0.366667 0.4 0.433333 0.466667 0.5 0.533333 0.566667 0.6 0.633333 0.666667 0.7 0.733333 0.766667 0.8 0.833333 0.866667 0.9 0.933333 0.966667 1 1.03333 1.06667 1.1 1.13333 1.16667 1.2 1.23333 1.26667 1.3 1.33333 1.36667 1.4 1.43333 1.46667 1.5 1.53333 1.56667 1.6 1.63333 1.66667 1.7 1.73333 1.76667 1.8 1.83333 1.86667 1.9 1.93333 1.96667 2 2.03333 2.06667 2.1 2.13333 2.16667 2.2 2.23333 2.26667 2.3 2.33333 2.36667 2.4 2.43333 2.46667 2.5 2.53333 2.56667 2.6 2.63333 2.66667 2.7 2.73333 2.76667 2.8 2.83333 2.86667 2.9 2.93333 2.96667 3 3.03333 3.06667 3.1 3.13333 3.16667 3.2 3.23333 3.26667 3.3 3.33333 3.36667 3.4 3.43333 3.46667 3.5 3.53333 3.56667 3.6 3.63333 3.66667 3.7 3.73333 3.76667 3.8 3.83333 3.86667 3.9 3.93333 3.96667 4 4.03333 4.06667 4.1 4.13333 4.16667 4.2 4.23333 4.26667 4.3 4.33333 4.36667 4.4 4.43333 4.46667 4.5 4.53333 4.56667 4.6 4.63333 4.66667 4.7 4.73333 4.76667 4.8 4.83333 4.86667 4.9 4.93333 4.96667 5 5.03333 5.06667 5.1 5.13333 5.16667 5.2 5.23333 5.26667 5.3 5.33333 5.36667 5.4 5.43333 5.46667 5.5 5.53333 5.56667 5.6 5.63333 5.66667 5.7 5.73333 5.76667 5.8 5.83333 5.86667 5.9 5.93333 5.96667 6 6.03333 6.06667 6.1 6.13333 6.16667 6.2 6.23333 6.26667 6.3 6.33333 6.36667 6.4 6.43333 6.46667 6.5 6.53333 6.56667 6.6 6.63333 6.66667 6.7 6.73333 6.76667 6.8 6.83333 6.86667 6.9 6.93333 6.96667 7 7.03333 7.06667 7.1 7.13333 7.16667 7.2 7.23333 7.26667 7.3 7.33333 7.36667 7.4 7.43333 7.46667 7.5 7.53333 7.56667 7.6 7.63333 7.66667 7.7 7.73333 7.76667 7.8 7.83333 7.86667 7.9 7.93333 7.96667 8 8.03333 8.06667 8.1 8.13333 8.16667 8.2 8.23333 8.26667 8.3 8.33333 8.36667 8.4 8.43333 8.46667 8.5 8.53333 8.56667 8.6 8.63333 8.66667 8.7 8.73333 8.76667 8.8 8.83333 8.86667 8.9 8.93333 8.96667 9 9.03333 9.06667 9.1 9.13333 9.16667 9.2 9.23333 9.26667 9.3 9.33333 9.36667 9.4 9.43333 9.46667 9.5 9.53333 9.56667 9.6 9.63333 9.66667 9.7 9.73333 9.76667 9.8 9.83333 9.86667 9.9 9.93333 9.96667 10 10.0333 10.0667 10.1 10.1333 10.1667 10.2 10.2333 10.2667 10.3 10.3333 10.3667 10.4 10.4333 10.4667 10.5 10.5333 10.5667 10.6 10.6333 10.6667 10.7 10.7333 10.7667 10.8 10.8333 10.8667 10.9 10.9333 10.9667 11 11.0333 11.0667 11.1 11.1333 11.1667 11.2 11.2333 11.2667 11.3 11.3333 11.3667 11.4 11.4333 11.4667 11.5 11.5333 11.5667 11.6 11.6333 11.6667 11.7 11.7333 11.7667 11.8 11.8333 11.8667 11.9 11.9333 11.9667 12 12.0333 12.0667 12.1 12.1333 12.1667 12.2 12.2333 12.2667 12.3 12.3333 12.3667 12.4 12.4333 12.4667 12.5 12.5333 12.5667 12.6 12.6333 12.6667 12.7 12.7333 12.7667 12.8 12.8333 12.8667 12.9 12.9333 12.9667 13 13.0333 13.0667 13.1 13.1333 13.1667 13.2 13.2333 13.2667 13.3 13.3333 13.3667 13.4 13.4333 13.4667 13.5 13.5333 13.5667 13.6 13.6333 13.6667 13.7 13.7333 13.7667 13.8 13.8333 13.8667 13.9 13.9333 13.9667 14 14.0333 14.0667 14.1 14.1333 14.1667 14.2 14.2333 14.2667 14.3 14.3333 14.3667 14.4 14.4333 14.4667 14.5 14.5333 14.5667 14.6 14.6333 14.6667 14.7 14.7333 14.7667 14.8 14.8333 14.8667 14.9 14.9333 14.9667 15 15.0333 15.0667 15.1 15.1333 15.1667 15.2 15.2333 15.2667 15.3 15.3333 15.3667 15.4 15.4333 15.4667 15.5 15.5333 15.5667 15.6 15.6333 15.6667 15.7 15.7333 15.7667 15.8 15.8333 15.8667 15.9 15.9333 15.9667 16 16.0333 16.0667 16.1 16.1333 16.1667 16.2 16.2333 16.2667 16.3 16.3333 16.3667 16.4 16.4333 16.4667 16.5 16.5333 16.5667 16.6 16.6333 16.6667</float_array>
+        <technique_common>
+          <accessor source="#_profile-node-translation__profile-node_translation.X-input-array" count="501" stride="1">
+            <param name="TIME" type="float"/>
+          </accessor>
+        </technique_common>
+        <technique profile="MAYA">
+          <pre_infinity>CONSTANT</pre_infinity>
+          <post_infinity>CONSTANT</post_infinity>
+        </technique>
+      </source>
+      <source id="_profile-node-translation__profile-node_translation.X-output">
+        <float_array id="_profile-node-translation__profile-node_translation.X-output-array" count="501">804.725 806.461 807.503 806.461 804.725 804.725 804.725 804.725 804.725 804.725 804.725 804.725 804.725 804.725 804.725 804.725 804.725 804.725 804.725 804.725 804.725 804.725 804.725 804.725 804.725 804.725 804.725 804.725 804.725 804.725 804.725 804.725 804.725 804.725 804.725 804.725 804.725 804.725 804.725 804.725 804.725 804.725 804.725 804.725 804.725 804.725 804.725 804.725 804.725 804.725 804.725 804.725 804.725 804.725 804.725 804.725 804.725 804.725 804.725 804.725 804.725 804.725 804.725 804.725 804.725 804.725 804.725 804.725 804.725 804.725 804.725 804.725 804.725 804.725 804.725 804.725 804.725 804.725 804.725 804.725 804.725 804.725 804.725 804.725 804.725 804.725 804.725 804.725 804.725 804.725 804.725 804.725 804.725 804.725 804.725 804.725 804.725 804.725 804.725 804.725 804.725 804.725 804.725 804.725 804.725 804.725 804.725 804.725 804.725 804.725 804.725 804.725 804.725 804.725 804.725 804.725 804.725 804.725 804.725 804.725 804.725 804.725 804.725 804.725 804.725 804.725 804.725 804.725 804.725 804.725 804.725 804.725 804.725 804.725 804.725 804.725 804.725 804.725 804.725 804.725 804.725 804.725 804.725 804.725 804.725 804.725 804.725 804.725 804.725 804.725 804.725 804.725 804.725 804.725 804.725 804.725 804.725 804.725 804.725 804.725 804.725 804.725 804.725 804.725 804.725 804.725 804.725 804.725 804.725 804.725 804.725 804.725 804.725 804.725 804.725 804.725 804.725 804.725 804.725 804.725 804.725 804.725 804.725 804.725 804.725 804.725 804.725 804.725 804.725 804.725 804.725 804.725 804.725 804.725 804.725 804.725 804.725 804.725 804.725 804.725 804.725 804.725 804.725 804.725 804.725 804.725 804.725 804.725 804.725 804.725 804.725 804.725 804.725 804.725 804.725 804.725 804.725 804.725 804.725 804.725 804.725 804.725 804.725 804.725 804.725 804.725 804.725 804.725 804.725 804.725 804.725 804.725 804.725 804.725 804.725 804.725 804.725 804.725 804.725 804.725 804.725 804.725 804.725 804.725 804.725 804.725 804.725 804.725 804.725 804.725 804.725 804.725 804.725 804.725 804.725 804.725 804.725 804.725 804.725 804.725 804.725 804.725 804.725 804.725 804.725 804.725 804.725 804.725 804.725 804.725 804.725 804.725 804.725 804.725 804.725 804.725 804.725 804.725 804.725 804.725 804.725 804.725 804.725 804.725 804.725 804.725 804.725 804.725 804.725 804.725 804.725 804.725 804.725 804.725 804.725 804.725 804.725 804.725 804.725 804.725 804.725 804.725 804.725 804.725 804.725 804.725 804.725 804.725 804.725 804.725 804.725 804.725 804.725 804.725 804.725 804.725 804.725 804.725 804.725 804.725 804.725 804.725 804.725 804.725 804.725 804.725 804.725 804.725 804.725 804.725 804.725 804.725 804.725 804.725 804.725 804.725 804.725 804.725 804.725 804.725 804.725 804.725 804.725 804.725 804.725 804.725 804.725 804.725 804.725 804.725 804.725 804.725 804.725 804.725 804.725 804.725 804.725 804.725 804.725 804.725 804.725 804.725 804.725 804.725 804.725 804.725 804.725 804.725 804.725 804.725 804.725 804.725 804.725 804.725 804.725 804.725 804.725 804.725 804.725 804.725 804.725 804.725 804.725 804.725 804.725 804.725 804.725 804.725 804.725 804.725 804.725 804.725 804.725 804.725 804.725 804.725 804.725 804.725 804.725 804.725 804.725 804.725 804.725 804.725 804.725 804.725 804.725 804.725 804.725 804.725 804.725 804.725 804.725 804.725 804.725 804.725 804.725 804.725 804.725 804.725 804.725 804.725 804.725 804.725 804.725 804.725 804.725 804.725 804.725 804.725 804.725 804.725 804.725 804.725 804.725 804.725 804.725 804.725 804.725 804.725 804.725 804.725 804.725 804.725 804.725 804.725 804.725 804.725 804.725 804.725 804.725 804.725 804.725 804.725 804.725 804.725 804.725 804.725 804.725 804.725 804.725 804.725 804.725 804.725 804.725 804.725 804.725 804.725 804.725 804.725 804.725 804.725 804.725 804.725 804.725 804.725 804.725 804.725 804.725 804.725 804.725 804.725 804.725 804.725 804.725 804.725 804.725 804.725 804.725 804.725 804.725 804.725 804.725 804.725 804.725 804.725 804.725 804.725 804.725 804.725 804.725</float_array>
+        <technique_common>
+          <accessor source="#_profile-node-translation__profile-node_translation.X-output-array" count="501" stride="1">
+            <param name="X" type="float"/>
+          </accessor>
+        </technique_common>
+      </source>
+      <source id="_profile-node-translation__profile-node_translation.X-interpolations">
+        <Name_array id="_profile-node-translation__profile-node_translation.X-interpolations-array" count="501">LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR</Name_array>
+        <technique_common>
+          <accessor source="#_profile-node-translation__profile-node_translation.X-interpolations-array" count="501" stride="1">
+            <param name="INTERPOLATION" type="Name"/>
+          </accessor>
+        </technique_common>
+      </source>
+      <sampler id="_profile-node-translation__profile-node_translation.X-sampler">
+        <input semantic="INPUT" source="#_profile-node-translation__profile-node_translation.X-input"/>
+        <input semantic="OUTPUT" source="#_profile-node-translation__profile-node_translation.X-output"/>
+        <input semantic="INTERPOLATION" source="#_profile-node-translation__profile-node_translation.X-interpolations"/>
+      </sampler>
+      <channel source="#_profile-node-translation__profile-node_translation.X-sampler" target="_profile-node/translation.X"/>
+    </animation>
+    <animation id="_profile-node-ry">
+      <source id="_profile-node-ry__profile-node_RotY.ANGLE-input">
+        <float_array id="_profile-node-ry__profile-node_RotY.ANGLE-input-array" count="501">0 0.033333 0.066666 0.1 0.133333 0.166667 0.2 0.233333 0.266667 0.3 0.333333 0.366667 0.4 0.433333 0.466667 0.5 0.533333 0.566667 0.6 0.633333 0.666667 0.7 0.733333 0.766667 0.8 0.833333 0.866667 0.9 0.933333 0.966667 1 1.03333 1.06667 1.1 1.13333 1.16667 1.2 1.23333 1.26667 1.3 1.33333 1.36667 1.4 1.43333 1.46667 1.5 1.53333 1.56667 1.6 1.63333 1.66667 1.7 1.73333 1.76667 1.8 1.83333 1.86667 1.9 1.93333 1.96667 2 2.03333 2.06667 2.1 2.13333 2.16667 2.2 2.23333 2.26667 2.3 2.33333 2.36667 2.4 2.43333 2.46667 2.5 2.53333 2.56667 2.6 2.63333 2.66667 2.7 2.73333 2.76667 2.8 2.83333 2.86667 2.9 2.93333 2.96667 3 3.03333 3.06667 3.1 3.13333 3.16667 3.2 3.23333 3.26667 3.3 3.33333 3.36667 3.4 3.43333 3.46667 3.5 3.53333 3.56667 3.6 3.63333 3.66667 3.7 3.73333 3.76667 3.8 3.83333 3.86667 3.9 3.93333 3.96667 4 4.03333 4.06667 4.1 4.13333 4.16667 4.2 4.23333 4.26667 4.3 4.33333 4.36667 4.4 4.43333 4.46667 4.5 4.53333 4.56667 4.6 4.63333 4.66667 4.7 4.73333 4.76667 4.8 4.83333 4.86667 4.9 4.93333 4.96667 5 5.03333 5.06667 5.1 5.13333 5.16667 5.2 5.23333 5.26667 5.3 5.33333 5.36667 5.4 5.43333 5.46667 5.5 5.53333 5.56667 5.6 5.63333 5.66667 5.7 5.73333 5.76667 5.8 5.83333 5.86667 5.9 5.93333 5.96667 6 6.03333 6.06667 6.1 6.13333 6.16667 6.2 6.23333 6.26667 6.3 6.33333 6.36667 6.4 6.43333 6.46667 6.5 6.53333 6.56667 6.6 6.63333 6.66667 6.7 6.73333 6.76667 6.8 6.83333 6.86667 6.9 6.93333 6.96667 7 7.03333 7.06667 7.1 7.13333 7.16667 7.2 7.23333 7.26667 7.3 7.33333 7.36667 7.4 7.43333 7.46667 7.5 7.53333 7.56667 7.6 7.63333 7.66667 7.7 7.73333 7.76667 7.8 7.83333 7.86667 7.9 7.93333 7.96667 8 8.03333 8.06667 8.1 8.13333 8.16667 8.2 8.23333 8.26667 8.3 8.33333 8.36667 8.4 8.43333 8.46667 8.5 8.53333 8.56667 8.6 8.63333 8.66667 8.7 8.73333 8.76667 8.8 8.83333 8.86667 8.9 8.93333 8.96667 9 9.03333 9.06667 9.1 9.13333 9.16667 9.2 9.23333 9.26667 9.3 9.33333 9.36667 9.4 9.43333 9.46667 9.5 9.53333 9.56667 9.6 9.63333 9.66667 9.7 9.73333 9.76667 9.8 9.83333 9.86667 9.9 9.93333 9.96667 10 10.0333 10.0667 10.1 10.1333 10.1667 10.2 10.2333 10.2667 10.3 10.3333 10.3667 10.4 10.4333 10.4667 10.5 10.5333 10.5667 10.6 10.6333 10.6667 10.7 10.7333 10.7667 10.8 10.8333 10.8667 10.9 10.9333 10.9667 11 11.0333 11.0667 11.1 11.1333 11.1667 11.2 11.2333 11.2667 11.3 11.3333 11.3667 11.4 11.4333 11.4667 11.5 11.5333 11.5667 11.6 11.6333 11.6667 11.7 11.7333 11.7667 11.8 11.8333 11.8667 11.9 11.9333 11.9667 12 12.0333 12.0667 12.1 12.1333 12.1667 12.2 12.2333 12.2667 12.3 12.3333 12.3667 12.4 12.4333 12.4667 12.5 12.5333 12.5667 12.6 12.6333 12.6667 12.7 12.7333 12.7667 12.8 12.8333 12.8667 12.9 12.9333 12.9667 13 13.0333 13.0667 13.1 13.1333 13.1667 13.2 13.2333 13.2667 13.3 13.3333 13.3667 13.4 13.4333 13.4667 13.5 13.5333 13.5667 13.6 13.6333 13.6667 13.7 13.7333 13.7667 13.8 13.8333 13.8667 13.9 13.9333 13.9667 14 14.0333 14.0667 14.1 14.1333 14.1667 14.2 14.2333 14.2667 14.3 14.3333 14.3667 14.4 14.4333 14.4667 14.5 14.5333 14.5667 14.6 14.6333 14.6667 14.7 14.7333 14.7667 14.8 14.8333 14.8667 14.9 14.9333 14.9667 15 15.0333 15.0667 15.1 15.1333 15.1667 15.2 15.2333 15.2667 15.3 15.3333 15.3667 15.4 15.4333 15.4667 15.5 15.5333 15.5667 15.6 15.6333 15.6667 15.7 15.7333 15.7667 15.8 15.8333 15.8667 15.9 15.9333 15.9667 16 16.0333 16.0667 16.1 16.1333 16.1667 16.2 16.2333 16.2667 16.3 16.3333 16.3667 16.4 16.4333 16.4667 16.5 16.5333 16.5667 16.6 16.6333 16.6667</float_array>
+        <technique_common>
+          <accessor source="#_profile-node-ry__profile-node_RotY.ANGLE-input-array" count="501" stride="1">
+            <param name="TIME" type="float"/>
+          </accessor>
+        </technique_common>
+        <technique profile="MAYA">
+          <pre_infinity>CONSTANT</pre_infinity>
+          <post_infinity>CONSTANT</post_infinity>
+        </technique>
+      </source>
+      <source id="_profile-node-ry__profile-node_RotY.ANGLE-output">
+        <float_array id="_profile-node-ry__profile-node_RotY.ANGLE-output-array" count="501">0 1.94123 2.86785 0.118763 -2.38113 0.025322 2.48023 -3.01073 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0</float_array>
+        <technique_common>
+          <accessor source="#_profile-node-ry__profile-node_RotY.ANGLE-output-array" count="501" stride="1">
+            <param name="ANGLE" type="float"/>
+          </accessor>
+        </technique_common>
+      </source>
+      <source id="_profile-node-ry__profile-node_RotY.ANGLE-interpolations">
+        <Name_array id="_profile-node-ry__profile-node_RotY.ANGLE-interpolations-array" count="501">LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR</Name_array>
+        <technique_common>
+          <accessor source="#_profile-node-ry__profile-node_RotY.ANGLE-interpolations-array" count="501" stride="1">
+            <param name="INTERPOLATION" type="Name"/>
+          </accessor>
+        </technique_common>
+      </source>
+      <sampler id="_profile-node-ry__profile-node_RotY.ANGLE-sampler">
+        <input semantic="INPUT" source="#_profile-node-ry__profile-node_RotY.ANGLE-input"/>
+        <input semantic="OUTPUT" source="#_profile-node-ry__profile-node_RotY.ANGLE-output"/>
+        <input semantic="INTERPOLATION" source="#_profile-node-ry__profile-node_RotY.ANGLE-interpolations"/>
+      </sampler>
+      <channel source="#_profile-node-ry__profile-node_RotY.ANGLE-sampler" target="_profile-node/RotY.ANGLE"/>
+    </animation>
+  </library_animations>
+  <library_animation_clips>
+    <animation_clip id="AnimationClip" start="0" end="16.6667">
+      <instance_animation url="#_profile-node-translation"/>
+      <instance_animation url="#_profile-node-ry"/>
+    </animation_clip>
+  </library_animation_clips>
+  <library_lights>
+    <light id="ambient-environment-light" name="Ambient">
+      <technique_common>
+        <ambient>
+          <color>0.4 0.4 0.4</color>
+        </ambient>
+      </technique_common>
+      <extra>
+        <technique profile="FCOLLADA">
+          <intensity>1</intensity>
+        </technique>
+      </extra>
+    </light>
+  </library_lights>
+  <library_images>
+    <image id="profiles_butom.tga" name="profiles_butom_tga">
+      <init_from>./buttons/profiles_butom.tga</init_from>
+    </image>
+  </library_images>
+  <library_materials>
+    <material id="profiles" name="profiles">
+      <instance_effect url="#profiles-fx">
+        <setparam ref="textureDiffuse">
+          <surface type="2D">
+            <init_from>profiles_butom.tga</init_from>
+            <format>A8R8G8B8</format>
+          </surface>
+        </setparam>
+      </instance_effect>
+    </material>
+  </library_materials>
+  <library_effects>
+    <effect id="profiles-fx" name="profiles">
+      <profile_COMMON>
+        <technique sid="common">
+          <blinn>
+            <ambient>
+              <color>0.588 0.588 0.588 1</color>
+            </ambient>
+            <diffuse>
+              <color>0.588 0.588 0.588 1</color>
+            </diffuse>
+            <specular>
+              <color>0.9 0.9 0.9 1</color>
+            </specular>
+            <shininess>
+              <float>0.415939</float>
+            </shininess>
+            <reflective>
+              <color>0 0 0 1</color>
+            </reflective>
+            <reflectivity>
+              <float>1</float>
+            </reflectivity>
+            <transparent opaque="A_ONE">
+              <color>1 1 1 1</color>
+            </transparent>
+            <transparency>
+              <float>1</float>
+            </transparency>
+          </blinn>
+          <extra>
+            <technique profile="FCOLLADA">
+              <spec_level>
+                <float>0</float>
+              </spec_level>
+              <emission_level>
+                <float>0</float>
+              </emission_level>
+            </technique>
+          </extra>
+        </technique>
+      </profile_COMMON>
+      <extra>
+        <technique profile="MAX3D">
+          <faceted>0</faceted>
+          <double_sided>0</double_sided>
+          <wireframe>0</wireframe>
+          <face_map>0</face_map>
+        </technique>
+        <technique profile="NV_import">
+          <import profile="d3dfx" url="..%5C..%5Cmaterials%5Cpure_texture_a.fx"/>
+        </technique>
+      </extra>
+    </effect>
+  </library_effects>
+  <library_geometries>
+    <geometry id="_profile-mesh" name="_profile">
+      <mesh>
+        <source id="_profile-mesh-positions">
+          <float_array id="_profile-mesh-positions-array" count="12">-84 35.5 0 84 35.5 0 -84 -35.5 0 84 -35.5 0</float_array>
+          <technique_common>
+            <accessor source="#_profile-mesh-positions-array" count="4" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="_profile-mesh-normals">
+          <float_array id="_profile-mesh-normals-array" count="18">0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1</float_array>
+          <technique_common>
+            <accessor source="#_profile-mesh-normals-array" count="6" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="_profile-mesh-map-channel1">
+          <float_array id="_profile-mesh-map-channel1-array" count="12">0 0 0 1 0 0 0 1 0 1 1 0</float_array>
+          <technique_common>
+            <accessor source="#_profile-mesh-map-channel1-array" count="4" stride="3">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+              <param name="P" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="_profile-mesh-map-channel2">
+          <float_array id="_profile-mesh-map-channel2-array" count="12">0 0 0 1 0 0 0 1 0 1 1 0</float_array>
+          <technique_common>
+            <accessor source="#_profile-mesh-map-channel2-array" count="4" stride="3">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+              <param name="P" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="_profile-mesh-vertices">
+          <input semantic="POSITION" source="#_profile-mesh-positions"/>
+        </vertices>
+        <triangles material="profiles" count="2">
+          <input semantic="VERTEX" source="#_profile-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#_profile-mesh-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#_profile-mesh-map-channel1" offset="2" set="1"/>
+          <input semantic="TEXCOORD" source="#_profile-mesh-map-channel2" offset="3" set="2"/>
+          <p>0 0 0 0 1 1 1 1 3 2 3 3 3 3 3 3 2 4 2 2 0 5 0 0</p>
+        </triangles>
+      </mesh>
+    </geometry>
+  </library_geometries>
+  <library_visual_scenes>
+    <visual_scene id="Buttons.max" name="Buttons_max">
+      <node id="_profile-node" name="_profile" type="NODE">
+        <translate sid="translation">804.725 53.5045 495.478</translate>
+        <rotate sid="RotZ">0 0 1 0</rotate>
+        <rotate sid="RotY">0 1 0 0</rotate>
+        <rotate sid="RotX">1 0 0 90</rotate>
+        <instance_geometry url="#_profile-mesh">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="profiles" target="#profiles"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+      <node id="VisualSceneNode" type="NODE">
+        <instance_light url="#ambient-environment-light"/>
+      </node>
+      <extra>
+        <technique profile="FCOLLADA">
+          <start_time>0</start_time>
+          <end_time>16.6667</end_time>
+        </technique>
+      </extra>
+      <extra>
+        <technique profile="MAX3D">
+          <frame_rate>30</frame_rate>
+        </technique>
+      </extra>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_visual_scene url="#Buttons.max"/>
+  </scene>
+</COLLADA>

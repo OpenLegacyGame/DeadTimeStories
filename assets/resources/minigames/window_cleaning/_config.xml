@@ -1,0 +1,12 @@
+<window_cleaning>
+	<onFinish script="_on_finish" />
+	<cleaning>
+		<timer_success ms="1500" />
+		<timer_failure ms="500" />
+		<timer_remove_fx ms="200" />
+		<sponge_speed_factor_x min="0.2" max="0.4" />
+		<sponge_speed_factor_y min="0.5" max="0.7" />
+		<min_mouse_move_frequency ms="200" />
+		<correct_fx_offset x="37" y="56" />
+	</cleaning>
+</window_cleaning>

@@ -1,0 +1,33 @@
+<animation type="keys" applier="picture" priority="0" weight="1.0" start="0.0" looped="0">
+	<keys type="picture">
+		<cyclic value="0" />
+		<picture>
+			<key relative_time="0.0">../dove/Dove_Cote_out_000</key>
+			<key relative_time="0.033">../dove/Dove_Cote_out_002</key>
+			<key relative_time="0.033">../dove/Dove_Cote_out_004</key>
+			<key relative_time="0.033">../dove/Dove_Cote_out_006</key>
+			<key relative_time="0.033">../dove/Dove_Cote_out_008</key>
+			<key relative_time="0.033">../dove/Dove_Cote_out_010</key>
+			<key relative_time="0.033">../dove/Dove_Cote_out_012</key>
+			<key relative_time="0.033">../dove/Dove_Cote_out_014</key>
+			<key relative_time="0.033">../dove/Dove_Cote_out_018</key>
+			<key relative_time="0.033">../dove/Dove_Cote_out_020</key>
+			<key relative_time="0.033">../dove/Dove_Cote_out_022</key>
+			<key relative_time="0.033">../dove/Dove_Cote_out_024</key>
+			<key relative_time="0.033">../dove/Dove_Cote_out_026</key>
+			<key relative_time="0.033">../dove/Dove_Cote_out_028</key>
+			<key relative_time="0.033">../dove/Dove_Cote_out_030</key>
+			<key relative_time="0.033">../dove/Dove_Cote_out_032</key>
+			<key relative_time="0.033">../dove/Dove_Cote_out_034</key>
+			<key relative_time="0.033">../dove/Dove_Cote_out_036</key>
+			<key relative_time="0.033">../dove/Dove_Cote_out_038</key>
+			<key relative_time="0.033">../dove/Dove_Cote_out_040</key>
+			<key relative_time="0.033">../dove/Dove_Cote_out_042</key>
+			<key relative_time="0.033">../dove/Dove_Cote_out_044</key>
+			<key relative_time="0.033">../dove/Dove_Cote_out_046</key>
+			<key relative_time="0.033">../dove/Dove_Cote_out_048</key>
+			<key relative_time="0.033">../dove/Dove_Cote_out_050</key>
+			<key relative_time="0.001">/common/transparent</key>
+		</picture>
+	</keys>
+</animation>

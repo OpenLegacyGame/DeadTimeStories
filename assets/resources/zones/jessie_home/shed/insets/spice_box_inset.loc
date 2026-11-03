@@ -1,0 +1,31 @@
+<location stripcode="0302">
+	<objects>
+		<object name="back">
+			<texture src="/common/half_dark" />
+			<size width="1024" height="768" />
+			<script src="spice_box_inset/back" />
+		</object>
+		<object name="inset">
+			<position x="222" y="114" z="-10" />
+			<texture src="spice_box_inset/box_closed" />
+			<script src="spice_box_inset/inset" />
+		</object>
+		<object name="plate_mask">
+			<position x="345" y="205" z="-15" />
+			<texture src="spice_box_inset/plate_mask" />
+			<script src="spice_box_inset/plate_mask" />
+			<alpha value="0.0" />
+		</object>
+				
+		<object name="mint">
+			<position x="403" y="246" z="-20" />
+			<texture src="spice_box_inset/mint/mint" />
+			<script src="spice_box_inset/mint/mint" />
+		</object>
+		<object name="clove">
+			<position x="482" y="290" z="-20" />
+			<texture src="spice_box_inset/clove/clove" />
+			<script src="spice_box_inset/clove/clove" />
+		</object>
+	</objects>
+</location>

@@ -1,0 +1,19 @@
+<location>
+	<objects>
+		<object name="back">
+			<texture src="/common/half_dark" />
+			<size width="1024" height="768" />
+			<script src="chest_inset/back" />
+		</object>
+		<object name="inset">
+			<position x="222" y="114" z="-10" />
+			<texture src="chest_inset/inset" />
+			<script src="chest_inset/inset" />
+		</object>
+<!--		<object name="black_book">
+			<position x="470" y="305" z="-20" />
+			<texture src="chest_inset/black_book/black_book_closed" />
+			<script src="chest_inset/black_book/black_book" />
+		</object>-->
+	</objects>
+</location>

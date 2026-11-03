@@ -1,0 +1,157 @@
+<location>
+<ambient src="/sound/sfx/sfx_wierd_rustle1" />
+<objects>
+	<object name="back">
+		<position x="0" y="0" z="10" />
+		<texture src="/minigames/voodoo_circle/background" />
+	</object>
+	
+	<object name="exit">
+		<position x="0" y="421" z="-10" />
+		<texture src="voodoo_circle/to_gates" />
+		<alpha value="0.0" />
+		<script src="voodoo_circle/to_gates" />
+	</object>
+	
+	<object name="fade">
+		<position x="0" y="0" z="-40" />
+		<size width="1024" height="768" />
+		<texture src="/common/black" />
+		<alpha value="0.0" />
+		<interactive value="0" />
+	</object>	
+	
+	<object name="shape_01">
+		<position x="214" y="240" z="0" />
+		<texture src="/minigames/voodoo_circle/shapes/01" />
+		<interactive value="0" />
+	</object>
+	<object name="shape_02">
+		<position x="758" y="446" z="0" />
+		<texture src="/minigames/voodoo_circle/shapes/02" />
+		<interactive value="0" />
+	</object>
+	<object name="shape_03">
+		<position x="625" y="400" z="0" />
+		<texture src="/minigames/voodoo_circle/shapes/03" />
+		<interactive value="0" />
+	</object>
+	<object name="shape_04">
+		<position x="633" y="437" z="0" />
+		<texture src="/minigames/voodoo_circle/shapes/04" />
+		<interactive value="0" />
+	</object>
+	<object name="shape_05">
+		<position x="276" y="286" z="0" />
+		<texture src="/minigames/voodoo_circle/shapes/05" />
+		<interactive value="0" />
+	</object>
+	<object name="shape_06">
+		<position x="375" y="325" z="0" />
+		<texture src="/minigames/voodoo_circle/shapes/06" />
+		<interactive value="0" />
+	</object>
+	<object name="shape_07">
+		<position x="456" y="379" z="0" />
+		<texture src="/minigames/voodoo_circle/shapes/07" />
+		<interactive value="0" />
+	</object>
+	<object name="shape_08">
+		<position x="419" y="599" z="0" />
+		<vertex_alpha default="0.0" />
+		<interactive value="0" />
+	</object>
+	<object name="shape_09">
+		<position x="420" y="520" z="0" />
+		<texture src="/minigames/voodoo_circle/shapes/09" />
+		<interactive value="0" />
+	</object>
+	<object name="shape_10">
+		<position x="494" y="463" z="0" />
+		<texture src="/minigames/voodoo_circle/shapes/10" />
+		<interactive value="0" />
+	</object>
+	<object name="shape_11">
+		<position x="431" y="383" z="0" />
+		<texture src="/minigames/voodoo_circle/shapes/11" />
+		<interactive value="0" />
+	</object>
+	
+	<object name="rum">
+		<position x="485" y="413" z="-0.1" />
+		<pivot x="43" y="131" />
+		<texture src="/minigames/voodoo_circle/objects/rum" />
+		<interactive value="0" />
+	</object>
+	<object name="cage">
+		<position x="542" y="611" z="-0.1" />
+		<pivot x="122" y="166" />
+		<texture src="/minigames/voodoo_circle/objects/cage" />
+		<interactive value="0" />
+	</object>
+	<object name="coconut">
+		<position x="761" y="507" z="-0.1" />
+		<pivot x="47" y="41" />
+		<texture src="/minigames/voodoo_circle/objects/coconut" />
+		<interactive value="0" />
+	</object>
+	
+	<object name="voodoo_doll">
+		<position x="502" y="435" z="0" />
+		<texture src="/minigames/voodoo_circle/objects/doll_2" />
+		<interactive value="0" />
+		<visible value="0" />
+	</object>
+	
+	<object name="mid_mask">
+		<position x="506" y="439" z="-10" />
+		<texture src="voodoo_circle/mid/mid_mask" />
+		<script src="voodoo_circle/mid/mid_mask" />
+		<alpha value="0" />	
+	</object>	
+
+	<object name="fx_voodoo_circle_ambient">
+		<interactive value="0" />
+		<scene src="/particles_ready/voodoo_circle/penth.DAE">
+			<particles src="/particles_ready/voodoo_circle/penth_still.psysl" />
+		</scene>
+	</object>
+	
+	<object name="sfx_bats">
+		<script src="voodoo_circle/sfx/bats" />
+	</object>
+	<object name="sfx_wind">
+		<script src="voodoo_circle/sfx/wind" />
+	</object>
+	<object name="sound_howl_at_the_moon">
+		<script src="voodoo_circle/sfx/howl_at_the_moon" />
+	</object>
+	<object name="sound_eyes">
+		<script src="voodoo_circle/sfx/eyes" />
+	</object>
+	<object name="sound_angry_cat">
+		<script src="voodoo_circle/sfx/angry_cat" />
+	</object>
+	<object name="sound_cat_small">
+		<script src="voodoo_circle/sfx/cat_small" />
+	</object>
+	<object name="sound_raven">
+		<script src="voodoo_circle/sfx/raven" />
+	</object>
+	<object name="sound_raven_far">
+		<script src="voodoo_circle/sfx/raven_far" />
+	</object>
+	<object name="sound_wind_blow">
+		<script src="voodoo_circle/sfx/wind_blow" />
+	</object>
+	<object name="sound_draft">
+		<script src="voodoo_circle/sfx/draft" />
+	</object>
+	<object name="sound_rustle">
+		<script src="voodoo_circle/sfx/rustle" />
+	</object>
+	<object name="sound_cricket">
+		<script src="voodoo_circle/sfx/cricket" />
+	</object>
+</objects>
+</location>

@@ -1,0 +1,387 @@
+<hob>
+	<groups>
+<!-- inventory -->	
+		<group0 environment="0">
+			<object name="%镜子%">
+				<position x="895" y="310" z="0" />
+				<texture src="HOB_wringer_corner/mirror" />
+			</object>
+			<object name="%磁铁%">
+				<position x="705" y="181" z="0" />
+				<texture src="HOB_wringer_corner/magnet" />
+			</object>
+			<object name="%球%">
+				<position x="867" y="80" z="0" />
+				<texture src="HOB_wringer_corner/ball" />
+			</object>
+		</group0>
+<!-- complex items -->	
+		<group1>
+			<complex name="%琥珀%">
+				<object>
+					<position x="914" y="123" z="0" />
+					<texture src="HOB_wringer_corner/amber_1" />
+				</object>
+				<object>
+					<position x="547" y="500" z="-5" />
+					<texture src="HOB_wringer_corner/amber_2" />
+				</object>
+				<object>
+					<position x="348" y="397" z="0" />
+					<texture src="HOB_wringer_corner/amber_3" />
+				</object>
+			</complex>
+			<complex name="%蘑菇%">
+				<object>
+					<position x="673" y="471" z="-35" />
+					<texture src="HOB_wringer_corner/mushroom_1" />
+				</object>
+				<object>
+					<position x="116" y="593" z="0" />
+					<texture src="HOB_wringer_corner/mushroom_2" />
+				</object>
+				<object>
+					<position x="387" y="108" z="0" />
+					<texture src="HOB_wringer_corner/mushroom_3" />
+				</object>
+			</complex>
+			<complex name="%蜗牛%">
+				<object>
+					<position x="734" y="104" z="-5" />
+					<texture src="HOB_wringer_corner/helix_1" />
+				</object>
+				<object>
+					<position x="830" y="540" z="-5" />
+					<texture src="HOB_wringer_corner/helix_2" />
+				</object>
+				<object>
+					<position x="775" y="378" z="-5" />
+					<texture src="HOB_wringer_corner/helix_3" />
+				</object>
+			</complex>
+			<complex name="%面具%">
+				<object>
+					<position x="378" y="261" z="0" />
+					<texture src="HOB_wringer_corner/wooden_mask" />
+				</object>
+				<object>
+					<position x="113" y="75" z="0" />
+					<texture src="HOB_wringer_corner/masquerade_mask" />
+				</object>
+				<object>
+					<position x="741" y="147" z="0" />
+					<texture src="HOB_wringer_corner/chinese_mask" />
+				</object>
+			</complex>
+						
+		</group1>	
+<!-- dif_0-->		
+		<group2>
+			<object name="%枫叶%">
+				<position x="83" y="412" z="0" />
+				<texture src="HOB_wringer_corner/maple_leaf" />
+			</object>
+			<object name="%青蛙%">
+				<position x="423" y="490" z="0" />
+				<texture src="HOB_wringer_corner/frog" />
+			</object>
+			<object name="%茶杯%">
+				<position x="103" y="476" z="0" />
+				<texture src="HOB_wringer_corner/cup" />
+			</object>
+			<object name="%锅%">
+				<position x="506" y="380" z="0" />
+				<texture src="HOB_wringer_corner/pot" />
+			</object>
+			<object name="%麻袋%">
+				<position x="288" y="449" z="-10" />
+				<texture src="HOB_wringer_corner/sack" />
+			</object>
+			<object name="%胸针%">
+				<position x="816" y="241" z="0" />
+				<texture src="HOB_wringer_corner/brooch" />
+			</object>
+			<object name="%木偶%">
+				<position x="215" y="-8" z="0" />
+				<texture src="HOB_wringer_corner/puppet" />
+			</object>
+			<object name="%黑色的鸟%">
+				<position x="37" y="347" z="0" />
+				<texture src="HOB_wringer_corner/crow" />
+			</object>
+			<object name="%酒囊%">
+				<position x="584" y="72" z="0" />
+				<texture src="HOB_wringer_corner/wineskin" />
+			</object>		
+			<object name="%仓鼠%">
+				<position x="144" y="201" z="0" />
+				<texture src="HOB_wringer_corner/hamster" />
+			</object>		
+			<object name="%负鼠%">
+				<position x="471" y="272" z="0" />
+				<texture src="HOB_wringer_corner/opossum" />
+			</object>		
+			<object name="%砝码%">
+				<position x="808" y="312" z="0" />
+				<texture src="HOB_wringer_corner/weight" />
+			</object>		
+			<object name="%凉鞋%">
+				<position x="440" y="135" z="0" />
+				<texture src="HOB_wringer_corner/sandal" />
+			</object>
+		</group2>
+<!-- dif_1-->
+		<group3>
+			<object name="%铁砧%">
+				<position x="316" y="20" z="0" />
+				<texture src="HOB_wringer_corner/anvil" />
+			</object>
+			<object name="%拍打器%">
+				<position x="582" y="172" z="0" />
+				<texture src="HOB_wringer_corner/beater" />
+			</object>
+			<object name="%烫斗%">
+				<position x="862" y="26" z="0" />
+				<texture src="HOB_wringer_corner/iron" />
+			</object>
+			<object name="%蓝莓%">
+				<position x="268" y="335" z="0" />
+				<texture src="HOB_wringer_corner/bilberry" />
+			</object>
+			<object name="%书%">
+				<position x="174" y="542" z="0" />
+				<texture src="HOB_wringer_corner/book" />
+			</object>
+			<object name="%鸟笼%">
+				<position x="0" y="445" z="-5" />
+				<texture src="HOB_wringer_corner/cage" />
+			</object>
+			<object name="%甘菊%">
+				<position x="154" y="265" z="0" />
+				<texture src="HOB_wringer_corner/camomile" />
+			</object>
+			<object name="%毛毛虫%">
+				<position x="786" y="244" z="0" />
+				<texture src="HOB_wringer_corner/caterpillar" />
+			</object>
+			<object name="%衣夹%">
+				<position x="575" y="402" z="0" />
+				<texture src="HOB_wringer_corner/clothes_peg" />
+			</object>
+			<object name="%蛛网%">
+				<position x="883" y="518" z="-5" />
+				<texture src="HOB_wringer_corner/cobweb" />
+			</object>
+			<object name="%发刷%">
+				<position x="567" y="547" z="0" />
+				<texture src="HOB_wringer_corner/comb" />
+			</object>
+			<object name="%飞镖%">
+				<position x="368" y="174" z="0" />
+				<texture src="HOB_wringer_corner/dart" />
+			</object>
+			<object name="%色子%">
+				<position x="362" y="574" z="0" />
+				<texture src="HOB_wringer_corner/dice" />
+			</object>
+			<object name="%蜻蜓%">
+				<position x="423" y="36" z="0" />
+				<texture src="HOB_wringer_corner/dragonfly" />
+			</object>
+
+			<object name="%羊头骨%">
+				<position x="215" y="327" z="0" />
+				<texture src="HOB_wringer_corner/goat_skull" />
+			</object>
+			<object name="%马%">
+				<position x="840" y="389" z="-5" />
+				<texture src="HOB_wringer_corner/horse_statue" />
+			</object>	
+			<object name="%水壶%">
+				<position x="947" y="65" z="-5" />
+				<texture src="HOB_wringer_corner/kettle" />
+			</object>
+			<object name="%瓢虫%">
+				<position x="791" y="195" z="0" />
+				<texture src="HOB_wringer_corner/ladybird" />
+			</object>
+			<object name="%蜥蜴%">
+				<position x="662" y="280" z="0" />
+				<texture src="HOB_wringer_corner/lizard" />
+			</object>
+			<object name="%蝗虫%">
+				<position x="508" y="216" z="0" />
+				<texture src="HOB_wringer_corner/locust" />
+			</object>
+			<object name="%蚊子%">
+				<position x="460" y="347" z="-5" />
+				<texture src="HOB_wringer_corner/mosquito" />
+			</object>
+			<object name="%猫头鹰%">
+				<position x="864" y="179" z="0" />
+				<texture src="HOB_wringer_corner/owl" />
+			</object>
+			<object name="%挂锁%">
+				<position x="161" y="325" z="-5" />
+				<texture src="HOB_wringer_corner/padlock" />
+			</object>
+			<object name="%羽毛%">
+				<position x="106" y="50" z="0" />
+				<texture src="HOB_wringer_corner/pen" />
+			</object>
+			<object name="%枕头%">
+				<position x="167" y="442" z="-5" />
+				<texture src="HOB_wringer_corner/pillow" />
+			</object>
+			<object name="%手枪%">
+				<position x="661" y="554" z="0" />
+				<texture src="HOB_wringer_corner/pistol" />
+			</object>
+			<object name="%胸骨%">
+				<position x="690" y="409" z="-6" />
+				<texture src="HOB_wringer_corner/riffling" />
+			</object>
+			<object name="%戒指%">
+				<position x="858" y="349" z="0" />
+				<texture src="HOB_wringer_corner/ring" />
+			</object>
+			<object name="%圣甲虫%">
+				<position x="607" y="353" z="0" />
+				<texture src="HOB_wringer_corner/scarab" />
+			</object>
+			<object name="%贝壳%">
+				<position x="64" y="250" z="0" />
+				<texture src="HOB_wringer_corner/shell" />
+			</object>
+			<object name="%船%">
+				<position x="925" y="-10" z="0" />
+				<texture src="HOB_wringer_corner/ship_in_bottle" />
+			</object>
+			<object name="%筛子%">
+				<position x="0" y="0" z="-5" />
+				<texture src="HOB_wringer_corner/sieve" />
+			</object>
+			<object name="%短袜%">
+				<position x="4" y="120" z="0" />
+				<texture src="HOB_wringer_corner/sock" />
+			</object>
+			<object name="%鱿鱼%">
+				<position x="643" y="141" z="0" />
+				<texture src="HOB_wringer_corner/squid" />
+			</object>
+			<object name="%单筒望远镜%">
+				<position x="820" y="446" z="0" />
+				<texture src="HOB_wringer_corner/telescope" />
+			</object>
+			<object name="%捕兽夹%">
+				<position x="896" y="383" z="0" />
+				<texture src="HOB_wringer_corner/trap" />
+			</object>
+		</group3>
+<!-- dif_2-->			
+		<group4>		
+			<object name="%螺丝刀%">
+				<position x="886" y="245" z="-5" />
+				<texture src="HOB_wringer_corner/screwdriver" />
+			</object>		
+			<object name="%弹簧%">
+				<position x="908" y="281" z="0" />
+				<texture src="HOB_wringer_corner/spring" />
+			</object>		
+			<object name="%蚂蚁%">
+				<position x="575" y="511" z="0" />
+				<texture src="HOB_wringer_corner/ant" />
+			</object>		
+			<object name="%响尾蛇%">
+				<position x="710" y="0" z="0" />
+				<texture src="HOB_wringer_corner/rattlesnake" />
+			</object>	
+			<object name="%牙%">
+				<position x="830" y="86" z="0" />
+				<texture src="HOB_wringer_corner/tooth" />
+			</object>		
+			<object name="%风箱%">
+				<position x="666" y="357" z="0" />
+				<texture src="HOB_wringer_corner/bellows" />
+			</object>		
+			<object name="%鹿角虫%">
+				<position x="490" y="542" z="0" />
+				<texture src="HOB_wringer_corner/stag_beetle" />
+			</object>		
+			<object name="%胡椒%">
+				<position x="343" y="314" z="0" />
+				<texture src="HOB_wringer_corner/pepper" />
+			</object>		
+			<object name="%手推车%">
+				<position x="527" y="0" z="0" />
+				<texture src="HOB_wringer_corner/hand_cart" />
+			</object>				
+		</group4>		
+	</groups>
+	
+	<rounds>
+		<round0
+			congratulations="%非常好!\n\n你找到了一面镜子.\n也许以后会有用.%"
+			congratulations_image="/inventory/mirror"		
+			script_complete="HOB_wringer_corner/complete_round0"
+		>
+			<slot00 group="group0" object="%镜子%" />
+			<slot01 group="group1" />
+			<slot02 group="group2" />
+			<slot03 group="group2" />
+			<slot04 group="group4" />
+			<slot05 group="group2" />
+			<slot06 group="group3" />
+			<slot07 group="group3" />
+			<slot08 group="group4" />
+			<slot09 group="group2" />
+			<slot10 group="group2" />
+			<slot11 group="group2" />
+		</round0>
+		<round1
+			congratulations="%非常好!\n\n你找到了一块磁铁.\n也许以后会有用.%"
+			congratulations_image="/inventory/magnet"
+			script_complete="HOB_wringer_corner/complete_round1"
+		>
+			<slot00 group="group0" object="%磁铁%" />
+			<slot01 group="group2" />
+			<slot02 group="group2" />
+			<slot03 group="group3" />
+			<slot04 group="group2" />
+			<slot05 group="group2" />
+			<slot06 group="group1" />
+			<slot07 group="group4" />
+			<slot08 group="group3" />
+			<slot09 group="group3" />
+			<slot10 group="group4" />
+			<slot11 group="group2" />
+		</round1>
+		<round2
+			congratulations="%非常好!\n\n你找到了一个球.\n也许以后会有用.%"
+			congratulations_image="/inventory/ball"
+			script_complete="HOB_wringer_corner/complete_round2"
+		>
+			<slot00 group="group0" object="%球%" />
+			<slot01 group="group2" />
+			<slot02 group="group3" />
+			<slot03 group="group3" />
+			<slot04 group="group4" />
+			<slot05 group="group3" />
+			<slot06 group="group2" />
+			<slot07 group="group4" />
+			<slot08 group="group3" />
+			<slot09 group="group4" />
+			<slot10 group="group1" />
+			<slot11 group="group2" />
+		</round2>
+	</rounds>
+	
+	<environment>
+		<object>
+			<position x="0" y="0" z="10" />
+			<texture src="HOB_wringer_corner/background" />
+			<size width="1024" height="768" />
+		</object>
+	</environment>
+	
+</hob>

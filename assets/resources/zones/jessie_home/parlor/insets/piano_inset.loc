@@ -1,0 +1,19 @@
+<location stripcode="0701">
+	<objects>
+		<object name="back">
+			<texture src="/common/half_dark" />
+			<size width="1024" height="768" />
+			<script src="piano_inset/back" />
+		</object>
+		<object name="inset">
+			<position x="314" y="147" z="-10" />
+			<texture src="piano_inset/piano_closed" />
+			<script src="piano_inset/inset" />
+		</object>
+		<object name="matches">
+			<position x="430" y="415" z="-20" />
+			<texture src="piano_inset/matches/matches" />
+			<script src="piano_inset/matches/matches" />
+		</object>
+	</objects>
+</location>

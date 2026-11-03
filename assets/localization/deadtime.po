@@ -1,0 +1,2736 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Deadtime Stories\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: Yuriy Miroshnyk <y.miroshnyk@nikitova.com>\n"
+"Language-Team: Nikitova\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: Russian\n"
+"X-Poedit-Country: UKRAINE\n"
+"X-Poedit-SourceCharset: iso-8859-1\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: ../../resources\n"
+
+msgid "...一个水果掉了下来."
+msgstr ""
+
+msgid "2只白鸽"
+msgstr ""
+
+msgid "刷子! 我得拿上它."
+msgstr ""
+
+msgid "一把钥匙!"
+msgstr ""
+
+msgid "一个名字显现了! 上面写着 'Bessie'."
+msgstr ""
+
+msgid "这里写着一个名字 - Chance."
+msgstr ""
+
+msgid "这里写着一个名字 - Elijah."
+msgstr ""
+
+msgid "这里写着一个名字 - Esther."
+msgstr ""
+
+msgid "这里写着一个名字 - Ezra."
+msgstr ""
+
+msgid "钟表里写着一个名字 - Nathan."
+msgstr ""
+
+msgid "一滩血. 不难相信这周围有鬼魂."
+msgstr ""
+
+msgid "你出现了幻觉. 你看到一阵狂风吹翻了油灯..."
+msgstr ""
+
+msgid "乌头"
+msgstr ""
+
+msgid "阿德莱德: 如果我不按她说的把你带去, 我会有大麻烦的!"
+msgstr ""
+
+msgid "阿德莱德: 你是博德恩女士吗?"
+msgstr ""
+
+msgid "阿德莱德: 我的女主人拉洛瑞夫人, 让你马上去一趟."
+msgstr ""
+
+msgid "阿德莱德: 哦不! 求你了!"
+msgstr ""
+
+msgid "阿德莱德: 谢谢你, 博德恩女士!"
+msgstr ""
+
+msgid "阿德莱德: 是的, 女士. 现在你最好快点."
+msgstr ""
+
+msgid "碎片A"
+msgstr ""
+
+msgid "酒精"
+msgstr ""
+
+msgid "铵"
+msgstr ""
+
+msgid "苹果"
+msgstr ""
+
+msgid "骨灰桶"
+msgstr ""
+
+msgid "阿斯匹林"
+msgstr ""
+
+msgid "阿斯匹林粉末"
+msgstr ""
+
+msgid "呃 - 这条鳄鱼看起来很悲伤. 它想要什么?"
+msgstr ""
+
+msgid "娃娃"
+msgstr ""
+
+msgid "没头的娃娃"
+msgstr ""
+
+msgid "小苏打"
+msgstr ""
+
+msgid "球"
+msgstr ""
+
+msgid "驱逐幽灵护身符"
+msgstr ""
+
+msgid "碎片B"
+msgstr ""
+
+msgid "贝拉: 我不能这么做! 我不会再给安东夫人那种不好的药了!"
+msgstr ""
+
+msgid "贝拉: 我真的不能!"
+msgstr ""
+
+msgid "贝拉: 我发誓."
+msgstr ""
+
+msgid "贝拉: 不, 求你了! 我... 我会按你说的去做..."
+msgstr ""
+
+msgid "贝拉: 哦! 苏珊! 她喜欢我的威廉. 她跟你要魔药了?"
+msgstr ""
+
+msgid "贝拉: 她一直对我很好, 而且她现在病得很厉害!"
+msgstr ""
+
+msgid "颠茄"
+msgstr ""
+
+msgid "望远镜"
+msgstr ""
+
+msgid "血"
+msgstr ""
+
+msgid "流血的桔子"
+msgstr ""
+
+msgid "缠着水蛭的流血的桔子"
+msgstr ""
+
+msgid "蓝色变色龙"
+msgstr ""
+
+msgid "艇勾"
+msgstr ""
+
+msgid "瓶子"
+msgstr ""
+
+msgid "一瓶月光"
+msgstr ""
+
+msgid "朗姆酒"
+msgstr ""
+
+msgid "刷子"
+msgstr ""
+
+msgid "水桶"
+msgstr ""
+
+msgid "鸟笼"
+msgstr ""
+
+msgid "Can"
+msgstr ""
+
+msgid "Chloral"
+msgstr ""
+
+msgid "Chloroform"
+msgstr ""
+
+msgid "Clippers"
+msgstr ""
+
+msgid "Clock Hands"
+msgstr ""
+
+msgid "克洛: 但是你真的不能为我可怜的侄女贝特西做些什么吗?"
+msgstr ""
+
+msgid "克洛: 我可不能自己去拿给她."
+msgstr ""
+
+msgid "克洛: 不知道为什么没人对那个女人采取点措施."
+msgstr ""
+
+msgid "克洛: 方圆100英里以内的仆人们都知道她是个恶魔!"
+msgstr ""
+
+msgid "克洛: 我明白了, 博德恩女士."
+msgstr ""
+
+msgid "克洛: 哦, 贝特西. 可怜, 可怜的贝特西..."
+msgstr ""
+
+msgid "克洛: 他们说戴尔芬·拉洛瑞, 在早餐的时候吃人的肝脏."
+msgstr ""
+
+msgid "克洛: 他们把她卖到了可怕的拉洛瑞家."
+msgstr ""
+
+msgid "Clove"
+msgstr ""
+
+msgid "Cobble"
+msgstr ""
+
+msgid "Coconut"
+msgstr ""
+
+msgid "Coin"
+msgstr ""
+
+msgid ""
+"Congratulations!\n"
+"You have completed all the adventures available in Beta Test edition of Deadtime Stories.\n"
+"\n"
+"Please come back and join Jessie and Edward in the Spirit World of New Orlean once the game is out in April."
+msgstr ""
+
+msgid "戴尔芬: ...想想吧, 她那些昂贵的巴黎礼服."
+msgstr ""
+
+msgid "戴尔芬: 但是我怎么知道安东夫人的病是否跟你做的事有关系?"
+msgstr ""
+
+msgid "戴尔芬: 不要用那种语气跟我说话!!!"
+msgstr ""
+
+msgid "戴尔芬: 很好. 现在我要说的是关于一位女士, 安东夫人..."
+msgstr ""
+
+msgid "戴尔芬: 非常感谢你能来, 杰西女士. 从现在起我所说的每一件事都只限于我们两个人知道, 好吗?"
+msgstr ""
+
+msgid "戴尔芬: 我想是的. 但是最好能让她一直休息下去."
+msgstr ""
+
+msgid "戴尔芬: 如果她没有出现在任何一个派对上."
+msgstr ""
+
+msgid "戴尔芬: 现在马上离开, 否则我会控告你!"
+msgstr ""
+
+msgid "戴尔芬: 哦, 太不公平了! 为什么她总是受到所有最好派对的邀请?"
+msgstr ""
+
+msgid "戴尔芬: 她是从纽约来的, 这种局面完全是她自己造成的..."
+msgstr ""
+
+msgid "戴尔芬: 这太疯狂了!"
+msgstr ""
+
+msgid "戴尔芬: 我付给你的25美元, 已经足够了."
+msgstr ""
+
+msgid "戴尔芬: 等等... 我... 我可以现在付你25美元其余的等事情办完再付."
+msgstr ""
+
+msgid "戴尔芬: 如果我付这么一大笔钱给一个巫毒女巫, 那我不成了傻瓜吗?"
+msgstr ""
+
+msgid "戴尔芬: 你说的没错."
+msgstr ""
+
+msgid "戴尔芬: 做什么, 我想让你诅咒她! 我才不关心她的死活!"
+msgstr ""
+
+msgid "戴尔芬: 也许, 她只是有些消化不良."
+msgstr ""
+
+msgid "凌霄花"
+msgstr ""
+
+msgid "泥土"
+msgstr ""
+
+msgid "Doctor: 我肯定这里有什么东西能帮助她... 在我不知道安东夫人出了什么问题时, 怎么能治好她呢?"
+msgstr ""
+
+msgid "Doll Head"
+msgstr ""
+
+msgid "Door Bell"
+msgstr ""
+
+msgid "Dress"
+msgstr ""
+
+msgid "干花. 杰西肯定是个植物学家."
+msgstr ""
+
+msgid "爱德华: ...如果她能坚持自己独特的非魔法天性."
+msgstr ""
+
+msgid "爱德华: 一个星期后, 一艘客舱在纽约港起火, 所有乘客全部遇难."
+msgstr ""
+
+msgid "爱德华: 啊, 我一直在期待着你..."
+msgstr ""
+
+msgid "爱德华: 至于杰西·博德恩, 她的小房子也在10年后付之一炬.."
+msgstr ""
+
+msgid "爱德华: 我设计了每一尊雕像, 每一朵花... 每一座坟墓."
+msgstr ""
+
+msgid "爱德华: 我是爱德华·布莱克盖特. 请进，朋友. 欢迎..."
+msgstr ""
+
+msgid "爱德华: 我是爱德华·布莱克盖特. 晚安."
+msgstr ""
+
+msgid "爱德华: 杰西是对的. 火焰找到了戴尔芬·拉洛瑞."
+msgstr ""
+
+msgid "爱德华: 下次再来光临我们的故事宝库吧."
+msgstr ""
+
+msgid "爱德华: 就是这样, 我很确定, 你选择了自己的路."
+msgstr ""
+
+msgid "爱德华: 曼波•玛丽警告过, 洛阿会执行他自己的判决."
+msgstr ""
+
+msgid "爱德华: 她是一个积极进取的女人,　也许她会越来越成功..."
+msgstr ""
+
+msgid "爱德华: 嘘! 死者的声音都很轻柔..."
+msgstr ""
+
+msgid "爱德华: 去找杰西·博德恩, 她是一位来自新奥尔良的巫毒女王.."
+msgstr ""
+
+msgid "爱德华: 这里是死者的天堂，被称为'来世'."
+msgstr ""
+
+msgid "爱德华: 那些东西里埋藏着一个故事... 一个奇特的, 绝无仅有的故事."
+msgstr ""
+
+msgid "爱德华: 如果你仔细听, 可以听到杰西的故事."
+msgstr ""
+
+msgid "爱德华: 你也可以说它是我的杰作."
+msgstr ""
+
+msgid "Empty Bottle"
+msgstr ""
+
+msgid "Empty Jug"
+msgstr ""
+
+msgid "Empty Packet"
+msgstr ""
+
+msgid "Empty Paint Can"
+msgstr ""
+
+msgid "Empty Vial"
+msgstr ""
+
+msgid "Envenomed Apple"
+msgstr ""
+
+msgid "Ephphata Piece"
+msgstr ""
+
+msgid "Ethyl Ether"
+msgstr ""
+
+msgid "收集眼泪的所有东西都放好了."
+msgstr ""
+
+msgid ""
+"非常好!\n"
+"\n"
+"你找到了一个球.\n"
+"It may be useful later."
+msgstr ""
+
+msgid ""
+"Excellent!\n"
+"\n"
+"You have picked up a blue string.\n"
+" Use it for making a voodoo doll."
+msgstr ""
+
+msgid ""
+"Excellent!\n"
+"\n"
+"You have picked up a doll without head.\n"
+"It may be useful later."
+msgstr ""
+
+msgid ""
+"Excellent!\n"
+"\n"
+"You have picked up a hairbrush with a piece of Mrs. LaLaurie's hair.\n"
+"It may be useful later."
+msgstr ""
+
+msgid ""
+"Excellent!\n"
+"\n"
+"You have picked up a lollipop.\n"
+"It may be useful later."
+msgstr ""
+
+msgid ""
+"Excellent!\n"
+"\n"
+"You have picked up a magnet.\n"
+"It may be useful later."
+msgstr ""
+
+msgid ""
+"Excellent!\n"
+"\n"
+"You have picked up a mirror.\n"
+"It may be useful later."
+msgstr ""
+
+msgid ""
+"Excellent!\n"
+"\n"
+"You have picked up a muslin bandage.\n"
+"It may be useful later."
+msgstr ""
+
+msgid ""
+"Excellent!\n"
+"\n"
+"You have picked up a piece of Mrs. LaLaurie's dress.\n"
+"It may be useful later."
+msgstr ""
+
+msgid ""
+"Excellent!\n"
+"\n"
+"You have picked up a rope.\n"
+"It may be useful later."
+msgstr ""
+
+msgid ""
+"Excellent!\n"
+"\n"
+"You have picked up a trumpet.\n"
+"It may be useful later."
+msgstr ""
+
+msgid ""
+"Excellent!\n"
+"\n"
+"You have picked up an item.\n"
+"It may be useful later."
+msgstr ""
+
+msgid ""
+"Excellent!\n"
+"\n"
+"You have picked up aspirin powder.\n"
+"It may be useful later."
+msgstr ""
+
+msgid ""
+"Excellent!\n"
+"\n"
+"You have picked up baking soda.\n"
+"It may be useful later."
+msgstr ""
+
+msgid ""
+"Excellent!\n"
+"\n"
+"You have picked up iodine.\n"
+"It may be useful later."
+msgstr ""
+
+msgid ""
+"Excellent!\n"
+"\n"
+"You have picked up metal cutters.\n"
+"They may be useful later."
+msgstr ""
+
+msgid ""
+"Excellent!\n"
+"\n"
+"You have picked up some sulfur.\n"
+"It may be useful later."
+msgstr ""
+
+msgid ""
+"Excellent!\n"
+"\n"
+"You have picked up two buttons.\n"
+"They may be useful later."
+msgstr ""
+
+msgid "Feather"
+msgstr ""
+
+msgid "行了, 现在我可以去门廊了."
+msgstr ""
+
+msgid "第一位先生: 我跑到了阁楼上, 确保所有的仆人都逃出去了."
+msgstr ""
+
+msgid "第一位先生:: 我在那里看到的真是... 太恐怖了!"
+msgstr ""
+
+msgid "Fish"
+msgstr ""
+
+msgid "不要忘记我们? 忘记谁?"
+msgstr ""
+
+msgid "新鲜的泥土... 好像有什么东西埋在这里."
+msgstr ""
+
+msgid "Garlic"
+msgstr ""
+
+msgid "Gate Cube"
+msgstr ""
+
+msgid "Glue"
+msgstr ""
+
+msgid "Graveyard Ash"
+msgstr ""
+
+msgid "Grease Cleaning Mixture"
+msgstr ""
+
+msgid "太棒了! 我找到了一个油壶."
+msgstr ""
+
+msgid "太棒了! 我找到了一把钥匙."
+msgstr ""
+
+msgid "太棒了! 我找到了胶水."
+msgstr ""
+
+msgid "太好了! 这是门上装置的一部分."
+msgstr ""
+
+msgid "太好了! 这个方块好像很合适, 但是我还需要另外一块."
+msgstr ""
+
+msgid "Hair"
+msgstr ""
+
+msgid "Harrahya Piece"
+msgstr ""
+
+msgid "Head of Garlic"
+msgstr ""
+
+msgid "在这里, 黄精!"
+msgstr ""
+
+msgid "过来, 小猫咪..."
+msgstr ""
+
+msgid "这里... 这个可能会有用."
+msgstr ""
+
+msgid "嘿! 等等! 我猜这个小家伙很害羞. 我可以用什么东西把它引出来."
+msgstr ""
+
+msgid "Hey, little guy... Want a nice, ripe mango?"
+msgstr ""
+
+msgid "Holy Water"
+msgstr ""
+
+msgid "Horseshoe"
+msgstr ""
+
+msgid "嗯. 我可以找到更合适的东西把水装进去."
+msgstr ""
+
+msgid "我打破了灯. 希望没人会在意"
+msgstr ""
+
+msgid "我不能用这个来装骨灰."
+msgstr ""
+
+msgid "我不能用这个捉住蓝色的猫."
+msgstr ""
+
+msgid "我不能用这个来收集血液."
+msgstr ""
+
+msgid "我不能这样收集圣徒的眼泪."
+msgstr ""
+
+msgid "我不能把火点燃 - 这里没有木头."
+msgstr ""
+
+msgid "在它能正常使用前我不能点燃油灯. 它还缺少些东西."
+msgstr ""
+
+msgid "我不能用这个点燃油灯."
+msgstr ""
+
+msgid "我不能用这个够到娃娃."
+msgstr ""
+
+msgid "我不能在鸟身上使用这个!"
+msgstr ""
+
+msgid "我可以使用那个娃娃头, 但是没有帮助我够不到它."
+msgstr ""
+
+msgid "我不需要另外一个芒果了."
+msgstr ""
+
+msgid "我不再需要骨灰了."
+msgstr ""
+
+msgid "我现在不需要水."
+msgstr ""
+
+msgid "我要制作的法术不需要那种植物. But something I do need may be in this clump."
+msgstr ""
+
+msgid "我不需要干花."
+msgstr ""
+
+msgid "我不需要把船再划出去了."
+msgstr ""
+
+msgid "我不是专家, 无法辨别出那些植物. 也许这周围有什么东西能帮助我分辨植物."
+msgstr ""
+
+msgid "我不是专家, 无法辨别出那些植物. 也许这周围有什么东西能帮助我分辨植物."
+msgstr ""
+
+msgid "我找到了法术需要的凌霄花."
+msgstr ""
+
+msgid "我捉住了!"
+msgstr ""
+
+msgid "我已经在瓶子里收集了足够的法术用的眼泪."
+msgstr ""
+
+msgid "我有了幽灵显形法术! 魔法书上说 '将混合剂涂抹到空气中' 找到幽灵. 我想我可以猜出大概的位置."
+msgstr ""
+
+msgid "我已经有了幽灵显形剂, 但是我还需要一支画笔."
+msgstr ""
+
+msgid "我需要一根灯芯"
+msgstr ""
+
+msgid "我需要一根灯芯."
+msgstr ""
+
+msgid "我得想办法把眼泪收集起来. 我不想浪费它."
+msgstr ""
+
+msgid "我需要什么东西把花剪下来."
+msgstr ""
+
+msgid "我需要什么东西剪断坚硬的茎."
+msgstr ""
+
+msgid "我需要什么东西把蜡烛点燃."
+msgstr ""
+
+msgid "我需要什么东西来装水."
+msgstr ""
+
+msgid "我需要防风的灯. 蜡烛没用."
+msgstr ""
+
+msgid "我用瓶子接了三滴. 呃!"
+msgstr ""
+
+msgid "我移开了井上的幽灵锁. 我不认为它还会闹鬼."
+msgstr ""
+
+msgid "我应该把蓝变色龙放在这里!"
+msgstr ""
+
+msgid "我想我从骨髓轮盘里拿到的钥匙可以打开这个箱子."
+msgstr ""
+
+msgid "我想在灯的后面写着什么, 但是我从这里看不清楚."
+msgstr ""
+
+msgid "我很想进去, 但是门锁着. 我需要钥匙."
+msgstr ""
+
+msgid "我可以用桶装一些骨灰."
+msgstr ""
+
+msgid "我得拿着这个. 火柴也许会有用."
+msgstr ""
+
+msgid "Intricately Shaped Brass Plate"
+msgstr ""
+
+msgid "Iodine"
+msgstr ""
+
+msgid "Ipecac"
+msgstr ""
+
+msgid "没有油了."
+msgstr ""
+
+msgid "似乎有什么东西在底部烧成了这些字!"
+msgstr ""
+
+msgid "看来这个幽灵满意了."
+msgstr ""
+
+msgid "把这个放在轮子上没有任何帮助!"
+msgstr ""
+
+msgid "这是一本介绍植物的书. 我应该拿上它."
+msgstr ""
+
+msgid "一盏油灯, 但是它还缺少几件东西. "
+msgstr ""
+
+msgid "一盏油灯, 但是它还缺少几件东西. 我不知道这是不是我应该 '点燃火花'的地方?"
+msgstr ""
+
+msgid "一个水泵, 但是把手不见了."
+msgstr ""
+
+msgid "这是血! 我需要几滴来制作法术, 但是我用什么来装呢?"
+msgstr ""
+
+msgid "锁着! 门把手在哪?"
+msgstr ""
+
+msgid "杰西说我应该把光线反射在镜子上. 但是怎么做呢?"
+msgstr ""
+
+msgid "杰西想了想..."
+msgstr ""
+
+msgid "杰西给安东夫人下了乌头. 也许我可以制作出解毒剂. 我得把配方记在魔法书里."
+msgstr ""
+
+msgid "杰西: ...再站在那抱怨了."
+msgstr ""
+
+msgid "杰西: 那好吧. 我想我必须把苏珊·怀特斯跟我要的爱情魔药给她了."
+msgstr ""
+
+msgid "杰西: 而且我们有约定 - 我医治你的妈妈另她解除痛苦."
+msgstr ""
+
+msgid "杰西: 我干嘛要快点?"
+msgstr ""
+
+msgid "杰西: 随你的便."
+msgstr ""
+
+msgid "杰西: 丹伯拉, 为我复仇!"
+msgstr ""
+
+msgid "杰西: 戴尔芬·拉洛瑞?"
+msgstr ""
+
+msgid "杰西: 害人是有风险的工作."
+msgstr ""
+
+msgid "杰西: 别看着我! 我可不是到处诅咒别人的人."
+msgstr ""
+
+msgid "杰西: 安静点, 孩子!"
+msgstr ""
+
+msgid "杰西: 我真希望她会拒绝我. 她是个蛇蝎心肠的女人."
+msgstr ""
+
+msgid "杰西: 我做到了我的承诺. 这个季节已经结束了, 而安东夫人一次派对也没参加."
+msgstr ""
+
+msgid "杰西: 我不是给过你一个圣约翰的保护根吗."
+msgstr ""
+
+msgid "杰西: 我认识一个女仆."
+msgstr ""
+
+msgid "杰西: 我猜她有生意要做."
+msgstr ""
+
+msgid ""
+"Jessie: I was so angry. The things that I did -- the way I made Mrs. Anton suffer. Then I never even got paid for it! If anyone deserved a curse, it was Delphine LaLaurie. The Loa had to be on my side!\n"
+"Jessie: I made up my mind to cast the worse curse I'd ever heard of. I would call upon Damballah and invoke the Curse of Fire.\n"
+"Jessie: You can find it here, in this shop... As I did. Find the curse. Find the curse."
+msgstr ""
+
+msgid "杰西: 我想过要用腹蛇诅咒."
+msgstr ""
+
+msgid "杰西: 我会把你的秘密带进坟墓的."
+msgstr ""
+
+msgid "杰西: 如果这位女士生病就不能去参加派对了, 对吗?"
+msgstr ""
+
+msgid "杰西: 房子上写着呢, 不是吗? 你想要什么?"
+msgstr ""
+
+msgid "杰西: 只要在三点的时候往她的茶里放一小撮. 你发誓!"
+msgstr ""
+
+msgid "杰西: 现在你听着, 贝拉."
+msgstr ""
+
+msgid "Jessie: Oh, this fearsome place! So much wickedness went on here. You listen now. There are 8 ghosts trapped here, sorrow-bound. Use my Reveal Spirits spell to find 'em. They'll help you get into the gazebo. Quickly!%\")"
+msgstr ""
+
+msgid "杰西: 跑吧, 戴尔芬! 火焰, 它们会找到你的."
+msgstr ""
+
+msgid ""
+"Jessie: See that mirror near the windows? \n"
+"Somethin' that happened right here in \n"
+"this room is trapped in there. \n"
+"The spirits are blockin' the glass. \n"
+"But, listen now, you cast daylight on the mirror \n"
+"and they'll flee for sure. \n"
+"Daylight. Remember."
+msgstr ""
+
+msgid "杰西: 是的. 我告诉她不行. 但是我认为, 也许我们并不是朋友."
+msgstr ""
+
+msgid "杰西: 成交."
+msgstr ""
+
+msgid "杰西: 现在说吧."
+msgstr ""
+
+msgid "杰西: 那就最好. 这是药."
+msgstr ""
+
+msgid "杰西: 那是危险的工作. 要付出很大的代价."
+msgstr ""
+
+msgid "杰西: 价钱是150美元."
+msgstr ""
+
+msgid "杰西: 那么你应该按我们约定的, 付给我125美元."
+msgstr ""
+
+msgid "杰西: 乱嚼舌头!"
+msgstr ""
+
+msgid "杰西: 好吧, 看在钱的份上. 我去拿我的披肩."
+msgstr ""
+
+msgid "杰西: 你想让我做什么?"
+msgstr ""
+
+msgid "杰西: 你背叛了我, 戴尔芬·拉洛瑞. 你会后悔的..."
+msgstr ""
+
+msgid "Jessie: You freed all the spirits! Hurry now -- put the pieces they gave you into the lock. Turn it three times and say 'Holy, holy, holy, set the captives free.'"
+msgstr ""
+
+msgid "杰西: 你向我保证过."
+msgstr ""
+
+msgid "杰西: 你要在午夜时煮茶, 就像我教你的那样..."
+msgstr ""
+
+msgid "杰西: 你对安东夫人来说什么都不是, 还不如一只跳蚤!"
+msgstr ""
+
+msgid "杰西: 你是对的. 那就用药物, 这种伎俩也一样..."
+msgstr ""
+
+msgid ""
+"Jessie:That's Mrs. Anton's house over there. And this is the pharmacy, right next door. You look around, you'll see how those three months passed by.\n"
+"Jessie: I didn't think too much about what I was doing. I was paid for a job and I did it. Judge for yourself if I fulfilled MY side of the bargain!"
+msgstr ""
+
+msgid "Jug of Water"
+msgstr ""
+
+msgid "Kedavra Piece"
+msgstr ""
+
+msgid "Key"
+msgstr ""
+
+msgid "Knob"
+msgstr ""
+
+msgid "Lamp"
+msgstr ""
+
+msgid "Lantern Glass"
+msgstr ""
+
+msgid "Laudanum"
+msgstr ""
+
+msgid "Leeches"
+msgstr ""
+
+msgid "Lemon"
+msgstr ""
+
+msgid "Lily"
+msgstr ""
+
+msgid "Lipstick"
+msgstr ""
+
+msgid "Little Toy Trumpet"
+msgstr ""
+
+msgid "Lollipop"
+msgstr ""
+
+msgid "Magnet"
+msgstr ""
+
+msgid "曼波•玛丽: 还有, 除非你对那项工作没办法了, 否则千万不要召唤洛阿."
+msgstr ""
+
+msgid "曼波•玛丽: 我知道有一种药."
+msgstr ""
+
+msgid "曼波•玛丽: 给我张纸, 我把药的名字写下来..."
+msgstr ""
+
+msgid "曼波•玛丽: 这的确是个邪恶的工作. 你可别忘了!"
+msgstr ""
+
+msgid "曼波•玛丽: 杰西•博德恩! 千万不要想去诅咒那个女人."
+msgstr ""
+
+msgid "Mambo Marie: Look in the basket in the swamp. Oh, and if you see my blue anole, fetch him for me, will ya? Been gone for weeks now. Poor thing. Poor thing.%\")"
+msgstr ""
+
+msgid "曼波•玛丽: 让一个人病上三个月..."
+msgstr ""
+
+msgid "曼波•玛丽: 150美元! 的确是一大笔钱."
+msgstr ""
+
+msgid "曼波•玛丽: 他们可不管你是否应该受到惩罚."
+msgstr ""
+
+msgid "曼波•玛丽: 你需要有个人偷偷的潜入她的房子."
+msgstr ""
+
+msgid "Man's Shirt"
+msgstr ""
+
+msgid "Mango"
+msgstr ""
+
+msgid "Matba Piece"
+msgstr ""
+
+msgid "Matches"
+msgstr ""
+
+msgid "也许我好好跟它说, 那只鸟会把鱼给我? 不可能."
+msgstr ""
+
+msgid "Mercury"
+msgstr ""
+
+msgid "Metal Cutters"
+msgstr ""
+
+msgid "Mint"
+msgstr ""
+
+msgid "Mirror"
+msgstr ""
+
+msgid "Morphine"
+msgstr ""
+
+msgid "Moss"
+msgstr ""
+
+msgid "Mrs. Anton's Key"
+msgstr ""
+
+msgid "Mrs. Anton: I... I feel better. It doesn't hurt anymore! I'm free!"
+msgstr ""
+
+msgid "Mrs. LaLaurie's Hair"
+msgstr ""
+
+msgid "Mrs. LaLaurie's Lipstick"
+msgstr ""
+
+msgid "Mrs.Anton:<<weeping>>"
+msgstr ""
+
+msgid "Muslin Bandage"
+msgstr ""
+
+msgid "Needle"
+msgstr ""
+
+msgid "不, 这没用."
+msgstr ""
+
+msgid "不, 它对这个不感兴趣."
+msgstr ""
+
+msgid "现在我可以进入地窖了!"
+msgstr ""
+
+msgid "现在我可以点亮它了."
+msgstr ""
+
+msgid "现在我有了一个芒果, 也许可以把变色龙引出来."
+msgstr ""
+
+msgid "现在, 我可以去芒果树摘些芒果了!"
+msgstr ""
+
+msgid "现在, 我来找找被囚禁的幽灵在哪里!"
+msgstr ""
+
+msgid "现在, 方块已经放好了, 我可以打开门锁... 怎么开呢..."
+msgstr ""
+
+msgid "哦, 太可怕了! 这栋房子的命运是被烧毁吗? 它是怎么发生的?"
+msgstr ""
+
+msgid "Oil Can"
+msgstr ""
+
+msgid "Onion Flower"
+msgstr ""
+
+msgid "Orchid"
+msgstr ""
+
+msgid "Packet of Antidote"
+msgstr ""
+
+msgid ""
+"Pharmacist:A customer! I'm sorry -- I can't help you. The store is in complete disarray. I left simple instructions for how things should be arranged, but no one pays any attention!\n"
+"Pharmacist: I could help you if my shelves were in order. But right now I can't find anything. I'm sorry."
+msgstr ""
+
+msgid "Piano Key"
+msgstr ""
+
+msgid "Piece of Mrs. LaLaurie's Dress"
+msgstr ""
+
+msgid "Plate"
+msgstr ""
+
+msgid "Pump"
+msgstr ""
+
+msgid "Pump Handle"
+msgstr ""
+
+msgid "Quinine"
+msgstr ""
+
+msgid "Red Twine"
+msgstr ""
+
+msgid "Rope"
+msgstr ""
+
+msgid "Rum"
+msgstr ""
+
+msgid "Salt"
+msgstr ""
+
+msgid "Saw"
+msgstr ""
+
+msgid "第二位先生:: 传说是真的! 戴尔芬·拉洛瑞是凶手!"
+msgstr ""
+
+msgid ""
+"See that mirror near the windows? Somethin' that happened right here in this room is trapped in there. The spirits are blockin' the glass. But, listen now, you cast daylight on the mirror and they'll flee for sure. \n"
+"Daylight. Remember."
+msgstr ""
+
+msgid "Seeds"
+msgstr ""
+
+msgid "Selah Piece"
+msgstr ""
+
+msgid "Sewing Kit"
+msgstr ""
+
+msgid "她把口红扔向了凉亭. 我猜如果我需要用的话, 我会知道在哪里找到它的."
+msgstr ""
+
+msgid "Skull"
+msgstr ""
+
+msgid "Slingshot"
+msgstr ""
+
+msgid "Small Spade Without a Handle"
+msgstr ""
+
+msgid "Smoking Pipe"
+msgstr ""
+
+msgid "Solomon's Seal"
+msgstr ""
+
+msgid "那里写着什么, 但是我看不清楚."
+msgstr ""
+
+msgid "Something was growing here. If I water the soil, maybe the plants will come back."
+msgstr ""
+
+msgid "Spade"
+msgstr ""
+
+msgid "Spade Handle"
+msgstr ""
+
+msgid "Spirit Revealing Mixture"
+msgstr ""
+
+msgid "Spirits are blocking the gate.  Jessie said I need to find her spell book.  It has a spell to banish spirits."
+msgstr ""
+
+msgid "Sponge"
+msgstr ""
+
+msgid "String"
+msgstr ""
+
+msgid "Strychnine"
+msgstr ""
+
+msgid "Sulfur"
+msgstr ""
+
+msgid "Tablecloth"
+msgstr ""
+
+msgid "Tears of Saint"
+msgstr ""
+
+msgid "那条鳄鱼似乎对它不感兴趣."
+msgstr ""
+
+msgid "那条鳄鱼的头上好像有什么东西. 似乎是一顶帽子!"
+msgstr ""
+
+msgid "那条鳄鱼看上去有点疯狂. 你该怎样安抚一条疯狂的鳄鱼?"
+msgstr ""
+
+msgid "光线不太正常, 但它至少能让这个地方看起来欢快点."
+msgstr ""
+
+msgid "这个跟圣徒身上的阀门不合适."
+msgstr ""
+
+msgid "这不能打开巫毒箱子."
+msgstr ""
+
+msgid "那个娃娃头看起来另人毛骨悚然, 这是某种图腾吗?"
+msgstr ""
+
+msgid "That house almost seems alive. Is there someone moving around in there?"
+msgstr ""
+
+msgid "这件物品用起来有些笨拙."
+msgstr ""
+
+msgid "那条小船的帆不见了."
+msgstr ""
+
+msgid "这株植物看起来不像法术需要的任何一种."
+msgstr ""
+
+msgid "肯定是幽灵让茶保持着热度, 但是我不需要从里面拿什么了."
+msgstr ""
+
+msgid "那棵树看起来就像有生命! 多么邪恶的地方. 肯定闹鬼."
+msgstr ""
+
+msgid "那个轮子上有个奇怪形状的凹槽."
+msgstr ""
+
+msgid "这不能帮我看到钟表里写着的字!"
+msgstr ""
+
+msgid "这没用."
+msgstr ""
+
+msgid "那个钟表看上去很滑稽. 表针不见了."
+msgstr ""
+
+msgid "那个商人看上去骨瘦如柴. 我最好让他离开 - 但是怎么做呢?"
+msgstr ""
+
+msgid "那不是安东夫人家的钥匙."
+msgstr ""
+
+msgid "那条鳄鱼的牙很少!"
+msgstr ""
+
+msgid "火咒已经增加到魔法书里了."
+msgstr ""
+
+msgid "巫毒娃娃应该放在中间."
+msgstr ""
+
+msgid "The back of this picture says 'A clan of Cajuns so evil they now haunt the swamp as devils!'"
+msgstr ""
+
+msgid "铃铛非常合适. 也许现在我可以进去了?"
+msgstr ""
+
+msgid "鸟鸣叫着飞走了. 它把鱼和两根棍子扔在了地上."
+msgstr ""
+
+msgid "鸟抓住了一条鱼, 但它并没有吃掉. 也许它想留着晚一点再吃?"
+msgstr ""
+
+msgid "船带回了一个芒果... 我肯定用的上."
+msgstr ""
+
+msgid "The box won't open. It looks like there's a hexagonal piece missing from the top."
+msgstr ""
+
+msgid "The box won't open. It looks like there's a piece missing from the top."
+msgstr ""
+
+msgid "那个男孩飞走了, 留下了他的弹弓."
+msgstr ""
+
+msgid "水桶装着深深的, 黑色的水出现了..."
+msgstr ""
+
+msgid "水桶掉进了井里..."
+msgstr ""
+
+msgid "马车在这里! 现在我可以去拉洛瑞家了."
+msgstr ""
+
+msgid "门铃不见了"
+msgstr ""
+
+msgid "门铃不见了."
+msgstr ""
+
+msgid "门铃安好了. 我可以继续前时了."
+msgstr ""
+
+msgid "女孩带着她的娃娃飞走了."
+msgstr ""
+
+msgid "骨牌似乎没什么要说的了."
+msgstr ""
+
+msgid "戴尔芬·拉洛瑞和她丈夫的家. 杰西说这里是 '可怕的地方'. 这非常怪导."
+msgstr ""
+
+msgid "房子震动时大蒜掉在了地止. 也许我应该捡起来."
+msgstr ""
+
+msgid "房子被怀满仇恨的幽灵烧得颤抖着..."
+msgstr ""
+
+msgid "安东夫人家的钥匙从贝拉的口袋里滑了出来... 它掉进了水桶里!"
+msgstr ""
+
+msgid "安东夫人家的钥匙从贝拉的口袋里滑了出来... 它掉进了水桶里!"
+msgstr ""
+
+msgid "厨房里着火了, 火势不同寻常的迅速和灼热..."
+msgstr ""
+
+msgid "灯遮住了墙上的字. 也许可以想办法把它移开?"
+msgstr ""
+
+msgid "小船像是被施了魔法般的又漂回了你的面前."
+msgstr ""
+
+msgid "这个小鬼魂说他把球丢在了沼泽的某个地方, 并想让你去找到它."
+msgstr ""
+
+msgid "这个小鬼魂说她把娃娃丢在了沼泽的某个地方, 并想让你去找到它."
+msgstr ""
+
+msgid "炉子里全是骨灰. 我应该拿一些, 但是我需要东西来装."
+msgstr ""
+
+msgid "钢琴现在沉默了."
+msgstr ""
+
+msgid "钢琴盖锁着. 我很想打开它, 但是我需要钥匙."
+msgstr ""
+
+msgid "泵上写着 '挤压我'."
+msgstr ""
+
+msgid "圣徒流出了眼泪!"
+msgstr ""
+
+msgid "骷髅头现在沉默了."
+msgstr ""
+
+msgid "小船慢慢的划了出去, 像是被一只无形的手牵引着..."
+msgstr ""
+
+msgid "蛇咬了它! 真恶心. 现在苹果里充满了毒液."
+msgstr ""
+
+msgid "The snake is not ready to bite yet. But if I rile it up some, it may bite just about anything."
+msgstr ""
+
+msgid "The snake isn't interested in the apple. But if I rile it up some, it may bite just about anything."
+msgstr ""
+
+msgid "The snake struck at me! That is not very helpful. Maybe I can get it to bite something else."
+msgstr ""
+
+msgid "The spellbook says to brush the paint through the air. But I need to find a paint brush."
+msgstr ""
+
+msgid "幽灵现在自由了!"
+msgstr ""
+
+msgid "眼泪开始流进玻璃瓶."
+msgstr ""
+
+msgid "箱子锁着. 上面写着: 要打开巫毒箱子必须让骷髅头服从!"
+msgstr ""
+
+msgid "箱子锁着. 也许我可以找到钥匙, 或是把锁剪下来."
+msgstr ""
+
+msgid "瓶里装满了血液."
+msgstr ""
+
+msgid "幻象逐渐退去... 但是有什么东西被摇的掉了下来."
+msgstr ""
+
+msgid "门上还缺一些方块. 在我弄清门上说的是什么之前, 我得先找到方块."
+msgstr ""
+
+msgid "There are dried flowers stored here, but nothing I need for the spell."
+msgstr ""
+
+msgid "这里写着几个名字 - Joseph, Rainie 和 Alfonse."
+msgstr ""
+
+msgid ""
+"There is something about this red twine that seems important. \n"
+"I better hold onto it."
+msgstr ""
+
+msgid "这里就故事的一部分, 但是现在它只是一个房间."
+msgstr ""
+
+msgid "行了! 我收集到了眼泪."
+msgstr ""
+
+msgid "行了! 我收集到了眼泪."
+msgstr ""
+
+msgid "这里写着一个名字 Bessie."
+msgstr ""
+
+msgid "这里写着一个名字 Elfi."
+msgstr ""
+
+msgid "There's a valve on the side of this saint. What goes there?"
+msgstr ""
+
+msgid "There's nothing colder looking than an empty fireplace."
+msgstr ""
+
+msgid "茶杯里有什么东西. But I can't put my fingers in there - the tea is scalding hot!"
+msgstr ""
+
+msgid "There's something inside that splintered wood, but I can't get to it without a tool."
+msgstr ""
+
+msgid "There's something written inside the clock, but I can't see it from here."
+msgstr ""
+
+msgid "There. I've restored the wheel. Now what do I do with it?"
+msgstr ""
+
+msgid "These plants... they're almost alien. I'm definitely not in Kansas anymore!"
+msgstr ""
+
+msgid "This book identifies plants. That may come in handy with the weird species around here! I'll take it with me."
+msgstr ""
+
+msgid "这本书列出了毒药和相对应的解药. 我也许能做出解药, 但是我得先知道杰西给安东夫人下了什么药."
+msgstr ""
+
+msgid "这没用."
+msgstr ""
+
+msgid "这没用. 我需要找些东西在这里挖掘..."
+msgstr ""
+
+msgid "抽屉锁着. 也许这周围有钥匙."
+msgstr ""
+
+msgid "抽屉锁着. 也许这周围有钥匙."
+msgstr ""
+
+msgid "这是杰西的魔法书!"
+msgstr ""
+
+msgid "这是一朵百合花. 我应该用剪子把它剪下来."
+msgstr ""
+
+msgid "这是一株兰花. 我应该用剪子把它剪下来."
+msgstr ""
+
+msgid "这不是巫毒娃娃."
+msgstr ""
+
+msgid "这不是蓝变色龙."
+msgstr ""
+
+msgid "这不是毒药."
+msgstr ""
+
+msgid "这不是解毒剂."
+msgstr ""
+
+msgid "这不是钥匙."
+msgstr ""
+
+msgid "这不是他想要的."
+msgstr ""
+
+msgid "这不是她想要的."
+msgstr ""
+
+msgid "这件物品不合适."
+msgstr ""
+
+msgid "这件物品不合适."
+msgstr ""
+
+msgid "这个罐子也许会有用."
+msgstr ""
+
+msgid "这个香水瓶的气泵也许会有用!"
+msgstr ""
+
+msgid "这块海绵正是我需要的!"
+msgstr ""
+
+msgid "那些鳄鱼堵着路. 曼波•玛丽说了一些关于 '安抚这些古老的沼泽恶魔'的事. 但是我该怎么做呢?"
+msgstr ""
+
+msgid "那些手套收藏得很仔细. 肯定是非常昂贵的东西."
+msgstr ""
+
+msgid "那些名字肯定是幽灵的名字. 没有人想被遗忘."
+msgstr ""
+
+msgid "Thread"
+msgstr ""
+
+msgid "Towel"
+msgstr ""
+
+msgid "Triline"
+msgstr ""
+
+msgid "Two Buttons"
+msgstr ""
+
+msgid "Two Sticks"
+msgstr ""
+
+msgid "两个晚上之后, 在拉洛瑞的房子外面..."
+msgstr ""
+
+msgid "Vial with Blood"
+msgstr ""
+
+msgid "Voodoo Doll"
+msgstr ""
+
+msgid "Voodoo Key"
+msgstr ""
+
+msgid "当心你的手! 猫差点咬到你."
+msgstr ""
+
+msgid "Watering Can"
+msgstr ""
+
+msgid "Wet Sponge"
+msgstr ""
+
+msgid "当它经过芒果树下的时候..."
+msgstr ""
+
+msgid "White Chalk"
+msgstr ""
+
+msgid "White Dye"
+msgstr ""
+
+msgid "White Paint Powder"
+msgstr ""
+
+msgid "White Pepper"
+msgstr ""
+
+msgid "我为什么要把它放在钟表上?"
+msgstr ""
+
+msgid "Wick"
+msgstr ""
+
+msgid "Willow Bark"
+msgstr ""
+
+msgid "Woman's Bloomers"
+msgstr ""
+
+msgid "Woman's Nightdress"
+msgstr ""
+
+msgid "Wooden Bowl"
+msgstr ""
+
+msgid "哇, 那条鳄鱼是个怪物! 我怎么才能赶走它?"
+msgstr ""
+
+msgid "Yaldabaoth Piece"
+msgstr ""
+
+msgid "Yellow Monkshood"
+msgstr ""
+
+msgid "你找到了娃娃丢失的头. 现在娃娃完成了."
+msgstr ""
+
+msgid "You freed all the spirits! Hurry now -- put the pieces they gave you into the lock. Turn it three times and say 'Holy, holy, holy, set the captives free.'"
+msgstr ""
+
+msgid "你已经将针和线组成了缝纫工具."
+msgstr ""
+
+msgid "你读到了安东夫人整个夏天承受的病痛和可怕的折磨. 派对成为了她最遥远的梦想! 在夏季结束的时候, 她逃回了纽约, 发誓永远不再回来. 新奥尔良对她来说成为了一个恐怖的地方."
+msgstr ""
+
+msgid "橡子"
+msgstr ""
+
+msgid "琥珀"
+msgstr ""
+
+msgid "锚"
+msgstr ""
+
+msgid "蚂蚁"
+msgstr ""
+
+msgid "鹿角"
+msgstr ""
+
+msgid "铁砧"
+msgstr ""
+
+msgid "苹果"
+msgstr ""
+
+msgid "箭"
+msgstr ""
+
+msgid "假肢"
+msgstr ""
+
+msgid "烟灰缸"
+msgstr ""
+
+msgid "阿斯匹林"
+msgstr ""
+
+msgid "螺旋钻"
+msgstr ""
+
+msgid "斧子"
+msgstr ""
+
+msgid "小苏打"
+msgstr ""
+
+msgid "球"
+msgstr ""
+
+msgid "气压表"
+msgstr ""
+
+msgid "枪管"
+msgstr ""
+
+msgid "篮子"
+msgstr ""
+
+msgid "蝙蝠"
+msgstr ""
+
+msgid "豆荚"
+msgstr ""
+
+msgid "熊"
+msgstr ""
+
+msgid "熊皮"
+msgstr ""
+
+msgid "拍打器"
+msgstr ""
+
+msgid "蜜蜂"
+msgstr ""
+
+msgid "甲虫"
+msgstr ""
+
+msgid "铃铛"
+msgstr ""
+
+msgid "风箱"
+msgstr ""
+
+msgid "鸟"
+msgstr ""
+
+msgid "bla bla bla"
+msgstr ""
+
+msgid "黑色的鸟"
+msgstr ""
+
+msgid "蓝莓"
+msgstr ""
+
+msgid "螺钉"
+msgstr ""
+
+msgid "骨头"
+msgstr ""
+
+msgid "女帽"
+msgstr ""
+
+msgid "书"
+msgstr ""
+
+msgid "靴子"
+msgstr ""
+
+msgid "携瓶器"
+msgstr ""
+
+msgid "碗"
+msgstr ""
+
+msgid "护腕"
+msgstr ""
+
+msgid "脑子"
+msgstr ""
+
+msgid "面包"
+msgstr ""
+
+msgid "胸针"
+msgstr ""
+
+msgid "扫帚"
+msgstr ""
+
+msgid "棕色瓶子"
+msgstr ""
+
+msgid "刷子"
+msgstr ""
+
+msgid "甲虫"
+msgstr ""
+
+msgid "灌肠器"
+msgstr ""
+
+msgid "子弹"
+msgstr ""
+
+msgid "蝴蝶"
+msgstr ""
+
+msgid "纽扣"
+msgstr ""
+
+msgid "仙人掌"
+msgstr ""
+
+msgid "鸟笼"
+msgstr ""
+
+msgid "日历"
+msgstr ""
+
+msgid "金丝雀"
+msgstr ""
+
+msgid "烛台"
+msgstr ""
+
+msgid "拐杖"
+msgstr ""
+
+msgid "摩羯座"
+msgstr ""
+
+msgid "手推车"
+msgstr ""
+
+msgid "猫"
+msgstr ""
+
+msgid "毛毛虫"
+msgstr ""
+
+msgid "蜈蚣"
+msgstr ""
+
+msgid "链子"
+msgstr ""
+
+msgid "变色龙"
+msgstr ""
+
+msgid "甘菊"
+msgstr ""
+
+msgid "魔法饰物"
+msgstr ""
+
+msgid "焦木"
+msgstr ""
+
+msgid "奶酪"
+msgstr ""
+
+msgid "栗子"
+msgstr ""
+
+msgid "鸡爪"
+msgstr ""
+
+msgid "鸡头"
+msgstr ""
+
+msgid "中国花瓶"
+msgstr ""
+
+msgid "香烟"
+msgstr ""
+
+msgid "圆锯"
+msgstr ""
+
+msgid "文件"
+msgstr ""
+
+msgid "夹钳"
+msgstr ""
+
+msgid "爪子"
+msgstr ""
+
+msgid "切肉刀"
+msgstr ""
+
+msgid "钟表"
+msgstr ""
+
+msgid "衣夹"
+msgstr ""
+
+msgid "四叶草"
+msgstr ""
+
+msgid "蛛网"
+msgstr ""
+
+msgid "蟑螂"
+msgstr ""
+
+msgid "椰子"
+msgstr ""
+
+msgid "蚕茧"
+msgstr ""
+
+msgid "咖啡壶"
+msgstr ""
+
+msgid "凸轮"
+msgstr ""
+
+msgid "金币"
+msgstr ""
+
+msgid "项圈"
+msgstr ""
+
+msgid "梳子"
+msgstr ""
+
+msgid "指南针"
+msgstr ""
+
+msgid "圆规"
+msgstr
+
+msgid "软木塞"
+msgstr ""
+
+msgid "谷粒"
+msgstr ""
+
+msgid "螃蟹"
+msgstr ""
+
+msgid "克里奥尔字典"
+msgstr ""
+
+msgid "撬棍"
+msgstr ""
+
+msgid "王冠"
+msgstr ""
+
+msgid "水晶球"
+msgstr ""
+
+msgid "黄瓜"
+msgstr ""
+
+msgid "茶杯"
+msgstr ""
+
+msgid "匕首"
+msgstr ""
+
+msgid "短剑"
+msgstr
+
+msgid "雏菊"
+msgstr ""
+
+msgid "飞镖"
+msgstr ""
+
+msgid "假牙"
+msgstr ""
+
+msgid "假牙"
+msgstr ""
+
+msgid "恶魔"
+msgstr ""
+
+msgid "色子"
+msgstr ""
+
+msgid "娃娃"
+msgstr ""
+
+msgid "没头的娃娃"
+msgstr ""
+
+msgid "蜻蜓"
+msgstr ""
+
+msgid "画板"
+msgstr ""
+
+msgid "捕梦网"
+msgstr ""
+
+msgid "簸箕"
+msgstr ""
+
+msgid "鹰
+msgstr ""
+
+msgid "耳环"
+msgstr ""
+
+msgid "蛋"
+msgstr ""
+
+msgid "蛋杯"
+msgstr ""
+
+msgid "眼睛"
+msgstr ""
+
+msgid "眼球"
+msgstr ""
+
+msgid "扇子"
+msgstr ""
+
+msgid "羽毛"
+msgstr ""
+
+msgid "蕨类"
+msgstr ""
+
+msgid "琴弓"
+msgstr ""
+
+msgid "雕像"
+msgstr ""
+
+msgid "萤火虫"
+msgstr ""
+
+msgid "鱼"
+msgstr ""
+
+msgid "鱼骨"
+msgstr ""
+
+msgid "鱼线"
+msgstr ""
+
+msgid "鱼饵"
+msgstr ""
+
+msgid "酒壶"
+msgstr ""
+
+msgid "烧瓶"
+msgstr ""
+
+msgid "鱼漂"
+msgstr ""
+
+msgid "笛子"
+msgstr ""
+
+msgid "苍蝇"
+msgstr ""
+
+msgid "捕蝇草"
+msgstr ""
+
+msgid "脚印"
+msgstr ""
+
+msgid "勿忘我"
+msgstr ""
+
+msgid "叉子"
+msgstr ""
+
+msgid "相框"
+msgstr ""
+
+msgid "炸薯条"
+msgstr ""
+
+msgid "青蛙"
+msgstr ""
+
+msgid "青蛙腿"
+msgstr ""
+
+msgid "漏斗"
+msgstr ""
+
+msgid "怪兽石像"
+msgstr ""
+
+msgid "宝石"
+msgstr ""
+
+msgid "鬼魂"
+msgstr ""
+
+msgid "地球仪"
+msgstr ""
+
+msgid "手套"
+msgstr ""
+
+msgid "羊头骨"
+msgstr ""
+
+msgid "高脚杯"
+msgstr ""
+
+msgid "葡萄"
+msgstr ""
+
+msgid "蚂蚱"
+msgstr ""
+
+msgid "研磨器"
+msgstr ""
+
+msgid "绿色颜料"
+msgstr ""
+
+msgid "搅肉机"
+msgstr ""
+
+msgid "钢锯"
+msgstr ""
+
+msgid "发刷"
+msgstr ""
+
+msgid "榔头"
+msgstr ""
+
+msgid "仓鼠"
+msgstr ""
+
+msgid "手"
+msgstr ""
+
+msgid "竖琴"
+msgstr ""
+
+msgid "鱼叉"
+msgstr ""
+
+msgid "帽子"
+msgstr ""
+
+msgid "短柄斧"
+msgstr ""
+
+msgid "心"
+msgstr ""
+
+msgid "蜂蜜"
+msgstr ""
+
+msgid "蜂巢"
+msgstr ""
+
+msgid "兜帽"
+msgstr ""
+
+msgid "勾子"
+msgstr ""
+
+msgid "水烟袋"
+msgstr ""
+
+msgid "角"
+msgstr ""
+
+msgid "马"
+msgstr ""
+
+msgid "沙漏"
+msgstr ""
+
+msgid "吸入器"
+msgstr ""
+
+msgid "墨水瓶"
+msgstr ""
+
+msgid "碘"
+msgstr ""
+
+msgid "熨斗"
+msgstr ""
+
+msgid "熨衣板"
+msgstr ""
+
+msgid "杰克"
+msgstr ""
+
+msgid "南瓜灯"
+msgstr "
+
+msgid "颌骨"
+msgstr ""
+
+msgid "小丑"
+msgstr ""
+
+msgid "小丑"
+msgstr ""
+
+msgid "罐子"
+msgstr ""
+
+msgid "榨汁器"
+msgstr ""
+
+msgid "水壶"
+msgstr ""
+
+msgid "钥匙"
+msgstr ""
+
+msgid "风筝"
+msgstr ""
+
+msgid "刀子"
+msgstr ""
+
+msgid "梯子"
+msgstr ""
+
+msgid "瓢虫"
+msgstr ""
+
+msgid "油灯"
+msgstr ""
+
+msgid "嘴唇"
+msgstr ""
+
+msgid "甘草"
+msgstr ""
+
+msgid "蜥蜴"
+msgstr ""
+
+msgid "蝗虫"
+msgstr ""
+
+msgid "棒棒糖"
+msgstr ""
+
+msgid "蛆"
+msgstr ""
+
+msgid "magnet"
+msgstr ""
+
+msgid "手铐"
+msgstr ""
+
+msgid "螳螂"
+msgstr ""
+
+msgid "枫叶"
+msgstr ""
+
+msgid "弹珠"
+msgstr ""
+
+msgid "面具"
+msgstr ""
+
+msgid "锤子"
+msgstr ""
+
+msgid "量杯"
+msgstr ""
+
+msgid "人体模型"
+msgstr ""
+
+msgid "药用滴管"
+msgstr ""
+
+msgid "金属钳"
+msgstr ""
+
+msgid "节拍器"
+msgstr ""
+
+msgid "显微镜"
+msgstr ""
+
+msgid "镜子"
+msgstr ""
+
+msgid "连指手套"
+msgstr ""
+
+msgid "单片眼镜"
+msgstr ""
+
+msgid "研钵"
+msgstr ""
+
+msgid "蚊子"
+msgstr ""
+
+msgid "蛾子"
+msgstr ""
+
+msgid "捕鼠器"
+msgstr ""
+
+msgid "捕鼠器"
+msgstr ""
+
+msgid "大杯子"
+msgstr ""
+
+msgid "蘑菇"
+msgstr ""
+
+msgid "绷带"
+msgstr ""
+
+msgid "蚌"
+msgstr ""
+
+msgid "钉子"
+msgstr ""
+
+msgid "餐巾"
+msgstr ""
+
+msgid "项链"
+msgstr ""
+
+msgid "蜂巢"
+msgstr ""
+
+msgid "网"
+msgstr ""
+
+msgid "绞索"
+msgstr ""
+
+msgid "笔记本"
+msgstr ""
+
+msgid "螺母"
+msgstr ""
+
+msgid "胡桃钳"
+msgstr ""
+
+msgid "桨"
+msgstr ""
+
+msgid "橄榄油"
+msgstr ""
+
+msgid "煎蛋卷"
+msgstr ""
+
+msgid "洋葱"
+msgstr ""
+
+msgid "负鼠"
+msgstr ""
+
+msgid "猫头鹰"
+msgstr ""
+
+msgid "挂锁"
+msgstr ""
+
+msgid "糕点"
+msgstr ""
+
+msgid "花生"
+msgstr ""
+
+msgid "珍珠"
+msgstr ""
+
+msgid "铅笔"
+msgstr ""
+
+msgid "胡椒"
+msgstr ""
+
+msgid "打击乐器"
+msgstr ""
+
+msgid "香水瓶"
+msgstr ""
+
+msgid "杵"
+msgstr ""
+
+msgid "馅饼"
+msgstr ""
+
+msgid "布片"
+msgstr ""
+
+msgid "猪"
+msgstr ""
+
+msgid "药片"
+msgstr ""
+
+msgid "枕头"
+msgstr ""
+
+msgid "药片"
+msgstr ""
+
+msgid "别针"
+msgstr ""
+
+msgid "插针包"
+msgstr ""
+
+msgid "钳子"
+msgstr ""
+
+msgid "松果"
+msgstr ""
+
+msgid "烟䍺"
+msgstr ""
+
+msgid "手枪"
+msgstr ""
+
+msgid "盘子"
+msgstr ""
+
+msgid "扑克牌"
+msgstr ""
+
+msgid "指挥棒"
+msgstr ""
+
+msgid "爆米花"
+msgstr ""
+
+msgid "罂粟"
+msgstr ""
+
+msgid "明信片"
+msgstr ""
+
+msgid "锅"
+msgstr ""
+
+msgid "粉盒"
+msgstr ""
+
+msgid "木偶"
+msgstr ""
+
+msgid "钱包"
+msgstr ""
+
+msgid "羽毛笔"
+msgstr ""
+
+msgid "兔子"
+msgstr ""
+
+msgid "耙子"
+msgstr ""
+
+msgid "剑"
+msgstr ""
+
+msgid "老鼠"
+msgstr ""
+
+msgid "响尾蛇"
+msgstr ""
+
+msgid "剃刀"
+msgstr ""
+
+msgid "红绳"
+msgstr ""
+
+msgid "芦苇"
+msgstr ""
+
+msgid "胸骨"
+msgstr ""
+
+msgid "戒指"
+msgstr ""
+
+msgid "啮齿目动物"
+msgstr ""
+
+msgid "擀面杖"
+msgstr ""
+
+msgid "根"
+msgstr ""
+
+msgid "绳子"
+msgstr ""
+
+msgid "玫瑰"
+msgstr ""
+
+msgid "红宝石"
+msgstr ""
+
+msgid "尺子"
+msgstr ""
+
+msgid "香囊"
+msgstr ""
+
+msgid "麻袋"
+msgstr ""
+
+msgid "盐"
+msgstr ""
+
+msgid "凉鞋"
+msgstr ""
+
+msgid "石棺"
+msgstr ""
+
+msgid "平底锅"
+msgstr ""
+
+msgid "天枰"
+msgstr ""
+
+msgid "鳞片"
+msgstr ""
+
+msgid "手术刀"
+msgstr ""
+
+msgid "圣甲虫"
+msgstr ""
+
+msgid "稻草人"
+msgstr ""
+
+msgid "围巾"
+msgstr ""
+
+msgid "剪子"
+msgstr ""
+
+msgid "勺子"
+msgstr ""
+
+msgid "蝎子"
+msgstr ""
+
+msgid "螺丝刀"
+msgstr ""
+
+msgid "镰刀"
+msgstr ""
+
+msgid "海绵"
+msgstr ""
+
+msgid "粮食"
+msgstr ""
+
+msgid "镣铐"
+msgstr ""
+
+msgid "披肩"
+msgstr ""
+
+msgid "剪子"
+msgstr ""
+
+msgid "刀鞘"
+msgstr ""
+
+msgid "贝壳"
+msgstr ""
+
+msgid "船"
+msgstr ""
+
+msgid "鞋"
+msgstr ""
+
+msgid "筛子"
+msgstr ""
+
+msgid "图章戒指"
+msgstr ""
+
+msgid "骷髅"
+msgstr ""
+
+msgid "头骨"
+msgstr ""
+
+msgid "蜗牛"
+msgstr ""
+
+msgid "蛇"
+msgstr ""
+
+msgid "鼻烟盒"
+msgstr ""
+
+msgid "短袜"
+msgstr ""
+
+msgid "士兵"
+msgstr ""
+
+msgid "鱼叉"
+msgstr ""
+
+msgid "眼镜"
+msgstr ""
+
+msgid "蜘蛛"
+msgstr ""
+
+msgid "海棉"
+msgstr ""
+
+msgid "线轴"
+msgstr ""
+
+msgid "弹簧"
+msgstr ""
+
+msgid "鱿鱼"
+msgstr ""
+
+msgid "手杖"
+msgstr ""
+
+msgid "权杖"
+msgstr ""
+
+msgid "鹿角虫"
+msgstr ""
+
+msgid "彩绘玻璃"
+msgstr ""
+
+msgid "印章"
+msgstr ""
+
+msgid "海星"
+msgstr ""
+
+msgid "皮带"
+msgstr ""
+
+msgid "缎带"
+msgstr ""
+
+msgid "硫磺"
+msgstr ""
+
+msgid "太阳"
+msgstr ""
+
+msgid "向日葵"
+msgstr ""
+
+msgid "注射筒"
+msgstr ""
+
+msgid "桌布"
+msgstr ""
+
+msgid "狼蛛"
+msgstr ""
+
+msgid "单筒望远镜"
+msgstr ""
+
+msgid "温度计"
+msgstr ""
+
+msgid "顶针"
+msgstr ""
+
+msgid "线轴"
+msgstr ""
+
+msgid "锡罐"
+msgstr ""
+
+msgid "蟾蜍"
+msgstr ""
+
+msgid "西红柿"
+msgstr ""
+
+msgid "钳子"
+msgstr ""
+
+msgid "牙"
+msgstr ""
+
+msgid "礼帽"
+msgstr ""
+
+msgid "火炬"
+msgstr ""
+
+msgid "玩具小号"
+msgstr ""
+
+msgid "捕兽夹"
+msgstr ""
+
+msgid "高音谱号"
+msgstr ""
+
+msgid "三叉戟"
+msgstr ""
+
+msgid "泥铲"
+msgstr ""
+
+msgid "软管"
+msgstr ""
+
+msgid "海龟"
+msgstr ""
+
+msgid "尖牙"
+msgstr ""
+
+msgid "镊子"
+msgstr ""
+
+msgid "两粒纽扣"
+msgstr ""
+
+msgid "打字机按键"
+msgstr ""
+
+msgid "雨伞"
+msgstr ""
+
+msgid "独角兽"
+msgstr ""
+
+msgid "花瓶"
+msgstr ""
+
+msgid "小提琴"
+msgstr ""
+
+msgid "巫毒祭司"
+msgstr ""
+
+msgid "巫毒符号"
+msgstr ""
+
+msgid "钱包"
+msgstr ""
+
+msgid "黄蜂"
+msgstr ""
+
+msgid "怀表"
+msgstr ""
+
+msgid "蟑螂"
+msgstr ""
+
+msgid "砝码"
+msgstr ""
+
+msgid "轮子"
+msgstr ""
+
+msgid "鞭子"
+msgstr ""
+
+msgid "酒囊"
+msgstr ""
+
+msgid "翅膀"
+msgstr ""
+
+msgid "Y形骨"
+msgstr ""
+
+msgid "木桶"
+msgstr ""
+
+msgid "扳子"
+msgstr ""
+

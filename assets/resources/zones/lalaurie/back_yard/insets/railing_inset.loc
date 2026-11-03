@@ -1,0 +1,21 @@
+<location stripcode="1501">
+	<objects>
+		<object name="back">
+			<texture src="/common/half_dark" />
+			<size width="1024" height="768" />
+			<script src="railing_inset/back" />
+		</object>
+		<object name="inset">
+			<position x="222" y="114" z="-10" />
+			<texture src="railing_inset/railing_safe" />
+			<script src="railing_inset/inset" />
+		</object>
+		<object name="railing_mask">
+			<position x="362" y="187" z="-20" />
+			<texture src="railing_inset/railing_mask" />
+			<script src="railing_inset/railing_mask" />
+			<alpha value="0" />
+		</object>
+
+	</objects>
+</location>

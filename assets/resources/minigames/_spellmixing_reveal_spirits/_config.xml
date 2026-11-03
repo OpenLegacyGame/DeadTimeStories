@@ -1,0 +1,92 @@
+<spellmixing>
+	<onFinish script="_on_finish" />
+	
+	<spell_items>
+		<ingredient inventory="lily" in_loa="lily_of_the_valley" loa_pivot_x="59" loa_pivot_y="61" />
+		<ingredient inventory="white_paint" in_loa="white_paint" loa_pivot_x="109" loa_pivot_y="57"
+			add_script="_on_add_white_paint"
+			cursor_object_after_loa="white_paint_powder"
+		/>
+		<ingredient inventory="dirt" in_loa="dirt" loa_pivot_x="103" loa_pivot_y="81" />
+		<ingredient inventory="sulfur" in_loa="sulfur" loa_pivot_x="48" loa_pivot_y="68" />
+		<ingredient inventory="feather" in_loa="feather" loa_pivot_x="58" loa_pivot_y="75" />
+		<ingredient inventory="vial_with_blood" in_loa="blood" loa_pivot_x="69" loa_pivot_y="73" />
+		<bottle inventory="empty_paint_can" in_loa="can" />
+	</spell_items>
+	
+	<scene_objects>
+		<loa_ingredient_slot name="slot_1" />
+		<loa_ingredient_slot name="slot_2" />
+		<loa_ingredient_slot name="slot_3" />
+		<loa_ingredient_slot name="slot_4" />
+		<loa_ingredient_slot name="slot_5" />
+		<loa_ingredient_slot name="slot_6" />
+		<loa_bottle_slot name="slot_central" />
+		<loa_shining name="loa" />
+		<loa_black name="loa_black" />
+		<loa_mask name="loa_mask" />
+		<mortar name="mortar" />
+		<mortar_full name="mortar_full" />
+		<mortar_with_ingredients name="mortar_with_ingredients" />
+		<mortar_mixture_ready name="mortar_mixture_ready" />
+		<pestle_outside_mortar name="pestle" />
+		<pestle_in_mortar name="pestle_mixing" />
+		<full_bottle name="full_can" />
+		<riddle name="riddle" />
+		<hint_back name="arrows_back" />
+		<hint_back_fx name="arrows_back_fx" />
+		<hint_cw name="arrow_right" />
+		<hint_ccw name="arrow_left" />
+		<hint_text_cw name="arrow_right_text" />
+		<hint_text_ccw name="arrow_left_text" />
+		<fx_put_into_mortar name="fx_put_into_mortar" />
+	</scene_objects>
+	
+	<need_reset wrong_ingredient_order="0" wrong_mixing="0" />
+	<reset_round_actions> 
+		<!-- 
+			Format is similar to that of cutscenes, only with extra <reset_round> action
+			and <end_reset/> instead of <end/>.
+		-->
+		<anim object="reset_fx" src="/common/show">
+			<anim object="reset_fx" src="/minigames/_common_spellmixing/reset_fx_1">
+				<reset_round>
+					<anim object="reset_fx" src="/minigames/_common_spellmixing/reset_fx_2">
+						<anim object="reset_fx" src="/common/hide">
+							<end_reset/>
+						</anim>
+					</anim>
+				</reset_round>
+			</anim>
+		</anim>
+	</reset_round_actions>
+	
+	<rounds>
+		<round>
+			<ingredients>
+				<white_paint/>
+				<dirt/>
+				<sulfur/>
+				<lily/>
+				<feather/>
+				<vial_with_blood/>
+			</ingredients>
+			<gestures>
+				<cw/>
+				<cw/>
+				<cw/>
+			</gestures>
+		</round>
+	</rounds>
+	
+	<mixing>
+		<pestle_start_pos x="150" y="194" />
+		<mortar left="48" top="152" right="253" bottom="237" />
+		<hint_text_cw_offset x="14" y="-2" />
+		<hint_text_ccw_offset x="14" y="-2" />
+		<hint_text font="/fonts/hint_big" color="EE352F27" />
+		<min_time_before_first_failure ms="2500" />
+		<min_failure_time_after_direction_switch ms="1000" />
+	</mixing>
+	
+</spellmixing>

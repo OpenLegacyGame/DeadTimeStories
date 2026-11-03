@@ -1,0 +1,19 @@
+<plantbook>
+	<background src="back" />
+	<position x="0" y="0" />
+	<left relativeX="196" relativeY="127" />
+	<right relativeX="506" relativeY="127" />
+	<sections>
+		<plants>
+			<page>solomon_seal</page>
+			<page>devils_shoestring</page>
+			<page>onion_flower</page>
+			<page>lily_of_the_valley</page>
+			<page>orchid</page>
+			<page>yellow_monkshood</page>
+		</plants>
+		<journal>
+			<page>test</page>
+		</journal>
+	</sections>
+</plantbook>

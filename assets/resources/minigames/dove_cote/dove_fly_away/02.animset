@@ -1,0 +1,8 @@
+<animation_set looped="0">
+	<animation src="dove_out_pos_abs" applier="position" priority="0" weight="1.0" start="0.0" looped="0" />
+	<animation src="dove_out_pic" applier="picture" priority="0" weight="1.0" start="0.0" looped="0" />
+	
+	<animation type="const" applier="position" priority="1" weight="1.0" start="0.0" looped="0">
+		<const type="vector3">143 134 -10</const>
+	</animation>	
+</animation_set>

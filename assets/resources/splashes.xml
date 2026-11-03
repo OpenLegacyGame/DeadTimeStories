@@ -1,0 +1,7 @@
+<splashes>
+	<!-- path to picture relative to current file -->
+	<splash src="splashes/esrb" back_color="0x000000" fade_time="2.0" length="5.0" skippable="0" />
+	<iplaylogo />
+	<splash src="splashes/nikitova" back_color="0xFFFFFFFF" fade_time="2.0" length="2.0" skippable="1" />
+	<splash src="splashes/bfg" back_color="0xFFFFFFFF" fade_time="2.0" length="2.0" skippable="1" />
+</splashes>

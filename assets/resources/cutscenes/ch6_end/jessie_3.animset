@@ -1,0 +1,89 @@
+<replacement src="frames.xml" />
+
+<animation_set looped="0">
+	<animation type="keys" applier="visible" priority="0" weight="1.0" start="0.0" looped="0">
+		<keys type="float">
+			<cyclic value="0" />
+			<float>
+				<!-- 1 -->
+				<key relative_time="2">0</key>
+				<!-- 2 -->
+				<key relative_time="{1}">0</key>
+				<key relative_time="0">0</key>
+				<!-- -->
+				<key relative_time="3">0</key>
+				<key relative_time="0">0</key>
+				<!-- 3 -->
+				<key relative_time="2">0</key>
+				<key relative_time="0">1</key>
+				<!-- 4 -->
+				<key relative_time="3">1</key>
+				<key relative_time="0">0</key>
+				<!-- 5 -->
+				<key relative_time="{4}">0</key>
+				<key relative_time="0">0</key>
+				<!-- 6 -->
+				<key relative_time="{5}">0</key>
+				<key relative_time="0">0</key>
+				<!-- 7 -->
+				<key relative_time="{6}">0</key>
+				<key relative_time="0">0</key>
+				<!-- 8 -->
+				<key relative_time="{7}">0</key>
+				<key relative_time="0">0</key>
+				<!-- 9 -->
+				<key relative_time="{8}">0</key>
+				<key relative_time="0">0</key>
+				<!-- 10 -->
+				<key relative_time="{9}">0</key>
+				<key relative_time="0">0</key>
+				<!-- 11 -->
+				<key relative_time="{10}">0</key>
+				<key relative_time="0">0</key>
+			</float>
+		</keys>
+	</animation>
+	
+	<animation type="keys" applier="position" priority="0" weight="1.0" start="0.0" looped="0">
+		<keys type="vector3">
+			<cyclic value="0" />
+			<vector3>
+				<!-- 1 -->
+				<key relative_time="2">0 0 0</key>
+				<!-- 2 -->
+				<key relative_time="{1}">0 0 0</key>
+				<key relative_time="0">0 50 0</key>
+				<!-- -->
+				<key relative_time="3">-10 50 0</key>
+				<key relative_time="0">0 0 0</key>
+				<!-- 3 -->
+				<key relative_time="2">0 0 0</key>
+				<key relative_time="0">0 50 0</key>
+				<!-- 4 -->
+				<key relative_time="3">-10 50 0</key>
+				<key relative_time="0">0 50 0</key>
+				<!-- 5 -->
+				<key relative_time="{4}">-10 50 0</key>
+				<key relative_time="0">0 0 0</key>
+				<!-- 6 -->
+				<key relative_time="{5}">0 0 0</key>
+				<key relative_time="0">0 0 0</key>
+				<!-- 7 -->
+				<key relative_time="{6}">0 0 0</key>
+				<key relative_time="0">0 0 0</key>
+				<!-- 8 -->
+				<key relative_time="{7}">0 0 0</key>
+				<key relative_time="0">0 0 0</key>
+				<!-- 9 -->
+				<key relative_time="{8}">0 0 0</key>
+				<key relative_time="0">0 0 0</key>
+				<!-- 10 -->
+				<key relative_time="{9}">0 0 0</key>
+				<key relative_time="0">0 0 0</key>
+				<!-- 11 -->
+				<key relative_time="{10}">0 0 0</key>
+				<key relative_time="0">0 0 0</key>
+			</vector3>
+		</keys>
+	</animation>
+</animation_set>

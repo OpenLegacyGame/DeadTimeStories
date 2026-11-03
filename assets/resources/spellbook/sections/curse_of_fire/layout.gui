@@ -1,0 +1,31 @@
+<gui>
+	<label>
+		<position x="60" y="50" />
+		<align hor="left" vert="top" />
+		<text font="/fonts/ravenwood_20" color="FF840000">%火咒%</text>
+		
+		<label>
+			<position y="30" />
+			<size width="230" />
+			<align hor="left" vert="top" />
+			<text font="/fonts/hint" color="FF210e2d">%这个诅咒装会另你要诅咒的人被煤毁灭. 在你召唤洛阿施下诅咒里要极其小心!\n\n在墓地用粉笔画一个韦夫圈. 在圈里放上三件神圣的物品给丹伯拉. 放好物品后, 把你制作的巫毒娃娃放在中心. 以丹伯拉的名义施下你渴望的诅咒.%</text>
+		</label>
+	</label>
+
+	<image id="enabled">
+		<file src="sb_curse_of_fire" />
+		
+		<label>
+			<position x="420" y="58" />
+			<text font="/fonts/acoustic_bass" color="FF6f0070">%容器%</text>
+		</label>
+		
+		<label>
+			<position x="420" y="130" />
+			<text font="/fonts/acoustic_bass" color="FF6f0070">%原料%</text>
+		</label>
+	</image>
+	<image id="disabled">
+		<!-- not needed - spell is initially invisible -->
+	</image>
+</gui>

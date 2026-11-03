@@ -1,0 +1,13 @@
+<dove_cote>
+	<onFinish script="_on_finish" />
+	
+	<!-- NOTE: "correct_sequence" is just an example used to calculate max rope length and check start/end points;
+	     actual correct sequences depend on the locks list -->
+	<rolls
+		quantity="7"
+		correct_sequence="01,02,03,04,05,06,03,05,02,06,07"
+		locks="02,06;03,06;03,04;03,05;04,05;02,05"
+	/>
+	
+	<dove_fly_inside delay_ms="1250" />
+</dove_cote>

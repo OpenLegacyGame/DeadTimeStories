@@ -1,0 +1,23 @@
+<location stripcode="1301">
+	<objects>
+		<object name="back">
+			<texture src="/common/half_dark" />
+			<size width="1024" height="768" />
+			<script src="drawer_inset/back" />
+		</object>
+		<object name="inset">
+			<position x="314" y="147" z="-10" />
+			<texture src="drawer_inset/drawer_closed" />
+			<script src="drawer_inset/inset" />
+		</object>
+		<object name="wick">
+			<position x="480" y="350" z="-20" />
+			<texture src="drawer_inset/wick/wick" />
+			<script src="drawer_inset/wick/wick" />
+		</object>
+<!--			<object name="fx_wick">
+			<position x="524" y="337" z="-15" />
+			<script src="../../../fx/fx" />
+		</object> -->
+	</objects>
+</location>

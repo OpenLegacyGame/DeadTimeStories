@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1">
+  <asset>
+    <contributor>
+      <author>s.andreev</author>
+      <authoring_tool>3dsMax 9 - Feeling ColladaMax v3.05B.</authoring_tool>
+      <comments>ColladaMax Export Options: ExportNormals=1;ExportEPolyAsTriangles=1;ExportXRefs=1;ExportSelected=1;ExportTangents=0;ExportAnimations=0;SampleAnim=1;ExportAnimClip=1;BakeMatrices=0;ExportRelativePaths=1;AnimStart=1;AnimEnd=2;</comments>
+    </contributor>
+    <created>2009-11-27T17:14:11Z</created>
+    <modified>2009-11-27T17:14:13Z</modified>
+    <unit meter="0.0254" name="inch"/>
+    <up_axis>Z_UP</up_axis>
+  </asset>
+  <library_lights>
+    <light id="ambient-environment-light" name="Ambient">
+      <technique_common>
+        <ambient>
+          <color>0.4 0.4 0.4</color>
+        </ambient>
+      </technique_common>
+      <extra>
+        <technique profile="FCOLLADA">
+          <intensity>1</intensity>
+        </technique>
+      </extra>
+    </light>
+  </library_lights>
+  <library_visual_scenes>
+    <visual_scene id="unnamed_scene" name="unnamed_scene">
+      <node id="Dust_kitchen-node" name="Dust_kitchen" type="NODE">
+        <translate>0 0 0</translate>
+        <rotate>-1 0 0 -90</rotate>
+        <node id="_kitchen_dust3-node" name="_kitchen_dust3" type="NODE">
+          <translate>194.996 301.864 139.391</translate>
+          <rotate>1 0 0 -0.381348</rotate>
+          <scale>89.9424 89.9424 62.593</scale>
+          <extra>
+            <technique profile="MAX3D">
+              <helper>
+                <bounding_min>-0.5 -0.5 -0.5</bounding_min>
+                <bounding_max>0.5 0.5 0.5</bounding_max>
+              </helper>
+            </technique>
+          </extra>
+        </node>
+        <node id="_kitchen_dust1-node" name="_kitchen_dust1" type="NODE">
+          <translate>115.233 165.167 278.102</translate>
+          <rotate>1 0 0 -0.381348</rotate>
+          <scale>89.9424 89.9424 62.593</scale>
+          <extra>
+            <technique profile="MAX3D">
+              <helper>
+                <bounding_min>-0.5 -0.5 -0.5</bounding_min>
+                <bounding_max>0.5 0.5 0.5</bounding_max>
+              </helper>
+            </technique>
+          </extra>
+        </node>
+        <node id="_kitchen_dust2-node" name="_kitchen_dust2" type="NODE">
+          <translate>155.115 233.516 208.746</translate>
+          <rotate>1 0 0 -0.381348</rotate>
+          <scale>89.9424 89.9424 62.593</scale>
+          <extra>
+            <technique profile="MAX3D">
+              <helper>
+                <bounding_min>-0.5 -0.5 -0.5</bounding_min>
+                <bounding_max>0.5 0.5 0.5</bounding_max>
+              </helper>
+            </technique>
+          </extra>
+        </node>
+        <node id="_kitchen_dust4-node" name="_kitchen_dust4" type="NODE">
+          <translate>234.878 370.213 70.0352</translate>
+          <rotate>1 0 0 -0.381348</rotate>
+          <scale>89.9424 89.9424 62.593</scale>
+          <extra>
+            <technique profile="MAX3D">
+              <helper>
+                <bounding_min>-0.5 -0.5 -0.5</bounding_min>
+                <bounding_max>0.5 0.5 0.5</bounding_max>
+              </helper>
+            </technique>
+          </extra>
+        </node>
+        <node id="_kitchen_dust6-node" name="_kitchen_dust6" type="NODE">
+          <translate>314.64 506.909 -68.6757</translate>
+          <rotate>1 0 0 -0.381348</rotate>
+          <scale>89.9424 89.9424 62.593</scale>
+          <extra>
+            <technique profile="MAX3D">
+              <helper>
+                <bounding_min>-0.5 -0.5 -0.5</bounding_min>
+                <bounding_max>0.5 0.5 0.5</bounding_max>
+              </helper>
+            </technique>
+          </extra>
+        </node>
+        <node id="_kitchen_dust5-node" name="_kitchen_dust5" type="NODE">
+          <translate>274.759 438.561 0.679792</translate>
+          <rotate>1 0 0 -0.381348</rotate>
+          <scale>89.9424 89.9424 62.593</scale>
+          <extra>
+            <technique profile="MAX3D">
+              <helper>
+                <bounding_min>-0.5 -0.5 -0.5</bounding_min>
+                <bounding_max>0.5 0.5 0.5</bounding_max>
+              </helper>
+            </technique>
+          </extra>
+        </node>
+        <node id="_kitchen_dust7-node" name="_kitchen_dust7" type="NODE">
+          <translate>354.522 575.258 -138.031</translate>
+          <rotate>1 0 0 -0.381348</rotate>
+          <scale>89.9424 89.9424 62.593</scale>
+          <extra>
+            <technique profile="MAX3D">
+              <helper>
+                <bounding_min>-0.5 -0.5 -0.5</bounding_min>
+                <bounding_max>0.5 0.5 0.5</bounding_max>
+              </helper>
+            </technique>
+          </extra>
+        </node>
+        <node id="_kitchen_dust8-node" name="_kitchen_dust8" type="NODE">
+          <translate>394.403 643.606 -207.387</translate>
+          <rotate>1 0 0 -0.381348</rotate>
+          <scale>89.9424 89.9424 62.593</scale>
+          <extra>
+            <technique profile="MAX3D">
+              <helper>
+                <bounding_min>-0.5 -0.5 -0.5</bounding_min>
+                <bounding_max>0.5 0.5 0.5</bounding_max>
+              </helper>
+            </technique>
+          </extra>
+        </node>
+        <node id="_kitchen_dust9-node" name="_kitchen_dust9" type="NODE">
+          <translate>38.2793 291.619 122.512</translate>
+          <rotate>1 0 0 -0.381348</rotate>
+          <scale>89.9424 89.9424 62.593</scale>
+          <extra>
+            <technique profile="MAX3D">
+              <helper>
+                <bounding_min>-0.5 -0.5 -0.5</bounding_min>
+                <bounding_max>0.5 0.5 0.5</bounding_max>
+              </helper>
+            </technique>
+          </extra>
+        </node>
+        <node id="_kitchen_dust10-node" name="_kitchen_dust10" type="NODE">
+          <translate>69.2 394.535 -110.235</translate>
+          <rotate>1 0 0 -0.381348</rotate>
+          <scale>89.9424 89.9424 62.593</scale>
+          <extra>
+            <technique profile="MAX3D">
+              <helper>
+                <bounding_min>-0.5 -0.5 -0.5</bounding_min>
+                <bounding_max>0.5 0.5 0.5</bounding_max>
+              </helper>
+            </technique>
+          </extra>
+        </node>
+      </node>
+      <node id="VisualSceneNode" type="NODE">
+        <instance_light url="#ambient-environment-light"/>
+      </node>
+      <extra>
+        <technique profile="FCOLLADA">
+          <start_time>1</start_time>
+          <end_time>2</end_time>
+        </technique>
+      </extra>
+      <extra>
+        <technique profile="MAX3D">
+          <frame_rate>30</frame_rate>
+        </technique>
+      </extra>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_visual_scene url="#unnamed_scene"/>
+  </scene>
+</COLLADA>

@@ -1,0 +1,9 @@
+<templates>
+	<menu>
+		<view>
+			<normal src="/dialogs/message/bt_message_box_E" />
+			<hover src="/dialogs/message/bt_message_box_O" />
+			<clicked src="/dialogs/message/bt_message_box_T" />
+		</view>
+	</menu>
+</templates>

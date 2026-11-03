@@ -1,0 +1,112 @@
+ <objects>
+	<object name="back">
+		<position x="0" y="0" z="10" />
+		<texture src="background" />
+	</object>
+	<object name="fx_back">
+		<position z="9" />
+		<particles presim="9" src="\particles_ready\star\star_1.psysl" />
+		<particles presim="9" src="\particles_ready\star\star_2.psysl" />
+		<particles presim="9" src="\particles_ready\star\star_3.psysl" />
+		<particles presim="9" src="\particles_ready\star\star_4.psysl" />
+	</object>
+	<object name="exit">
+		<position x="0" y="618" z="8" />
+		<texture src="/common/half_dark" />
+		<alpha value="0.0" />
+		<size width="1024" height="150" />
+	</object>
+	
+	<object name="overlay_base">
+		<position x="0" y="0" z="7" />
+		<texture src="overlay_base" />
+	</object>
+	
+	<object name="lock">
+		<texture src="rotation_base" />
+		<position x="514" y="358" z="6" />
+		<pivot x="260" y="260" />
+	</object>
+	
+	<object name="fx_in_lock">
+		<position z="500" />
+		<visible value="1" />
+		<scene src="\particles_ready\star\snake.DAE">
+			<particles src="\particles_ready\star\snake1.psysl" />
+			<particles src="\particles_ready\star\snake2.psysl" />
+			<particles src="\particles_ready\star\snake3.psysl" />
+		</scene>
+	</object>
+	
+	<object name="piece_01">
+		<texture src="pieces/aemaet" />
+		<position x="388" y="173" z="4" />
+		<alpha value="0.0" />
+	</object>
+	<object name="piece_02">
+		<texture src="pieces/barbathiaoth" />
+		<position x="500" y="174" z="4" />
+		<alpha value="0.0" />
+	</object>
+	<object name="piece_03">
+		<texture src="pieces/kedavra" />
+		<position x="526" y="237" z="4" />
+		<alpha value="0.0" />
+	</object>
+	<object name="piece_04">
+		<texture src="pieces/ephphatha" />
+		<position x="527" y="353" z="4" />
+		<alpha value="0.0" />
+	</object>
+	<object name="piece_05">
+		<texture src="pieces/matba" />
+		<position x="498" y="381" z="4" />
+		<alpha value="0.0" />
+	</object>
+	<object name="piece_06">
+		<texture src="pieces/selah" />
+		<position x="386" y="380" z="4" />
+		<alpha value="0.0" />
+	</object>
+	<object name="piece_07">
+		<texture src="pieces/yaldabaoth" />
+		<position x="330" y="349" z="4" />
+		<alpha value="0.0" />
+	</object>
+	<object name="piece_08">
+		<texture src="pieces/harrahya" />
+		<position x="327" y="233" z="4" />
+		<alpha value="0.0" />
+	</object>
+	
+	<object name="all_pieces">
+		<texture src="all_elements" />
+		<position x="514" y="358" z="4" />
+		<pivot x="260" y="260" />
+		<visible value="0" />
+	</object>
+	
+	<object name="overlay_star">
+		<texture src="overlay_star" />
+		<position x="514" y="358" z="3" />
+		<pivot x="260" y="260" />
+		<interactive value="0" />
+	</object>
+	<object name="overlay_heads">
+		<texture src="overlay_heads" />
+		<position x="230" y="45" z="2" />
+		<interactive value="0" />
+	</object>
+	<object name="overlay_plants">
+		<texture src="overlay_plants" />
+		<position x="703" y="329" z="1" />
+		<interactive value="0" />
+	</object>
+	<object name="fx_put_piece">
+		<scene src="\particles_ready\star\plot.DAE" looped="0">
+			<particles src="\particles_ready\star\plot.psysl" />
+		</scene>
+		<interactive value="0" />
+	</object>
+
+</objects>

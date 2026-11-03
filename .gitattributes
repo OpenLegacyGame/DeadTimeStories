@@ -1,0 +1,8 @@
+# Original Lua/XML/media bytes are build inputs; preserve CRLF and encodings.
+*.sh text eol=lf
+*.py text eol=lf
+*.cmake text eol=lf
+CMakeLists.txt text eol=lf
+/assets/resources/** -text
+/assets/localization/** -text
+/assets/provenance.json text eol=lf

@@ -1,0 +1,14 @@
+<location>
+	<objects>
+		<object name="back">
+			<texture src="/common/half_dark" />
+			<size width="1024" height="768" />
+			<script src="newspaper_stand_inset/back" />
+		</object>
+		<object name="inset">
+			<position x="222" y="114" z="-15" />
+			<texture src="newspaper_stand_inset/stand" />
+			<script src="newspaper_stand_inset/inset" />
+		</object>
+	</objects>
+</location>

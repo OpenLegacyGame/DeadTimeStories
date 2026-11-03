@@ -1,0 +1,56 @@
+<blocked_well>
+	<onFinish script="_on_finish" />
+
+	<!--      0        1         2       -->
+	<!--      12345678901234567890123456 -->
+	<alphabet>abcdefghijklmnopqrstuvwxyz</alphabet>
+	
+	<names font="name" color="FFFFFFFF" color_correct="FF555555">
+		<name>Nathan</name>
+		<name>Chance</name>
+		<name>Ezra</name>
+		<name>Elijah</name>
+		<name>Bessie</name>
+		<name>Alfonse</name>
+		<name>Elfi</name>
+		<name>Joseph</name>
+		<name>Esther</name>
+		<name>Rainie</name>
+
+<!-- FOR QUICK TESTS:
+		<name>A</name>
+		<name>B</name>
+		<name>C</name>
+		<name>D</name>
+		<name>E</name>
+		<name>F</name>
+		<name>G</name>
+		<name>H</name>
+		<name>I</name>
+		<name>J</name>
+-->
+	</names>
+	
+	<name_positions>
+		<position x="360" y="400" z="0" />
+		<position x="473" y="398" z="0" />
+		<position x="592" y="396" z="0" />
+		<position x="360" y="433" z="0" />
+		<position x="473" y="432" z="0" />
+		<position x="592" y="433" z="0" />
+		<position x="360" y="468" z="0" />
+		<position x="473" y="469" z="0" />
+		<position x="592" y="468" z="0" />
+		<position x="473" y="503" z="0" />
+	</name_positions>
+	<name_plaque width="80" />
+	
+	<!-- all time values here are in seconds -->
+	<fade_times
+		new_letter="0.5"
+		invalid_name="1.0"
+		correct_name_cross_fade="1.0"
+		progress_change_fade_in="1.0"
+	/>
+	
+</blocked_well>

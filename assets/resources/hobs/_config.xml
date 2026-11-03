@@ -1,0 +1,10 @@
+<hobs>
+	<font src="/fonts/hob_list" color="0xFFffdd80" hidden_color="0xff6f6957" />
+	<strikethrough src="/hobs/strikethrough" thickness="1" offset_x="-4" offset_y="-5" extra_length="8" />
+	<groupnames left="310" top="673" stridey="24" stridex="170" colobjects="4" />
+	<groupnamesback>
+		<position x="228" y="620" />
+		<texture src="/hobs/back_hide_and_seek" />
+	</groupnamesback>
+	<hint src="/particles_ready/hob_hint/hob_hint.psysl" time="2" />
+</hobs>

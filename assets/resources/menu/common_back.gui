@@ -1,0 +1,11 @@
+<gui>
+	<image>
+		<file src="mainmenu/back_main_menu" />
+	</image>
+	<image>
+		<file src="mainmenu/second_main_menu" />
+	</image>
+	<image>
+		<file src="mainmenu/first_main_menu" />
+	</image>
+</gui>

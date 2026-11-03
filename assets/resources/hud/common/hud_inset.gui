@@ -1,0 +1,15 @@
+<gui>
+
+	<group id="anchor_close_inset">
+		<button id="button_close_inset" visible="0">
+			<position x="-111" y="40" />
+			<view>
+				<normal src="bt_insetClose_E" />
+				<hover src="bt_insetClose_O" />
+				<clicked src="bt_insetClose_T" />
+				<disabled src="bt_insetClose_D" />
+			</view>
+		</button>
+	</group>
+
+</gui>

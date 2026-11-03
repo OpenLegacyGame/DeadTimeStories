@@ -1,0 +1,29 @@
+<objects>
+	<object name="back">
+		<position x="0" y="0" z="10" />
+		<texture src="background" />
+	</object>
+	<object name="exit">
+		<position x="0" y="618" z="5" />
+		<texture src="/common/half_dark" />
+		<alpha value="0.0" />
+		<size width="1024" height="150" />
+	</object>
+	<object name="sack">
+		<position x="0" y="348" z="0" />
+		<texture src="bag_MASK" />
+		<alpha value="0.0" />
+	</object>
+	<object name="fx_sack_sparkle">
+		<position x="-80" y="400" z="0" />
+		<particles src="/particles_ready/FrontGate_HOBLocator/FGate_HOBLocator.psysl" />
+	</object>	
+	
+	<object name="fader">
+		<position x="0" y="0" z="-10" />
+		<texture src="/common/black" />
+		<size width="1024" height="768" />
+		<alpha value="0.0" />
+		<visible value="0" />
+	</object>
+</objects>

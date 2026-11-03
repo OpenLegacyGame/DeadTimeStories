@@ -1,0 +1,29 @@
+<location>
+	<objects>
+		<object name="back">
+			<texture src="/common/half_dark" />
+			<size width="1024" height="768" />
+			<script src="bag_inset/back" />
+		</object>
+		<object name="inset">
+			<position x="222" y="114" z="-10" />
+			<texture src="bag_inset/inset" />
+			<script src="bag_inset/inset" />
+		</object>
+		<object name="book">
+			<position x="462" y="235" z="-20" />
+			<texture src="bag_inset/book/book_closed" />
+			<script src="bag_inset/book/book" />
+		</object>
+		<object name="laudanum">
+			<position x="407" y="221" z="-20" />
+			<texture src="bag_inset/laudanum/laudanum" />
+			<script src="bag_inset/laudanum/laudanum" />
+		</object>		
+		<object name="morphine">
+			<position x="346" y="224" z="-20" />
+			<texture src="bag_inset/morphine/morphine" />
+			<script src="bag_inset/morphine/morphine" />
+		</object>			
+	</objects>
+</location>

@@ -1,0 +1,20 @@
+<location>
+	<objects>
+		<object name="back">
+			<texture src="/common/half_dark" />
+			<size width="1024" height="768" />
+			<script src="alligator_5_inset/back" />
+		</object>
+		<object name="inset">
+			<position x="314" y="147" z="-15" />
+			<texture src="alligator_5_inset/alligator_idle" />
+			<script src="alligator_5_inset/inset" />
+		</object>
+		<object name="alligator_5_mask">
+			<position x="356" y="222" z="-20" />
+			<texture src="alligator_5_inset/alligator_5_mask" />
+			<script src="alligator_5_inset/alligator_5_mask" />
+			<alpha value="0" />
+		</object>
+	</objects>
+</location>

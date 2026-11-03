@@ -1,0 +1,205 @@
+<particles_layout>
+    <world_emitting value="1" />
+    <parameters>
+        <parameter type="Float">
+            <position x="10" y="10" />
+            <name value="Life time" />
+            <burstCollective value="0" />
+            <distribution type="fixed">
+                <fixed value="0" />
+            </distribution>
+        </parameter>
+        <parameter type="Vector3">
+            <position x="10" y="60" />
+            <name value="Position" />
+            <burstCollective value="0" />
+            <distribution type="box_random">
+                <box_random>
+                    <from x="-25" y="-30" z="0" />
+                    <to x="25" y="30" z="0" />
+                </box_random>
+            </distribution>
+        </parameter>
+        <parameter type="Spawn Global Position">
+            <position x="10" y="110" />
+            <name value="Spawn world. pos." />
+        </parameter>
+        <parameter type="Float">
+            <position x="10" y="160" />
+            <name value="terminate" />
+            <burstCollective value="0" />
+            <distribution type="linear_random">
+                <linear_random>
+                    <from value="0.300000012" />
+                    <to value="0.600000024" />
+                </linear_random>
+            </distribution>
+        </parameter>
+        <parameter type="Float">
+            <position x="10" y="210" />
+            <name value="size" />
+            <burstCollective value="0" />
+            <distribution type="linear_random">
+                <linear_random>
+                    <from value="5" />
+                    <to value="10" />
+                </linear_random>
+            </distribution>
+        </parameter>
+        <parameter type="Float">
+            <position x="10" y="260" />
+            <name value="Float" />
+            <burstCollective value="0" />
+            <distribution type="linear_random">
+                <linear_random>
+                    <from value="0" />
+                    <to value="360" />
+                </linear_random>
+            </distribution>
+        </parameter>
+        <parameter type="Float">
+            <position x="10" y="310" />
+            <name value="Float" />
+            <burstCollective value="0" />
+            <distribution type="linear_random">
+                <linear_random>
+                    <from value="1" />
+                    <to value="-1" />
+                </linear_random>
+            </distribution>
+        </parameter>
+    </parameters>
+    <modifiers>
+        <modifier type="Linear addition">
+            <position x="707" y="70" />
+            <speed value="1" />
+        </modifier>
+        <modifier type="Linear addition">
+            <position x="707" y="130" />
+            <speed value="0" />
+        </modifier>
+        <modifier type="Linear addition">
+            <position x="707" y="190" />
+            <speed value="5" />
+        </modifier>
+    </modifiers>
+    <functions>
+        <function type="Add (vector)">
+            <position x="166" y="108" />
+        </function>
+        <function type="InterpTrack3">
+            <position x="256" y="328" />
+            <trackX>
+                <looped left="0" right="0" />
+                <key type="1" corner="0" broken="0" time="0" in="0" out="0" intanx="-1" intany="0" outtanx="0.0624392442" outtany="0.44564712" />
+                <key type="1" corner="0" broken="0" time="0.140109152" in="1" out="1" intanx="-0.0624392442" intany="-0.44564712" outtanx="0.449999988" outtany="0" />
+                <key type="1" corner="0" broken="0" time="0.699999988" in="1" out="1" intanx="-0.449999988" intany="-0" outtanx="0.449999988" outtany="0" />
+                <key type="4" corner="0" broken="0" time="1" in="1" out="1" intanx="-0.449999988" intany="0" outtanx="0.449999988" outtany="0" />
+            </trackX>
+            <trackY>
+                <looped left="0" right="0" />
+                <key type="1" corner="0" broken="0" time="0" in="0" out="0" intanx="-1" intany="0" outtanx="0.0902250707" outtany="0.440862119" />
+                <key type="1" corner="0" broken="0" time="0.143259183" in="0.699999988" out="0.699999988" intanx="-0.0902250707" intany="-0.440862119" outtanx="0.449999988" outtany="0" />
+                <key type="1" corner="0" broken="0" time="0.300000012" in="0.699999988" out="0.699999988" intanx="-0.449999988" intany="-0" outtanx="0.318198025" outtany="-0.318198025" />
+                <key type="4" corner="0" broken="0" time="1" in="0" out="0" intanx="-0.318198055" intany="0.318198055" outtanx="0.449999988" outtany="0" />
+            </trackY>
+            <trackZ>
+                <looped left="0" right="0" />
+                <key type="1" corner="0" broken="0" time="0" in="0.672302663" out="0.672302663" intanx="-0.449999988" intany="-0" outtanx="0.0898274183" outtany="-0.440943331" />
+                <key type="1" corner="0" broken="0" time="0.136959121" in="0" out="0" intanx="-0.0898274183" intany="0.440943331" outtanx="0.449999988" outtany="0" />
+                <key type="4" corner="0" broken="0" time="1" in="0" out="0" intanx="-0.449999988" intany="0" outtanx="0.180819228" outtany="0.412073314" />
+            </trackZ>
+        </function>
+        <function type="Div">
+            <position x="214" y="207" />
+        </function>
+        <function type="InterpTrack3">
+            <position x="342" y="374" />
+            <trackX>
+                <looped left="0" right="0" />
+                <key type="4" corner="0" broken="0" time="0" in="0" out="0" intanx="-1" intany="0" outtanx="0.0862221196" outtany="-0.44166249" />
+                <key type="4" corner="0" broken="0" time="0.212857619" in="-1.09033763" out="-1.09033763" intanx="-0.385922968" intany="-0.231437773" outtanx="0.385922968" outtany="0.231437773" />
+                <key type="4" corner="0" broken="0" time="0.475492179" in="0.569979966" out="0.569979966" intanx="-0.28283149" intany="-0.350009054" outtanx="0.28283149" outtany="0.350009054" />
+                <key type="4" corner="0" broken="0" time="0.806912005" in="-0.704906821" out="-0.704906821" intanx="-0.448493391" intany="0.0367923416" outtanx="0.448493391" outtany="-0.0367923416" />
+                <key type="4" corner="0" broken="0" time="0.998323798" in="0" out="0" intanx="-0.117923655" intany="-0.434274107" outtanx="0.449999988" outtany="0" />
+            </trackX>
+            <trackY>
+                <looped left="0" right="0" />
+                <key type="4" corner="0" broken="0" time="0.00146859058" in="-16.4861546" out="-16.4861546" intanx="-0.449999988" intany="-0" outtanx="0.0449644886" outtany="-0.447747916" />
+                <key type="4" corner="0" broken="0" time="0.254216045" in="-19.0029659" out="-19.0029659" intanx="-0.0174953695" intany="0.449659765" outtanx="0.0174953695" outtany="-0.449659765" />
+                <key type="4" corner="0" broken="0" time="0.621221364" in="-34.2136765" out="-34.2136765" intanx="-0.0120166363" intany="0.449839503" outtanx="0.0120166363" outtany="-0.449839503" />
+                <key type="4" corner="0" broken="0" time="0.997594655" in="-46.7935677" out="-46.7935677" intanx="-0.0134573672" intany="0.449798703" outtanx="1" outtany="0" />
+            </trackY>
+            <trackZ>
+                <looped left="0" right="0" />
+            </trackZ>
+        </function>
+        <function type="Add (vector)">
+            <position x="443" y="142" />
+        </function>
+        <function type="InterpTrack">
+            <position x="309" y="418" />
+            <track>
+                <looped left="0" right="0" />
+                <key type="3" corner="0" broken="0" time="0.00132546178" in="0.00452078274" out="0.00452078274" intanx="-1" intany="0" outtanx="0.239410996" outtany="0.381028026" />
+                <key type="3" corner="0" broken="0" time="1" in="0" out="0" intanx="-0.0860448182" intany="0.441697061" outtanx="0.449999988" outtany="0" />
+            </track>
+        </function>
+        <function type="Mul">
+            <position x="470" y="466" />
+        </function>
+    </functions>
+    <generator type="Generator">
+        <position x="707" y="10" />
+        <phase_distribution type="linear_random">
+            <linear_random>
+                <from value="0" />
+                <to value="1" />
+            </linear_random>
+        </phase_distribution>
+        <time_distribution type="linear_random">
+            <linear_random>
+                <from value="0.10000000000000001" />
+                <to value="0.20000000000000001" />
+            </linear_random>
+        </time_distribution>
+        <burst_distribution type="fixed">
+            <fixed value="5" />
+        </burst_distribution>
+    </generator>
+    <terminator type="Terminator: v1 &lt; v2">
+        <position x="707" y="250" />
+    </terminator>
+    <constructor type="Constructor">
+        <position x="707" y="310" />
+        <slice_tex x="1" y="1" />
+        <texture src="particles_ready/sprites/fireball.tga" />
+        <material src="materials/quad_tex_add.mat" />
+    </constructor>
+    <connections>
+        <connection input_block="0" input_index="0" output_block="7" output_index="0" />
+        <connection input_block="4" input_index="0" output_block="8" output_index="0" />
+        <connection input_block="5" input_index="0" output_block="9" output_index="0" />
+        <connection input_block="7" input_index="0" output_block="0" output_index="0" />
+        <connection input_block="8" input_index="0" output_block="4" output_index="0" />
+        <connection input_block="9" input_index="0" output_block="5" output_index="0" />
+        <connection input_block="10" input_index="0" output_block="1" output_index="0" />
+        <connection input_block="10" input_index="1" output_block="2" output_index="0" />
+        <connection input_block="11" input_index="0" output_block="12" output_index="0" />
+        <connection input_block="12" input_index="0" output_block="0" output_index="0" />
+        <connection input_block="12" input_index="1" output_block="3" output_index="0" />
+        <connection input_block="13" input_index="0" output_block="12" output_index="0" />
+        <connection input_block="14" input_index="0" output_block="10" output_index="0" />
+        <connection input_block="14" input_index="1" output_block="13" output_index="0" />
+        <connection input_block="15" input_index="0" output_block="12" output_index="0" />
+        <connection input_block="16" input_index="0" output_block="5" output_index="0" />
+        <connection input_block="16" input_index="1" output_block="6" output_index="0" />
+        <connection input_block="18" input_index="0" output_block="3" output_index="0" />
+        <connection input_block="18" input_index="1" output_block="0" output_index="0" />
+        <connection input_block="19" input_index="0" output_block="14" output_index="0" />
+        <connection input_block="19" input_index="1" output_block="4" output_index="0" />
+        <connection input_block="19" input_index="2" output_block="11" output_index="0" />
+        <connection input_block="19" input_index="3" output_block="15" output_index="0" />
+        <connection input_block="19" input_index="4" output_block="16" output_index="0" />
+    </connections>
+</particles_layout>

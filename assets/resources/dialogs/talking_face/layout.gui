@@ -1,0 +1,46 @@
+<gui>
+	<image>
+		<file src="half_dark_fade_in" />
+		<size width="1024" height="768" />
+	</image>
+	
+	<image>
+		<file src="hint_description" />
+		
+		<position x="196" y="0" />
+
+		<label id="prompt" transparent="1">
+			<position x="60" y="22" />
+			<align hor="left" />
+			<size width="360" height="105" />
+			<text font="/fonts/hint" color="FF000000">无提示</text>
+		</label>
+	</image>
+
+	<image id="image">
+		<position x="634" y="0" />
+		<file src="/common/black" />
+	</image>
+
+	<button id="anywhere">
+		<mask src="/common/half_dark" width="1024" height="768" />
+	</button>
+	
+	<!-- redirects to either button_ok or button_next - can't set the same shortcut for different buttons... yet... -->
+	<button id="shortcut_continue" shortcuts="enter;spacebar" transparent="1" />
+
+	<button id="button_ok">
+		<view>
+			<normal src="bt_close_E" />
+			<hover src="bt_close_O" />
+		</view>
+		<position x="495" y="104" />
+	</button>
+	<button id="button_next">
+		<view>
+			<normal src="bt_next_E" />
+			<hover src="bt_next_O" />
+		</view>
+		<position x="495" y="104" />
+	</button>
+</gui>

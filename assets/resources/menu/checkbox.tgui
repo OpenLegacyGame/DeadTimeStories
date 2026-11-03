@@ -1,0 +1,11 @@
+<templates>
+	<menu>
+		<view>
+			<normal src="/menu/checkbox_normal" />
+			<hover src="/menu/checkbox_hover" />
+			<normal_checked src="/menu/checkbox_normal_checked" />
+			<hover_checked src="/menu/checkbox_hover_checked" />
+		</view>
+		<mask src="/menu/checkbox_normal" />
+	</menu>
+</templates>

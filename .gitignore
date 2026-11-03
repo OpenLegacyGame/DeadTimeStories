@@ -1,0 +1,35 @@
+# Original downloads, extracted game files, IDA work and local reports
+/.local/
+/build/
+/dist/
+/out/
+/release/
+/.venv/
+__pycache__/
+*.pyc
+.DS_Store
+*.i64
+*.idb
+*.id0
+*.id1
+*.id2
+*.nam
+*.til
+*.exe
+*.dll
+*.msi
+*.pdb
+*.obj
+*.o
+*.a
+# The original engine calls JPEG alpha masks .a; these are source images.
+!/assets/resources/**/*.a
+*.lib
+*.so
+*.dylib
+*.zip
+*.7z
+*.rar
+*.dmg
+*.iso
+*.log

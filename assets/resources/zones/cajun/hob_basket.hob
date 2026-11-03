@@ -1,0 +1,395 @@
+<hob>
+	<groups>
+<!-- inventory -->	
+		<group0 environment="0">
+			<object name="%玩具小号%">
+				<position x="375" y="501" z="0" />
+				<texture src="HOB_basket/toy_trumpet" />
+			</object>
+			<object name="%棒棒糖%">
+				<position x="353" y="224" z="0" />
+				<texture src="HOB_basket/lollipop" />
+			</object>
+			<object name="%没头的娃娃%">
+				<position x="788" y="232" z="0" />
+				<texture src="HOB_basket/doll_without_head" />
+			</object>
+		</group0>
+<!-- complex items -->	
+		<group1>
+			<complex name="%甲虫%">
+				<object>
+					<position x="771" y="410" z="0" />
+					<texture src="HOB_basket/bug1" />
+				</object>
+				<object>
+					<position x="474" y="571" z="0" />
+					<texture src="HOB_basket/bug2" />
+				</object>
+				<object>
+					<position x="616" y="345" z="0" />
+					<texture src="HOB_basket/bug3" />
+				</object>
+			</complex>
+			<complex name="%宝石%">
+				<object>
+					<position x="266" y="257" z="0" />
+					<texture src="HOB_basket/gem1" />
+				</object>
+				<object>
+					<position x="524" y="195" z="-5" />
+					<texture src="HOB_basket/gem2" />
+				</object>
+				<object>
+					<position x="521" y="90" z="0" />
+					<texture src="HOB_basket/gem3" />
+				</object>
+			</complex>
+			<complex name="%雕像%">
+				<object>
+					<position x="688" y="7" z="0" />
+					<texture src="HOB_basket/figurine1" />
+				</object>
+				<object>
+					<position x="112" y="7" z="0" />
+					<texture src="HOB_basket/figurine2" />
+				</object>
+				<object>
+					<position x="503" y="329" z="0" />
+					<texture src="HOB_basket/figurine3" />
+				</object>
+			</complex>
+		</group1>	
+<!-- dif_0 -->		
+		<group2>
+			<object name="拐杖">
+				<position x="856" y="49" z="0" />
+				<texture src="HOB_basket/cane" />
+			</object>		
+			<object name="怀表">
+				<position x="604" y="363" z="0" />
+				<texture src="HOB_basket/watch" />
+			</object>		
+			<object name="羽毛笔">
+				<position x="286" y="475" z="0" />
+				<texture src="HOB_basket/quill" />
+			</object>		
+			<object name="鸟窝">
+				<position x="721" y="125" z="0" />
+				<texture src="HOB_basket/nest" />
+			</object>		
+			<object name="木头">
+				<position x="890" y="336" z="0" />
+				<texture src="HOB_basket/log" />
+			</object>		
+			<object name="稻草人">
+				<position x="826" y="504" z="0" />
+				<texture src="HOB_basket/scarecrow" />
+			</object>		
+			<object name="面包">
+				<position x="257" y="306" z="0" />
+				<texture src="HOB_basket/bread" />
+			</object>		
+			<object name="南瓜">
+				<position x="517" y="163" z="0" />
+				<texture src="HOB_basket/pumpkin" />
+			</object>		
+			<object name="假发">
+				<position x="584" y="10" z="0" />
+				<texture src="HOB_basket/wig" />
+			</object>		
+			<object name="犰狳">
+				<position x="634" y="255" z="0" />
+				<texture src="HOB_basket/armadillo" />
+			</object>		
+			<object name="桨">
+				<position x="10" y="373" z="0" />
+				<texture src="HOB_basket/paddle" />
+			</object>		
+			<object name="标签">
+				<position x="364" y="521" z="0" />
+				<texture src="HOB_basket/tag" />
+			</object>		
+			<object name="旗帜">
+				<position x="661" y="192" z="0" />
+				<texture src="HOB_basket/flag" />
+			</object>		
+		</group2>
+<!-- dif_1 -->	
+		<group3>
+			<object name="打蛋器">
+				<position x="176" y="145" z="0" />
+				<texture src="HOB_basket/whisk" />
+			</object>
+			<object name="卷心菜">
+				<position x="124" y="176" z="0" />
+				<texture src="HOB_basket/cabbage" />
+			</object>
+			<object name="酒壶">
+				<position x="366" y="438" z="0" />
+				<texture src="HOB_basket/flask" />
+			</object>
+			<object name="海龟">
+				<position x="906" y="172" z="0" />
+				<texture src="HOB_basket/turtel" />
+			</object>
+			<object name="罐子">
+				<position x="227" y="406" z="0" />
+				<texture src="HOB_basket/jar" />
+			</object>
+			<object name="头巾">
+				<position x="522" y="556" z="0" />
+				<texture src="HOB_basket/kerchief" />
+			</object>
+			<object name="画">
+				<position x="936" y="295" z="0" />
+				<texture src="HOB_basket/painting" />
+			</object>
+			<object name="耙子">
+				<position x="858" y="390" z="0" />
+				<texture src="HOB_basket/rake" />
+			</object>
+			<object name="泡泡">
+				<position x="976" y="455" z="0" />
+				<texture src="HOB_basket/bubble" />
+			</object>
+			<object name="螺丝钉">
+				<position x="404" y="579" z="0" />
+				<texture src="HOB_basket/screw" />
+			</object>
+			<object name="香水">
+				<position x="20" y="290" z="0" />
+				<texture src="HOB_basket/perfume" />
+			</object>
+			<object name="网">
+				<position x="572" y="126" z="0" />
+				<texture src="HOB_basket/net" />
+			</object>
+			<object name="卷轴">
+				<position x="338" y="65" z="0" />
+				<texture src="HOB_basket/scroll" />
+			</object>
+			<object name="风车">
+				<position x="210" y="85" z="0" />
+				<texture src="HOB_basket/paper_windmill" />
+			</object>
+			<object name="塔罗牌">
+				<position x="50" y="347" z="0" />
+				<texture src="HOB_basket/tarot" />
+			</object>
+			<object name="笔记">
+				<position x="569" y="232" z="0" />
+				<texture src="HOB_basket/notes" />
+			</object>
+			<object name="鞋">
+				<position x="352" y="340" z="0" />
+				<texture src="HOB_basket/shoe" />
+			</object>
+			<object name="樱桃">
+				<position x="719" y="486" z="0" />
+				<texture src="HOB_basket/cherry" />
+			</object>
+			<object name="叉子">
+				<position x="941" y="468" z="0" />
+				<texture src="HOB_basket/fork" />
+			</object>
+			<object name="红酒">
+				<position x="146" y="474" z="0" />
+				<texture src="HOB_basket/wine" />
+			</object>
+			<object name="糖碗">
+				<position x="417" y="289" z="0" />
+				<texture src="HOB_basket/sugar_bowl" />
+			</object>
+			<object name="绳子">
+				<position x="234" y="366" z="0" />
+				<texture src="HOB_basket/cable" />
+			</object>
+			<object name="三叉戟">
+				<position x="541" y="354" z="0" />
+				<texture src="HOB_basket/trident" />
+			</object>
+			<object name="信封">
+				<position x="492" y="517" z="0" />
+				<texture src="HOB_basket/envelope" />
+			</object>
+			<object name="鲶鱼">
+				<position x="772" y="323" z="0" />
+				<texture src="HOB_basket/cat_fish" />
+			</object>
+			<object name="扫帚">
+				<position x="-40" y="1" z="0" />
+				<texture src="HOB_basket/broom" />
+			</object>
+			<object name="邮戳">
+				<position x="102" y="552" z="0" />
+				<texture src="HOB_basket/stamp" />
+			</object>
+			<object name="胡萝卜">
+				<position x="135" y="341" z="0" />
+				<texture src="HOB_basket/carrot" />
+			</object>
+			<object name="舵轮">
+				<position x="419" y="35" z="-5" />
+				<texture src="HOB_basket/helm" />
+			</object>
+			<object name="人影">
+				<position x="817" y="486" z="0" />
+				<texture src="HOB_basket/silhouette" />
+			</object>
+			<object name="西红柿">
+				<position x="64" y="462" z="0" />
+				<texture src="HOB_basket/tomato" />
+			</object>
+			<object name="蛋糕">
+				<position x="170" y="418" z="0" />
+				<texture src="HOB_basket/cake" />
+			</object>
+			<object name="短剑">
+				<position x="460" y="183" z="0" />
+				<texture src="HOB_basket/stiletto" />
+			</object>
+			<object name="顶针">
+				<position x="70" y="215" z="0" />
+				<texture src="HOB_basket/thimble" />
+			</object>
+			<object name="钱包">
+				<position x="223" y="546" z="0" />
+				<texture src="HOB_basket/purse" />
+			</object>
+
+			<object name="雨伞">
+				<position x="3" y="51" z="0" />
+				<texture src="HOB_basket/umbrella" />
+			</object>
+			<object name="补丁">
+				<position x="107" y="602" z="0" />
+				<texture src="HOB_basket/patch" />
+			</object>
+		</group3>	
+<!-- dif_2 -->	
+		<group4>		
+			<object name="镰刀">
+				<position x="630" y="517" z="0" />
+				<texture src="HOB_basket/sickle" />
+			</object>		
+			<object name="水獭">
+				<position x="447" y="421" z="0" />
+				<texture src="HOB_basket/otter" />
+			</object>		
+			<object name="毛衣针">
+				<position x="679" y="386" z="0" />
+				<texture src="HOB_basket/knitting_needle" />
+			</object>		
+			<object name="火枪">
+				<position x="326" y="-13" z="0" />
+				<texture src="HOB_basket/musket" />
+			</object>		
+			<object name="脚蹼">
+				<position x="701" y="384" z="0" />
+				<texture src="HOB_basket/flipper" />
+			</object>		
+			<object name="奖章">
+				<position x="71" y="279" z="0" />
+				<texture src="HOB_basket/medal" />
+			</object>		
+			<object name="链枷">
+				<position x="779" y="96" z="0" />
+				<texture src="HOB_basket/flail" />
+			</object>		
+			<object name="狼蛛">
+				<position x="609" y="262" z="0" />
+				<texture src="HOB_basket/tarantula" />
+			</object>		
+			<object name="爪子">
+				<position x="628" y="131" z="0" />
+				<texture src="HOB_basket/claw" />
+			</object>		
+			<object name="鹦鹉螺">
+				<position x="760" y="407" z="0" />
+				<texture src="HOB_basket/nautilus" />
+			</object>		
+			<object name="蚕茧">
+				<position x="687" y="556" z="0" />
+				<texture src="HOB_basket/silk_hank" />
+			</object>		
+		</group4>	
+<!-- dif_4 -->	
+		<group5>
+			<object name="装饰">
+				<position x="113" y="601" z="0" />
+				<texture src="HOB_basket/ornament" />
+			</object>
+			<object name="汤碗">
+				<position x="293" y="189" z="0" />
+				<texture src="HOB_basket/tureen" />
+			</object>		
+		</group5>
+	</groups>
+
+	<rounds>
+		<round0
+			congratulations="%非常好!\n\n你找到了一把小号.\n也许以后会用得着.%"
+			congratulations_image="/inventory/toy_trumpet"		
+			script_complete="HOB_basket/complete_round0"
+		>
+			<slot00 group="group0" object="%玩具小号%" />
+			<slot01 group="group2" />
+			<slot02 group="group2" />
+			<slot03 group="group3" />
+			<slot04 group="group2" />
+			<slot05 group="group3" />
+			<slot06 group="group2" />
+			<slot07 group="group1" />
+			<slot08 group="group3" />
+			<slot09 group="group4" />
+			<slot10 group="group2" />
+			<slot11 group="group2" />
+		</round0>
+		<round1
+			congratulations="%非常好!\n\n你找到了一块棒棒糖.\n也许以后会用得着.%"
+			congratulations_image="/inventory/lollipop"
+			script_complete="HOB_basket/complete_round1"
+		>
+			<slot00 group="group0" object="%棒棒糖%" />
+			<slot01 group="group2" />
+			<slot02 group="group2" />
+			<slot03 group="group1" />
+			<slot04 group="group3" />
+			<slot05 group="group2" />
+			<slot06 group="group4" />
+			<slot07 group="group3" />
+			<slot08 group="group2" />
+			<slot09 group="group4" />
+			<slot10 group="group2" />
+			<slot11 group="group2" />
+		</round1>
+		<round2
+			congratulations="%非常好!\n\n你找到了一个没有头的娃娃.\n也许以后会用得着.%"
+			congratulations_image="/inventory/doll_without_head"
+			script_complete="HOB_basket/complete_round2"
+		>
+			<slot00 group="group0" object="%没头的娃娃%" />
+			<slot01 group="group2" />
+			<slot02 group="group2" />
+			<slot03 group="group3" />
+			<slot04 group="group3" />
+			<slot05 group="group4" />
+			<slot06 group="group4" />
+			<slot07 group="group2" />
+			<slot08 group="group4" />
+			<slot09 group="group2" />
+			<slot10 group="group1" />
+			<slot11 group="group5" />
+		</round2>
+	</rounds>
+	
+	<environment>
+		<object>
+			<position x="0" y="0" z="10" />
+			<texture src="HOB_basket/background" />
+			<size width="1024" height="768" />
+		</object>
+	</environment>
+	
+</hob>

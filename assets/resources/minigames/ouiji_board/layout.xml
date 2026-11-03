@@ -1,0 +1,385 @@
+<objects>
+
+	<object name="back">
+		<position x="0" y="0" z="15" />
+		<texture src="background" />
+	</object>
+
+	<object name="flora">
+		<position x="0" y="221" z="-5" />
+		<texture src="flora" />
+		<interactive value="0" />
+	</object>
+
+	<object name="back_no_board">
+		<position x="0" y="0" z="16" />
+		<texture src="background_no_board" />
+		<visible value="0" />
+	</object>
+
+	<object name="exit">
+		<position x="0" y="618" z="10" />
+		<texture src="/common/half_dark" />
+		<alpha value="0.0" />
+		<size width="1024" height="150" />
+	</object>
+	
+	<object name="yes">
+		<texture src="/common/half_dark" />
+		<position x="247" y="153" z="5" />
+		<size width="100" height="50" />
+		<alpha value="0.0" />
+	</object>
+	<object name="no">
+		<texture src="/common/half_dark" />
+		<position x="640" y="153" z="5" />
+		<size width="75" height="50" />
+		<alpha value="0.0" />
+	</object>
+	<object name="goodbye">
+		<texture src="/common/half_dark" />
+		<position x="320" y="525" z="5" />
+		<size width="325" height="50" />
+		<alpha value="0.0" />
+	</object>
+	
+	<object name="smb001">
+		<texture src="/common/half_dark" />
+		<position x="130" y="315" z="5" />
+		<rotationZ degrees="-30" />
+		<size width="68" height="74" />
+		<alpha value="0.0" />
+	</object>
+	<object name="smb002">
+		<texture src="/common/half_dark" />
+		<position x="188" y="281" z="5" />
+		<rotationZ degrees="-30" />
+		<size width="55" height="74" />
+		<alpha value="0.0" />
+	</object>
+	<object name="smb003">
+		<texture src="/common/half_dark" />
+		<position x="242" y="256" z="5" />
+		<rotationZ degrees="-20" />
+		<size width="53" height="74" />
+		<alpha value="0.0" />
+	</object>
+	<object name="smb004">
+		<texture src="/common/half_dark" />
+		<position x="293" y="237" z="5" />
+		<rotationZ degrees="-15" />
+		<size width="53" height="74" />
+		<alpha value="0.0" />
+	</object>
+	<object name="smb005">
+		<texture src="/common/half_dark" />
+		<position x="345" y="223" z="5" />
+		<rotationZ degrees="-10" />
+		<size width="53" height="74" />
+		<alpha value="0.0" />
+	</object>
+	<object name="smb006">
+		<texture src="/common/half_dark" />
+		<position x="398" y="214" z="5" />
+		<rotationZ degrees="-7" />
+		<size width="49" height="74" />
+		<alpha value="0.0" />
+	</object>
+	<object name="smb007">
+		<texture src="/common/half_dark" />
+		<position x="448" y="212" z="5" />
+		<rotationZ degrees="-2" />
+		<size width="52" height="74" />
+		<alpha value="0.0" />
+	</object>
+	<object name="smb008">
+		<texture src="/common/half_dark" />
+		<position x="503" y="212" z="5" />
+		<rotationZ degrees="3" />
+		<size width="61" height="74" />
+		<alpha value="0.0" />
+	</object>
+	<object name="smb009">
+		<texture src="/common/half_dark" />
+		<position x="565" y="215" z="5" />
+		<rotationZ degrees="7" />
+		<size width="32" height="74" />
+		<alpha value="0.0" />
+	</object>
+	<object name="smb010">
+		<texture src="/common/half_dark" />
+		<position x="600" y="220" z="5" />
+		<rotationZ degrees="15" />
+		<size width="52" height="74" />
+		<alpha value="0.0" />
+	</object>
+	<object name="smb011">
+		<texture src="/common/half_dark" />
+		<position x="649" y="234" z="5" />
+		<rotationZ degrees="15" />
+		<size width="58" height="74" />
+		<alpha value="0.0" />
+	</object>
+	<object name="smb012">
+		<texture src="/common/half_dark" />
+		<position x="707" y="253" z="5" />
+		<rotationZ degrees="20" />
+		<size width="53" height="74" />
+		<alpha value="0.0" />
+	</object>
+	<object name="smb013">
+		<texture src="/common/half_dark" />
+		<position x="759" y="272" z="5" />
+		<rotationZ degrees="28" />
+		<size width="75" height="74" />
+		<alpha value="0.0" />
+	</object>
+	<object name="smb014">
+		<texture src="/common/half_dark" />
+		<position x="138" y="417" z="5" />
+		<rotationZ degrees="-33" />
+		<size width="63" height="74" />
+		<alpha value="0.0" />
+	</object>
+	<object name="smb015">
+		<texture src="/common/half_dark" />
+		<position x="190" y="382" z="5" />
+		<rotationZ degrees="-33" />
+		<size width="53" height="74" />
+		<alpha value="0.0" />
+	</object>
+	<object name="smb016">
+		<texture src="/common/half_dark" />
+		<position x="237" y="352" z="5" />
+		<rotationZ degrees="-23" />
+		<size width="51" height="74" />
+		<alpha value="0.0" />
+	</object>
+	<object name="smb017">
+		<texture src="/common/half_dark" />
+		<position x="285" y="332" z="5" />
+		<rotationZ degrees="-20" />
+		<size width="53" height="74" />
+		<alpha value="0.0" />
+	</object>
+	<object name="smb018">
+		<texture src="/common/half_dark" />
+		<position x="338" y="313" z="5" />
+		<rotationZ degrees="-15" />
+		<size width="57" height="74" />
+		<alpha value="0.0" />
+	</object>
+	<object name="smb019">
+		<texture src="/common/half_dark" />
+		<position x="393" y="298" z="5" />
+		<rotationZ degrees="-10" />
+		<size width="52" height="74" />
+		<alpha value="0.0" />
+	</object>
+	<object name="smb020">
+		<texture src="/common/half_dark" />
+		<position x="445" y="290" z="5" />
+		<rotationZ degrees="-3" />
+		<size width="52" height="74" />
+		<alpha value="0.0" />
+	</object>
+	<object name="smb021">
+		<texture src="/common/half_dark" />
+		<position x="498" y="288" z="5" />
+		<rotationZ degrees="5" />
+		<size width="56" height="72" />
+		<alpha value="0.0" />
+	</object>
+	<object name="smb022">
+		<texture src="/common/half_dark" />
+		<position x="553" y="293" z="5" />
+		<rotationZ degrees="10" />
+		<size width="58" height="72" />
+		<alpha value="0.0" />
+	</object>
+	<object name="smb023">
+		<texture src="/common/half_dark" />
+		<position x="610" y="305" z="5" />
+		<rotationZ degrees="15" />
+		<size width="68" height="72" />
+		<alpha value="0.0" />
+	</object>
+	<object name="smb024">
+		<texture src="/common/half_dark" />
+		<position x="675" y="325" z="5" />
+		<rotationZ degrees="22" />
+		<size width="60" height="78" />
+		<alpha value="0.0" />
+	</object>
+	<object name="smb025">
+		<texture src="/common/half_dark" />
+		<position x="730" y="349" z="5" />
+		<rotationZ degrees="30" />
+		<size width="60" height="78" />
+		<alpha value="0.0" />
+	</object>
+	<object name="smb026">
+		<texture src="/common/half_dark" />
+		<position x="782" y="380" z="5" />
+		<rotationZ degrees="35" />
+		<size width="55" height="78" />
+		<alpha value="0.0" />
+	</object>
+	
+	<object name="smb027">
+		<texture src="/common/half_dark" />
+		<position x="0" y="0" z="5" />
+		<rotationZ degrees="35" />
+		<size width="0" height="0" />
+		<alpha value="0.0" />
+	</object>	
+	<object name="smb028">
+		<texture src="/common/half_dark" />
+		<position x="0" y="0" z="5" />
+		<rotationZ degrees="35" />
+		<size width="0" height="0" />
+		<alpha value="0.0" />
+	</object>	
+	<object name="smb029">
+		<texture src="/common/half_dark" />
+		<position x="0" y="0" z="5" />
+		<rotationZ degrees="35" />
+		<size width="0" height="0" />
+		<alpha value="0.0" />
+	</object>	
+	<object name="smb030">
+		<texture src="/common/half_dark" />
+		<position x="0" y="0" z="5" />
+		<rotationZ degrees="35" />
+		<size width="0" height="0" />
+		<alpha value="0.0" />
+	</object>	
+	<object name="smb031">
+		<texture src="/common/half_dark" />
+		<position x="0" y="0" z="5" />
+		<rotationZ degrees="35" />
+		<size width="0" height="0" />
+		<alpha value="0.0" />
+	</object>	
+	<object name="smb032">
+		<texture src="/common/half_dark" />
+		<position x="0" y="0" z="5" />
+		<rotationZ degrees="35" />
+		<size width="0" height="0" />
+		<alpha value="0.0" />
+	</object>	
+	<object name="smb033">
+		<texture src="/common/half_dark" />
+		<position x="0" y="0" z="5" />
+		<rotationZ degrees="35" />
+		<size width="0" height="0" />
+		<alpha value="0.0" />
+	</object>	
+	<object name="smb034">
+		<texture src="/common/half_dark" />
+		<position x="0" y="0" z="5" />
+		<rotationZ degrees="35" />
+		<size width="0" height="0" />
+		<alpha value="0.0" />
+	</object>	
+	<object name="smb035">
+		<texture src="/common/half_dark" />
+		<position x="0" y="0" z="5" />
+		<rotationZ degrees="35" />
+		<size width="0" height="0" />
+		<alpha value="0.0" />
+	</object>	
+	<object name="smb036">
+		<texture src="/common/half_dark" />
+		<position x="0" y="0" z="5" />
+		<rotationZ degrees="35" />
+		<size width="0" height="0" />
+		<alpha value="0.0" />
+	</object>
+	
+	<object name="smb001_hl" />
+	<object name="smb002_hl" />
+	<object name="smb003_hl" />
+	<object name="smb004_hl" />
+	<object name="smb005_hl">
+		<texture src="selection" />
+		<material src="/materials/quad_tex_add" />
+		<position x="327" y="207" z="2.5" />
+		<rotationZ degrees="-10" />
+		<alpha value="0.0" />
+		<interactive value="0" />
+	</object>
+	<object name="smb006_hl" />
+	<object name="smb007_hl" />
+	<object name="smb008_hl" />
+	<object name="smb009_hl" />
+	<object name="smb010_hl" />
+	<object name="smb011_hl" />
+	<object name="smb012_hl" />
+	<object name="smb013_hl">
+		<texture src="selection" />
+		<material src="/materials/quad_tex_add" />
+		<position x="762" y="255" z="2.5" />
+		<rotationZ degrees="28" />
+		<alpha value="0.0" />
+		<interactive value="0" />
+	</object>		
+	<object name="smb014_hl">
+		<texture src="selection" />
+		<material src="/materials/quad_tex_add" />
+		<position x="125" y="405" z="2.5" />
+		<rotationZ degrees="-33" />
+		<alpha value="0.0" />
+		<interactive value="0" />
+	</object>		
+	<object name="smb015_hl">
+		<texture src="selection" />
+		<material src="/materials/quad_tex_add" />
+		<position x="165" y="375" z="2.5" />
+		<rotationZ degrees="-33" />
+		<alpha value="0.0" />
+		<interactive value="0" />
+	</object>		
+	<object name="smb016_hl">
+		<texture src="selection" />
+		<material src="/materials/quad_tex_add" />
+		<position x="215" y="338" z="2.5" />
+		<rotationZ degrees="-23" />
+		<alpha value="0.0" />
+		<interactive value="0" />
+	</object>
+	<object name="smb017_hl" />
+	<object name="smb018_hl" />
+	<object name="smb019_hl" />
+	<object name="smb020_hl" />
+	<object name="smb021_hl" />
+	<object name="smb022_hl" />
+	<object name="smb023_hl" />
+	<object name="smb024_hl" />
+	<object name="smb025_hl" />
+	<object name="smb026_hl" />
+	<object name="smb027_hl" />
+	<object name="smb028_hl" />
+	<object name="smb029_hl" />
+	<object name="smb030_hl" />
+	<object name="smb031_hl" />
+	<object name="smb032_hl" />
+	<object name="smb033_hl" />
+	<object name="smb034_hl" />
+	<object name="smb035_hl" />
+	<object name="smb036_hl" />
+		
+	<object name="planchette">
+		<texture src="planchette" />
+		<position x="450" y="330" z="0" />
+	</object>
+	
+	<object name="fx_open">
+		<texture src="/common/black" />
+		<position x="0" y="0" z="-10" />
+		<size width="1024" height="768" />
+		<alpha value="0.0" />
+		<visible value="0" />
+	</object>
+	
+</objects>

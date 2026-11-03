@@ -1,0 +1,90 @@
+<spellmixing>
+	<onFinish script="_on_finish" />
+	
+	<spell_items>
+		<ingredient inventory="lemon" in_loa="lemon" loa_pivot_x="71" loa_pivot_y="72" />
+		<ingredient inventory="tears" in_loa="tears_of_saint" loa_pivot_x="63" loa_pivot_y="65" mix_script="_on_mix_vialoftears" />
+		<ingredient inventory="onion_flower" in_loa="onion_flower" loa_pivot_x="73" loa_pivot_y="77" />
+		<ingredient inventory="garlic_head" in_loa="garlic" loa_pivot_x="56" loa_pivot_y="76" />
+		<ingredient inventory="white_pepper" in_loa="white_pepper" loa_pivot_x="87" loa_pivot_y="63" />
+		<ingredient inventory="jug_of_water" in_loa="jug_of_water" loa_pivot_x="57" loa_pivot_y="109" />
+		<bottle inventory="bowl" in_loa="bowl" />
+	</spell_items>
+	
+	<scene_objects>
+		<loa_ingredient_slot name="slot_1" />
+		<loa_ingredient_slot name="slot_2" />
+		<loa_ingredient_slot name="slot_3" />
+		<loa_ingredient_slot name="slot_4" />
+		<loa_ingredient_slot name="slot_5" />
+		<loa_ingredient_slot name="slot_6" />
+		<loa_bottle_slot name="slot_central" />
+		<loa_shining name="loa" />
+		<loa_black name="loa_black" />
+		<loa_mask name="loa_mask" />
+		<mortar name="mortar" />
+		<mortar_full name="mortar_full" />
+		<mortar_with_ingredients name="mortar_with_ingredients" />
+		<mortar_mixture_ready name="mortar_mixture_ready" />
+		<pestle_outside_mortar name="pestle" />
+		<pestle_in_mortar name="pestle_mixing" />
+		<full_bottle name="full_bowl" />
+		<riddle name="riddle" />
+		<hint_back name="arrows_back" />
+		<hint_back_fx name="arrows_back_fx" />
+		<hint_cw name="arrow_right" />
+		<hint_ccw name="arrow_left" />
+		<hint_text_cw name="arrow_right_text" />
+		<hint_text_ccw name="arrow_left_text" />
+		<fx_put_into_mortar name="fx_put_into_mortar" />
+	</scene_objects>
+	
+	<need_reset wrong_ingredient_order="0" wrong_mixing="0" />
+	<reset_round_actions> 
+		<!-- 
+			Format is similar to that of cutscenes, only with extra <reset_round> action
+			and <end_reset/> instead of <end/>.
+		-->
+		<anim object="reset_fx" src="/common/show">
+			<anim object="reset_fx" src="/minigames/_common_spellmixing/reset_fx_1">
+				<reset_round>
+					<anim object="reset_fx" src="/minigames/_common_spellmixing/reset_fx_2">
+						<anim object="reset_fx" src="/common/hide">
+							<end_reset/>
+						</anim>
+					</anim>
+				</reset_round>
+			</anim>
+		</anim>
+	</reset_round_actions>
+	
+	<riddle offset_x="20" offset_y="23" font="/fonts/acoustic_bass" color="FFFFFFFF" />
+	
+	<rounds>
+		<round>
+			<ingredients>
+				<jug_of_water/>
+				<tears/>
+				<garlic_head/>
+				<white_pepper/>
+				<onion_flower/>
+				<lemon/>
+			</ingredients>
+			<gestures>
+				<ccw/>
+				<ccw/>		
+			</gestures>
+		</round>
+	</rounds>
+
+	<mixing>
+		<pestle_start_pos x="150" y="194" />
+		<mortar left="48" top="152" right="253" bottom="237" />
+		<hint_text_cw_offset x="14" y="-2" />
+		<hint_text_ccw_offset x="14" y="-2" />
+		<hint_text font="/fonts/hint_big" color="EE352F27" />
+		<min_time_before_first_failure ms="2500" />
+		<min_failure_time_after_direction_switch ms="1000" />
+	</mixing>
+	
+</spellmixing>

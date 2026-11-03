@@ -1,0 +1,32 @@
+<animation type="keys" applier="position" priority="0" weight="1.0" start="0.0" looped="0">
+	<keys type="vector3">
+		<cyclic value="0" />
+		<vector3>
+			<key relative_time="0.0">487 -115 0</key>
+			<key relative_time="0.0495">475 -106 0</key>
+			<key relative_time="0.0495">463 -94 0</key>
+			<key relative_time="0.0495">453 -81 0</key>
+			<key relative_time="0.0495">445 -67 0</key>
+			<key relative_time="0.0495">439 -53 0</key>
+			<key relative_time="0.0495">433 -39 0</key>
+			<key relative_time="0.0495">428 -24 0</key>
+			<key relative_time="0.0495">424 -11 0</key>
+			<key relative_time="0.0495">420 2 0</key>
+			<key relative_time="0.0495">416 16 0</key>
+			<key relative_time="0.0495">413 29 0</key>
+			<key relative_time="0.0495">412 38 0</key>
+			<key relative_time="0.0495">410 46 0</key>
+			<key relative_time="0.0495">407 59 0</key>
+			<key relative_time="0.0495">405 72 0</key>
+			<key relative_time="0.0495">403 84 0</key>
+			<key relative_time="0.0495">402 97 0</key>
+			<key relative_time="0.0495">400 109 0</key>
+			<key relative_time="0.0495">399 120 0</key>
+			<key relative_time="0.0495">398 131 0</key>
+			<key relative_time="0.0495">397 141 0</key>
+			<key relative_time="0.0495">397 147 0</key>
+			<key relative_time="0.0495">397 147 0</key>
+			<key relative_time="0.0495">397 147 0</key>
+		</vector3>
+	</keys>
+</animation>

@@ -1,0 +1,49 @@
+<voodoo_circle>
+	<onFinish script="_on_finish" />
+	
+	<spell name="curse_of_fire" />
+	
+	<garbage_objects quantity="9" />
+	
+	<!-- Notes:
+	     "index" attribute is mostly for readability; indexes MUST follow in strict order,
+		 otherwise the game will fail to load this config.
+	-->
+	<spell_items quantity="4">
+		<item index="0" inventory_object="rum" on_scene="0" />
+		<item index="1" inventory_object="cage" />
+		<item index="2" inventory_object="coconut" />
+		<item index="3" inventory_object="voodoo_doll_old" conduit="1" />
+	</spell_items>
+	
+	<!-- Notes:
+	     "index" attribute is mostly for readability; indexes MUST follow in strict order,
+		 otherwise the game will fail to load this config.
+		 0 value for "stop_drawing_distance_threshold" distance attribute means no limit.
+	-->
+	<drawing num_shapes="11" chalk_stroke_algorithm_enabled="0" stop_sound_time_ms="200" >
+
+		<shape index="0" max_distance_from_control_point="45" stop_drawing_distance_threshold="0"
+			min_percentage_to_finish="92" chalk_stroke_length="60" chalk_stroke_thickness="40" />
+		<shape index="1" max_distance_from_control_point="15" stop_drawing_distance_threshold="0"
+			min_percentage_to_finish="50" chalk_stroke_length="25" chalk_stroke_thickness="20" />
+		<shape index="2" max_distance_from_control_point="15" stop_drawing_distance_threshold="0"
+			min_percentage_to_finish="60" chalk_stroke_length="25" chalk_stroke_thickness="20" />
+		<shape index="3" max_distance_from_control_point="15" stop_drawing_distance_threshold="0"
+			min_percentage_to_finish="60" chalk_stroke_length="25" chalk_stroke_thickness="20" />
+		<shape index="4" max_distance_from_control_point="15" stop_drawing_distance_threshold="0"
+			min_percentage_to_finish="50" chalk_stroke_length="25" chalk_stroke_thickness="20" />
+		<shape index="5" max_distance_from_control_point="15" stop_drawing_distance_threshold="0"
+			min_percentage_to_finish="60" chalk_stroke_length="25" chalk_stroke_thickness="20" />
+		<shape index="6" max_distance_from_control_point="15" stop_drawing_distance_threshold="0"
+			min_percentage_to_finish="60" chalk_stroke_length="25" chalk_stroke_thickness="20" />
+		<shape index="7" max_distance_from_control_point="15" stop_drawing_distance_threshold="0"
+			min_percentage_to_finish="50" chalk_stroke_length="25" chalk_stroke_thickness="20" />
+		<shape index="8" max_distance_from_control_point="15" stop_drawing_distance_threshold="0"
+			min_percentage_to_finish="60" chalk_stroke_length="25" chalk_stroke_thickness="20" />
+		<shape index="9" max_distance_from_control_point="15" stop_drawing_distance_threshold="0"
+			min_percentage_to_finish="60" chalk_stroke_length="25" chalk_stroke_thickness="20" />
+		<shape index="10" max_distance_from_control_point="15" stop_drawing_distance_threshold="0"
+			min_percentage_to_finish="70" chalk_stroke_length="25" chalk_stroke_thickness="20" />
+	</drawing>
+</voodoo_circle>

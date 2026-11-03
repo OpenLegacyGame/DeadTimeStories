@@ -1,0 +1,61 @@
+<replacement src="frames.xml" />
+<animation_set looped="0">
+	<animation type="keys" applier="visible" priority="0" weight="1.0" start="0.0" looped="0">
+		<keys type="float">
+			<cyclic value="0" />
+			<float>
+				<key relative_time="0">0</key>
+				<!-- 1 -->
+				<key relative_time="2">0</key>
+				<!-- 2 -->
+				<key relative_time="{1}">0</key>
+				<!-- 3 -->
+				<key relative_time="{2}">0</key>
+				<key relative_time="0">1</key>
+				<!-- 4 -->
+				<key relative_time="{3}">1</key>
+				<key relative_time="0">0</key>
+				<!-- 5 -->
+				<key relative_time="{4}">0</key>
+			</float>
+		</keys>
+	</animation>
+	
+	<animation type="keys" applier="position" priority="1" weight="1.0" start="0.0" looped="0">
+		<keys type="vector3">
+			<cyclic value="0" />
+			<vector3>
+				<key relative_time="0">0 0 0</key>
+				<!-- 1 -->
+				<key relative_time="2">0 0 0</key>
+				<!-- 2 -->
+				<key relative_time="{1}">0 0 0</key>
+				<!-- 3 -->
+				<key relative_time="{2}">400 50 0</key>
+				<!-- 4 -->
+				<key relative_time="{3}">430 50 0</key>
+				<!-- 5 -->
+				<key relative_time="{4}">0 0 0</key>
+			</vector3>
+		</keys>
+	</animation>
+	
+	<animation type="keys" applier="scale" priority="1" weight="1.0" start="0.0" looped="0">
+		<keys type="float">
+			<cyclic value="0" />
+			<float>
+				<key relative_time="0">1</key>
+				<!-- 1 -->
+				<key relative_time="2">1</key>
+				<!-- 2 -->
+				<key relative_time="{1}">1</key>
+				<!-- 3 -->
+				<key relative_time="{2}">1</key>
+				<!-- 4 -->
+				<key relative_time="{3}">1</key>
+				<!-- 5 -->
+				<key relative_time="{4}">1</key>
+			</float>
+		</keys>
+	</animation>
+</animation_set>

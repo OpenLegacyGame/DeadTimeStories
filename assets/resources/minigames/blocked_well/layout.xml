@@ -1,0 +1,370 @@
+ <objects>
+	<object name="back">
+		<position x="0" y="0" z="10" />
+		<texture src="back" />
+		<interactive value="0" />
+	</object>
+	<object name="exit">
+		<position x="0" y="618" z="5" />
+		<texture src="/common/half_dark" />
+		<alpha value="0.0" />
+		<size width="1024" height="150" />
+	</object>
+	
+	<object name="letter_01">
+		<position x="309" y="329" z="0" />
+		<texture src="letters/a_mask" />
+		<alpha value="0.0" />
+	</object>
+	<object name="letter_02">
+		<position x="314" y="310" z="0" />
+		<texture src="letters/b_mask" />
+		<alpha value="0.0" />		
+	</object>
+	<object name="letter_03">
+		<position x="323" y="295" z="0" />
+		<texture src="letters/c_mask" />
+		<alpha value="0.0" />
+	</object>
+	<object name="letter_04">
+		<position x="335" y="276" z="0" />
+		<texture src="letters/d_mask" />
+		<alpha value="0.0" />
+	</object>
+	<object name="letter_05">
+		<position x="352" y="266" z="0" />
+		<texture src="letters/e_mask" />
+		<alpha value="0.0" />
+	</object>
+	<object name="letter_06">
+		<position x="366" y="257" z="0" />
+		<texture src="letters/f_mask" />
+		<alpha value="0.0" />
+	</object>
+	<object name="letter_07">
+		<position x="382" y="248" z="0" />
+		<texture src="letters/g_mask" />
+		<alpha value="0.0" />
+	</object>
+	<object name="letter_08">
+		<position x="398" y="242" z="0" />
+		<texture src="letters/h_mask" />
+		<alpha value="0.0" />
+	</object>
+	<object name="letter_09">
+		<position x="416" y="236" z="0" />
+		<texture src="letters/i_mask" />
+		<alpha value="0.0" />
+	</object>
+	<object name="letter_10">
+		<position x="431" y="230" z="0" />
+		<texture src="letters/j_mask" />
+		<alpha value="0.0" />
+	</object>
+	<object name="letter_11">
+		<position x="451" y="225" z="0" />
+		<texture src="letters/k_mask" />
+		<alpha value="0.0" />
+	</object>
+	<object name="letter_12">
+		<position x="472" y="223" z="0" />
+		<texture src="letters/l_mask" />
+		<alpha value="0.0" />
+	</object>
+	<object name="letter_13">
+		<position x="492" y="222" z="0" />
+		<texture src="letters/m_mask" />
+		<alpha value="0.0" />
+	</object>
+	<object name="letter_14">
+		<position x="514" y="222" z="0" />
+		<texture src="letters/n_mask" />
+		<alpha value="0.0" />
+	</object>
+	<object name="letter_15">
+		<position x="540" y="222" z="0" />
+		<texture src="letters/o_mask" />
+		<alpha value="0.0" />
+	</object>
+	<object name="letter_16">
+		<position x="557" y="226" z="0" />
+		<texture src="letters/p_mask" />
+		<alpha value="0.0" />
+	</object>
+	<object name="letter_17">
+		<position x="571" y="227" z="0" />
+		<texture src="letters/q_mask" />
+		<alpha value="0.0" />
+	</object>
+	<object name="letter_18">
+		<position x="586" y="232" z="0" />
+		<texture src="letters/r_mask" />
+		<alpha value="0.0" />
+	</object>
+	<object name="letter_19">
+		<position x="600" y="236" z="0" />
+		<texture src="letters/s_mask" />
+		<alpha value="0.0" />
+	</object>
+	<object name="letter_20">
+		<position x="617" y="243" z="0" />
+		<texture src="letters/t_mask" />
+		<alpha value="0.0" />
+	</object>
+	<object name="letter_21">
+		<position x="633" y="252" z="0" />
+		<texture src="letters/u_mask" />
+		<alpha value="0.0" />
+	</object>
+	<object name="letter_22">
+		<position x="647" y="260" z="0" />
+		<texture src="letters/v_mask" />
+		<alpha value="0.0" />
+	</object>
+	<object name="letter_23">
+		<position x="658" y="270" z="0" />
+		<texture src="letters/w_mask" />
+		<alpha value="0.0" />
+	</object>
+	<object name="letter_24">
+		<position x="668" y="285" z="0" />
+		<texture src="letters/x_mask" />
+		<alpha value="0.0" />
+	</object>	
+	<object name="letter_25">
+		<position x="677" y="301" z="0" />
+		<texture src="letters/y_mask" />
+		<alpha value="0.0" />
+	</object>	
+	<object name="letter_26">
+		<position x="687" y="320" z="0" />
+		<texture src="letters/z_mask" />
+		<alpha value="0.0" />
+	</object>
+	
+	<object name="letter_01_hl">
+		<texture src="letters/a" />
+		<position x="309" y="329" />
+		<interactive value="0" />
+		<visible value="0" />
+	</object>
+	<object name="letter_02_hl">
+		<texture src="letters/b" />
+		<position x="314" y="310" />
+		<interactive value="0" />
+		<visible value="0" />
+	</object>
+	<object name="letter_03_hl">
+		<texture src="letters/c" />
+		<position x="323" y="295" />
+		<interactive value="0" />
+		<visible value="0" />
+	</object>
+	<object name="letter_04_hl">
+		<texture src="letters/d" />
+		<position x="335" y="276" />
+		<interactive value="0" />
+		<visible value="0" />
+	</object>
+	<object name="letter_05_hl">
+		<texture src="letters/e" />
+		<position x="352" y="266" />
+		<interactive value="0" />
+		<visible value="0" />
+	</object>
+	<object name="letter_06_hl">
+		<texture src="letters/f" />
+		<position x="366" y="257" />
+		<interactive value="0" />
+		<visible value="0" />
+	</object>
+	<object name="letter_07_hl">
+		<texture src="letters/g" />
+		<position x="382" y="248" />
+		<interactive value="0" />
+		<visible value="0" />
+	</object>
+	<object name="letter_08_hl">
+		<texture src="letters/h" />
+		<position x="398" y="242" />
+		<interactive value="0" />
+		<visible value="0" />
+	</object>
+	<object name="letter_09_hl">
+		<texture src="letters/i" />
+		<position x="416" y="236" />
+		<interactive value="0" />
+		<visible value="0" />
+	</object>
+	<object name="letter_10_hl">
+		<texture src="letters/j" />
+		<position x="431" y="230" />
+		<interactive value="0" />
+		<visible value="0" />
+	</object>
+	<object name="letter_11_hl">
+		<texture src="letters/k" />
+		<position x="451" y="225" />
+		<interactive value="0" />
+		<visible value="0" />
+	</object>
+	<object name="letter_12_hl">
+		<texture src="letters/l" />
+		<position x="472" y="223" />
+		<interactive value="0" />
+		<visible value="0" />
+	</object>
+	<object name="letter_13_hl">
+		<texture src="letters/m" />
+		<position x="492" y="222" />
+		<interactive value="0" />
+		<visible value="0" />
+	</object>
+	<object name="letter_14_hl">
+		<texture src="letters/n" />
+		<position x="514" y="222" />
+		<interactive value="0" />
+		<visible value="0" />
+	</object>
+	<object name="letter_15_hl">
+		<texture src="letters/o" />
+		<position x="540" y="222" />
+		<interactive value="0" />
+		<visible value="0" />
+	</object>
+	<object name="letter_16_hl">
+		<texture src="letters/p" />
+		<position x="557" y="226" />
+		<interactive value="0" />
+		<visible value="0" />
+	</object>
+	<object name="letter_17_hl">
+		<texture src="letters/q" />
+		<position x="571" y="227" />
+		<interactive value="0" />
+		<visible value="0" />
+	</object>
+	<object name="letter_18_hl">
+		<texture src="letters/r" />
+		<position x="586" y="232" />
+		<interactive value="0" />
+		<visible value="0" />
+	</object>
+	<object name="letter_19_hl">
+		<texture src="letters/s" />
+		<position x="600" y="236" />
+		<interactive value="0" />
+		<visible value="0" />
+	</object>
+	<object name="letter_20_hl">
+		<texture src="letters/t" />
+		<position x="617" y="243" />
+		<interactive value="0" />
+		<visible value="0" />
+	</object>
+	<object name="letter_21_hl">
+		<texture src="letters/u" />
+		<position x="633" y="252" />
+		<interactive value="0" />
+		<visible value="0" />
+	</object>
+	<object name="letter_22_hl">
+		<texture src="letters/v" />
+		<position x="647" y="260" />
+		<interactive value="0" />
+		<visible value="0" />
+	</object>
+	<object name="letter_23_hl">
+		<texture src="letters/w" />
+		<position x="658" y="270" />
+		<interactive value="0" />
+		<visible value="0" />
+	</object>
+	<object name="letter_24_hl">
+		<texture src="letters/x" />
+		<position x="668" y="285" />
+		<interactive value="0" />
+		<visible value="0" />
+	</object>
+	<object name="letter_25_hl">
+		<texture src="letters/y" />
+		<position x="677" y="301" />
+		<interactive value="0" />
+		<visible value="0" />
+	</object>
+	<object name="letter_26_hl">
+		<texture src="letters/z" />
+		<position x="687" y="320" />
+		<interactive value="0" />
+		<visible value="0" />
+	</object>	
+	
+	<object name="progress_01">
+		<position x="368" y="289" z="0" />
+		<texture src="progress/F" />
+		<interactive value="0" />
+		<alpha value="1.0" />
+	</object>
+	<object name="progress_02">
+		<position x="394" y="291" z="0" />
+		<texture src="progress/O1" />
+		<interactive value="0" />
+		<alpha value="0.0" />
+	</object>
+	<object name="progress_03">
+		<position x="408" y="273" z="0" />
+		<texture src="progress/R" />
+		<interactive value="0" />
+		<alpha value="0.0" />
+	</object>
+	<object name="progress_04">
+		<position x="444" y="268" z="0" />
+		<texture src="progress/G" />
+		<interactive value="0" />
+		<alpha value="0.0" />
+	</object>
+	<object name="progress_05">
+		<position x="467" y="257" z="0" />
+		<texture src="progress/E" />
+		<interactive value="0" />
+		<alpha value="0.0" />
+	</object>
+	<object name="progress_06">
+		<position x="493" y="264" z="0" />
+		<texture src="progress/T1" />
+		<interactive value="0" />
+		<alpha value="0.0" />
+	</object>
+	
+	<object name="progress_07">
+		<position x="529" y="254" z="0" />
+		<texture src="progress/U" />
+		<interactive value="0" />
+		<alpha value="0.0" />
+	</object>
+	<object name="progress_07">
+		<position x="549" y="266" z="0" />
+		<texture src="progress/S" />
+		<interactive value="0" />
+		<alpha value="0.0" />
+	</object>
+
+	<object name="progress_08">
+		<position x="576" y="274" z="0" />
+		<texture src="progress/N" />
+		<interactive value="0" />
+		<alpha value="0.0" />
+	</object>
+	<object name="progress_09">
+		<position x="604" y="288" z="0" />
+		<texture src="progress/O2" />
+		<interactive value="0" />
+		<alpha value="0.0" />
+	</object>
+	<object name="progress_10">
+		<position x="620" y="296" z="0" />
+		<texture src="progress/T2" />
+		<interactive value="0" />
+		<alpha value="0.0" />
+	</object>
+</objects>

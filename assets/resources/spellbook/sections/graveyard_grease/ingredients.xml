@@ -1,0 +1,9 @@
+<spell>
+	<ingredient item="lemon" text="%柠檬%" x="435" y="152" />
+	<ingredient item="tears" text="%圣徒的眼泪%" x="435" y="176" />
+	<ingredient item="onion_flower" text="%洋葱花%" x="435" y="200" />
+	<ingredient item="garlic_head" text="%大蒜头%" x="435" y="224" />
+	<ingredient item="white_pepper" text="%白胡椒%" x="435" y="248" />
+	<ingredient item="jug_of_water" text="%一罐水%" x="435" y="272" />
+	<ingredient item="bowl" container="1" text="%木碗%" x="435" y="80" />
+</spell>

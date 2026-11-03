@@ -1,0 +1,26 @@
+<gui>
+	<group>
+		<position x="100" y="70" />
+	
+		<image>
+			<position x="0" y="100" />
+			<file src="special" />
+		</image>
+		<image>
+			<position x="500" y="100" />
+			<file src="special" />
+		</image>
+		<image>
+			<position x="300" y="300" />
+			<file src="special" />
+		</image>
+		<image>
+			<position x="0" y="500" />
+			<file src="special" />
+		</image>
+		<image>
+			<position x="500" y="500" />
+			<file src="special" />
+		</image>
+	</group>
+</gui>

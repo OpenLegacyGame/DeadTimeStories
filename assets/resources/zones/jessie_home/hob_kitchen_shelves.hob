@@ -1,0 +1,360 @@
+<hob stripcode="1400">
+	<groups>
+<!-- inventory -->	
+		<group0 environment="0">
+			<object name="%海绵%">
+				<position x="885" y="138" z="0" />
+				<texture src="HOB_kitchen_shelves/sponge_scenes" />
+			</object>
+			<object name="%罐子%">
+				<position x="176" y="477" z="-25" />
+				<texture src="HOB_kitchen_shelves/empty_jug_scenes" />
+			</object>
+		</group0>
+<!-- complex items -->	
+		<group1>
+			<complex name="%蝴蝶%">
+				<object>
+					<position x="23" y="224" z="0" />
+					<texture src="HOB_kitchen_shelves/butterfly_1_scenes" />
+				</object>
+				<object>
+					<position x="440" y="530" z="0" />
+					<texture src="HOB_kitchen_shelves/butterfly_2_scenes" />
+				</object>
+				<object>
+					<position x="807" y="327" z="0" />
+					<texture src="HOB_kitchen_shelves/butterfly_3_scenes" />
+				</object>
+			</complex>
+			<complex name="%猫%">
+				<object>
+					<position x="332" y="433" z="0" />
+					<texture src="HOB_kitchen_shelves/cat_1_scenes" />
+				</object>
+				<object>
+					<position x="977" y="492" z="-5" />
+					<texture src="HOB_kitchen_shelves/cat_2_scenes" />
+				</object>
+				<object>
+					<position x="221" y="16" z="0" />
+					<texture src="HOB_kitchen_shelves/cat_3_scenes" />
+				</object>
+			</complex>
+			<complex name="%大杯子%">
+				<object>
+					<position x="339" y="506" z="0" />
+					<texture src="HOB_kitchen_shelves/mug_1_scenes" />
+				</object>
+				<object>
+					<position x="649" y="283" z="0" />
+					<texture src="HOB_kitchen_shelves/mug_2_scenes" />
+				</object>
+				<object>
+					<position x="958" y="139" z="0" />
+					<texture src="HOB_kitchen_shelves/mug_3_scenes" />
+				</object>
+			</complex>
+			<complex name="%糕点%">
+				<object>
+					<position x="752" y="575" z="-5" />
+					<texture src="HOB_kitchen_shelves/pastry_1_scenes" />
+				</object>
+				<object>
+					<position x="369" y="550" z="-5" />
+					<texture src="HOB_kitchen_shelves/pastry_2_scenes" />
+				</object>
+				<object>
+					<position x="547" y="31" z="0" />
+					<texture src="HOB_kitchen_shelves/pastry_3_scenes" />
+				</object>
+			</complex>
+			<complex name="%老鼠%">
+				<object>
+					<position x="426" y="220" z="0" />
+					<texture src="HOB_kitchen_shelves/rat_1_scenes" />
+				</object>
+				<object>
+					<position x="144" y="587" z="0" />
+					<texture src="HOB_kitchen_shelves/rat_2_scenes" />
+				</object>
+				<object>
+					<position x="854" y="504" z="0" />
+					<texture src="HOB_kitchen_shelves/rat_3_scenes" />
+				</object>
+			</complex>
+		</group1>	
+<!-- creole ones -->	
+		<group4>
+			<object name="%克里奥尔字典%">
+				<position x="74" y="357" z="0" />
+				<texture src="HOB_kitchen_shelves/creole_dictionary_scenes" />
+			</object>
+		</group4>
+<!-- dif_0 -->	
+		<group2>
+			<object name="%研磨器%">
+				<position x="716" y="476" z="0" />
+				<texture src="HOB_kitchen_shelves/grater_scenes" />
+			</object>		
+			<object name="%猪%">
+				<position x="462" y="0" z="0" />
+				<texture src="HOB_kitchen_shelves/pig_head_scenes" />
+			</object>		
+			<object name="%南瓜灯%">
+				<position x="928" y="393" z="0" />
+				<texture src="HOB_kitchen_shelves/jack_o_lantern_scenes" />
+			</object>		
+			<object name="%金丝雀%">
+				<position x="74" y="38" z="0" />
+				<texture src="HOB_kitchen_shelves/canary_scenes" />
+			</object>		
+			<object name="%镊子%">
+				<position x="240" y="568" z="0" />
+				<texture src="HOB_kitchen_shelves/forceps_scenes" />
+			</object>		
+			<object name="%切肉刀%">
+				<position x="368" y="109" z="0" />
+				<texture src="HOB_kitchen_shelves/meat_cleaver_scenes" />
+			</object>		
+			<object name="%筛子%">
+				<position x="388" y="289" z="0" />
+				<texture src="HOB_kitchen_shelves/sieve_scenes" />
+			</object>		
+			<object name="%海星%">
+				<position x="805" y="149" z="0" />
+				<texture src="HOB_kitchen_shelves/starfish_scenes" />
+			</object>		
+			<object name="%萤火虫%">
+				<position x="663" y="469" z="0" />
+				<texture src="HOB_kitchen_shelves/firefly_jar_scenes" />
+			</object>		
+			<object name="%扫帚%">
+				<position x="522" y="289" z="0" />
+				<texture src="HOB_kitchen_shelves/broom_scenes" />
+			</object>		
+			<object name="%西红柿%">
+				<position x="458" y="432" z="0" />
+				<texture src="HOB_kitchen_shelves/preserved_tomatoes_scenes" />
+			</object>		
+			<object name="%彩绘玻璃%">
+				<position x="854" y="242" z="0" />
+				<texture src="HOB_kitchen_shelves/stain_glass_scenes" />
+			</object>
+		</group2>
+<!-- dif_1 -->	
+		<group3>
+			<object name="%碗%">
+				<position x="808" y="51" z="-5" />
+				<texture src="HOB_kitchen_shelves/bowl_scenes" />
+			</object>
+			<object name="%刷子%">
+				<position x="815" y="452" z="0" />
+				<texture src="HOB_kitchen_shelves/brush_scenes" />
+			</object>		
+			<object name="%熨衣板%">
+				<position x="135" y="422" z="-4" />
+				<texture src="HOB_kitchen_shelves/ironing_board_scenes" />
+			</object>		
+			<object name="%天枰%">
+				<position x="-15" y="391" z="0" />
+				<texture src="HOB_kitchen_shelves/scales_scenes" />
+			</object>		
+			<object name="%种子%">
+				<position x="833" y="551" z="0" />
+				<texture src="HOB_kitchen_shelves/sack_of_seeds_scenes" />
+			</object>		
+			<object name="%橄榄油%">
+				<position x="593" y="522" z="0" />
+				<texture src="HOB_kitchen_shelves/olive_oil_scenes" />
+			</object>		
+			<object name="%奶酪%">
+				<position x="480" y="577" z="-5" />
+				<texture src="HOB_kitchen_shelves/piece_of_cheese_scenes" />
+			</object>		
+			<object name="%豆荚%">
+				<position x="279" y="328" z="0" />
+				<texture src="HOB_kitchen_shelves/preserved_beans_scenes" />
+			</object>		
+			<object name="%鱼%">
+				<position x="892" y="107" z="0" />
+				<texture src="HOB_kitchen_shelves/baked_fish_scenes" />
+			</object>		
+			<object name="%蛋%">
+				<position x="720" y="113" z="0" />
+				<texture src="HOB_kitchen_shelves/egg_scenes" />
+			</object>		
+			<object name="%叉子%">
+				<position x="122" y="506" z="0" />
+				<texture src="HOB_kitchen_shelves/fork_scenes" />
+			</object>		
+			<object name="%刀子%">
+				<position x="764" y="422" z="0" />
+				<texture src="HOB_kitchen_shelves/knife_scenes" />
+			</object>		
+			<object name="%香烟%">
+				<position x="246" y="403" z="0" />
+				<texture src="HOB_kitchen_shelves/cigar_scenes" />
+			</object>		
+			<object name="%洋葱%">
+				<position x="550" y="544" z="0" />
+				<texture src="HOB_kitchen_shelves/onion_scenes" />
+			</object>		
+			<object name="%榨汁器%">
+				<position x="364" y="64" z="0" />
+				<texture src="HOB_kitchen_shelves/juicer_scenes" />
+			</object>		
+			<object name="%搅肉机%">
+				<position x="95" y="58" z="0" />
+				<texture src="HOB_kitchen_shelves/meat_grinder_scenes" />
+			</object>		
+			<object name="%烟灰缸%">
+				<position x="649" y="145" z="0" />
+				<texture src="HOB_kitchen_shelves/ashtray_scenes" />
+			</object>		
+			<object name="%蛋杯%">
+				<position x="489" y="538" z="0" />
+				<texture src="HOB_kitchen_shelves/egg_cup_scenes" />
+			</object>		
+			<object name="%鸡爪%">
+				<position x="256" y="191" z="0" />
+				<texture src="HOB_kitchen_shelves/chicken_leg_scenes" />
+			</object>			
+			<object name="%蘑菇%">
+				<position x="262" y="53" z="0" />
+				<texture src="HOB_kitchen_shelves/mushroom_scenes" />
+			</object>		
+			<object name="%嘴唇%">
+				<position x="824" y="403" z="0" />
+				<texture src="HOB_kitchen_shelves/lips_scenes" />
+			</object>		
+			<object name="%枫叶%">
+				<position x="947" y="344" z="0" />
+				<texture src="HOB_kitchen_shelves/maple_scenes" />
+			</object>		
+			<object name="%螺钉%">
+				<position x="312" y="158" z="0" />
+				<texture src="HOB_kitchen_shelves/bolt_scenes" />
+			</object>		
+			<object name="%短剑%">
+				<position x="202" y="323" z="0" />
+				<texture src="HOB_kitchen_shelves/dirk_scenes" />
+			</object>		
+			<object name="%蕨类%">
+				<position x="-20" y="508" z="0" />
+				<texture src="HOB_kitchen_shelves/fern_scenes" />
+			</object>		
+			<object name="%蝎子%">
+				<position x="600" y="366" z="0" />
+				<texture src="HOB_kitchen_shelves/scorpion_scenes" />
+			</object>		
+			<object name="%狼蛛%">
+				<position x="519" y="82" z="0" />
+				<texture src="HOB_kitchen_shelves/tarantula_scenes" />
+			</object>		
+			<object name="%高音谱号%">
+				<position x="528" y="403" z="-5" />
+				<texture src="HOB_kitchen_shelves/treble_clef_scenes" />
+			</object>		
+			<object name="%独角兽%">
+				<position x="916" y="360" z="0" />
+				<texture src="HOB_kitchen_shelves/unicorn_scenes" />
+			</object>		
+			<object name="%螺母%">
+				<position x="727" y="184" z="0" />
+				<texture src="HOB_kitchen_shelves/iron_nut_scenes" />
+			</object>		
+			<object name="%变色龙%">
+				<position x="330" y="282" z="0" />
+				<texture src="HOB_kitchen_shelves/chameleon_in_formalin_scenes" />
+			</object>		
+			<object name="%青蛙%">
+				<position x="769" y="100" z="0" />
+				<texture src="HOB_kitchen_shelves/frog_in_formalin_scenes" />
+			</object>		
+			<object name="%蜂蜜%">
+				<position x="107" y="453" z="0" />
+				<texture src="HOB_kitchen_shelves/honey_jar_scenes" />
+			</object>		
+<!-- dif_2 -->			
+			<object name="%巫毒符号%">
+				<position x="785" y="528" z="0" />
+				<texture src="HOB_kitchen_shelves/voodoo_symbol_scenes" />
+			</object>
+			<object name="%蟑螂%">
+				<position x="863" y="396" z="0" />
+				<texture src="HOB_kitchen_shelves/cockroach_scenes" />
+			</object>	
+			<object name="%擀面杖%">
+				<position x="705" y="-7" z="0" />
+				<texture src="HOB_kitchen_shelves/rolling_pin_scenes" />
+			</object>
+			<object name="%翅膀%">
+				<position x="126" y="236" z="0" />
+				<texture src="HOB_kitchen_shelves/bat_wing_scenes" />
+			</object>
+			<object name="%蛇%">
+				<position x="149" y="406" z="0" />
+				<texture src="HOB_kitchen_shelves/snake_in_formalin_scenes" />
+			</object>
+			<object name="%胡桃钳%">
+				<position x="468" y="217" z="0" />
+				<texture src="HOB_kitchen_shelves/nutcracker_scenes" />
+			</object>		
+		</group3>		
+	</groups>
+	
+	<rounds>
+		<round0
+			congratulations="%这个罐子也许会有用.%"
+			congratulations_image="/inventory/empty_jug"		
+			script_complete="HOB_kitchen_shelves/complete_round0"
+		>
+			<slot00 group="group0" object="%罐子%" />
+			<slot01 group="group1" />
+			<slot02 group="group2" />
+			<slot03 group="group2" />
+			<slot04 group="group2" />
+			<slot05 group="group2" />
+			<slot06 group="group2" />
+			<slot07 group="group2" />
+			<slot08 group="group1" />
+			<slot09 group="group2" />
+			<slot10 group="group2" />
+			<slot11 group="group2" />
+		</round0>
+		<round1
+			congratulations="%这块海绵正是我需要的!%"
+			congratulations_image="/inventory/sponge"
+			script_complete="HOB_kitchen_shelves/complete_round1"
+		>
+			<slot00 group="group0" object="%海绵%" />
+			<slot01 group="group2" />
+			<slot02 group="group3" />
+			<slot03 group="group3" />
+			<slot04 group="group1" />
+			<slot05 group="group3" />
+			<slot06 group="group2" />
+			<slot07 group="group1" />
+			<slot08 group="group3" />
+			<slot09 group="group2" />
+			<slot10 group="group3" />
+			<slot11 group="group3" />
+		</round1>
+	</rounds>
+	
+	<environment>
+		<object>
+			<position x="0" y="0" z="10" />
+			<texture src="HOB_kitchen_shelves/background" />
+			<size width="1024" height="768" />
+		</object>
+		<object>
+			<position x="116" y="27" z="-10" />
+			<texture src="HOB_kitchen_shelves/flowers" />
+			<interactive value="0" />
+			<alpha value="0" />
+		</object>
+	</environment>
+	
+</hob>

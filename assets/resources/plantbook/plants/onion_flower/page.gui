@@ -1,0 +1,11 @@
+<gui>
+	<label>
+		<position x="20" y="150" />
+		<size width="260" />
+		<align hor="center" />
+		<text font="/fonts/spell_book_ingredient" color="00000000">%洋葱花%</text>
+	</label>
+	<image>
+		<file src="pb_page_onionflower_left" />
+	</image>
+</gui>

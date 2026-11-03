@@ -1,0 +1,804 @@
+<strings>
+	<system>
+		<video_mode_error_caption text="%视频模式错误%" />
+		<video_mode_error text="%要运行'亡灵故事'你的系统支持的分辨率至少应该为1024x768.%" />
+	</system>
+	<dialogs>
+		<common>
+			<skip_puzzle_confirmation text="%你确定要跳过这个谜题并让它自动解决吗?%" />
+			<cannot_skip_puzzle_yet text="%在计时器未填满之前我不能跳过这个谜题.%" />
+		</common>
+		<chapter1>
+			<jessie_start_game text="%我是杰西·博德恩. 我会带你进去, 但是那些幽灵非常妒忌想听我故事的人. 不过你可以穿过他们. 找到我的魔法书. 里面有一个可以驱逐幽灵的法术. 快点! 如果你跟他们呆在一起, 只会让他们变得更强壮.|22000%" />
+		</chapter1>
+		<chapter2>
+			<jessie_parlor text="%看到窗户旁边的镜子了吗? 在这个房间里发生了一些事, 有些东西被困在了那里. 幽灵堵塞了玻璃. 但是, 现在听我说, 你把光线反射在镜子上, 他们肯定就会逃跑. 光线, 一定要记住!|22000%" />
+		</chapter2>
+		<chapter3>
+			<jessie_lalaurie_back_yard text="%这是拉洛瑞的房子. 或者是后院. 我不能清楚的看到客厅里的情况. 不, 拉洛瑞夫人在凉亭会见了我, 像是一次秘密会见.|13000|哈哈, 那个女人的内心肯定是非常邪恶的. 当一个像戴尔芬·拉洛瑞这么富有的女人约见一个巫毒术女人 的时候, 只有两种可能 - 不可救药的爱或是盲目的恨. 而戴尔芬谁也不爱.|20000|哦, 这真是个可怕的地方! 如此多的邪恶聚集在这里. 现在你听. 有八个鬼魂被困在这里, 痛苦的挣扎. 使用我的幽灵显形法术找到他们. 他们会帮助你进入凉亭. 快!|28000%" />
+			<jessie_all_spirits_free text="%你已经释放了所有的幽灵! 现在赶快 - 把他们交给你的字母块放进锁里. 逆时针转动三圈并说 '神圣, 神圣, 神圣, 将俘虏释放.'%" />
+		</chapter3>
+		<chapter4>
+			<mambo_marie_start text="%我看到你了. 我知道你到这里来是想知道那天我和杰西·博德恩见面的事. 那是个可怕, 邪恶的故事. 他们不会告诉你关于他们历史书里的那些事.|14000|看来沼泽里的恶魔不希望你来拜访. 你必须安抚他们, 他们才会离开. 然后你就可以上来了. 查看一下沼泽里的篮子. 哦, 要是你看到了我的蓝变色龙, 就把它带给我, 好吗? 它已经离开几个星期了. 可怜的小家伙. 可怜的小家伙.|31000%" />
+		</chapter4>
+		<chapter5>
+			<jessie_start text="%那边的房子就是安东夫人家. 这就是在旁边的这家药房买的药. 你四处看看, 就能看到过去的这三个月是怎么回事. 我对自己做的事没有多想. 我拿到了报酬就得工作. 你自己去判断我是否履行了我的协议!|23000%" />
+			<pharmacist1 text="%一位顾客! 很抱歉 - 我帮不了你. 商店里一片混乱. 我留下了一个关于怎样摆放物品的简单说明, 但是却没有人注意! 如果我的货架秩序井然我可以帮助你. 但是现在我什么也找不到. 我非常抱歉.|22000%" />
+			<pharmacist2 text="%我的货架! 终于整齐了! 现在我可以营业了. 没错, 现在我知道东西该在哪里找了.|7000|哦, 哦! 小心那个粉色的袋子. 那是乌头. 毒性非常, 非常厉害. 甚至只要一丁点就会引起肠胃痉挛导致不适. 是啊, 一定要当心点. 最近卖出去很多. 真不知道为什么...|22000%" />
+			<doctor text="%我肯定这里有什么东西能帮助她... 在我不知道安东夫人出了什么问题时, 怎么能治好她呢?|10000%" />
+			<anton1 text="%安东夫人在哭泣...|8000%" />
+			<anton2 text="%啊, 我... 我感觉好多了! 一点也不难受了. 我自由了!|10000%" />
+		</chapter5>
+		<chapter6>
+			<jessie_shop text="%我非常生气. 我让安东夫人忍受痛苦, 就是为了得到那笔钱. 然而我却受骗了, 像一只狗一样被踢到了一边! 如果有人应该受到诅咒, 那就是戴尔芬·拉洛瑞. 洛阿会站在我这边的!|18000|我下定决心要使用我听到过最恶毒的诅咒. 我要召唤丹伯拉(巫毒洛阿神中的蛇神) 并使用火咒. 你可以在这里找到它, 在这间商店... 就像我曾经做过的. 找到诅咒. 找到诅咒!|22000%" />
+			<jessie_doll text="%这些幼稚, 善妒的幽灵! 他们为了阻止我的故事什么事都干得出来. 故事就快完成了, 但是你需要那个巫毒娃娃. 它在诅咒里是最强大的物品.|15000|我可以感觉到它 - 他们撕碎了娃娃并把它扔的到处都是. 你要收集所有的部分并把它重新组合. 我会给你一个清单.|14000%" />
+		</chapter6>
+	</dialogs>
+	<hints>
+		<!--==========================================-->
+		<!--finding spell book-->
+		<hint_group_general text="%找到魔法书%">
+			<hint0 text="%找到魔法书%">
+				<text text="%棚屋里有一个锁着的抽屉. 到棚屋里去搜索隐藏物品场景找到钥匙. 用钥匙把抽屉打开.%" />
+			</hint0>
+			<hint1 text="%找到魔法书%">
+				<text text="%幽灵板阻止你得到魔法书. 你必须在幽灵板上拼出一句话. 这句话写在附近的一个抽屉里.%" />
+			</hint1>
+			<hint2 text="%找到魔法书%">
+				<text text="%在棚屋的抽屉里解开幽灵板的谜题就会发现杰西的魔法书. 点击魔法书把它拿起来.%" />
+			</hint2>
+		</hint_group_general>
+		<!--ingredients for the spell-->
+		<hint_group_ingredients_spell text="%找到法术所需的配料%">
+			<hint0 text="%骨灰%">
+				<text text="%骨灰在棚屋里混合法术的桌子上. 点击骨灰拿到它.%" />
+			</hint0>
+			<hint1 text="%圣水%">
+				<text text="%圣水在棚屋里混合法术的桌子上. 点击圣水拿到它%" />
+			</hint1>
+			<hint2 text="%盐%">
+				<text text="%盐瓶在棚屋的一个抽屉里. 打开抽屉找到后点击捡起.%" />	
+			</hint2>
+			<hint3 text="%薄荷%">
+				<text text="%薄荷在棚屋里一个锁着的盒子里. 从杰西家前门旁的邮箱里拿到铜板. 去棚屋里把铜板放在锁着盒子上打开它. 从盒子里拿到薄荷.%" />
+			</hint3>
+			<hint4 text="%丁香%">
+				<text text="%丁香在棚屋里一个锁着的盒子里. 从杰西家前门旁的邮箱里拿到铜板. 去棚屋里把铜板放在锁着盒子上打开它. 从盒子里拿到丁香.%" />
+			</hint4>
+			<hint5 text="%凌霄花%">
+				<text text="%凌霄花在杰西家前门附近的隐藏场景里. 你需要再次探索这个场景. 植物书可以帮你辨认出它. 你需要从棚屋的抽屉里找到一把剪子, 以便把它从根茎上剪下来.%" />	
+			</hint5>
+			<hint6 text="%让嫩芽生长%">
+				<text text="%你可以在棚屋里找到一把水壶. 在杰西家大门前那片新鲜的泥土上使用水壶, 令黄精生长.%" />
+			</hint6>
+			<hint7 text="%黄精%">
+				<text text="%当你在杰西家大门前的泥土上浇水时, 生长出的植物中有一种是黄精. 使用植物书辨认出哪一株是黄精. 用园艺剪子剪断结实的茎.%" />	
+			</hint7>
+			<hint8 text="%毒苹果%">
+				<text text="%你可以在杰西家大门旁的树上找到一个苹果. 然后, 你必须对它 '下毒' . 你可以在棚屋里的窗户旁找到一条毒蛇. 令它进入攻击的状态, 然后把苹果给它.%" />
+			</hint8>
+			<hint9 text="%空瓶子%">
+				<text text="%你需要一个瓶子用来将魔法药水. 瓶子就在杰西家大门附近的石头下面. 点击石头把它移开, 然后再次点击靠近. 点击瓶子拿到它.%" />	
+			</hint9>
+			<hint10 text="%红绳%">
+				<text text="%你可以在杰西家篱笆的植物里找到红绳.%" />
+			</hint10>	
+		</hint_group_ingredients_spell>
+		<hint_group_mixing_spell text="%混合法术%">
+			<hint1 text="%把原料放在法术桌上%">
+				<text text="%把你找到的制作法术所需的所有物品, 放在棚屋里的法术混合桌上. 点击每一个制作法术的原料, 然后点击桌子上韦夫图案的一个分支, 把原料放在那里. 瓶子要放在图案的中央.%" />			
+			</hint1>
+			<hint2 text="%把原料放进混合碗里%">
+				<text text="%在法术混合桌上, 看看巫毒幽灵留下的谜语. 它可以告诉你该怎样把物品放入碗中. 按正确的顺序加入: 骨灰, 圣水, 盐, 薄荷, 丁香, 黄精, 凌霄花, 毒苹果.%" />			
+			</hint2>
+			<hint3 text="%完成法术%">
+				<text text="%按照谜语的指示搅拌混合物. 拖动骨头逆时针搅拌三次.  当混合物 '准备好' 之后, 点击混合物将它拿起, 再点击瓶子将它倒进去. 在瓶子上使用物品栏中的红绳把它绑住.%" />			
+			</hint3>
+		</hint_group_mixing_spell>
+		<hint_group_using_amulet text="%使用护身符进入房子%">
+			<hint1 text="%使用护身符进入房子%">
+				<text text="%在杰西家的大门上使用装着驱逐幽灵法术的瓶子, 驱散阴暗的瘴气. 然后点击大门进入房子.%" />			
+			</hint1>
+		</hint_group_using_amulet>
+	<!--==========================================-->
+
+	<!--New chapter 2 hints-->
+		<hint_group_what_to_do text="%在杰西的家里该做些什么%">
+			<hint1 text="%桌子上奇怪的袋子%">
+				<text text="%注意客厅里闪光的桌子. 查看桌子, 特别是桌上的袋子.%" />			
+			</hint1>
+			<hint2 text="%被遗忘的旋律%">
+				<text text="%那飘荡的旋律是从哪里传来的? 你看到客厅里的钢琴了吗?%" />			
+			</hint2>
+		</hint_group_what_to_do>
+		<hint_group_hex_bones text="%魔法骨牌谜题%">
+			<hint1 text="%魔法骨牌谜题%">
+				<text text="%点击任意两块字母骨牌交换位置. 直到拼成连贯的短语.%" />			
+			</hint1>
+			<hint2 text="%交换位置直到拼成连贯的短语%">
+				<text text="%魔法骨牌应该拼成这样: 'LIGHT A SPARK TO REVEAL MY FATE'(点亮火花揭示我的命运).%" />			
+			</hint2>
+		</hint_group_hex_bones>		
+		<hint_group_unlbocking_mirror text="%解锁镜子%">
+			<hint1 text="%寻找光源%">
+				<text text="%杰西说, 如果你把光线反射在镜子上, 你就可以将镜子解锁. 在哪里可以找到光源? 查看客厅的窗户.%" />			
+			</hint1>
+			<hint2 text="%去除窗户上的油污%">
+				<text text="%客厅窗户上的不是普通的油污. 需要一个小小的魔法才能将它去除. 你最近查看魔法书了吗?%" />			
+			</hint2>
+		</hint_group_unlbocking_mirror>
+		<hint_group_grease_ingredients text="%寻找去油剂法术的原料%">
+			<hint1 text="%柠檬汁%">
+				<text text="%柠檬挂在杰西家门前的树上. 点击柠檬拿到它.%" />			
+			</hint1>
+			<hint2 text="%圣徒的眼泪%">
+				<text text="%在卧室有一座圣徒雕像. 在卧室进行寻找隐藏物品游戏得到一个气泵. 在圣徒雕像上使用气泵. 你还需要一件物品来收集眼泪.%" />			
+			</hint2>
+			<hint3 text="%圣徒的眼泪%">
+				<text text="%要收集圣徒的眼泪, 你需要一个挂在项链上的小瓶子. 你可以在卧室的壁炉上找到它. 在圣徒雕像上使用小瓶子. 点击几次安装在雕像上的气泵, 使眼泪装满小瓶.%" />			
+			</hint3>
+			<hint4 text="%洋葱花%">
+				<text text="%洋葱花可以在杰西篱笆外的植物里找到. 使用植物书可以帮你辨认出它. 使用园艺剪子把它剪下来.%" />			
+			</hint4>
+			<hint5 text="%大蒜头%">
+				<text text="%你在厨房 '点燃火花' 前大蒜头是不会出现的. 在你看到场景后, 环顾周围寻掉下来的大蒜头. 它在水泵旁边%" />			
+			</hint5>
+			<hint6 text="%白胡椒%">
+				<text text="%在客厅里, 完成钢琴游戏可以得到白胡椒. 点击白胡椒拿到它.%" />			
+			</hint6>
+			<hint7 text="%一罐洁净的水%">
+				<text text="%你必须先修好厨房的水泵. 你可以在卧室找到水泵的把手. 把它安装在厨房的水泵上. 在厨房进行寻找隐藏物品游戏得到一个水罐, 然后用水罐从修好的水泵中接满水.%" />			
+			</hint7>
+			<hint8 text="%木碗%">
+				<text text="%你认为在哪能找到木碗呢 - 当然是厨房. 打开抽屉可以找到碗. 点击碗拿到它.%" />			
+			</hint8>
+		</hint_group_grease_ingredients>
+		<hint_group_mixing_grease text="%混合去除坟场油脂剂法术%">
+			<hint1 text="%把原料放在法术桌上%">
+				<text text="%去棚屋的法术混合桌. 点击菜单里的一件法术原料, 然后点击桌上图案的一个分支, 把物品放在那里. 碗放在图案的中央.%" />			
+			</hint1>
+			<hint2 text="%把原料放进混合碗里%">
+				<text text="%在法术混合桌上, 查看巫毒幽灵留下的谜语. 它会告诉你怎样把物品加入碗里: 一罐水, 圣徒的眼泪, 大蒜头, 白胡椒, 洋葱花, 柠檬.%" />			
+			</hint2>
+			<hint3 text="%完成法术%">
+				<text text="%点击混合碗里的骨头. 拖动它逆时针搅拌三次. 当混合物准备好之后, 点击把它拿起来, 再点击木碗把它倒进去.%" />			
+			</hint3>
+		</hint_group_mixing_grease>
+		<hint_group_using_mixture text="%使用去除坟场油脂剂%">
+			<hint1 text="%海绵%">
+				<text text="%你需要一块海绵把去除坟场油脂剂涂在窗户上. 你可以在再次完成厨房的隐藏物品场景后找到一块海绵.%" />			
+			</hint1>
+			<hint2 text="%海绵%">
+				<text text="%在客厅的窗户场景, 把放着混合剂的碗放在魔法书上面. 在碗上使用海绵. 按住鼠标以圆形轨迹移动海绵擦窗户. 从最上面的窗户开始擦. 如果海绵干了, 在碗上点击沾湿它.%" />			
+			</hint2>
+		</hint_group_using_mixture>		
+		<hint_group_lighting_spark text="%点亮火花%">
+			<hint1 text="%我可以点亮哪件物品?%">
+				<text text="%你需要点亮厨房里的一件物品, 在窗户旁边. 是一盏油灯. 在它使用之前你需要加入一些东西: 一根灯芯和一罐油.%" />			
+			</hint1>
+			<hint2 text="%我从哪拿到火柴?%">
+				<text text="%近距离查看客厅里的钢琴, 你就能找到用来点燃修好的油灯的火柴.%" />			
+			</hint2>
+			<hint3 text="%寻找和使用灯芯%">
+				<text text="%在你点燃油灯前, 你需要一根灯芯. 在厨房的抽屉里就有一根. 拿到它并在厨房的油灯上使用.%" />			
+			</hint3>
+
+			<hint4 text="%找到和使用油壶%">
+				<text text="%在你点燃油灯前, 你需要往里面加一些油. 完成棚屋里寻找隐藏物品的游戏可以得到一个油壶. 在厨房的油灯上使用油壶.%" />			
+			</hint4>
+			<hint5 text="%点燃油灯%">
+				<text text="%你可以在完成钢琴谜题后找到火柴. 在厨房修好的油灯上使用它.%" />			
+			</hint5>
+		</hint_group_lighting_spark>
+		<hint_group_playing_piano text="%弹钢琴%">
+			<hint1 text="%打开钢琴%">
+				<text text="%钢琴的钥匙放在卧室, 在杰西床上的音乐盒里. 拿到钥匙后, 在物吕栏中点击钥匙再点击钢琴打开它.%" />			
+			</hint1>
+			<hint2 text="%弹钢琴谜题%">
+				<text text="%仔细观察幽灵弹奏的旋律. 按正确的顺序按下琴键重复旋律.%" />			
+			</hint2>
+		</hint_group_playing_piano>
+		
+	<!--Chapter 3 hints-->
+	
+		<hint_group_opening_the_cellar text="%打开地窖的门%">
+			<hint1 text="%写在门上的字%">
+				<text text="%地窖门上用水写着些字. 从井旁拿到水桶. 去池塘边用水桶从炉子里装一些骨灰, 然后在地窖门上使用, 使上面的字显现.%" />			
+			</hint1>
+			<hint2 text="%找出正确的词%">
+				<text text="%点击音节创建一个特殊的密码. 这个词是 '救赎 salvation'.%" />			
+			</hint2>			
+		</hint_group_opening_the_cellar>
+		<hint_group_dove_cote text="%鸽子舍谜题%">
+			<hint1 text="%找到种子%">
+				<text text="%要想把鸽子引入鸽舍, 你需要从地窖找到一袋种子. 在你拿到种子前必须先吓跑所有的老鼠. 调整地窖里的镜子, 令阳光依次照射到三只老鼠身上.%" />			
+			</hint1>
+			<hint2 text="%找到绳子%">
+				<text text="%你需要一件物品锁住鸽子舍的门. 你可以在池塘旁边的隐藏物品场景找到.%" />			
+			</hint2>	
+			<hint3 text="%完成谜题%">
+				<text text="%在鸽子舍上使用种子把鸽子引进去. 接着, 关上所有的门使鸽子不能飞出. 然后, 用绳子绑住门的开关让门无法打开. 在鸽子被困住后点击鸽舍拿到羽毛.%" />			
+			</hint3>			
+		</hint_group_dove_cote>
+		<hint_group_freeng_the_spirits text="%释放幽灵%">
+			<hint1 text="%释放幽灵%">
+				<text text="%被困在拉洛瑞家的幽灵是隐形的. 要想找到他们, 你必须先制作魔法书中的幽灵显形剂.%" />			
+			</hint1>			
+		</hint_group_freeng_the_spirits>
+		<hint_group_finding_reagents_for_reveal_spirits text="%找到幽灵显形剂法术需要的原料%">
+			<hint1 text="%百合花%">
+				<text text="%在凉亭的旁边有一朵百合花. 使用植物书辨认然后用园艺剪子把它剪下来.%" />			
+			</hint1>
+			<hint2 text="%幽灵践踏过的泥土%">
+				<text text="%幽灵全都被拉洛瑞困在了这里. 他们很可能踩踏过房子旁边的泥土.%" />			
+			</hint2>		
+			<hint3 text="%硫磺%">
+				<text text="%你可以在地窖里拿到一些硫磺. 查看后面的架子.%" />			
+			</hint3>		
+			<hint4 text="%一瓶血%">
+				<text text="%你可以从池塘边流血的树上得到血液. 使用玻璃药瓶收集.%" />			
+			</hint4>		
+			<hint5 text="%白色颜料%">
+				<text text="%白色颜料在凉亭旁边的箱子里. 你需要用来剪开箱子锁的物品, 可以在池塘旁边的隐藏物品场景找到.%" />			
+			</hint5>		
+			<hint6 text="%羽毛%">
+				<text text="%你需要在鸽舍捉到鸽子并得到它的一根羽毛.%" />			
+			</hint6>					
+		</hint_group_finding_reagents_for_reveal_spirits>
+		<hint_group_mixing_reveal_spirits text="%混合幽灵显形剂法术%">
+			<hint1 text="%把原料放在法术桌上%">
+				<text text="%返回杰西棚屋里的混合法术桌. 点击物品栏中的法术原料, 然后点击桌子上图案的一个分支把物品放在上面.%" />			
+			</hint1>
+			<hint2 text="%把原料放进混合碗%">
+				<text text="%在混合法术桌上, 查看巫毒幽灵留下的谜语. 它会告诉你往碗里加入原料的顺序: 百合花, 白色颜料, 泥土, 硫磺, 羽毛, 一瓶血.%" />			
+			</hint2>
+			<hint3 text="%完成法术%">
+				<text text="%点击混合碗里的骨头. 拖动它顺时针旋转三次. 当混合物准备好之后, 点击混合物拿起它, 然后点击空颜料罐把它倒进去.%" />			
+			</hint3>			
+		</hint_group_mixing_reveal_spirits>
+		<hint_group_using_reveal_spirits text="%使用幽灵显形混合剂%">
+			<hint1 text="%画笔%">
+				<text text="%要想使用幽灵显形混合剂, 你需要一支画笔. 画笔藏在后院的栏杆里. 使用钢锯得到画笔.%" />			
+			</hint1>
+			<hint2 text="%在空气中涂抹%">
+				<text text="%要想使幽灵显形, 在你认为可以有幽灵存在的地方涂抹幽灵显形混合剂. 如果真的有幽灵在那里, 将会绘出轮廓. 幽灵最有可以存在的地方, 是 '显示' 出曾经有人死去的地点.%" />			
+			</hint2>	
+			<hint3 text="%池塘的幽灵%">
+				<text text="%在池塘国有4个幽灵. 一个在绞索旁, 两个在树旁, 还有一个在鱼筐旁. 在空气中涂上幽灵显形剂, 揭示每一个幽灵%" />			
+			</hint3>	
+			<hint4 text="%后院的幽灵%">
+				<text text="%有2个幽灵被困在后院. 一个在鞭刑架上, 一个在井旁. 涂上幽灵显形剂, 揭示每一个幽灵.%" />			
+			</hint4>	
+			<hint5 text="%凉亭的幽灵%">
+				<text text="%有一个幽灵被困在凉亭边. 在空气中涂上幽灵显形混合剂, 揭示出幽灵.%" />			
+			</hint5>	
+			<hint6 text="%地窖里的幽灵%">
+				<text text="%有一个幽灵被困在地窖里. 他被困在红酒桶的下面. 在空气中涂上幽灵显形混合剂, 揭示出幽灵.%" />			
+			</hint6>				
+		</hint_group_using_reveal_spirits>
+		<hint_group_unlocking_gazebo text="%打开凉亭的锁%">
+			<hint1 text="%幽灵碎片%">
+				<text text="%每个幽灵被释放后都会留下一块幽灵锁的碎片. 把每一块碎片都放进锁里, 匹配上面的符号. 完成后把锁逆时针旋转三次.%" />			
+			</hint1>			
+		</hint_group_unlocking_gazebo>
+
+	<!--Chapter 4 hints-->
+	
+		<hint_group_getting_anole text="%得到蓝变色龙%">
+			<hint1 text="%找到蓝变色龙%">
+				<text text="%你可以在沼泽里的船附近找到曼波•玛丽的蓝变色龙(一条蓝色的小蜥蜴).%" />			
+			</hint1>
+			<hint2 text="%引诱蓝变色龙%">
+				<text text="%蓝变色龙很害羞. 不引它出来是捉不住它的. 蓝色变色龙更喜欢什么东西呢? 芒果. 你必须找到一个芒果.%" />			
+			</hint2>	
+			<hint3 text="%给蓝变色龙喂食%">
+				<text text="%蓝变色龙很害羞, 但是用正确的东西可以装它引出来. 它喜欢吃芒果. 在蓝变色龙身上使用芒果, 等它吃的时候就可以捉住它了.%" />			
+			</hint3>	
+			<hint4 text="%蓝变色龙放在门廊, 鳄鱼%">
+				<text text="%你可以将蓝变色龙放在门廊上交给曼波•玛丽. 鳄鱼堵住了路 - 你得先赶走它们.%" />			
+			</hint4>	
+			<hint5 text="%把蓝变色龙放在门廊%">
+				<text text="%你可以将蓝变色龙放在门廊上交给曼波•玛丽.%" />			
+			</hint5>				
+		</hint_group_getting_anole>	
+		<hint_group_fixing_the_sail text="%安装船帆%">
+			<hint1 text="%绳上的衣服%">
+				<text text="%船缺少帆. 你需要制作一个. 你能在附近找到几件晾着的衣服吗? 试着找找晾衣绳.%" />			
+			</hint1>
+			<hint2 text="%流血的桔子%">
+				<text text="%你需要洗衣机里的大桌布, 但是里面都是水蛭, 你根本就拿不到它. 你可以使用正确的物品将它们去除. 你可以在曼波•玛丽房子附近的树上找到三个流血的桔子.%" />			
+			</hint2>	
+			<hint3 text="%去除水蛭%">
+				<text text="%你需要洗衣机里的桌布,但是里面都是水蛭, 你根本就拿不到它. 使用你物品栏中的3个流血的桔子去除水蛭. 拿一个桔子使用在水蛭上去除它.%" />			
+			</hint3>	
+			<hint4 text="%拿到桌布%">
+				<text text="%你已经去除了洗衣机里的水蛭. 现在只要点击桌布就可以拿到它了.%" />			
+			</hint4>	
+			<hint5 text="%制作一面帆%">
+				<text text="%点击船进入 '制作船帆' 的谜题. 将针织物品移动到船帆的位置, 并将它们摆放成一面帆的形状. 你可以单击物品来转动它的方向.注意 '利用上' 每一片并摆成帆的形状.%" />			
+			</hint5>
+			<hint6 text="%找到针和线%">
+				<text text="%你需要针和线完成船帆的制作. 线在你拿到桌布的洗衣机的储物箱里. 你可以在骷髅旁边的隐藏物品场景得到一块磁铁. 在杰西家客厅的茶杯上使用磁铁, 可以从热茶里得到一根针.%" />			
+			</hint6>	
+			<hint7 text="%缝制船帆%">
+				<text text="%在你将所有的针织物摆成船帆的形状后, 只要点击物品栏中的针线, 然后再点击帆就可以将它缝好.%" />			
+			</hint7>
+		</hint_group_fixing_the_sail>		
+		<hint_group_alligators text="%摆脱鳄鱼%">
+			<hint1 text="%古老沼泽的恶魔%">
+				<text text="%曼波•玛丽给了你一个如何摆脱鳄鱼的提示. 她称它们为 '古老沼泽的恶魔'. 在沼泽里你可以找到一张上面有几个人而现在是沼泽幽灵的照片. 使用照片辩认每一条鳄鱼看上去是他或是她. 照片可以告诉你每一条鳄鱼想要的东西.%" />			
+			</hint1>
+			<hint2 text="%鳄鱼 - 南安•玛格丽特%">
+				<text text="%南安•玛格丽特看起来应该是那条带着帽子的鳄鱼. 她不喜欢兰花, 所以在她身上使用兰花可以让她离开.  你可以在沼泽里芒果树标牌的旁边找到一株兰花.%" />			
+			</hint2>	
+			<hint3 text="%鳄鱼 -  露西尔%">
+				<text text="% 露西尔是一条有着悲伤目光的小鳄鱼. 给她棒棒糖她就会离开. 棒棒糖可以在移开船之后的沼泽的篮子里找到.%" />			
+			</hint3>	
+			<hint4 text="%鳄鱼 - 巴尼奥•鲍勃%">
+				<text text="%巴尼奥•鲍勃是那条嘴里叼着芦苇的鳄鱼. 他非常想要一个烟斗! 你可以在洗衣机旁边的骷髅那找到烟斗. 将骷髅的手从 '下' 移动到 '上'. 然后把烟斗交给巴尼奥•鲍勃.%" />			
+			</hint4>	
+			<hint5 text="%鳄鱼 - 索图斯•莎莉%">
+				<text text="%索图斯•莎莉那条掉了很多牙齿的鳄鱼. 给她一面镜子就可以赶走她. 你可以在洗衣机旁边的隐藏物品场景找到镜子.%" />			
+			</hint5>	
+			<hint6 text="%鳄鱼 - 布瑞秋·埃米尔%">
+				<text text="%布瑞秋·埃米尔是一条看起来有些疯狂的鳄鱼. 给他月光可以安抚他. 你可以在洗衣机上的小门里找到月光. 小门在你从洗衣机里拿到桌布后才能发现.%" />			
+			</hint6>	
+			<hint7 text="%鳄鱼 - 卡彭·乔%">
+				<text text="%卡彭·乔是条看起来很大的鳄鱼. 他很害怕巨大的噪音, 所以你可以使用小号来赶走他. 小号可以在移开船之后的沼泽的篮子里找到.%" />			
+			</hint7>	
+		</hint_group_alligators>		
+
+	<!--Chapter 5 hints-->	
+
+		<hint_group_french_quarter text="%法国角%">
+			<hint1 text="%法国角的后巷%">
+				<text text="%查看周围的所有东西. 如果你沿着法国角的街道一直走, 你会发现一口井.%" />			
+			</hint1>
+			<hint2 text="%探索药房%">
+				<text text="%查看周围的所有东西. 进入药房观察里面所有的东西.%" />			
+			</hint2>				
+		</hint_group_french_quarter>			
+		<hint_group_unblocking_the_well text="%打开井上的锁%">
+			<hint1 text="%找到井%">
+				<text text="%井被锁着, 就在法国角的后巷. 点击井看看幽灵们想要什么.%" />			
+			</hint1>
+			<hint2 text="%输入名字%">
+				<text text="%锁着井口的幽灵锁说 '不要忘记我们'. 幽灵们不想被遗忘. 你可以在这个区域的周围找到10个幽灵的名字. 将所有名字输入后就可以打开幽灵锁.%" />			
+			</hint2>	
+			<hint3 text="%写在街上的名字%">
+				<text text="%你必须将10个名字输入 '不要忘记我们' 幽灵锁. 其中一个名字写在马车旁边的街道上 - Esther. 把这个名字输入幽灵锁, 它会显示在其中一个空槽上.%" />			
+			</hint3>	
+			<hint4 text="%钟表里的名字%">
+				<text text="%你必须将10个名字输入 '不要忘记我们' 幽灵锁. 一个名字写在药房招牌上的钟表里. 要想打开钟表, 得从井旁边商店的招牌上拿到表针, 然后在使用在钟表上. 当钟表打开后, 使用从药房拿到的望远镜观察上面的名字.%" />			
+			</hint4>	
+			<hint5 text="%灯后面的名字%">
+				<text text="%你必须将10个名字输入 '不要忘记我们' 幽灵锁. 有一个名字写在马车旁边墙上挂着的灯后面的墙上. 从街道上捡起一块砖砸向灯令它移到一边. 使用望远镜观察名字.%" />			
+			</hint5>	
+			<hint6 text="%马蹄铁轮子上的名字%">
+				<text text="%你必须将10个名字输入 '不要忘记我们' 幽灵锁. 有一个名字写在井旁边的石轮上. 轮子上有一个马蹄铁形状的凹槽. 你可以有药房旁边找到一块马蹄铁. 把它使用在轮子上名字就会显现.%" />			
+			</hint6>	
+			<hint7 text="%报刊栏里的名字%">
+				<text text="%你必须将10个名字输入 '不要忘记我们' 幽灵锁. 在药房旁边的报刊栏里可以找到三个名字 – Alfonse, Rainie 和 Joseph. 把每一个名字分别输入幽灵锁.%" />			
+			</hint7>	
+			<hint8 text="%第二条街道上的名字%">
+				<text text="%你必须将10个名字输入 '不要忘记我们' 幽灵锁. 有三个名字就写在第二条街道的墙上和地面上.%" />			
+			</hint8>	
+			<hint9 text="%输入所有名字之后%">
+				<text text="%你已经将10个名字输入了 '不要忘记我们' 幽灵锁. 现在点击井上的水桶三次, 在桶里的水面上观看动画场景.%" />			
+			</hint9>	
+		</hint_group_unblocking_the_well>		
+		<hint_group_ordering_shelves text="%整理药房的货架%">
+			<hint1 text="%丢失的化学药品%">
+				<text text="%在药房的货架上有三个空的格子. 在的到三件丢失的物品并把它们放进空格子前, 你不能整理货架. 你需要寻找跟货架上类似的袋子或瓶子. 你可以在安东夫人的起居室找到这三件东西.%" />			
+			</hint1>
+			<hint2 text="%整理货架%">
+				<text text="%按照药剂师的说明整理货架. 点击任意两件物品可以交换位置, 按照说明把物品放在 '正确'的位置. 当一件物品放到了正确的位置, 它就会被锁住再也无法移动. 锁住所有的物品就成功了. 在墙边可以看到说明.%" />			
+			</hint2>				
+		</hint_group_ordering_shelves>		
+		<hint_group_getting_inside_house text="%进入安东夫人的房子%">
+			<hint1 text="%得到钥匙%">
+				<text text="%你需要安东夫人的女仆带来的钥匙. 在你打开井上的幽灵锁, 并从桶里的水面上看到动画场景之前, 是无法得到钥匙的.%" />			
+			</hint1>
+			<hint2 text="%打开房门%">
+				<text text="%当你看到贝拉和杰西在井里谈话时, 贝拉扔下了一把钥匙. 捡起钥匙并把它使用在安东夫人房子的门上, 把门打开. 她的房子就在药房对面的街上.%" />			
+			</hint2>				
+		</hint_group_getting_inside_house>	
+		<hint_group_curing_the_ghost text="%治疗安东夫人的鬼魂%">
+			<hint1 text="%找到毒药的名字%">
+				<text text="%安东夫人的幽灵被困在这里, 重温着她在新奥尔良所受的痛苦. 你可以帮助她, 但是你先要找到杰西给她下的药的名字. 整理好药房的货架可以找到药名.%" />			
+			</hint1>
+			<hint2 text="%得到解毒剂配方%">
+				<text text="%杰西对安东夫人使用了乌头. 在客厅的医生药箱的书里夹着配方. 在打开的医书上使用乌头得到配方.%" />			
+			</hint2>
+			<hint3 text="%制作解毒剂%">
+				<text text="%现在配方加在了你的魔法书中. 从药房度到阿司匹林和小苏打. 在杰西家篱笆的植物里找到黄色附子花. 在杰西的棚屋里按配方混合法术药剂.%" />			
+			</hint3>
+			<hint4 text="%使用解毒剂%">
+				<text text="%在安东夫人起居室的日记本上使用解毒剂.%" />			
+			</hint4>	
+			<hint5 text="%安东夫人的日记%">
+				<text text="%阅读安东夫人的日记, 就放在幽灵坐着的地方的旁边.%" />			
+			</hint5>	
+			
+		</hint_group_curing_the_ghost>		
+	
+	<!--Chapter 6 hints-->	
+	
+		<hint_group_to_voodoo_shop text="%进入巫毒商店%">
+			<hint1 text="%找到和使用门铃%">
+				<text text="%要进入巫毒商店, 先要在小男孩鬼魂的旁边捡到门铃t. 点击门铃使用在商店上. 门铃安好后, 点击商店进入.%" />			
+			</hint1>			
+		</hint_group_to_voodoo_shop>	
+		<hint_group_finding_the_curse text="%找到火咒法术%">
+			<hint1 text="%打开箱子%">
+				<text text="%火咒可以在巫毒商店锁着的箱子里找到. 要打开箱子你必须有钥匙. 你可以在解决骷髅轮谜题后得到钥匙.%" />			
+			</hint1>		
+			<hint2 text="%骷髅头轮盘谜题%">
+				<text text="%要得到火咒法术你必须先解决骷髅头轮盘谜题. 每个骷髅头会发出一个声音. 按正确的顺序点击骷髅头组成一句短语. 提示: 也许开头应该是 '我听...%" />			
+			</hint2>	
+			<hint3 text="%将法术放入你的魔法书%">
+				<text text="%要得到火咒法术, 使用从骷髅头轮盘谜题拿到的钥匙打开巫毒商店里的箱子. 进入放大的场景并点击书. 火咒法术会自动进入你的魔法书.%" />			
+			</hint3>				
+		</hint_group_finding_the_curse>			
+		<hint_group_to_voodoo_circle text="%穿过墓地的大门%">
+			<hint1 text="%方块%">
+				<text text="%要打开墓地的大门, 你首先要做的是要找到大门丢失的二块方块. 方块可以从小男孩和小女孩的鬼魂处得到. 你要给每个鬼魂他们想要的东西才能得到方块.%" />			
+			</hint1>
+			<hint2 text="%女孩的方块%">
+				<text text="%树上的小女孩鬼魂有一个你需要的墓地大门上的方块. 她想要她的娃娃. 你可以在沼泽隐藏物品场景找到娃娃的身体. 娃娃的头挂在曼波•玛丽房子外面的杆子上. 从她的门廊里拿到一根艇勾, 用它拿到娃娃头. 把娃娃交给小女孩.%" />			
+			</hint2>
+			<hint3 text="%男孩的方块%">
+				<text text="%树旁边的小男孩鬼魂有一个你需要的墓地大门上的方块. 他想要一个球. 你可以在沼泽骷髅旁边的隐藏物品场景找到球. 把球交给小男孩.%" />			
+			</hint3>
+			<hint4 text="%把方块放在大门上%">
+				<text text="%你从小男孩和小女孩鬼魂处得到方块后, 把它们放在墓地的大门上 - 点击左边两个方块中间空的位置放上一块, 然后将另一块放在右边的门上.%" />			
+			</hint4>
+			<hint5 text="%解决大门谜题%">
+				<text text="%要解决墓地大门的谜题你需要转动每一个方块, 拼成4个词成为一句短语. 提示: 也许开始应该是 'All men所有人...%" />			
+			</hint5>			
+		</hint_group_to_voodoo_circle>	
+		<hint_group_grave text="%在墓地该做些什么%">
+			<hint1 text="%移开杂物%">
+				<text text="%在你使用墓地施法术之前, 你需要把所有物品清除干净. 点击圆圈里的所有物品, 直到你看到你已经完成的信息. 你不但要清除圆圈内的所有物品, 还要将圆圈边缘箭头上的东西也清楚干净.%" />			
+			</hint1>	
+			<hint2 text="%绘制圆圈%">
+				<text text="%你需要用粉笔描绘画韦夫(圆形的图案)的轮廓. 你可以在巫毒商店的架子上找到粉笔. 点击物品栏中的粉笔, 并用它涂亮黑暗的韦夫圈边缘. 不要忘记箭头和所有的连接线也要涂.%" />			
+			</hint2>
+			<hint3 text="%鸽子笼%">
+				<text text="%你需要在墓地的韦夫圈内放3件神圣的物品给丹伯拉. 一件物品是2只鸽子. 在你清除出圆圈的物品里, 有一个装着2只鸽子的鸟笼. 笼子在你的物品栏中. 把它放在韦夫圈里3个小圆圈的其中一个里面.%" />			
+			</hint3>
+			<hint4 text="%椰子%">
+				<text text="你需要在墓地的韦夫圈内放3件神圣的物品给丹伯拉. 一件物品是椰子. 在你清除出圆圈的物品里, 有一个就是椰子. 它在你的物品栏中. 把它放在韦夫圈里3个小圆圈的其中一个里面.%" />			
+			</hint4>
+			<hint5 text="%朗姆酒%">
+				<text text="%你需要在墓地的韦夫圈内放3件神圣的物品给丹伯拉. 一件物品是朗姆酒, 被扣在巫毒商店桌子上的骷髅头下. 但是你必须先赶走猫. 在小男孩的鬼魂旁拿到一个弹弓. 到沼泽去, 在鸟身上使用弹弓得到一条鱼. 拿到鱼把它交给猫. 然后拿到朗姆酒.%" />			
+			</hint5>			
+		</hint_group_grave>		
+		<hint_group_making_doll text="%制作巫毒娃娃%">
+			<hint1 text="%巫毒娃娃法术%">
+				<text text="%幽灵撕碎了杰西的巫毒娃娃. 你要找到所有的碎片并把它重组. 查看魔法书 - 杰西给了你一个娃娃的清单.%" />			
+			</hint1>		
+			<hint2 text="%两根棍子%">
+				<text text="%你需要两根棍子来制作巫毒娃娃. 它们掉在鸟扔下鱼的地方. 返回沼泽找到它们.%" />			
+			</hint2>	
+			<hint3 text="%丝带%">
+				<text text="%你需要一根丝带来制作巫毒娃娃. 你可以在卧室的隐藏物品场景找到丝带.%" />			
+			</hint3>	
+			<hint4 text="%苔藓%">
+				<text text="%你需要苔藓来制作巫毒娃娃. 你可以从墓地的巫毒圆圈里找到苔藓.%" />			
+			</hint4>	
+			<hint5 text="%绷带%">
+				<text text="%你需要绷带来制作巫毒娃娃. 你可以从法国角药房的隐藏物品场景找到绷带.%" />			
+			</hint5>	
+			<hint6 text="%胶水%">
+				<text text="%你需要胶水来制作巫毒娃娃. 你可以在杰西棚屋的隐藏物品场景找到胶水.%" />			
+			</hint6>	
+			<hint7 text="%两粒纽扣%">
+				<text text="%你需要纽扣来制作巫毒娃娃. 你可以从法国角安东夫人客厅的隐藏物品场景找到两粒纽扣.%" />			
+			</hint7>	
+			<hint8 text="%头发%">
+				<text text="%你需要头发来制作巫毒娃娃. 你可以在拉洛瑞家的隐藏物品场景找到头发.%" />			
+			</hint8>	
+			<hint9 text="%口红%">
+				<text text="%你需要口红来制作巫毒娃娃. 你可以在拉洛瑞家凉亭的台阶上捡到口红.%" />			
+			</hint9>	
+			<hint10 text="%裙子%">
+				<text text="%你需要裙子来制作巫毒娃娃. 你可以在拉洛瑞家流血的树旁边的隐藏物品场景找到裙子.%" />			
+			</hint10>	
+			<hint11 text="%组装娃娃 - 1%">
+				<text text="%你已经找到了组装娃娃的所有物品. 到杰西的棚屋去, 把所有的物品放在法术混合桌上, 得到进一步的说明. 如果你需要查阅巫毒娃娃法术, 它就在你的魔法书里.%" />			
+			</hint11>	
+			<hint12 text="%组装娃娃 - 2%">
+				<text text="%按照谜语的指示将娃娃组装在一起. 顺序是: 丝带, 苔藓, 绷带, 针线, 口红, 胶水,扣子, 头发, 衣服.%" />			
+			</hint12>	
+			<hint13 text="%放置娃娃%">
+				<text text="%返回巫毒墓地, 把娃娃放在韦夫图案的中心.%" />			
+			</hint13>				
+		</hint_group_making_doll>	
+	
+	</hints>
+	
+	<spellmixing>
+	<!--==========================================-->
+		<common>
+			<hints>
+				<can_mix_spells text="%我可以在这里混合法术. 我得把制作法术的物品放在桌子上.%" />
+				<need_to_put_in_loa_first text="%把法术物品放在发光的韦夫里. 然后你应该把它们放进研钵里.%" />
+				<ready_to_put_ingredients_into_bowl text="%现在我可以把原料放进碗里了 - 但是幽灵好像对顺序很挑剔.%" />
+				<wrong_ingredient text="%嗯. 我不认为这是我想制作法术的原料. 也许我应该查看一下魔法书.%" />
+				<wrong_order_of_ingredients text="%哎哟. 我猜我得按照谜语所说的加入原料.%" />
+				<need_more_ingredients text="%我应该把制作法术所需的其它原料也放在这里.%" />
+				<ready_to_mix text="%我需要把它们混合. 这个谜语暗示了应该怎样做.%" />
+				<use_bone_for_mixing text="%我应该拿起那根骨头, 然后用它来搅拌.%" />
+				<wrong_mixing text="%没用. 也许谜语提示了该怎样混合它们.%" />
+				<mortar text="%这个碗好像经常用来混合法术.%" />
+				<pestle text="%看起来这根骨头是用来搅拌制作法术的原料的? 有意思.%" />
+				<riddle text="%洛阿想让我按特定的顺序将这些东西混合... 我得弄清楚它们是什么意思, 以便得到正确的法术.%" />
+				<empty_bottle_in_loa text="%在我把它们混合之后, 我得把混合物倒进这里.%" />
+				<empty_bottle_in_loa_mixture_ready text="%我需要把混合物倒进这里.%" />
+			</hints>
+		</common>
+	<!--==========================================-->
+		<banish_spirits>
+			<tooltips>
+				<graveyard_ash text="%骨灰%" />
+				<holy_water text="%圣水%" />
+			</tooltips>
+			<hints>
+				<apple_must_be_envenomed text="%书上说法术需要一个'毒苹果'. 我不认为一个普通的苹果会有用.%" />
+				<need_more_ingredients text="%我需要把制作驱逐幽灵法术的其它原料放在这里.%" />
+				<need_bottle text="%我已经得到了法术需要的所有物品. 但是当它完成时我需要把药剂放在一个空的瓶子里.%" />
+				<successful_mixing text="%太棒了! 混合物已经准备好了, 可以倒进空瓶子里了.%" />
+				<bottle_in_the_middle text="%我想空瓶子应该放在中间.%" />
+				<red_string_missing text="%要完成法术还缺少一些东西...%" />
+			</hints>
+			<congratulations text="%我制造出了驱逐幽灵护身符! 现在我可以进入房子然后 去了解更多的杰西的故事了.%" />
+		</banish_spirits>
+	<!--==========================================-->
+		<graveyard_grease>
+			<hints>
+				<need_bowl text="%我已经得到了法术需要的所有物品. 但是当它完成时我需要把混合物放在一个空的木碗里.%" />
+				<successful_mixing text="%太棒了! 混合物已经准备好了, 可以倒进木碗里了.%" />
+				<bowl_in_the_middle text="%我想木碗应该放在中间.%" />
+				<wrong_bowl text="%我需要把原料在左边的碗里混合.%" />
+			</hints>
+			<congratulations text="%就是这个! 去油剂!%" />
+		</graveyard_grease>
+	<!--==========================================-->
+		<spirit_revealing_mixture>
+			<hints>
+				<need_bowl text="%我已经得到了法术需要的所有物品. 但是当它完成时我还需要一个空罐子来放置混合物.%" />
+				<successful_mixing text="%太棒了! 混合物已经准备好了, 可以倒进空罐子里了.%" />
+				<can_in_the_middle text="%我想空罐子应该放在中间.%" />
+			</hints>
+			<congratulations text="%幽灵显形剂完成了!%" />			
+		</spirit_revealing_mixture>
+	<!--==========================================-->
+		<aconite_antidote>
+			<hints>
+				<need_bowl text="%我已经得到了法术需要的所有物品. 但是当它完成时我还需要一个空袋子来放置混合物.%" />
+				<successful_mixing text="%太棒了! 解毒剂已经准备好了, 可以倒进空袋子里了.%" />
+				<can_in_the_middle text="%我想空袋子应该放在中间.%" />
+			</hints>
+			<congratulations text="%就是这个! 解毒剂!%" />			
+		</aconite_antidote>
+	<!--==========================================-->
+		<voodoo_doll>
+			<hints>
+				<sticks_in_the_middle text="%我想棍子应该放在中间.%" />
+				<ready_to_combine text="%似乎所有的法术物品都放好. 现在我可以按照洛阿的指示把它们结合在一起.%" />
+				<wrong_order text="%我不认为现在应该使用这件物品.%" />
+			</hints>
+			<congratulations text="%巫毒娃娃完成了!%" />
+		</voodoo_doll>
+	<!--==========================================-->
+	</spellmixing>
+	<puzzles>
+	<!--==========================================-->
+		<window_cleaning>
+			<hints>
+				<books_can_be_used_as_table text="%这些书摞得很稳固, 你可以把它们当成桌子.%" />
+				<need_to_put_the_bowl_on_table text="%在我清理窗户时我可以把法术混合剂放在这里.%" />
+				<need_something_to_clean_grease text="%光线可以从这扇窗户照射进来, 但是玻璃上沾满了厚厚的... 像是某种油脂. 它看起来很不寻常. 我应该查看一下魔法书.%" />
+				<sponge_dried_out text="%海绵已经干了. 我得把它重新浸到混合剂里.%" />
+				<check_spellbook text="%这些油脂擦不掉! 那不是普通的油渍. 也许我应该查看一下魔法书.%" />
+				<need_wet_sponge text="%光靠海绵起不了多大作用. 我需要更强效的东西支队这些油脂.%" />
+				<try_harder text="%按住鼠标左键并以圆形轨迹移动鼠标把油脂&quot;擦干净&quot;.%" />				
+				<section_dirtied text="%哦不! 从上面滴下的油脂把下面的窗户又弄脏了. 我得小心点.%" />
+			</hints>
+			<congratulations text="%好了! 终于干净了.%" />
+		</window_cleaning>
+	<!--==========================================-->	
+		<hex_bones>
+			<hints>
+				<first_enter text="%袋子里有一些魔法骨牌. 也许能帮我弄清下一步该做什么.%" />
+				<message_scrambled text="%嗯. 好像是幽灵弄乱了留言. 我得重新排列字母.%" />
+			</hints>
+			<congratulations text="%点亮火花来揭示我的命运? 这周围肯定有什么我需要点燃的东西.%" />
+		</hex_bones>
+	<!--==========================================-->
+		<ouiji_board>
+			<hints>
+				<on_enter text="%看起来这是另一个幽灵障碍! 这个抽屉里肯定有什么重要的东西 - 不知道我是否可以拿到它.%" />
+				<take_book text="%这是杰西的魔法书!%" />
+			</hints>
+		</ouiji_board>
+	<!--==========================================-->	
+		<dove_cote>
+			<hints>
+				<click_empty_bird_feeder text="%这是一个空的鸟食罐. 也许我可以装满它.%" />
+				<click_full_bird_feeder text="%里面已经装满了粮食, 而且鸽子已经飞进去了!%" />
+				<feeder_already_full text="%鸽子已经在里面了! 现在不需要更多的粮食.%" />
+				<no_dove_inside text="%这是一个鸽子舍, 但是里面没有鸟. 也许我可以引诱一只进去, 这样我就可以得到一根法术需要的羽毛了.%" />
+				<dove_appear text="%我得想办法困住鸽子才能得到羽毛.%" />
+				<idle_click_dove_inside text="%我得想办法锁住所有的门才能把鸽子困在里面.%" />
+				<need_rope text="%我需要一根绳子.%" />
+				<wrong_item_no_dove text="%这不能帮我引诱鸽子进入鸽舍!%"/>
+				<wrong_item_dove_inside text="%我需要困住鸽子才能得到羽毛 - 但是这件东西不能帮我这么做.%" />
+				<need_to_lure_dove_before_closing_the_doors text="%我应该在关上门之前先引诱鸽子进去.%" />
+				<need_to_lure_dove_before_using_rope text="%在我将鸽子引入鸽舍前不能使用绳子!%" />
+				<need_to_close_all_doors_before_locking_them text="%在我关上所有门之前不能这么做.%" />
+				<door_already_closed text="%已经全都关上了 - 正如我所需要的.%" />
+				<wrong_start_roll text="%我不能把绳子绑在这里. 也许我应该试试别的轴.%" />
+				<rope_help text="%点击右键直到绳子达到最后一个位置.%" />
+				<rope_too_short text="%绳子太短了够不到那里! 也许我应该试试别的方法.%" />
+				<ring_already_used text="%我不需要把绳子再绑在这里了. 在鸽舍的另一边还有一个圆环.%" />
+				<pipe_already_locked text="%绳子不能在同一根管子上绑两次!%" />
+				<cannot_use_one_roll_more_than_twice text="%这根轴上没有多余的地方绑绳子了!%" />
+				<rope_secured_on_first_ring text="%现在我应该试着让绳子通过所有的管子锁住它们.%" />
+				<rope_secured_on_both_rings_correct text="%好了! 我想它被困住了.%" />
+				<rope_secured_on_both_rings_wrong text="%我没有用绳子锁住所有的管子. 我不知道这是否足以困住鸽子...%" />
+				<dove_escaped text="%嗯. 鸽子从另一扇门逃跑了. 我需要想办法锁住所有的门, 这样鸽子就飞不出去了.%" />
+			</hints>
+			<congratulations text="%拿到了!%" />
+		</dove_cote>
+	<!--==========================================-->	
+		<rats>
+			<hints>
+				<sack_of_grain_clicked text="%我可以使用那袋粮食 - 但是我得先赶走老鼠.%" />
+				<three_rats_left text="%老鼠. 我讨厌老鼠! 我怎么才能把它们赶走?%" />
+				<two_rats_left text="%我已经赶走了一只老鼠, 但是这里还有其它老鼠.%" />
+				<one_rat_left text="%这里还有一只老鼠!%" />
+			</hints>
+			<congratulations text="%终于行了! 我想我清除了所有的老鼠.%" />
+		</rats>
+	<!--==========================================-->	
+		<cellar_doors>
+			<hints>
+				<idle_click_letters_not_revealed text="%门上反射着水光. 看上去似乎是用手指画的. 也许我能找到些东西涂抹在水上, 令它更清晰.%" />
+				<use_wrong_item_before_reveal_letters text="%这不能帮我看清水迹.%" />
+				<use_wrong_item_after_reveal_letters text="%这不能帮助我进入地窖.%" />
+				<letters_revealed text="%哈! 现在我可以看清那些字母了! 它们肯定能拼出什么. 但是什么呢?%" />
+				<incorrect_word text="%这似乎不是正确的词语.%" />
+			</hints>
+		</cellar_doors>
+	<!--==========================================-->	
+		<sort_apothecary_items>
+			<hints>
+				<three_items_missing text="%我应该整理这些货架, 但是这里似乎还缺少三件物品. 如果它们被从货架上拿走了, 也许我可以在周围的什么地方找到.%" />
+				<two_items_missing text="%我还应该放回两件丢失的物品.%" />
+				<one_item_missing text="%我还需要放回一件丢失的物品.%" />
+				<all_items_on_shelves text="%所有的物品都放在了架子上, 现在我需要把它们放到正确的位置.%" />
+				<wrong_drug text="%我不认为这个是其中一件丢失的物品. 架子上其它的东西都是装在类似的袋子或小瓶子里.%" />
+				<wrong_item text="%这不是其中一件丢失的物品.%" />
+				<item_in_place text="%这件东西似乎已经放到了正确的位置.%" />
+				<all_items_in_place text="%好了! 现在一切看起来都井井有条.%" />
+				<reward_taken text="%这是杰西给安东夫人下的毒药!%" />
+				<wrong_reward text="%我不需要它.%" />
+			</hints>
+			<riddle text="%整理药品说明:\n\n1. 底部的架子上只有白色和蓝色的容器.\n\n2. 不要把任何袋子放在尾数为 '5' 的那列格子里.\n\n3. 尾数为 '2' 的那列格子里只能放以 'A' 开头的药品.\n\n4. 第二行只能放瓶子.\n\n5.蓝色的袋子只能放进以 '3' 开头的那一行.\n\n6. 两个白色的袋子相邻, 其中一个在第二列.\n\n7. 鸦片酊放在20号格子里.\n\n8. 三氯乙醛紧挨在酒精的右边.\n\n9. 铵在最下面的一行.\n\n10. 三氯乙烯紧挨在水蛭的左边.\n\n11. 左下角应该放一个蓝色的瓶子, \n\n　　但是药品的名字不能以 'I' 开头.\n\n12. 颠茄应该紧挨在碘的下面.\n\n13. 水蛭放在35号格子里.%" />
+		</sort_apothecary_items>
+	<!--==========================================-->	
+		<spirit_lock>
+			<hints>
+				<general text="%凉亭上有一个幽灵锁. 杰西说我需要找到8个被困的幽灵并释放他们. 我可以使用魔法书里的 '幽灵显形' 法术.%" />
+				<all_pieces_found text="%幽灵交给我的碎片可以帮助我打开凉亭上的锁, 我只需要把它们放进正确的插槽里.%" />
+				<wrong_item text="%它不是这里的.%" />
+				<wrong_piece text="%这片不适合这里.%" />
+				<need_to_turn_the_lock text="%杰西说我需要把锁逆时针旋转三圈.%" />
+				<wrong_turning text="%喔, 没起到任何作用. 也许我做错了什么.%" />
+			</hints>
+		</spirit_lock>
+	<!--==========================================-->
+		<leeches>
+			<hints>
+				<tablecloth_covered_with_leeches text="%呃 - 水里布满了水蛭! 在我将桌布从拧衣器中拿出来之前必须先把它们去除, 否则上面会沾满水蛭的.%" />
+				<tablecloth_stuck text="%桌布被卡住了.%" />
+				<bucket_click_leeches_still_there text="%也许我可以用什么办法将水蛭钓出来...%" />
+				<leech_click_no_blood_orange text="%桌布上的那些绿色的东西是... 水蛭!%" />
+				<use_wrong_item text="%水蛭似乎对这个不感兴趣.%" />
+				<first_leech_caught text="%水蛭自己缠在了水果上!%" />
+				<last_leech_caught text="%行了! 这是最后一条水蛭了.%" />
+				<all_leeches_removed text="%太好了! 现在我可以安全的拿到桌布了.%" />
+				<need_to_throw_leech_into_swamp text="%我得把它们扔进沼泽里, 这样它们就不能再进去了. %" />
+			</hints>
+			<congratulations text="%成功了!%" />
+		</leeches>
+	<!--==========================================-->
+		<cemetery_gate>
+			<hints>
+				<block_locked text="%似乎这个字母被锁住了, 方块无法转动.%" />
+			</hints>
+			<congratulations text="%所有人都结束于此. 肯定是这个!%" />
+		</cemetery_gate>
+	<!--==========================================-->
+		<blocked_well>
+			<hints>
+				<first_enter text="%不要忘记我们? 忘记谁?%" />
+			</hints>
+			<congratulations text="%我已经解除了井上的幽灵锁. 我不认为它还会闹鬼.%" />
+		</blocked_well>
+	<!--==========================================-->
+		<voodoo_circle>
+			<hints>
+				<spell_unknown text="%这里似乎是法术区域, 但是我该怎么做? 杰西说我要 '找到诅咒'. 我想我应该先去寻找.%" />
+				<need_to_clear_garbage text="%我需要设置施火咒的圆圈. 但我得先把它清理干净.%" />
+				<cannot_put_item_before_clearing_garbage text="%我得先把圆圈里的所有杂物清干净.%" />
+				<circle_cleared text="%行了! 我已经清干净了这个区域. 现在我可以绘制韦夫圈了.%" />
+				<cannot_put_item_before_drawing text="%在我继续之前我应该先绘制圆圈.%" />
+				<need_chalk_to_draw text="%我需要绘制圆圈, 但是我没有可以绘画的东西. 我得去找根粉笔.%" />
+				<need_to_draw text="%我把圆圈清除干净了. 现在我需要用粉笔绘制韦夫圈.%" />
+				<wrong_item_for_drawing text="%我不能用这个绘制圆圈!%" />
+				<drawing_finished text="%魔法圈画好了, 现在我可以把法术物品放上去了.%" />
+				<need_to_put_spell_items text="%魔法圈已经画好了. 现在我可以把法术物品放上去了.%" />
+				<wrong_spell_item text="%这不是我需要的法术物品.%" />
+				<doll_in_the_middle text="%我想巫毒娃娃应该放在中间.%" />
+			</hints>
+		</voodoo_circle>
+	<!--==========================================-->
+		<reveal_spirits>
+			<hints>
+				<one_spirit_to_find text="%有1个幽灵被困在这里.%" />
+				<two_spirits_to_find text="%有2个幽灵被困在这里.%" />
+				<three_spirits_to_find text="%有3个幽灵被困在这里.%" />
+				<four_spirits_to_find text="%有4个幽灵被困在这里.%" />
+				<spirits_already_free text="%我已经释放了这个地点的所有幽灵.%" />
+				<mixture_not_needed_anymore text="%我不再需要它了 - 8个幽灵已经全都自由了!%" />
+			</hints>
+		</reveal_spirits>
+	<!--==========================================-->
+		<skulls_obey>
+			<hints>
+				<wheel_click text="%在骷髅头的顶部有一个箭头. 这肯定是另一个幽灵锁! 我不知道骷髅头是否能帮我打开它...%" />
+				<first_skull text="%它说 '的'.%" />
+				<second_skull text="%它说 '命'.%" />
+				<third_skull text="%它说 '我'.%" />
+				<fourth_skull text="%它说 '听'.%" />
+				<fifth_skull text="%它说 '令'.%" />
+				<sixth_skull text="%它说 '你'.%" />
+				<full_phrase text="%'我听你的命令!' 成功了!%" />
+			</hints>
+		</skulls_obey>
+	<!--==========================================-->
+		<sail>
+			<hints>
+				<start text="%我需要从物品栏中拿出衣服并把它们结合在一起做成一面帆.%" />
+				<wrong_item text="%没有那个我不能做出帆.%" />
+				<all_items_placed text="%我需要装这些衣服结合在一起. 我可以用那片木板当做模型.%" />
+				<correct_place text="%这看起来属于那里.%" />
+				<ready_to_sew text="%我需要把这些缝在一起才能固定住. 我得找到缝纫的东西.%" />
+				<thread_without_needle text="%我已经有线了, 但是在我缝制帆之前还得找根针.%" />
+				<wrong_item_for_sew text="%没有那个我缝不了帆.%" />
+			</hints>
+			<congratulations text="%帆修好了!%" />
+		</sail>
+	<!--==========================================-->
+	</puzzles>
+	<hint_bubbles>
+		<first_item_found text="%你需要用来解开杰西故事的物品将会增加到你的物品栏.\n当你弄清楚应该在哪使用它的时候, 只要点击物品拿起它,\n然后点击你想使用到的场景.%" />
+		<second_item_found1 text="%将你的鼠标移动到屏幕底部, 可以打开物品栏.%" />
+		<second_item_found2 text="%点击物品栏的图标可以钉住它, 并保持在打开状态.%" />
+		<first_hob text="%在底部的物品清单上肯定有你需要的东西.\n在场景里找到每一件物品, 然后点击它. %" />
+		<hob_10sec text="%如果你遇到了麻烦, 点击提示药水瓶.\n当你使用一次提示后, 瓶子将会需要一段时间才能重新填满.%" />
+		<hob_plant text="%你已经找到了法术所需的其中一种植物.\n点击植物书看看凌霄花是什么样子.%" />
+		<location_hint text="%如果你已经探索了一切却不知道下一步该怎么办,\n可以点击提示药水看看你的目标是什么.%" />
+		<show_hint text="%你可以在这里看到你需要做的事件清单,\n点击其中一个你就可以得到关于它的提示.%" />
+		<ouija text="%提示药水在解决谜题时也可以提供帮助,\n只要点击它就能看到为你提供的提示.%" />
+		<spell_book text="%法术清单页列出了制作法术所需要的物品.\n你已经得到的配料前会显示出对勾符号.%" />
+		<spell_mix text="%这是你制作混合法术的地方. 使用魔法书查看法术所需要的原料, 并把它们都放在这个韦夫上..%" />
+		<carriage text="%恭喜! 你已经解锁了马车.\n乘坐马车可以到新奥尔良其它的地方去.%" />
+		<new_areas text="%一个新的地点已经为你打开.\n你可以乘坐马车去拜访那里.%" />
+		<sail_piece_move_rotate text="%点击这一片可以旋转.\n点击并按住可以移动.%" />
+		<new_spell_added text="%一个新的法术已经增加到你的魔法书里.\n点击书查看.%" />
+	</hint_bubbles>
+</strings>

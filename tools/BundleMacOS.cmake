@@ -1,0 +1,10 @@
+include(BundleUtilities)
+# SDL2 compatibility builds load SDL3 dynamically, outside the Mach-O link table.
+file(GLOB extra_libraries "${APP}/Contents/MacOS/*.dylib")
+get_bundle_keys("${APP}" "${extra_libraries}" "${LIBRARY_DIR}" bundle_keys)
+set(origins "")
+foreach(key IN LISTS bundle_keys)
+  string(APPEND origins "${${key}_resolved_item}\n")
+endforeach()
+file(WRITE "${ORIGINS}" "${origins}")
+fixup_bundle("${APP}" "${extra_libraries}" "${LIBRARY_DIR}")

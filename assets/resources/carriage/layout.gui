@@ -1,0 +1,138 @@
+<gui>
+	<image>
+		<file src="/common/half_dark" />
+		<size width="1024" height="768" />
+	</image>
+	<image id="destinations_list_background">
+		<file src="/menu/options/back_options" />
+		<position x="205" y="151" />
+		
+		<group id="texts_offset">
+			<position x="80" y="80" />
+		
+			<label id="destinations_list_caption">
+				<position x="20" y="25" />
+				<align hor="left" vert="top" />
+				<size width="400" height="25" />
+				<text font="/fonts/spell_book_ingredient" color="FF000000">%马车可以带你到新奥尔良幽灵世界\n的其它地方.你想去哪儿?%</text>
+			</label>
+			
+			<button id="button_jessie_home">
+				<position y="130" />
+				<mask src="/common/black" width="300" height="25" />
+				<influence>
+					<hover>
+						<onEnter><label_jessie_home text_color="FF760081" /></onEnter>
+						<onLeave><label_jessie_home text_color="FF000000" /></onLeave>
+					</hover>
+				</influence>
+				
+				<label id="label_jessie_home">
+					<position x="20" y="16" />
+					<size width="260" height="25" />
+					<align hor="left" />
+					<text font="/fonts/spell_book_ingredient" color="FF000000">%带我去杰西家!%</text>
+				</label>
+			</button>
+
+			<button id="button_lalaurie">
+				<position y="160" />
+				<mask src="/common/black" width="300" height="25" />
+				<influence>
+					<hover>
+						<onEnter><label_lalaurie text_color="FF760081" /></onEnter>
+						<onLeave><label_lalaurie text_color="FF000000" /></onLeave>
+					</hover>
+				</influence>
+				
+				<label id="label_lalaurie">
+					<position x="20" y="16" />
+					<size width="260" height="25" />
+					<align hor="left" />
+					<text font="/fonts/spell_book_ingredient" color="FF000000">%带我去拉洛瑞家!%</text>
+				</label>
+			</button>
+			
+			<button id="button_french_quarter">
+				<position y="190" />
+				<mask src="/common/black" width="300" height="25" />
+				<influence>
+					<hover>
+						<onEnter><label_french_quarter text_color="FF760081" /></onEnter>
+						<onLeave><label_french_quarter text_color="FF000000" /></onLeave>
+					</hover>
+				</influence>
+				
+				<label id="label_french_quarter">
+					<position x="20" y="16" />
+					<size width="260" height="25" />
+					<align hor="left" />
+					<text font="/fonts/spell_book_ingredient" color="FF000000">%带我去法国角!%</text>
+				</label>
+			</button>
+			
+			<button id="button_cajun">
+				<position y="220" />
+				<mask src="/common/black" width="300" height="25" />
+				<influence>
+					<hover>
+						<onEnter><label_cajun text_color="FF760081" /></onEnter>
+						<onLeave><label_cajun text_color="FF000000" /></onLeave>
+					</hover>
+				</influence>
+				
+				<label id="label_cajun">
+					<position x="20" y="16" />
+					<size width="260" height="25" />
+					<align hor="left" />
+					<text font="/fonts/spell_book_ingredient" color="FF000000">%带我去卡津沼泽!%</text>
+				</label>
+			</button>		
+			
+			<button id="button_cemetery">
+				<position y="250" />
+				<mask src="/common/black" width="300" height="25" />
+				<influence>
+					<hover>
+						<onEnter><label_cemetery text_color="FF760081" /></onEnter>
+						<onLeave><label_cemetery text_color="FF000000" /></onLeave>
+					</hover>
+				</influence>
+				
+				<label id="label_cemetery">
+					<position x="20" y="16" />
+					<size width="260" height="25" />
+					<align hor="left" />
+					<text font="/fonts/spell_book_ingredient" color="FF000000">%带我去墓地!%</text>
+				</label>
+			</button>		
+		
+		</group>
+		
+	</image>
+	
+	<image transparent="1">
+		<file src="/menu/options/overlay_options" />
+		<position x="504" y="156" />
+	</image>
+	
+	<image transparent="1">
+		<file src="\carriage\image" />
+		<position x="492" y="288" />
+	</image>
+
+	<label>
+		<position x="610" y="207" />
+		<size width="170" height="70" />
+		<align ver="center" hor="center" />
+		<text font="/fonts/ravenwood_26" color="FFe9d49a" >%马车%</text>
+	</label>
+
+	<button id="button_exit" template="/menu/button.tgui#menu" shortcuts="enter">
+		<position x="358" y="508" />
+		<label template="/menu/label.tgui#menu_button">
+			<text>%哪也不去%</text>
+		</label>
+	</button>
+
+</gui>

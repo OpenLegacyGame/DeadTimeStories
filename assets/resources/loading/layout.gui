@@ -1,0 +1,19 @@
+<gui>
+	<image>
+		<file src="back_loading" />
+	</image>
+	<progress id="progress">
+		<position x="428" y="703" />
+		<view default="nearest">
+			<file progress="0" src="progress/00" />
+			<file progress="125" src="progress/01" />
+			<file progress="250" src="progress/02" />
+			<file progress="375" src="progress/03" />
+			<file progress="500" src="progress/04" />
+			<file progress="625" src="progress/05" />
+			<file progress="750" src="progress/06" />
+			<file progress="875" src="progress/07" />
+			<file progress="1000" src="progress/08" />
+		</view>
+	</progress>
+</gui>

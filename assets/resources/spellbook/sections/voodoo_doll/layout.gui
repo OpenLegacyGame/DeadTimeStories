@@ -1,0 +1,30 @@
+<gui>
+	<label>
+		<position x="60" y="50" />
+		<align hor="left" vert="top" />
+		<text font="/fonts/ravenwood_20" color="FF840000">%巫毒娃娃%</text>
+		
+		<label>
+			<position y="30" />
+			<size width="230" />
+			<align hor="left" vert="top" />
+			<text font="/fonts/hint" color="FF210e2d">%一旦你拥有了一个真正的巫毒娃娃, 你就可以请求娃娃召唤来力量强大的 洛阿. 你可以举行一个简单有效的仪式, 完成你特殊的梦想, 和最迫切的愿望. 这个永恒的仪式可以让幽灵在这个世 界使用他们的能力.%</text>
+		</label>
+	</label>
+
+	<image id="enabled">
+		<file src="sb_voodoo_doll" />
+		
+		<label>
+			<position x="430" y="58" />
+			<text font="/fonts/acoustic_bass" color="FF6f0070">%容器%</text>
+		</label>
+		<label>
+			<position x="430" y="130" />
+			<text font="/fonts/acoustic_bass" color="FF6f0070">%原料%</text>
+		</label>
+	</image>
+	<image id="disabled">
+		<file src="sb_voodoo_doll_hidden" />
+	</image>
+</gui>

@@ -1,0 +1,52 @@
+<hex_bones>
+	<onFinish script="_on_finish" />
+	<onEnter script="_on_enter" />
+	
+	<swap_bones time_seconds="0.375" deviation="50" discretization="50" />
+
+	<!--      0         1      -->
+	<!--      0123456789012345 -->
+	<alphabet>aefghiklmoprstvy</alphabet>
+
+	<phrase>light a spark to reveal my fate</phrase>
+	
+	<locked_bones>
+		<bone index="0" /> <!-- "l" in light -->
+		<bone index="6" /> <!-- "s" in spark -->
+	</locked_bones>
+	<num_random_locked_bones value="6" />
+	
+	<positions>
+		<bone x="85" y="150" /> <!-- l -->
+		<bone x="145" y="170" /> <!-- i -->
+		<bone x="205" y="150" /> <!-- g -->
+		<bone x="265" y="170" /> <!-- h -->
+		<bone x="325" y="150" /> <!-- t -->
+
+		<bone x="445" y="170" /> <!-- a -->
+
+		<bone x="565" y="150" /> <!-- s -->
+		<bone x="625" y="170" /> <!-- p -->
+		<bone x="685" y="150" /> <!-- a -->
+		<bone x="745" y="170" /> <!-- r -->
+		<bone x="805" y="150" /> <!-- k -->
+
+		<bone x="110" y="300" /> <!-- t -->
+		<bone x="170" y="320" /> <!-- o -->
+
+		<bone x="290" y="300" /> <!-- r -->
+		<bone x="350" y="320" /> <!-- e -->
+		<bone x="410" y="300" /> <!-- v -->
+		<bone x="470" y="320" /> <!-- e -->
+		<bone x="530" y="300" /> <!-- a -->
+		<bone x="590" y="320" /> <!-- l -->
+
+		<bone x="265" y="450" /> <!-- m -->
+		<bone x="325" y="470" /> <!-- y -->
+		
+		<bone x="445" y="450" /> <!-- f -->
+		<bone x="505" y="470" /> <!-- a -->
+		<bone x="565" y="450" /> <!-- t -->
+		<bone x="625" y="470" /> <!-- e -->
+	</positions>
+</hex_bones>

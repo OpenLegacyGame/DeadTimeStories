@@ -1,0 +1,198 @@
+<location>
+	<onFirstVisit script="morning_room/starter" />
+	<music>
+		<track src="/music/11_Piano_Melancholy" silence_after="5" />
+	</music>
+	<ambient src="/sound/sfx/sfx_rays" />
+	<objects>
+		<object name="background">
+			<texture src="morning_room/background" />
+		</object>
+		
+		<object name="fx_fire">
+			<scene src="/particles_ready/morningroom/fire.DAE">
+				<particles src="/particles_ready/morningroom/fire.psysl" />
+			</scene>
+		</object>
+		<object name="fx_fire_g">
+			<scene src="/particles_ready/morningroom/fire_g.DAE" />
+		</object>
+		<object name="fx_fire_s">
+			<scene src="/particles_ready/morningroom/fire_s.DAE">
+				<particles src="/particles_ready/morningroom/fire_s.psysl" />
+			</scene>
+		</object>
+		<object name="fx_fire_flakes">
+			<position x="-15" />
+			<scene src="/particles_ready/morningroom/fire_dust.DAE">
+				<particles src="/particles_ready/morningroom/firedust.psysl" />
+			</scene>
+		</object>
+		
+		<object name="top_table">
+			<position x="0" y="500" />
+			<texture src="morning_room/top" />
+		</object>
+		
+		<object name="fx_glow">
+			<scene src="/particles_ready/morningroom/fire_g.DAE">
+				<particles src="/particles_ready/morningroom/glow.psysl" />
+			</scene>
+		</object>
+		
+		<object name="fx_ray_dust">
+			<scene src="/particles_ready/morningroom/raydust.DAE">
+				<particles src="/particles_ready/ray_dust/ray_dust.psysl" />
+			</scene>
+		</object>
+		
+		<object name="fx_coffee_smoke">
+			<position z="-40" />
+			<scene src="/particles_ready/morningroom/cup_steam.DAE" looped="1" />
+		</object>
+		
+		<object name="fx_ghost_man_static">
+			<scene src="/particles_ready/souls/soul_mroom/soul_man.DAE">
+				<particles src="/particles_ready/souls/soul01_anim.psysl" />
+				<particles src="/particles_ready/souls/soul01_anim1.psysl" />
+			</scene>
+		</object>
+
+		<object name="fx_ghost_man_dynamic">
+			<scene src="/particles_ready/souls/soul_mroom/soul_man_d.DAE">
+				<particles src="/particles_ready/souls/soul02_anim.psysl" />
+				<particles src="/particles_ready/souls/soul02_anim1.psysl" />
+			</scene>
+			<enable value="0" />
+		</object>
+		
+		<object name="fx_ghost_woman_static">
+			<scene src="/particles_ready/souls/soul_mroom/soul_woman.DAE">
+				<particles src="/particles_ready/souls/soul01_anim.psysl" />
+				<particles src="/particles_ready/souls/soul01_anim1.psysl" />
+			</scene>
+		</object>
+
+		<object name="fx_ghost_woman_dynamic">
+			<scene src="/particles_ready/souls/soul_mroom/soul_woman_d.DAE">
+				<particles src="/particles_ready/souls/soul02_anim.psysl" />
+				<particles src="/particles_ready/souls/soul02_anim1.psysl" />
+			</scene>
+			<enable value="0" />
+		</object>
+		
+		<object name="to_street_1">
+			<position x="126" y="560" z="-20" />
+			<texture src="morning_room/exit_mask" />
+			<script src="morning_room/to_street_1" />
+			<alpha value="0" />
+		</object>
+		<object name="coin">
+			<position x="863" y="589" z="-10" />
+			<texture src="morning_room/coin/coin" />
+			<script src="morning_room/coin/coin" />
+		</object>
+		<object name="fx_blink_coin">
+			<position x="865" y="590" z="-20" />		
+			<particles src="/particles_ready/Blink/blink.psysl" />
+		</object>
+		<object name="desk">
+			<position x="452" y="295" z="-10" />
+			<texture src="morning_room/desk/hob_mask" />
+			<script src="morning_room/desk/desk" />
+			<alpha value="0" />	
+		</object>
+		<object name="fx_flora_desk">
+			<position x="471" y="332" z="-20" />
+			<size width="233" height="103" />			
+			<particles presim="2" src="/particles_ready/FrontGate_HOBLocator/FGate_HOBLocator.psysl" />
+		</object>
+
+		<object name="fx_diary_dynamic">
+			<enable value="0" />
+			<position z="-20" />
+			<scene src="/particles_ready/anton/anton_d.DAE">
+				<particles src="/particles_ready/anton/anton_d.psysl" />
+			</scene>
+		</object>
+		<object name="fx_diary_static">
+			<position z="-20" />
+			<scene src="/particles_ready/anton/anton_s.DAE" looped="1" />
+		</object>
+		<object name="diary">
+			<alpha value="0" />
+			<position x="0" y="286" z="-10" />
+			<texture src="morning_room/diary/diary_poison" />
+			<script src="morning_room/diary/diary" />
+		</object>
+		<object name="fx_blink_diary">
+			<position x="125" y="505" z="-20" />		
+			<particles src="/particles_ready/Blink/blink.psysl" />
+		</object>
+		<object name="diary_closed">
+			<position x="87" y="521" z="-5" />
+			<texture src="morning_room/diary/diary_closed" />
+		</object>
+		<object name="bag">
+			<position x="504" y="565" z="-10" />
+			<texture src="morning_room/bag/bag_closed" />
+			<script src="morning_room/bag/bag" />
+		</object>
+		<object name="fx_blink_bag">
+			<position x="567" y="629" z="-20" />		
+			<particles src="/particles_ready/Blink/blink.psysl" />
+		</object>
+
+		<object name="sfx_fireplace">
+			<script src="morning_room/sfx/fireplace" />
+		</object>		
+		
+		<!-- TEMP -->
+<!--
+
+		
+		<object name="coin">
+			<position x="358" y="511" z="-10" />
+			<texture src="morning_room/coin/coin" />
+			<script src="morning_room/coin/coin" />
+		</object>
+		<object name="fx_blink_coin">
+			<position x="365" y="521" z="-20" />		
+			<particles src="/particles_ready/Blink/blink.psysl" />
+		</object>
+ 
+ 
+ 
+ 
+ 
+		<object name="cellar_door">
+			<position x="753" y="395" z="-10" />
+			<texture src="morning_room/cellar_door/cellar_door" />
+			<script src="morning_room/cellar_door/cellar_door" />
+			<alpha value="1" />
+		</object>
+		
+		
+		
+
+		<object name="railing">
+			<position x="461" y="324" z="-10" />
+			<texture src="morning_room/railing/railing_safe" />
+			<script src="morning_room/railing/railing" />
+		</object>
+		<object name="fx_blink_railing">
+			<position x="471" y="334" z="-20" />		
+			<particles src="/particles_ready/Blink/blink.psysl" />
+		</object>
+		
+	
+	
+	
+		<object name="debug_obj">
+			<position z="-100" />
+			<script src="/zones/jessie_home/test" />
+			<texture src="unexistent" />
+		</object>
+-->	
+	</objects>
+</location>

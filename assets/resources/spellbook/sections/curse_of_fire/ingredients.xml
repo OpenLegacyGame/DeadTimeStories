@@ -1,0 +1,7 @@
+<spell>
+	<ingredient item="voodoo_doll_old" text="%巫毒娃娃%" x="435" y="80" />
+	<ingredient item="chalk" text="%白色粉笔%" x="435" y="152" />
+	<ingredient item="rum" text="%朗姆酒%" x="435" y="176" />
+	<ingredient item="coconut" text="%椰子%" x="435" y="200" />
+	<ingredient item="cage" text="%2只白鸽%" x="435" y="224" />
+</spell>

@@ -1,0 +1,24 @@
+This directory includes notices from the MSYS2 packages which supply the bundled
+runtime DLLs. runtime-packages.txt records their exact installed package versions.
+The independent game executable dynamically links these libraries; their original
+licenses apply separately from the game content and this runtime rewrite.
+
+MSYS2 package metadata, upstream URLs, source recipe and source downloads:
+https://packages.msys2.org/packages/
+https://github.com/msys2/MINGW-packages
+https://mirror.msys2.org/mingw/sources/
+
+Upstream source and license information:
+SDL2 and SDL2_image/SDL2_mixer/SDL2_ttf: https://libsdl.org/
+LuaJIT: https://luajit.org/
+libzip: https://libzip.org/
+pugixml: https://pugixml.org/
+FreeType: https://freetype.org/
+HarfBuzz: https://harfbuzz.github.io/
+Ogg/Vorbis: https://xiph.org/
+GCC runtime libraries: https://gcc.gnu.org/onlinedocs/libstdc++/manual/license.html
+
+LGPL libraries, if present in runtime-packages.txt, are used as separate DLLs.
+Users can replace them with compatible modified builds. This package does not
+restrict reverse engineering for debugging modifications to those libraries.
+Keep the notices and consult each package's license for its source requirements.

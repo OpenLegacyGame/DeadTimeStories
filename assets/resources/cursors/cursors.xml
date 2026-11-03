@@ -1,0 +1,13 @@
+<cursors>
+	<idle spotX="13" spotY="3" />
+	<interact spotX="10" spotY="4" />
+	<interact_taking spotX="16" spotY="26" />
+	<view spotX="23" spotY="23" />
+	<go_up spotX="26" spotY="32" particles="/particles_ready/CURSRLeaveScene/DTime_leave_up.psysl" />
+	<go_down spotX="26" spotY="46" particles="/particles_ready/CURSRLeaveScene/DTime_leave_down.psysl" />
+	<go_left spotX="35" spotY="29" particles="/particles_ready/CURSRLeaveScene/DTime_leave_left.psysl" />
+	<go_right spotX="50" spotY="29" particles="/particles_ready/CURSRLeaveScene/DTime_leave_right.psysl" />
+	<lock spotX="10" spotY="5" particles="/particles_ready/mouse_disgust/mouse_disgust.psysl" scene="/common/fx/rotate_4.DAE" />
+	<wait spotX="10" spotY="5" />
+	<reveal_spirits spotX="20" spotY="20" />
+</cursors>

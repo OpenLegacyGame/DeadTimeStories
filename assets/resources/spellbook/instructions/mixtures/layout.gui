@@ -1,0 +1,18 @@
+<gui>
+	<label>
+		<position x="60" y="50" />
+		<align hor="left" vert="top" />
+		<text font="/fonts/ravenwood_20" color="FF840000">%怎样制作混合剂%</text>
+		
+		<label>
+			<position y="30" />
+			<size width="230" />
+			<align hor="left" vert="top" />
+			<text font="/fonts/hint" color="FF210e2d">%要想制作任何一个巫毒混合剂, 不管目的是什么, 你都必须按照魔法做. 首先, 收集混合剂需要的所有原料. 其次, 寻找你用来放置混合剂成品的容器 或装载物. 记住, 同样的碗对一个魔法有用, 对另一个可能就没用. 将所有的原料放在韦夫(一种具有巫毒 力量的符号)的外圈, 然后把容器放在它们中间. 洛阿将会对你说话, 并告诉你该怎样完成法术!%</text>
+		</label>
+	</label>
+	
+	<image>
+		<file src="sb_instructions" />
+	</image>	
+</gui>

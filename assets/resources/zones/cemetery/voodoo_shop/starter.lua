@@ -1,0 +1,1 @@
+gotoState("cemetery.voodoo_shop.bird_fish_trigger", "triggered")

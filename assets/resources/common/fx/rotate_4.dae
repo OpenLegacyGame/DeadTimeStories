@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1">
+  <asset>
+    <contributor>
+      <author>y.miroshnik</author>
+      <authoring_tool>3dsMax 9 - Feeling ColladaMax v3.05B.</authoring_tool>
+      <comments>ColladaMax Export Options: ExportNormals=1;ExportEPolyAsTriangles=1;ExportXRefs=1;ExportSelected=0;ExportTangents=0;ExportAnimations=1;SampleAnim=1;ExportAnimClip=0;BakeMatrices=0;ExportRelativePaths=1;AnimStart=0;AnimEnd=2;</comments>
+      <source_data>file:///C:/Documents%20and%20Settings/y.miroshnik/My%20Documents/3dsmax/scenes/rotate_4.max</source_data>
+    </contributor>
+    <created>2009-12-01T14:28:42Z</created>
+    <modified>2009-12-01T14:28:43Z</modified>
+    <unit meter="0.0254" name="inch"/>
+    <up_axis>Z_UP</up_axis>
+  </asset>
+  <library_animations>
+    <animation id="Dummy01-node-ry">
+      <source id="Dummy01-node-ry_Dummy01-node_RotY.ANGLE-input">
+        <float_array id="Dummy01-node-ry_Dummy01-node_RotY.ANGLE-input-array" count="61">0 0.033333 0.066666 0.1 0.133333 0.166667 0.2 0.233333 0.266667 0.3 0.333333 0.366667 0.4 0.433333 0.466667 0.5 0.533333 0.566667 0.6 0.633333 0.666667 0.7 0.733333 0.766667 0.8 0.833333 0.866667 0.9 0.933333 0.966667 1 1.03333 1.06667 1.1 1.13333 1.16667 1.2 1.23333 1.26667 1.3 1.33333 1.36667 1.4 1.43333 1.46667 1.5 1.53333 1.56667 1.6 1.63333 1.66667 1.7 1.73333 1.76667 1.8 1.83333 1.86667 1.9 1.93333 1.96667 2</float_array>
+        <technique_common>
+          <accessor source="#Dummy01-node-ry_Dummy01-node_RotY.ANGLE-input-array" count="61" stride="1">
+            <param name="TIME" type="float"/>
+          </accessor>
+        </technique_common>
+        <technique profile="MAYA">
+          <pre_infinity>CONSTANT</pre_infinity>
+          <post_infinity>CONSTANT</post_infinity>
+        </technique>
+      </source>
+      <source id="Dummy01-node-ry_Dummy01-node_RotY.ANGLE-output">
+        <float_array id="Dummy01-node-ry_Dummy01-node_RotY.ANGLE-output-array" count="61">0 6 12 18 24 30 36 42 48 54 60 66 72 78 84 90 96 102 108 114 120 126 132 138 144 150 156 162 168 174 180 186 192 198 204 210 216 222 228 234 240 246 252 258 264 270 276 282 288 294 300 306 312 318 324 330 336 342 348 354 360</float_array>
+        <technique_common>
+          <accessor source="#Dummy01-node-ry_Dummy01-node_RotY.ANGLE-output-array" count="61" stride="1">
+            <param name="ANGLE" type="float"/>
+          </accessor>
+        </technique_common>
+      </source>
+      <source id="Dummy01-node-ry_Dummy01-node_RotY.ANGLE-interpolations">
+        <Name_array id="Dummy01-node-ry_Dummy01-node_RotY.ANGLE-interpolations-array" count="61">LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR</Name_array>
+        <technique_common>
+          <accessor source="#Dummy01-node-ry_Dummy01-node_RotY.ANGLE-interpolations-array" count="61" stride="1">
+            <param name="INTERPOLATION" type="Name"/>
+          </accessor>
+        </technique_common>
+      </source>
+      <sampler id="Dummy01-node-ry_Dummy01-node_RotY.ANGLE-sampler">
+        <input semantic="INPUT" source="#Dummy01-node-ry_Dummy01-node_RotY.ANGLE-input"/>
+        <input semantic="OUTPUT" source="#Dummy01-node-ry_Dummy01-node_RotY.ANGLE-output"/>
+        <input semantic="INTERPOLATION" source="#Dummy01-node-ry_Dummy01-node_RotY.ANGLE-interpolations"/>
+      </sampler>
+      <channel source="#Dummy01-node-ry_Dummy01-node_RotY.ANGLE-sampler" target="Dummy01-node/RotY.ANGLE"/>
+    </animation>
+  </library_animations>
+  <library_visual_scenes>
+    <visual_scene id="rotate_4.max" name="rotate_4_max">
+      <node id="Dummy01-node" name="Dummy01" type="NODE">
+        <translate>0 0 0</translate>
+        <rotate sid="RotZ">0 0 1 0</rotate>
+        <rotate sid="RotY">0 1 0 0</rotate>
+        <rotate sid="RotX">1 0 0 90</rotate>
+        <node id="_Dummy02-node" name="_Dummy02" type="NODE">
+          <translate>0 100 0</translate>
+          <extra>
+            <technique profile="MAX3D">
+              <helper>
+                <bounding_min>-10 -10 -10</bounding_min>
+                <bounding_max>10 10 10</bounding_max>
+              </helper>
+            </technique>
+          </extra>
+        </node>
+        <node id="_Dummy05-node" name="_Dummy05" type="NODE">
+          <translate>-100 0 0</translate>
+          <extra>
+            <technique profile="MAX3D">
+              <helper>
+                <bounding_min>-10 -10 -10</bounding_min>
+                <bounding_max>10 10 10</bounding_max>
+              </helper>
+            </technique>
+          </extra>
+        </node>
+        <node id="_Dummy03-node" name="_Dummy03" type="NODE">
+          <translate>100 0 0</translate>
+          <extra>
+            <technique profile="MAX3D">
+              <helper>
+                <bounding_min>-10 -10 -10</bounding_min>
+                <bounding_max>10 10 10</bounding_max>
+              </helper>
+            </technique>
+          </extra>
+        </node>
+        <node id="_Dummy04-node" name="_Dummy04" type="NODE">
+          <translate>0 -100 0</translate>
+          <extra>
+            <technique profile="MAX3D">
+              <helper>
+                <bounding_min>-10 -10 -10</bounding_min>
+                <bounding_max>10 10 10</bounding_max>
+              </helper>
+            </technique>
+          </extra>
+        </node>
+        <extra>
+          <technique profile="MAX3D">
+            <helper>
+              <bounding_min>-10 -10 -10</bounding_min>
+              <bounding_max>10 10 10</bounding_max>
+            </helper>
+          </technique>
+        </extra>
+      </node>
+      <extra>
+        <technique profile="FCOLLADA">
+          <start_time>0</start_time>
+          <end_time>2</end_time>
+        </technique>
+      </extra>
+      <extra>
+        <technique profile="MAX3D">
+          <frame_rate>30</frame_rate>
+        </technique>
+      </extra>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_visual_scene url="#rotate_4.max"/>
+  </scene>
+</COLLADA>

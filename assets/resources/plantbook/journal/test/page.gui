@@ -1,0 +1,7 @@
+<gui>
+	<label>
+		<size width="300" height="500" />
+		<align hor="center" vert="center" />
+		<text font="/fonts/spell_book_ingredient" color="FF000000">Test journal page</text>
+	</label>
+</gui>

@@ -1,0 +1,12 @@
+<spell>
+	<ingredient item="graveyard_ash" text="%骨灰%" x="435" y="152" />
+	<ingredient item="holy_water" text="%圣水%" x="435" y="176" />
+	<ingredient item="salt" text="%盐%" x="435" y="200" />
+	<ingredient item="mint" text="%薄荷%" x="435" y="224" />
+	<ingredient item="clove" text="%丁香%" x="435" y="248" />
+	<ingredient item="devils_shoestring" text="%凌霄花%" x="435" y="272" />
+	<ingredient item="solomon_seal" text="%黄精%" x="435" y="296" />
+	<ingredient item="envenomed_apple" text="%毒苹果%" x="435" y="320" />
+	<ingredient item="bottle" container="1" text="%瓶子%" x="435" y="80" />
+	<ingredient item="red_string" special="1" text="%红绳%" x="435" y="392" />
+</spell>

@@ -1,0 +1,71 @@
+<gui>
+	<group template="templates.tgui#left_group">
+		<image id="inventory_image" transparent="1">
+			<position x="502" y="104" />
+			<file src="inventory_image" />
+		</image>
+		<image id="back_first_grave">
+			<file src="back_first_grave" />
+		</image>
+		<checkbox id="button_pin_inventory">
+			<view>
+				<normal src="bt_inventory_E" />
+				<normal_checked src="bt_inventory_S" />
+				<hover src="bt_inventory_O" />
+				<hover_checked src="bt_inventory_SO" />
+				<clicked src="bt_inventory_T" />
+				<clicked_checked src="bt_inventory_ST" />
+			</view>
+			<mask src="bt_inventory_MASK" />
+		</checkbox>
+		<image id="back_first_grave_web">
+			<file src="back_first_grave_web" />
+		</image>
+		<button id="spell_book" shortcuts="s">
+			<view>
+				<normal src="bt_spell_book_E" />
+				<hover src="bt_spell_book_O" />
+				<clicked src="bt_spell_book_T" />
+			</view>
+			<mask src="bt_spell_book_MASK" />
+			<influence>
+				<disabled>
+					<onLeave>
+						<spell_book visible="0" />
+						<spell_found_fx anim="spell_found">
+							<spell_found_fx visible="0" />
+							<spell_book visible="1" />
+						</spell_found_fx>
+					</onLeave>
+				</disabled>
+			</influence>				
+			<mask src="bt_spell_book_E" />
+		</button>
+		<image id="spell_found_fx">
+			<position y="-200" />
+		</image>
+		<button id="button_menu" shortcuts="esc">
+			<view>
+				<normal src="bt_menu_E" />
+				<hover src="bt_menu_O" />
+				<clicked src="bt_menu_T" />
+			</view>
+			<mask src="bt_menu_MASK" />
+		</button>
+		<image id="back_web" transparent="1">
+			<file src="back_web" />
+		</image>
+		<image id="back_candles_left" transparent="1">
+			<file src="back_candles_left" />
+		</image>
+		<button id="arrow_left">
+			<view>
+				<normal src="bt_arrow_left_E" />
+				<hover src="bt_arrow_left_O" />
+				<clicked src="bt_arrow_left_T" />
+				<disabled src="bt_arrow_left_T" />
+			</view>
+			<mask src="bt_arrow_left_MASK" />
+		</button>
+	</group>
+</gui>

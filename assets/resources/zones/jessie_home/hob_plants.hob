@@ -1,0 +1,378 @@
+<hob stripcode="0200">
+	<groups>
+	
+		<group0 environment="0">
+			<object name="%红绳%">
+				<position x="920" y="115" z="0" />
+				<texture src="HOB_plants/Red_String" />
+			</object>
+			<object name="%凌霄花%">
+				<position x="721" y="511" z="-2" />
+				<texture src="HOB_plants/Devil_shoestring" />
+				<inventory name="clippers" drop="1" remove="0" message="%我需要什么东西剪断坚硬的茎.%" />
+			</object>
+			<object name="%洋葱花%">
+				<position x="416" y="280" z="0" />
+				<texture src="HOB_plants/Onion_Flower" />
+				<inventory name="clippers" drop="1" remove="0" message="%我需要什么东西剪断坚硬的茎.%" />
+			</object>
+			<object name="%黄附子花%">
+				<position x="766" y="54" z="-1" />
+				<texture src="HOB_plants/Yellow_Monkshood" />
+				<inventory name="clippers" drop="1" remove="0" message="%我需要什么东西剪断坚硬的茎.%" />
+			</object>
+		</group0>
+		<group1>
+			<complex name="%弹珠%">
+				<object>
+					<position x="884" y="579" z="0" />
+					<texture src="HOB_plants/Marble_III" />
+				</object>
+				<object>
+					<position x="949" y="69" z="0" />
+					<texture src="HOB_plants/Marble_II" />
+				</object>
+				<object>
+					<position x="144" y="251" z="0" />
+					<texture src="HOB_plants/Marble_I" />
+				</object>
+			</complex>
+			<complex name="%杰克%">
+				<object>
+					<position x="307" y="350" z="0" />
+					<texture src="HOB_plants/jack_lantern" />
+				</object>
+				<object>
+					<position x="482" y="72" z="0" />
+					<texture src="HOB_plants/Jack_in_the_box" />
+				</object>
+				<object>
+					<position x="972" y="132" z="0" />
+					<texture src="HOB_plants/Card" />
+				</object>
+			</complex>
+			<complex name="%羽毛%">
+				<object>
+					<position x="186" y="520" z="0" />
+					<texture src="HOB_plants/Feather_II" />
+				</object>
+				<object>
+					<position x="314" y="11" z="0" />
+					<texture src="HOB_plants/Feather_I" />
+				</object>
+				<object>
+					<position x="929" y="435" z="0" />
+					<texture src="HOB_plants/arrow_feather" />
+				</object>
+			</complex>
+		</group1>
+<!--dif_0-->
+		<group2>					
+			<object name="%眼球%">
+				<position x="26" y="217" z="0" />
+				<texture src="HOB_plants/eyeball" />
+			</object>		
+			<object name="%刀子%">
+				<position x="46" y="367" z="0" />
+				<texture src="HOB_plants/Knife" />
+			</object>											
+			<object name="%娃娃%">
+				<position x="787" y="427" z="0" />
+				<texture src="HOB_plants/Vodoo_doll" />
+			</object>	
+			<object name="%礼帽%">
+				<position x="696" y="31" z="0" />
+				<texture src="HOB_plants/voodoo_tophat" />
+			</object>
+			<object name="%铃铛%">
+				<position x="310" y="304" z="0" />
+				<texture src="HOB_plants/Bell" />
+			</object>	
+			<object name="%三叉戟%">
+				<position x="370" y="409" z="0" />
+				<texture src="HOB_plants/Hoe" />
+			</object>	
+			<object name="%手杖%">
+				<position x="61" y="429" z="0" />
+				<texture src="HOB_plants/Staff" />
+			</object>	
+			<object name="%头骨%">
+				<position x="265" y="160" z="0" />
+				<texture src="HOB_plants/fish_scull" />
+			</object>	
+			<object name="%香囊%">
+				<position x="488" y="547" z="0" />
+				<texture src="HOB_plants/sachet" />
+			</object>	
+			<object name="%项链%">
+				<position x="545" y="441" z="0" />
+				<texture src="HOB_plants/pearl_necklace" />
+			</object>	
+			<object name="%雏菊%">
+				<position x="176" y="339" z="0" />
+				<texture src="HOB_plants/fabric" />
+			</object>			
+		</group2>		
+<!--dif_1-->
+		<group3>
+			<object name="%鸟%">
+				<position x="648" y="80" z="-1" />
+				<texture src="HOB_plants/Black_Kite" />
+			</object>
+			<object name="%风筝%">
+				<position x="387" y="165" z="0" />
+				<texture src="HOB_plants/Kite" />
+			</object>
+			<object name="%蘑菇%">
+				<position x="340" y="517" z="0" />
+				<texture src="HOB_plants/Mushroom" />
+			</object>	
+			<object name="%蛋%">
+				<position x="557" y="354" z="0" />
+				<texture src="HOB_plants/egg" />
+			</object>
+			<object name="%沙漏%">
+				<position x="288" y="550" z="0" />
+				<texture src="HOB_plants/Hourglass" />
+			</object>
+			<object name="%扇子%">
+				<position x="332" y="206" z="0" />
+				<texture src="HOB_plants/Fan" />
+			</object>	
+			<object name="%篮子%">
+				<position x="720" y="206" z="0" />
+				<texture src="HOB_plants/Basket" />
+			</object>
+			<object name="%爆米花%">
+				<position x="316" y="91" z="0" />
+				<texture src="HOB_plants/Popcorn" />
+			</object>					
+			<object name="%中国花瓶%">
+				<position x="562" y="503" z="0" />
+				<texture src="HOB_plants/pitcher" />
+			</object>		
+			<object name="%茶杯%">
+				<position x="0" y="266" z="0" />
+				<texture src="HOB_plants/cup" />
+			</object>			
+			<object name="%鞋%">
+				<position x="860" y="210" z="0" />
+				<texture src="HOB_plants/Shoe" />
+			</object>
+			<object name="%Y形骨%">
+				<position x="782" y="203" z="0" />
+				<texture src="HOB_plants/WishBone" />
+			</object>					
+			<object name="%蚕茧%">
+				<position x="20" y="42" z="0" />
+				<texture src="HOB_plants/silk_cocoon" />
+			</object>			
+			<object name="%蜂巢%">
+				<position x="120" y="545" z="0" />
+				<texture src="HOB_plants/hornet_nest" />
+			</object>			
+			<object name="%脚印%">
+				<position x="176" y="426" z="0" />
+				<texture src="HOB_plants/Footstep" />
+			</object>			
+			<object name="%魔法饰物%">
+				<position x="634" y="163" z="0" />
+				<texture src="HOB_plants/voodoo_charm" />
+			</object>			
+			<object name="%文件%">
+				<position x="720" y="338" z="0" />
+				<texture src="HOB_plants/claim_document" />
+			</object>			
+			<object name="%栗子%">
+				<position x="202" y="184" z="0" />
+				<texture src="HOB_plants/chestnut" />
+			</object>			
+			<object name="%泥铲%">
+				<position x="101" y="227" z="0" />
+				<texture src="HOB_plants/shovel" />
+			</object>			
+			<object name="%橡子%">
+				<position x="563" y="389" z="0" />
+				<texture src="HOB_plants/acorn" />
+			</object>
+			<object name="%蜥蜴%">
+				<position x="715" y="396" z="-1" />
+				<texture src="HOB_plants/Lizard" />
+			</object>
+			<object name="%耙子%">
+				<position x="519" y="156" z="-1" />
+				<texture src="HOB_plants/Rake" />
+			</object>						
+			<object name="%芦苇%">
+				<position x="261" y="426" z="-1" />
+				<texture src="HOB_plants/Reed" />
+			</object>			
+			<object name="%纽扣%">
+				<position x="550" y="7" z="0" />
+				<texture src="HOB_plants/Button" />
+			</object>						
+			<object name="%平底锅%">
+				<position x="586" y="64" z="0" />
+				<texture src="HOB_plants/saucepan" />
+			</object>			
+			<object name="%甘草%">
+				<position x="360" y="52" z="0" />
+				<texture src="HOB_plants/liquorice" />
+			</object>						
+		</group3>		
+<!--dif_2-->
+		<group4>
+			<object name="%螃蟹%">
+				<position x="387" y="400" z="0" />
+				<texture src="HOB_plants/Crab" />
+			</object>		
+			<object name="%单片眼镜%">
+				<position x="603" y="247" z="0" />
+				<texture src="HOB_plants/Monocle" />
+			</object>	
+			<object name="%勿忘我%">
+				<position x="649" y="371" z="0" />
+				<texture src="HOB_plants/forget_me_not_flower" />
+			</object>			
+			<object name="%炸薯条%">
+				<position x="839" y="160" z="0" />
+				<texture src="HOB_plants/French_potato" />
+			</object>		
+			<object name="%苹果%">
+				<position x="499" y="324" z="0" />
+				<texture src="HOB_plants/Apple_core" />
+			</object>		
+			<object name="%海绵%">
+				<position x="981" y="353" z="0" />
+				<texture src="HOB_plants/Sea_sponge" />
+			</object>		
+			<object name="%雨伞%">
+				<position x="167" y="103" z="0" />
+				<texture src="HOB_plants/umbrella" />
+			</object>	
+			<object name="%盘子%">
+				<position x="668" y="275" z="-15" />
+				<texture src="HOB_plants/plate" />
+			</object>
+			<object name="%花生%">
+				<position x="502" y="275" z="0" />
+				<texture src="HOB_plants/Peanut" />
+			</object>
+			<object name="%蝴蝶%">
+				<position x="631" y="295" z="-1" />
+				<texture src="HOB_plants/Butterfly" />
+			</object>
+			<object name="%琥珀%">
+				<position x="884" y="87" z="0" />
+				<texture src="HOB_plants/Amber" />
+			</object>	
+		</group4>			
+<!--dif_4-->
+		<group5>		
+			<object name="%焦木%">
+				<position x="779" y="302" z="0" />
+				<texture src="HOB_plants/Charred_plank" />
+			</object>
+			<object name="%鬼魂%">
+				<position x="71" y="103" z="-1" />
+				<texture src="HOB_plants/Frog_ghost" />
+			</object>		
+		</group5>				
+	</groups>
+	
+	<rounds>
+		<round0
+			congratulations="%这根红绳似乎是件重要的东西. \n我最好留着它.%"
+			congratulations_image="/inventory/red_string"
+			script_enter="HOB_plants/enter"
+			script_complete="HOB_plants/complete_round0"
+		>
+			<slot00 group="group0" object="%红绳%" />
+			<slot01 group="group2" />
+			<slot02 group="group2" />
+			<slot03 group="group2" />
+			<slot04 group="group2" />
+			<slot05 group="group2" />
+			<slot06 group="group2" />
+			<slot07 group="group2" />
+			<slot08 group="group2" />
+			<slot09 group="group2" />
+			<slot10 group="group2" />
+			<slot11 group="group2" />
+		</round0>
+		
+		<round1
+			congratulations="%我找到了制作法术需要的凌霄花.%"
+			congratulations_image="/inventory/devils_shoestring"
+			script_enter="HOB_plants/enter"
+			script_complete="HOB_plants/complete_round1"
+		>
+			<slot00 group="group0" object="%凌霄花%" />
+			<slot01 group="group3" />
+			<slot02 group="group3" />
+			<slot03 group="group2" />
+			<slot04 group="group2" />
+			<slot05 group="group3" />
+			<slot06 group="group3" />
+			<slot07 group="group2" />
+			<slot08 group="group3" />
+			<slot09 group="group3" />
+			<slot10 group="group2" />
+			<slot11 group="group3" />
+		</round1>
+		
+		<round2
+			congratulations="%非常好!\n\n你找到了一件物品.\n也许以后会有用的.%"
+			congratulations_image="/inventory/onion_flower"
+			script_enter="HOB_plants/enter"
+			script_complete="HOB_plants/complete_round2"
+		>
+			<slot00 group="group0" object="%洋葱花%" />
+			<slot01 group="group1" />
+			<slot02 group="group4" />
+			<slot03 group="group2" />
+			<slot04 group="group4" />
+			<slot05 group="group1" />
+			<slot06 group="group3" />
+			<slot07 group="group4" />
+			<slot08 group="group3" />
+			<slot09 group="group2" />
+			<slot10 group="group4" />
+			<slot11 group="group3" />
+		</round2>
+
+		<round3
+			congratulations="%非常好!\n\n你找到了一件物品.\n也许以后会有用的.%"
+			congratulations_image="/inventory/yellow_monkshood"
+			script_enter="HOB_plants/enter"
+			script_complete="HOB_plants/complete_round3"
+		>
+			<slot00 group="group0" object="%黄附子花%" />
+			<slot01 group="group1" />
+			<slot02 group="group4" />
+			<slot03 group="group2" />
+			<slot04 group="group4" />
+			<slot05 group="group5" />
+			<slot06 group="group3" />
+			<slot07 group="group4" />
+			<slot08 group="group3" />
+			<slot09 group="group2" />
+			<slot10 group="group5" />
+			<slot11 group="group4" />
+		</round3>
+	</rounds>
+	
+	<environment>
+		<object>
+			<position x="0" y="0" z="10" />
+			<texture src="HOB_plants/background" />
+			<size width="1024" height="768" />
+		</object>
+		<object>
+			<position x="0" y="0" z="-10" />
+			<texture src="HOB_plants/flowers" />
+			<interactive value="0" />
+		</object>
+	</environment>
+	
+</hob>

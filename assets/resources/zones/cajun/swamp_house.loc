@@ -1,0 +1,194 @@
+<location>
+	<onFirstVisit script="swamp_house/starter" />
+	<onEnter script="swamp_house/on_enter" />
+	
+	<music>
+		<track src="/music/06_Cajun_Swamp" silence_after="5" />
+		<track src="/music/07_Cajun_Swamp_Mystery" silence_after="5" />
+		<track src="/music/08_Naughty_Spirits" silence_after="5" />
+		<track src="/music/01_DTS_Theme" silence_after="5" />
+		<track src="/music/10_Grand_Finale" silence_after="5" />
+	</music>
+	<ambient src="/music/ambient/sfx_crickets" />
+	<objects>
+		<object name="background">
+			<position z="10" />
+			<texture src="swamp_house/background" />
+		</object>
+		
+		<object name="top">
+			<position z="5" />
+			<texture src="swamp_house/top" />
+		</object>
+		<object name="carriage_trigger">
+			<script src="swamp_house/carriage_trigger" />		
+		</object>		
+		<object name="fx_fog">
+			<position z="9" />
+			<particles presim="5" src="/particles_ready/cemeterygates/fog.psysl" />
+		</object>
+		
+		<object name="fx_lamp">
+			<scene src="/particles_ready/swamphouse/lamp.DAE">
+				<particles src="/particles_ready/cemeterygates/lamp.psysl" />
+			</scene>
+		</object>
+		
+		<object name="fx_water">
+			<scene src="/particles_ready/swamphouse/water.DAE">
+				<particles src="/particles_ready/swamp/swamp_water.psysl" />
+			</scene>
+		</object>
+		
+		<object name="fx_deepeyes">
+			<scene src="/particles_ready/swamphouse/deep_eyes.DAE">
+				<particles src="/particles_ready/swamp/deep_eyes.psysl" />
+			</scene>
+		</object>
+		
+		<object name="swamp_house_carriage">
+			<position x="876" y="359" z="-15" />
+			<texture src="swamp_house/swamp_house_carriage/carriage_mask" />
+			<script src="swamp_house/swamp_house_carriage/swamp_house_carriage" />
+			<alpha value="0" />
+		</object>	
+		<object name="to_swamp_island">
+			<position x="767" y="75" z="-15" />
+			<texture src="swamp_house/to_swamp_island" />
+			<script src="swamp_house/to_swamp_island" />
+			<alpha value="0" /> 
+		</object>
+		<object name="doll_head">
+			<position x="670" y="189" z="-15" />
+			<texture src="swamp_house/doll_head/doll_head" />
+			<script src="swamp_house/doll_head/doll_head" />
+		</object>	
+		<object name="fx_blink_doll_head">
+			<position x="680" y="200" z="-20" />		
+			<particles src="/particles_ready/Blink/blink.psysl" />
+		</object>
+		<object name="house">
+			<position x="79" y="115" z="-15" />
+			<texture src="swamp_house/house/house_MASK" />
+			<script src="swamp_house/house/house" />
+			<alpha value="0" />
+		</object>		
+		<object name="fx_blink_house">
+			<position x="140" y="130" z="-20" />		
+			<particles src="/particles_ready/Blink/blink.psysl" />
+		</object>	
+		<object name="orange_1">
+			<position x="136" y="141" z="-15" />
+			<texture src="swamp_house/orange_1/orange_1" />
+			<script src="swamp_house/orange_1/orange_1" />
+		</object>	
+		<object name="fx_blink_orange_1">
+			<position x="146" y="151" z="-20" />		
+			<particles src="/particles_ready/Blink/blink.psysl" />
+		</object>
+		<object name="orange_2">
+			<position x="133" y="436" z="-15" />
+			<texture src="swamp_house/orange_2/orange_2" />
+			<script src="swamp_house/orange_2/orange_2" />
+		</object>	
+		<object name="fx_blink_orange_2">
+			<position x="143" y="446" z="-20" />		
+			<particles src="/particles_ready/Blink/blink.psysl" />
+		</object>
+		<object name="orange_3">
+			<position x="23" y="554" z="-15" />
+			<texture src="swamp_house/orange_3/orange_3" />
+			<script src="swamp_house/orange_3/orange_3" />
+		</object>	
+		<object name="fx_blink_orange_3">
+			<position x="33" y="564" z="-20" />		
+			<particles src="/particles_ready/Blink/blink.psysl" />
+		</object>		
+		
+		<!-- ALLIGATORS -->	
+		
+		<object name="alligator_1">
+			<position x="497" y="444" z="-30" />
+			<texture src="swamp_house/alligator_1/alligator_1" />
+			<script src="swamp_house/alligator_1/alligator_1" />
+		</object>	
+		<object name="fx_blink_alligator_1">
+			<position x="497" y="444" z="-35" />		
+			<particles src="/particles_ready/Blink/blink.psysl" />
+		</object>
+		<object name="alligator_2">
+			<position x="689" y="509" z="-25" />
+			<texture src="swamp_house/alligator_2/alligator_2" />
+			<script src="swamp_house/alligator_2/alligator_2" />
+		</object>	
+		<object name="fx_blink_alligator_2">
+			<position x="689" y="509" z="-30" />		
+			<particles src="/particles_ready/Blink/blink.psysl" />
+		</object>
+		<object name="alligator_3">
+			<position x="335" y="496" z="-30" />
+			<texture src="swamp_house/alligator_3/alligator_3" />
+			<script src="swamp_house/alligator_3/alligator_3" />
+		</object>	
+		<object name="fx_blink_alligator_3">
+			<position x="335" y="496" z="-35" />		
+			<particles src="/particles_ready/Blink/blink.psysl" />
+		</object>
+		<object name="alligator_4">
+			<position x="154" y="424" z="-25" />
+			<texture src="swamp_house/alligator_4/alligator_4" />
+			<script src="swamp_house/alligator_4/alligator_4" />
+		</object>	
+		<object name="fx_blink_alligator_4">
+			<position x="154" y="424" z="-30" />		
+			<particles src="/particles_ready/Blink/blink.psysl" />
+		</object>
+		<object name="alligator_5">
+			<position x="319" y="396" z="-20" />
+			<texture src="swamp_house/alligator_5/alligator_5" />
+			<script src="swamp_house/alligator_5/alligator_5" />
+		</object>	
+		<object name="fx_blink_alligator_5">
+			<position x="319" y="396" z="-25" />		
+			<particles src="/particles_ready/Blink/blink.psysl" />
+		</object>		
+		<object name="alligator_6">
+			<position x="602" y="335" z="-20" />
+			<texture src="swamp_house/alligator_6/alligator_6" />
+			<script src="swamp_house/alligator_6/alligator_6" />
+		</object>	
+		<object name="fx_blink_alligator_6">
+			<position x="602" y="335" z="-25" />		
+			<particles src="/particles_ready/Blink/blink.psysl" />
+		</object>			
+		
+		
+		<object name="sound_frogs">
+			<script src="swamp_house/sfx/frogs" />
+		</object>
+		<object name="sound_howl_at_the_moon">
+			<script src="swamp_house/sfx/howl_at_the_moon" />
+		</object>
+		<object name="sound_eyes">
+			<script src="swamp_house/sfx/eyes" />
+		</object>
+		<object name="sound_water_moving">
+			<script src="swamp_house/sfx/water_moving" />
+		</object>
+		<object name="sound_water_splash">
+			<script src="swamp_house/sfx/water_splash" />
+		</object>
+		<object name="sfx_croco_presence">
+			<script src="swamp_house/sfx/croco_presence" />
+		</object>
+		
+		<!-- TEMP -->
+<!--
+		<object name="debug_obj">
+			<position z="-100" />
+			<script src="/zones/jessie_home/test" />
+			<texture src="unexistent" />
+		</object>
+-->	
+	</objects>
+</location>

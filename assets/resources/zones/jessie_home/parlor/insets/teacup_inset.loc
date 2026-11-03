@@ -1,0 +1,32 @@
+<location stripcode="0702">
+	<objects>
+		<object name="back">
+			<position z="0" />
+			<texture src="/common/half_dark" />
+			<size width="1024" height="768" />
+			<script src="teacup_inset/back" />
+		</object>
+		<object name="inset">
+			<position x="314" y="147" z="-3" />
+			<texture src="teacup_inset/teacup" />
+			<script src="teacup_inset/inset" />
+		</object>
+		<object name="needle">
+			<position x="498" y="310" z="-15" />
+			<texture src="teacup_inset/needle/needle" />
+			<script src="teacup_inset/needle/needle" />
+		</object>
+		<object name="needle_mask">
+			<position x="432" y="263" z="-20" />
+			<texture src="teacup_inset/needle/needle_mask" />
+			<script src="teacup_inset/needle/needle_mask" />
+			<alpha value="0" />
+		</object>
+		<object name="fx_tea_cup">
+			<position x="0" y="30" z="-30" />
+			<scene src="\particles_ready\steam\steam.DAE" looped="1">
+				<particles src="\particles_ready\steam\watercirc.psysl" />
+			</scene>
+		</object>
+	</objects>
+</location>

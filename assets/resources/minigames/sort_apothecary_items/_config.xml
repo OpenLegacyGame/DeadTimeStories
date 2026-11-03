@@ -1,0 +1,42 @@
+<sort_apothecary_items>
+	<onFinish script="_on_finish" />
+	<onSolve script="_on_solve" />
+	<shelves quantity="18" />
+	<items>
+		<!-- NOTE: the following is the correct final order of items, left-to-right, top-to-bottom.
+			 If "inventory_item" attribute is set, then this item is either taken from the inventory
+			 (and should be found elsewhere), or it is the reward (and can be taken after the puzzle is finished).
+			 In the latter case, the element must also have "reward" attribute set to 1.
+			 "id" attribute is used to find the normal/highlighted/locked/reward texture files,
+			 and should not be changed without a good reason.
+		-->
+		<item id="quinine" tooltip="%奎宁Quinine%" />
+		<item id="chloral" tooltip="%三氯乙醛Chloral%" />
+		<item id="aconite" tooltip="%乌头Aconite%" inventory_item="aconite" reward="1" />
+		<item id="heroin" tooltip="%枊树皮Willow Bark%" />
+		<item id="strychnine" tooltip="%士的宁Strychnine%" />
+		<item id="ethyl_ether" tooltip="%乙醚Ethyl Ether%" />
+		<item id="laudanum" tooltip="%鸦片酊Laudanum%" inventory_item="laudanum" />
+		<item id="iodine" tooltip="%碘Iodine%" inventory_item="iodine" />
+		<item id="alcohol" tooltip="%酒精Alcohol%" />
+		<item id="chloroform" tooltip="%三氯甲烷Chloroform%" />
+		<item id="mercury" tooltip="%水银Mercury%" />
+		<item id="ipecac" tooltip="%催吐剂Ipecac%" />
+		<item id="morphine" tooltip="%吗啡Morphine%" inventory_item="morphine" />
+		<item id="belladonna" tooltip="%颠茄Belladonna%" />
+		<item id="ammonium" tooltip="%铵Ammonium%" />
+		<item id="aspirin" tooltip="%阿司匹林粉末Aspirin Powder%" />
+		<item id="opium" tooltip="%三氯乙烯Triline%" />
+		<item id="leeches" tooltip="%水蛭Leeches%" />
+	</items>
+	
+	<riddle font="/fonts/hint" color="FF000000" />
+	
+	<locked_items>
+		<!-- <item index="0" /> - add some if necessary -->
+	</locked_items>
+	<num_random_locked_items value="2" />
+	
+	<swap_items_time seconds="0.5" />
+	
+</sort_apothecary_items>

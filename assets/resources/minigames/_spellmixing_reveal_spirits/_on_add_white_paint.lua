@@ -1,0 +1,1 @@
+addInventoryObject("empty_paint_can")

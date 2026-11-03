@@ -1,0 +1,21 @@
+<animation_set looped="1">
+	<animation type="keys" applier="picture" priority="0" weight="1.0" start="0.0" looped="0">
+		<keys type="picture">
+			<cyclic value="0" />
+			<picture>
+				<key relative_time="0.04">FX_man_173x298</key>
+				<key relative_time="10">FX_man1_000</key>
+				<key relative_time="0.04">FX_man1_001</key>
+				<key relative_time="0.04">FX_man1_002</key>
+				<key relative_time="0.04">FX_man1_003</key>
+				<key relative_time="0.04">FX_man1_004</key>
+				<key relative_time="0.04">FX_man1_005</key>
+				<key relative_time="0.04">FX_man1_006</key>
+				<key relative_time="0.04">FX_man1_007</key>
+				<key relative_time="0.04">FX_man1_008</key>
+				<key relative_time="0.04">FX_man_173x298</key>
+			</picture>
+		</keys>
+	</animation>
+	
+</animation_set>

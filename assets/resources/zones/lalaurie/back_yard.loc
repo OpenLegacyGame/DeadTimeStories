@@ -1,0 +1,197 @@
+<location stripcode="1500">
+	<onEnter script="back_yard/on_enter" />
+	<onExit script="back_yard/on_exit" />
+	<onFirstVisit script="back_yard/starter" />
+	<music>
+		<track src="/music/01_DTS_Theme" silence_after="5" />
+		<track src="/music/03_Spirit_World" silence_after="5" />
+		<track src="/music/08_Naughty_Spirits" silence_after="5" />
+	</music>
+	<ambient src="/music/ambient/sfx_crickets" />
+	<objects>
+		<object name="background">
+			<position x="0" y="0" z="50" />
+			<texture src="back_yard/background" />
+		</object>
+		<object name="carriage_trigger">
+			<script src="back_yard/carriage_trigger" />		
+		</object>
+		<object name="reveal_hint_trigger">
+			<script src="back_yard/reveal_hint_trigger" />
+		</object>
+		<object name="brush_hint_trigger">
+			<script src="back_yard/brush_hint_trigger" />
+		</object>
+		<object name="house">
+			<position x="55" y="0" z="-5" />
+			<texture src="/common/half_dark" />
+			<script src="back_yard/house" />
+			<size width="729" height="206" />
+			<alpha value="0" />
+		</object>
+		<object name="back_yard_carriage">
+			<position x="0" y="67" z="40" />
+			<texture src="back_yard/back_yard_carriage/back_yard_carriage" />
+			<script src="back_yard/back_yard_carriage/back_yard_carriage" />
+			<alpha value="0" />
+		</object>
+		
+		<object name="fx_fog">
+			<particles src="/particles_ready/gazeboofog/byard_fog.psysl" />
+			<particles src="/particles_ready/gazeboofog/byard_fog1.psysl" />
+		</object>
+		<object name="bucket">
+			<position x="529" y="424" z="40" />
+			<texture src="back_yard/bucket/bucket" />
+			<script src="back_yard/bucket/bucket" />
+		</object>
+		<object name="fx_blink_bucket">
+			<position x="539" y="434" z="30" />		
+			<particles src="/particles_ready/Blink/blink.psysl" />
+		</object>
+		<object name="dirt">
+			<position x="737" y="476" z="40" />
+			<texture src="back_yard/dirt/dirt" />
+			<script src="back_yard/dirt/dirt" />
+		</object>
+		<object name="fx_blink_dirt">
+			<position x="747" y="486" z="30" />		
+			<particles src="/particles_ready/Blink/blink.psysl" />
+		</object>
+		<object name="cellar_door">
+			<position x="695" y="354" z="40" />
+			<texture src="back_yard/cellar_door/cellar_door" />
+			<script src="back_yard/cellar_door/cellar_door" />
+		</object>
+		<object name="dove_cote">
+			<position x="165" y="360" z="40" />
+			<texture src="back_yard/dove_cote/dove_cote" />
+			<script src="back_yard/dove_cote/dove_cote" />
+			<alpha value="0" />
+		</object>
+		<object name="to_gazebo_exterior">
+			<position x="814" y="0" z="40" />
+			<texture src="back_yard/to_gazebo_exterior" />
+			<script src="back_yard/to_gazebo_exterior" />
+			<alpha value="0" />
+		</object>
+		<object name="railing">
+			<position x="428" y="346" z="40" />
+			<texture src="back_yard/railing/railing_safe" />
+			<script src="back_yard/railing/railing" />
+		</object>
+		<object name="fx_blink_railing">
+			<position x="471" y="334" z="30" />		
+			<particles src="/particles_ready/Blink/blink.psysl" />
+		</object>
+		<object name="barbathioath_spirit">
+			<scene src="/particles_ready/souls/soul_backyard/soul_byard1_s.dae">
+				<particles src="/particles_ready/souls/soul01_anim.psysl" />
+				<particles src="/particles_ready/souls/soul01_anim1.psysl" />
+			</scene>
+			<script src="back_yard/barbathioath_spirit/barbathioath_spirit" />
+			<alpha value="0" />
+			<interactive value="0" />
+		</object>		
+		<object name="barbathioath_spirit_mask">
+			<position x="393" y="263" z="40" />
+			<texture src="/particles_ready/souls/soul_backyard/soul_byard1_393x263" />
+			<script src="back_yard/barbathioath_spirit/barbathioath_spirit_mask" />
+			<alpha value="0" />
+			<interactive value="0" />
+		</object>
+		<object name="barbathioath_spirit_disappear_fx">
+			<scene src="/particles_ready/souls/soul_backyard/soul_byard1_d.dae" looped="0">
+				<particles src="/particles_ready/souls/soul02_anim.psysl" />
+				<particles src="/particles_ready/souls/soul02_anim1.psysl" />
+			</scene>
+			<alpha value="0" />
+			<interactive value="0" />			
+		</object>
+		<object name="barbathioath_piece">
+			<position x="457" y="366" z="-10" />
+			<size width="100" height="138" />
+			<alpha value="0" /> 
+			<texture src="/common/half_dark" />
+			<script src="back_yard/barbathioath_piece/barbathioath_piece" />
+		</object>
+		<object name="fx_blink_barbathioath_piece">
+			<scene src="\particles_ready\pieces\piece_barbathioath.DAE" looped="1">
+				<particles src="\particles_ready\pieces\pieces.psysl" />
+			</scene>
+		</object>
+		<object name="kedavra_spirit">
+			<scene src="/particles_ready/souls/soul_backyard/soul_byard2_s.dae">
+				<particles src="/particles_ready/souls/soul01_anim.psysl" />
+				<particles src="/particles_ready/souls/soul01_anim1.psysl" />
+			</scene>
+			<script src="back_yard/kedavra_spirit/kedavra_spirit" />
+			<alpha value="0" />
+			<interactive value="0" />
+		</object>
+		<object name="kedavra_spirit_mask">
+			<position x="579" y="321" z="40" />
+			<texture src="/particles_ready/souls/soul_backyard/soul_byard2_579x321" />
+			<script src="back_yard/kedavra_spirit/kedavra_spirit_mask" />
+			<alpha value="0" />
+			<interactive value="0" />
+		</object>		
+		<object name="kedavra_spirit_disappear_fx">
+			<scene src="/particles_ready/souls/soul_backyard/soul_byard2_d.dae" looped="0">
+				<particles src="/particles_ready/souls/soul02_anim.psysl" />
+				<particles src="/particles_ready/souls/soul02_anim1.psysl" />
+			</scene>
+			<alpha value="0" />
+			<interactive value="0" />			
+		</object>		
+		<object name="kedavra_piece">
+			<position x="632" y="381" z="-10" />
+			<size width="55" height="55" />
+			<alpha value="0" />
+			<texture src="/common/half_dark" />
+			<texture src="back_yard/kedavra_piece/kedavra_piece" />
+			<script src="back_yard/kedavra_piece/kedavra_piece" />
+		</object>
+		<object name="fx_blink_kedavra_piece">
+			<scene src="\particles_ready\pieces\piece_kedavra.DAE" looped="1">
+				<particles src="\particles_ready\pieces\pieces.psysl" />
+			</scene>
+		</object>
+		<object name="reveal_spell">
+			<position x="601" y="532" z="40" />
+			<texture src="back_yard/reveal_spell/reveal_spell" />
+			<script src="back_yard/reveal_spell/reveal_spell" />
+		</object>
+		<object name="reveal_spell_bubbles">
+			<position x="300" y="266" z="39" />
+			<particles src="/particles_ready/mixture_bubles/reveal_backyard.psysl" />
+		</object>
+		<object name="fx_reveal_place">
+			<scene src="/particles_ready/helix/hlx_byard.DAE" looped="1" >
+				<particles src="/particles_ready/helix/helix.psysl" />
+			</scene>
+		</object>
+		
+		<object name="sfx_wind">
+			<script src="back_yard/sfx/wind" />
+		</object>
+		<object name="sfx_rustle">
+			<script src="back_yard/sfx/rustle" />
+		</object>
+		<object name="sfx_night_bird">
+			<script src="back_yard/sfx/night_bird" />
+		</object>
+		<object name="sfx_spirit_whining">
+			<script src="sfx/spirit_whining" />
+		</object>
+		
+		<!-- TEMP -->
+<!--
+		<object name="debug_obj">
+			<position z="-100" />
+			<script src="/zones/jessie_home/test" />
+			<texture src="unexistent" />
+		</object>
+-->	
+	</objects>
+</location>

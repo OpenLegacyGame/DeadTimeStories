@@ -1,0 +1,47 @@
+<animation_set looped="0">
+	<animation type="keys" applier="picture" priority="0" weight="1.0" start="0.0" looped="0">
+		<keys type="picture">
+			<cyclic value="0" />
+			<picture>
+				<key relative_time="0.0">spell_found/SpellFound__00</key>
+				<key relative_time="0.067">spell_found/SpellFound__01</key>
+				<key relative_time="0.067">spell_found/SpellFound__02</key>
+				<key relative_time="0.067">spell_found/SpellFound__03</key>
+				<key relative_time="0.067">spell_found/SpellFound__04</key>
+				<key relative_time="0.067">spell_found/SpellFound__05</key>
+				<key relative_time="0.067">spell_found/SpellFound__06</key>
+				<key relative_time="0.067">spell_found/SpellFound__07</key>
+				<key relative_time="0.067">spell_found/SpellFound__08</key>
+				<key relative_time="0.067">spell_found/SpellFound__09</key>
+				<key relative_time="0.067">spell_found/SpellFound__10</key>
+				<key relative_time="0.067">spell_found/SpellFound__11</key>
+				<key relative_time="0.067">spell_found/SpellFound__12</key>
+				<key relative_time="0.067">spell_found/SpellFound__13</key>
+				<key relative_time="0.067">spell_found/SpellFound__14</key>
+				<key relative_time="0.067">spell_found/SpellFound__15</key>
+				<key relative_time="0.067">spell_found/SpellFound__16</key>
+				<key relative_time="0.067">spell_found/SpellFound__17</key>
+				<key relative_time="0.067">spell_found/SpellFound__18</key>
+				<key relative_time="0.067">spell_found/SpellFound__19</key>
+				<key relative_time="0.067">spell_found/SpellFound__20</key>
+				<key relative_time="0.067">spell_found/SpellFound__21</key>
+				<key relative_time="0.067">spell_found/SpellFound__22</key>
+				<key relative_time="0.067">spell_found/SpellFound__23</key>
+				<key relative_time="0.067">spell_found/SpellFound__24</key>
+				<key relative_time="0.067">spell_found/SpellFound__25</key>
+				<key relative_time="0.067">spell_found/SpellFound__26</key>
+				<key relative_time="0.067">spell_found/SpellFound__27</key>
+				<key relative_time="0.067">spell_found/SpellFound__28</key>
+				<key relative_time="0.067">spell_found/SpellFound__29</key>
+				<key relative_time="0.067">spell_found/SpellFound__30</key>
+				<key relative_time="0.067">spell_found/SpellFound__31</key>
+				<key relative_time="0.067">spell_found/SpellFound__32</key>
+				<key relative_time="0.067">spell_found/SpellFound__33</key>
+				<key relative_time="0.067">spell_found/SpellFound__34</key>
+				<key relative_time="0.067">spell_found/SpellFound__35</key>
+				<key relative_time="0.067">spell_found/SpellFound__36</key>
+				<key relative_time="0.067">spell_found/SpellFound__37</key>
+			</picture>
+		</keys>
+	</animation>
+</animation_set>

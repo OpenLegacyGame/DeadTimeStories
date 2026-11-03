@@ -1,0 +1,19 @@
+<location stripcode="1101">
+	<objects>
+		<object name="back">
+			<texture src="/common/half_dark" />
+			<size width="1024" height="768" />
+			<script src="music_box/back" />
+		</object>
+		<object name="inset">
+			<position x="314" y="147" z="-10" />
+			<texture src="music_box/music_box_inset_closed" />
+			<script src="music_box/inset" />
+		</object>
+		<object name="piano_key">
+			<position x="446" y="382" z="-20" />
+			<texture src="music_box/piano_key/piano_key" />
+			<script src="music_box/piano_key/piano_key" />
+		</object>
+	</objects>
+</location>

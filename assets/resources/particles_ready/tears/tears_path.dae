@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1">
+  <asset>
+    <contributor>
+      <author>s.andreev</author>
+      <authoring_tool>3dsMax 9 - Feeling ColladaMax v3.05B.</authoring_tool>
+      <comments>ColladaMax Export Options: ExportNormals=1;ExportEPolyAsTriangles=1;ExportXRefs=1;ExportSelected=1;ExportTangents=0;ExportAnimations=1;SampleAnim=1;ExportAnimClip=1;BakeMatrices=0;ExportRelativePaths=1;AnimStart=0;AnimEnd=2;</comments>
+    </contributor>
+    <created>2010-04-19T13:59:33Z</created>
+    <modified>2010-04-19T13:59:34Z</modified>
+    <unit meter="0.0254" name="inch"/>
+    <up_axis>Z_UP</up_axis>
+  </asset>
+  <library_animations>
+    <animation id="_eye1-node-translation">
+      <source id="_eye1-node-translation__eye1-node_translation-input">
+        <float_array id="_eye1-node-translation__eye1-node_translation-input-array" count="61">0 0.033333 0.066666 0.1 0.133333 0.166667 0.2 0.233333 0.266667 0.3 0.333333 0.366667 0.4 0.433333 0.466667 0.5 0.533333 0.566667 0.6 0.633333 0.666667 0.7 0.733333 0.766667 0.8 0.833333 0.866667 0.9 0.933333 0.966667 1 1.03333 1.06667 1.1 1.13333 1.16667 1.2 1.23333 1.26667 1.3 1.33333 1.36667 1.4 1.43333 1.46667 1.5 1.53333 1.56667 1.6 1.63333 1.66667 1.7 1.73333 1.76667 1.8 1.83333 1.86667 1.9 1.93333 1.96667 2</float_array>
+        <technique_common>
+          <accessor source="#_eye1-node-translation__eye1-node_translation-input-array" count="61" stride="1">
+            <param name="TIME" type="float"/>
+          </accessor>
+        </technique_common>
+        <technique profile="MAYA">
+          <pre_infinity>CONSTANT</pre_infinity>
+          <post_infinity>CONSTANT</post_infinity>
+        </technique>
+      </source>
+      <source id="_eye1-node-translation__eye1-node_translation-output">
+        <float_array id="_eye1-node-translation__eye1-node_translation-output-array" count="183">487.449 234.651 0 487.003 235.973 0 486.53 237.285 0 486.001 238.576 0 485.38 239.825 0 484.624 240.995 0 483.691 242.03 0 482.647 242.955 0 481.613 243.891 0 480.735 244.971 0 480.185 246.247 0 479.986 247.625 0 480.022 249.018 0 480.229 250.397 0 480.579 251.747 0 481.067 253.053 0 481.705 254.292 0 482.495 255.441 0 483.417 256.487 0 484.445 257.43 0 485.546 258.284 0 486.588 259.204 0 487.171 260.462 0 487.461 261.826 0 487.646 263.209 0 487.751 264.6 0 487.768 265.994 0 487.674 267.386 0 487.426 268.757 0 486.95 270.066 0 486.131 271.185 0 485.1 272.123 0 484.291 273.253 0 483.797 274.555 0 483.521 275.922 0 483.38 277.309 0 483.329 278.703 0 483.34 280.098 0 483.398 281.492 0 483.492 282.883 0 483.615 284.273 0 483.762 285.658 0 483.928 287.045 0 484.112 288.428 0 484.31 289.809 0 484.52 291.188 0 484.742 292.565 0 484.974 293.941 0 485.215 295.314 0 485.464 296.687 0 485.721 298.058 0 485.984 299.429 0 486.254 300.797 0 486.529 302.165 0 486.529 302.165 0 486.529 302.165 0 486.529 302.165 0 486.529 302.165 0 486.529 302.165 0 486.529 302.165 0 486.529 302.165 0</float_array>
+        <technique_common>
+          <accessor source="#_eye1-node-translation__eye1-node_translation-output-array" count="61" stride="3">
+            <param name="X" type="float"/>
+            <param name="Y" type="float"/>
+            <param name="Z" type="float"/>
+          </accessor>
+        </technique_common>
+      </source>
+      <source id="_eye1-node-translation__eye1-node_translation-interpolations">
+        <Name_array id="_eye1-node-translation__eye1-node_translation-interpolations-array" count="61">LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR</Name_array>
+        <technique_common>
+          <accessor source="#_eye1-node-translation__eye1-node_translation-interpolations-array" count="61" stride="1">
+            <param name="INTERPOLATION" type="Name"/>
+          </accessor>
+        </technique_common>
+      </source>
+      <sampler id="_eye1-node-translation__eye1-node_translation-sampler">
+        <input semantic="INPUT" source="#_eye1-node-translation__eye1-node_translation-input"/>
+        <input semantic="OUTPUT" source="#_eye1-node-translation__eye1-node_translation-output"/>
+        <input semantic="INTERPOLATION" source="#_eye1-node-translation__eye1-node_translation-interpolations"/>
+      </sampler>
+      <channel source="#_eye1-node-translation__eye1-node_translation-sampler" target="_eye1-node/translation"/>
+    </animation>
+    <animation id="_eye2-node-translation">
+      <source id="_eye2-node-translation__eye2-node_translation-input">
+        <float_array id="_eye2-node-translation__eye2-node_translation-input-array" count="61">0 0.033333 0.066666 0.1 0.133333 0.166667 0.2 0.233333 0.266667 0.3 0.333333 0.366667 0.4 0.433333 0.466667 0.5 0.533333 0.566667 0.6 0.633333 0.666667 0.7 0.733333 0.766667 0.8 0.833333 0.866667 0.9 0.933333 0.966667 1 1.03333 1.06667 1.1 1.13333 1.16667 1.2 1.23333 1.26667 1.3 1.33333 1.36667 1.4 1.43333 1.46667 1.5 1.53333 1.56667 1.6 1.63333 1.66667 1.7 1.73333 1.76667 1.8 1.83333 1.86667 1.9 1.93333 1.96667 2</float_array>
+        <technique_common>
+          <accessor source="#_eye2-node-translation__eye2-node_translation-input-array" count="61" stride="1">
+            <param name="TIME" type="float"/>
+          </accessor>
+        </technique_common>
+        <technique profile="MAYA">
+          <pre_infinity>CONSTANT</pre_infinity>
+          <post_infinity>CONSTANT</post_infinity>
+        </technique>
+      </source>
+      <source id="_eye2-node-translation__eye2-node_translation-output">
+        <float_array id="_eye2-node-translation__eye2-node_translation-output-array" count="183">486.733 302.676 0 486.733 302.676 0 486.733 302.676 0 486.733 302.676 0 486.733 302.676 0 486.733 302.676 0 486.733 302.676 0 486.733 302.676 0 494.099 235.674 0 492.662 236.575 0 491.517 237.813 0 491.009 239.42 0 491.04 241.115 0 491.384 242.775 0 491.996 244.356 0 492.938 245.762 0 494.313 246.74 0 495.902 247.334 0 497.391 248.126 0 498.12 249.624 0 498.09 251.314 0 497.588 252.931 0 496.734 254.395 0 495.6 255.655 0 494.29 256.734 0 492.896 257.703 0 491.47 258.624 0 490.075 259.592 0 489.806 260.902 0 491.425 261.389 0 493.107 261.617 0 494.797 261.775 0 496.486 261.949 0 498.138 262.324 0 499.533 263.258 0 500.255 264.778 0 500.51 266.454 0 500.55 268.151 0 500.47 269.847 0 500.315 271.537 0 500.103 273.222 0 499.811 274.894 0 499.396 276.54 0 498.806 278.131 0 497.995 279.62 0 496.972 280.972 0 495.779 282.179 0 494.461 283.249 0 493.084 284.241 0 491.751 285.292 0 490.552 286.491 0 489.541 287.854 0 488.735 289.346 0 488.112 290.925 0 487.642 292.556 0 487.296 294.218 0 487.049 295.897 0 486.882 297.586 0 486.781 299.282 0 486.734 300.979 0 486.733 302.676 0</float_array>
+        <technique_common>
+          <accessor source="#_eye2-node-translation__eye2-node_translation-output-array" count="61" stride="3">
+            <param name="X" type="float"/>
+            <param name="Y" type="float"/>
+            <param name="Z" type="float"/>
+          </accessor>
+        </technique_common>
+      </source>
+      <source id="_eye2-node-translation__eye2-node_translation-interpolations">
+        <Name_array id="_eye2-node-translation__eye2-node_translation-interpolations-array" count="61">LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR</Name_array>
+        <technique_common>
+          <accessor source="#_eye2-node-translation__eye2-node_translation-interpolations-array" count="61" stride="1">
+            <param name="INTERPOLATION" type="Name"/>
+          </accessor>
+        </technique_common>
+      </source>
+      <sampler id="_eye2-node-translation__eye2-node_translation-sampler">
+        <input semantic="INPUT" source="#_eye2-node-translation__eye2-node_translation-input"/>
+        <input semantic="OUTPUT" source="#_eye2-node-translation__eye2-node_translation-output"/>
+        <input semantic="INTERPOLATION" source="#_eye2-node-translation__eye2-node_translation-interpolations"/>
+      </sampler>
+      <channel source="#_eye2-node-translation__eye2-node_translation-sampler" target="_eye2-node/translation"/>
+    </animation>
+  </library_animations>
+  <library_animation_clips>
+    <animation_clip id="AnimationClip" start="0" end="3.33333">
+      <instance_animation url="#_eye1-node-translation"/>
+      <instance_animation url="#_eye2-node-translation"/>
+    </animation_clip>
+  </library_animation_clips>
+  <library_lights>
+    <light id="ambient-environment-light" name="Ambient">
+      <technique_common>
+        <ambient>
+          <color>0.4 0.4 0.4</color>
+        </ambient>
+      </technique_common>
+      <extra>
+        <technique profile="FCOLLADA">
+          <intensity>1</intensity>
+        </technique>
+      </extra>
+    </light>
+  </library_lights>
+  <library_visual_scenes>
+    <visual_scene id="unnamed_scene" name="unnamed_scene">
+      <node id="_eye1-node" name="_eye1" type="NODE">
+        <translate sid="translation">487.449 234.651 0</translate>
+        <rotate sid="RotZ">0 0 1 0</rotate>
+        <rotate sid="RotY">0 1 0 0</rotate>
+        <rotate sid="RotX">1 0 0 0</rotate>
+        <scale>1 1 1</scale>
+      </node>
+      <node id="_eye2-node" name="_eye2" type="NODE">
+        <translate sid="translation">486.733 302.676 0</translate>
+        <rotate sid="RotZ">0 0 1 0</rotate>
+        <rotate sid="RotY">0 1 0 0</rotate>
+        <rotate sid="RotX">1 0 0 0</rotate>
+        <scale>1 1 1</scale>
+      </node>
+      <node id="VisualSceneNode" type="NODE">
+        <instance_light url="#ambient-environment-light"/>
+      </node>
+      <extra>
+        <technique profile="FCOLLADA">
+          <start_time>0</start_time>
+          <end_time>2</end_time>
+        </technique>
+      </extra>
+      <extra>
+        <technique profile="MAX3D">
+          <frame_rate>30</frame_rate>
+        </technique>
+      </extra>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_visual_scene url="#unnamed_scene"/>
+  </scene>
+</COLLADA>
